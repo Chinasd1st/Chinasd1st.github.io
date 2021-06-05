@@ -1,7 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://chinasd1st.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chinasd1st.github.io/" rel="alternate" type="text/html" hreflang="zh" /><updated>2021-06-05T10:26:59+08:00</updated><id>https://chinasd1st.github.io/feed.xml</id><title type="html">my blog</title><subtitle>随便写点东西？
-</subtitle><author><name>zy==</name></author><entry><title type="html">Test</title><link href="https://chinasd1st.github.io/2021/06/04/test.html" rel="alternate" type="text/html" title="Test" /><published>2021-06-04T00:00:00+08:00</published><updated>2021-06-04T00:00:00+08:00</updated><id>https://chinasd1st.github.io/2021/06/04/test</id><content type="html" xml:base="https://chinasd1st.github.io/2021/06/04/test.html">&lt;h1 id=&quot;这是一个测试文件&quot;&gt;这是一个测试文件&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://chinasd1st.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chinasd1st.github.io/" rel="alternate" type="text/html" hreflang="zh" /><updated>2021-06-05T12:50:06+08:00</updated><id>https://chinasd1st.github.io/feed.xml</id><title type="html">my blog</title><subtitle>随便写点东西？
+</subtitle><author><name>zy==</name></author><entry><title type="html">创建个人blog心得</title><link href="https://chinasd1st.github.io/2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97.html" rel="alternate" type="text/html" title="创建个人blog心得" /><published>2021-06-05T00:00:00+08:00</published><updated>2021-06-05T00:00:00+08:00</updated><id>https://chinasd1st.github.io/2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97</id><content type="html" xml:base="https://chinasd1st.github.io/2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97.html">&lt;h1 id=&quot;创建个人blog心得&quot;&gt;创建个人blog心得&lt;/h1&gt;
 
+&lt;p&gt;一天前，我创建了这个blog。从最开始的&lt;a href=&quot;https://xswl.rthe.xyz&quot;&gt;xswl.rthe.xyz&lt;/a&gt;，再到GitHub page，我经历了什么？
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2 id=&quot;blog是什么&quot;&gt;blog是什么？&lt;/h2&gt;
+
+&lt;p&gt;（以下内容转载自Wikipedia）博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。
+许多博客作者专注评论特定的课题或新闻，其他则作为个人日记。一个典型的博客结合了文字、图像、其他博客或网站的超链接、及其它与主题相关的媒体。能够让读者以互动的方式留下意见，是许多博客的重要要素。大部分的博客内容以文字为主，也有一些博客专注艺术、摄影、视频、音乐、播客等各种主题。博客是社交媒体网络的一部分。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wanweibaike.com/wiki-BLOG&quot;&gt;详见&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;我建设网站的历程&quot;&gt;我建设网站的历程&lt;/h2&gt;
+
+&lt;p&gt;从最开始的虚拟主机再到codesandbox（雾）又到内网穿透再到这里，从原生HTML到使用&lt;a href=&quot;https://hexo.io&quot;&gt;hexo&lt;/a&gt;再到&lt;a href=&quot;https://github.io&quot;&gt;Github page&lt;/a&gt;+jekyll,我是如何走到现在的？&lt;/p&gt;
+
+&lt;h3 id=&quot;202012-我使用了虚拟主机&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020/12&lt;/code&gt; 我使用了虚拟主机&lt;/h3&gt;
+
+&lt;p&gt;我是用的是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;热铁盒虚拟主机&lt;/code&gt;，有一些优点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;适合新手使用&lt;/li&gt;
+  &lt;li&gt;只需一个浏览器就能管理网页&lt;/li&gt;
+  &lt;li&gt;全平台都做了适配&lt;/li&gt;
+  &lt;li&gt;内嵌 vscode 网页版&lt;/li&gt;
+  &lt;li&gt;没有麻烦的操作&lt;/li&gt;
+  &lt;li&gt;自带CDN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;20213-我使用了codesandbox&quot;&gt;&lt;s&gt;`2021/3` 我使用了codesandbox&lt;/s&gt;&lt;/h3&gt;
+
+&lt;p&gt;黑历史，一笔带过&lt;/p&gt;
+
+&lt;h3 id=&quot;today-我使用了github-pagejekylltext-theme&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Today&lt;/code&gt; 我使用了Github page+jekyll+TeXt theme&lt;/h3&gt;
+
+&lt;p&gt;需要ruby支持，可以在&lt;a href=&quot;https://rubyinstall.org&quot;&gt;这里&lt;/a&gt;下载&lt;/p&gt;
+
+&lt;p&gt;详细的教程，可以看&lt;a href=&quot;https://yuleii.github.io/2020/06/09/build-blog-with-github-pages-and-jekyll.html&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;优点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TeXt theme 可自定义程度高&lt;/li&gt;
+  &lt;li&gt;有六种自定义主题&lt;/li&gt;
+  &lt;li&gt;多语言支持&lt;/li&gt;
+  &lt;li&gt;体积小&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;需要你懂的知识：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Markdown&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;······&lt;/p&gt;</content><author><name>zy==</name></author><summary type="html">创建个人blog心得 一天前，我创建了这个blog。从最开始的xswl.rthe.xyz，再到GitHub page，我经历了什么？</summary></entry><entry><title type="html">Test</title><link href="https://chinasd1st.github.io/2021/06/04/test.html" rel="alternate" type="text/html" title="Test" /><published>2021-06-04T00:00:00+08:00</published><updated>2021-06-04T00:00:00+08:00</updated><id>https://chinasd1st.github.io/2021/06/04/test</id><content type="html" xml:base="https://chinasd1st.github.io/2021/06/04/test.html">&lt;h1 id=&quot;这是一个测试文件&quot;&gt;这是一个测试文件&lt;/h1&gt;
+&lt;!--more--&gt;
 &lt;p&gt;今天，我使用了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TeXt Theme&lt;/code&gt;制作了一个blog，这里是测试。&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;hello world!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zy==</name></author><summary type="html">这是一个测试文件 今天，我使用了Jekyll &amp;amp; TeXt Theme制作了一个blog，这里是测试。 console.info('hello world!')</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zy==</name></author><summary type="html">这是一个测试文件</summary></entry></feed>
