@@ -1,6 +1,6 @@
 # Chinasd1st.github.io
 
-![badge](https://img.shields.io/badge/lastedversion-v1.00-%230078d?style=flat-square)
+![badge](https://img.shields.io/badge/latest%20version-v1.00-%230078d?style=flat-square)
 
 ## 更新日志
 
