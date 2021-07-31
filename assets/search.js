@@ -1,1 +1,1 @@
-window.TEXT_SEARCH_DATA={'posts':[{'title':"Test",'url':"/2021/06/04/test.html"},{'title':"创建个人blog心得",'url':"/2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97.html"}]};
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Test",'url':"/2021/06/04/test.html"},{'title':"创建个人blog心得",'url':"/2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97.html"},{'title':"本站已开通gitalk评论插件！",'url':"/2021/07/31/%E6%9C%AC%E7%AB%99%E5%B7%B2%E5%BC%80%E9%80%9AGitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"}]};
