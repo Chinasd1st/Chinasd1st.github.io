@@ -334,7 +334,21 @@
 })();
 </script>
 </div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
-
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+    var gitalk = new Gitalk({
+        clientID: '88cb97bc9fed10d500bf',
+        clientSecret: 'dc9cde18ba3bcd716395071c9df26c9955606360',
+        repo: 'gitalk-comments',
+        owner: 'Chinasd1st',
+        admin:  ['Chinasd1st'],
+        id: location.pathname,      // Ensure uniqueness and len
+        distractionFreeMode: false  // Facebook-like distraction
+    });
+    gitalk.render('gitalk-container');
+</script>
 <!-- end custom main bottom snippet -->
 </div>
             </div></div></div><div class="page__footer d-print-none">
@@ -960,21 +974,7 @@ window.Lazyload.js([SOURCES.jquery, PAHTS.search_js], function() {
   }
 })();
 </script>
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-    var gitalk = new Gitalk({
-        clientID: '88cb97bc9fed10d500bf',
-        clientSecret: 'dc9cde18ba3bcd716395071c9df26c9955606360',
-        repo: 'gitalk-comments',
-        owner: 'Chinasd1st',
-        admin:  ['Chinasd1st'],
-        id: location.pathname,      // Ensure uniqueness and len
-        distractionFreeMode: false  // Facebook-like distraction
-    });
-    gitalk.render('gitalk-container');
-</script>
+
   </body>
 </html>
 
