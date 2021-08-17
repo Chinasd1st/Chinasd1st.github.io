@@ -1,7 +1,7 @@
 # Chinasd1st.github.io / 931.1919810.com
 
 <div style="text-align:center;font-size:30px">
-    <a href="931.1919810.com/">点我进入 BLOG</a>
+    <a href="https://931.1919810.com/">点我进入 BLOG</a>
     <br />
     <img src="https://img.shields.io/badge/latest%20version-v1.02-%230078d?style=flat-square" alt="badge" title="v1.02">
     <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E6%95%99%E7%A8%8B-%230078d?style=flat-square&logo=zhihu" alt="badge" title="知乎教程">
