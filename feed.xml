@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://931.1919810.com//feed.xml" rel="self" type="application/atom+xml" /><link href="https://931.1919810.com//" rel="alternate" type="text/html" hreflang="zh" /><updated>2021-08-17T10:18:07+08:00</updated><id>https://931.1919810.com//feed.xml</id><title type="html">zy==’s blog</title><subtitle>随便写点东西？
+</subtitle><author><name>zy==</name><email>1297537384@qq.com</email></author><entry><title type="html">本站已开通gitalk评论插件！</title><link href="https://931.1919810.com//2021/07/31/%E6%9C%AC%E7%AB%99%E5%B7%B2%E5%BC%80%E9%80%9AGitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html" rel="alternate" type="text/html" title="本站已开通gitalk评论插件！" /><published>2021-07-31T00:00:00+08:00</published><updated>2021-07-31T00:00:00+08:00</updated><id>https://931.1919810.com//2021/07/31/%E6%9C%AC%E7%AB%99%E5%B7%B2%E5%BC%80%E9%80%9AGitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6!</id><content type="html" xml:base="https://931.1919810.com//2021/07/31/%E6%9C%AC%E7%AB%99%E5%B7%B2%E5%BC%80%E9%80%9AGitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html">&lt;p&gt;开通了评论插件！（虽然也没有啥好评论&lt;/p&gt;
+
+&lt;p&gt;只需要在你的html页面的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt;标签中添加以下代码即可：&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/gitalk/dist/gitalk.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/gitalk/dist/gitalk.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gitalk&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Gitalk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;clientID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//clientID&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//clientSecret&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//仓库&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;owner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//您的GitHub用户名&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//管理员，一般同上即可&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pathname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// 唯一标识，一般不用动&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;distractionFreeMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 当用户点击评论框时，其他元素被黑幕笼罩&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gitalk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;gitalk-container&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;非常方便，非常快捷！（neta自非常新鲜，非常美味）&lt;/p&gt;
+
+&lt;font size=&quot;5&quot; color=&quot;0078d4&quot;&gt;注，如果你在某个页面发现没有评论插件，这也是正常的，因为是手动添加（悲）&lt;/font&gt;</content><author><name>zy==</name><email>1297537384@qq.com</email></author><summary type="html">开通了评论插件！（虽然也没有啥好评论 只需要在你的html页面的&amp;lt;body&amp;gt;标签中添加以下代码即可： &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/gitalk/dist/gitalk.css&quot;&amp;gt; &amp;lt;script src=&quot;https://unpkg.com/gitalk/dist/gitalk.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt; var gitalk = new Gitalk({ clientID: '',//clientID clientSecret: '',//clientSecret repo: '',//仓库 owner: '',//您的GitHub用户名 admin: [''],//管理员，一般同上即可 id: location.pathname, // 唯一标识，一般不用动 distractionFreeMode: false // 当用户点击评论框时，其他元素被黑幕笼罩 }); gitalk.render('gitalk-container'); &amp;lt;/script&amp;gt; 非常方便，非常快捷！（neta自非常新鲜，非常美味） 注，如果你在某个页面发现没有评论插件，这也是正常的，因为是手动添加（悲）</summary></entry><entry><title type="html">创建个人blog心得</title><link href="https://931.1919810.com//2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97.html" rel="alternate" type="text/html" title="创建个人blog心得" /><published>2021-06-05T00:00:00+08:00</published><updated>2021-06-05T00:00:00+08:00</updated><id>https://931.1919810.com//2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97</id><content type="html" xml:base="https://931.1919810.com//2021/06/05/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BAblog%E5%BF%83%E5%BE%97.html">&lt;h1 id=&quot;创建个人blog心得&quot;&gt;创建个人blog心得&lt;/h1&gt;
+
+&lt;p&gt;一天前，我创建了这个blog。从最开始的&lt;a href=&quot;https://xswl.rthe.xyz&quot;&gt;xswl.rthe.xyz&lt;/a&gt;，再到GitHub page，我经历了什么？
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2 id=&quot;blog是什么&quot;&gt;blog是什么？&lt;/h2&gt;
+
+&lt;p&gt;（以下内容转载自Wikipedia）博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。
+许多博客作者专注评论特定的课题或新闻，其他则作为个人日记。一个典型的博客结合了文字、图像、其他博客或网站的超链接、及其它与主题相关的媒体。能够让读者以互动的方式留下意见，是许多博客的重要要素。大部分的博客内容以文字为主，也有一些博客专注艺术、摄影、视频、音乐、播客等各种主题。博客是社交媒体网络的一部分。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wanweibaike.com/wiki-BLOG&quot;&gt;详见&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;我建设网站的历程&quot;&gt;我建设网站的历程&lt;/h2&gt;
+
+&lt;p&gt;从最开始的虚拟主机再到codesandbox（雾）又到内网穿透再到这里，从原生HTML到使用&lt;a href=&quot;https://hexo.io&quot;&gt;hexo&lt;/a&gt;再到&lt;a href=&quot;https://github.io&quot;&gt;Github page&lt;/a&gt;+jekyll,我是如何走到现在的？&lt;/p&gt;
+
+&lt;h3 id=&quot;202012-我使用了虚拟主机&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020/12&lt;/code&gt; 我使用了虚拟主机&lt;/h3&gt;
+
+&lt;p&gt;我是用的是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;热铁盒虚拟主机&lt;/code&gt;，有一些优点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;适合新手使用&lt;/li&gt;
+  &lt;li&gt;只需一个浏览器就能管理网页&lt;/li&gt;
+  &lt;li&gt;全平台都做了适配&lt;/li&gt;
+  &lt;li&gt;内嵌 vscode 网页版&lt;/li&gt;
+  &lt;li&gt;没有麻烦的操作&lt;/li&gt;
+  &lt;li&gt;自带CDN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;20213-我使用了codesandbox&quot;&gt;&lt;s&gt;`2021/3` 我使用了codesandbox&lt;/s&gt;&lt;/h3&gt;
+
+&lt;p&gt;黑历史，一笔带过&lt;/p&gt;
+
+&lt;h3 id=&quot;today-我使用了github-pagejekylltext-theme&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Today&lt;/code&gt; 我使用了Github page+jekyll+TeXt theme&lt;/h3&gt;
+
+&lt;p&gt;需要ruby支持，可以在&lt;a href=&quot;https://rubyinstall.org&quot;&gt;这里&lt;/a&gt;下载&lt;/p&gt;
+
+&lt;p&gt;详细的教程，可以看&lt;a href=&quot;https://yuleii.github.io/2020/06/09/build-blog-with-github-pages-and-jekyll.html&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;优点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TeXt theme 可自定义程度高&lt;/li&gt;
+  &lt;li&gt;有六种自定义主题&lt;/li&gt;
+  &lt;li&gt;多语言支持&lt;/li&gt;
+  &lt;li&gt;体积小&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;需要你懂的知识：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Markdown&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;······&lt;/p&gt;</content><author><name>zy==</name><email>1297537384@qq.com</email></author><summary type="html">创建个人blog心得 一天前，我创建了这个blog。从最开始的xswl.rthe.xyz，再到GitHub page，我经历了什么？</summary></entry><entry><title type="html">Test</title><link href="https://931.1919810.com//2021/06/04/test.html" rel="alternate" type="text/html" title="Test" /><published>2021-06-04T00:00:00+08:00</published><updated>2021-06-04T00:00:00+08:00</updated><id>https://931.1919810.com//2021/06/04/test</id><content type="html" xml:base="https://931.1919810.com//2021/06/04/test.html">&lt;h1 id=&quot;这是一个测试文件&quot;&gt;这是一个测试文件&lt;/h1&gt;
+&lt;!--more--&gt;
+&lt;p&gt;今天，我使用了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TeXt Theme&lt;/code&gt;制作了一个blog，这里是测试。&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;hello world!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zy==</name><email>1297537384@qq.com</email></author><summary type="html">这是一个测试文件</summary></entry></feed>
