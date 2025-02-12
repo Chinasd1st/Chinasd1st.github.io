@@ -22,7 +22,7 @@ export default defineUserConfig({
   
     logo: "https://theme-hope-assets.vuejs.press/logo.svg",
   
-    repo: "Chinasd1st/Chiansd1st.github.io",
+    repo: "Chinasd1st/Chinasd1st.github.io",
   
     docsDir: "src",
   
