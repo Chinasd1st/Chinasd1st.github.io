@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
+import metingPlugin from 'vuepress-plugin-meting2';
 
 import theme from "./theme.js";
 import navbar from "./navbar.js";
@@ -8,7 +9,20 @@ import sidebar from "./sidebar.js";
 
 export default defineUserConfig({
   base: "/",
-
+  plugins:[
+    metingPlugin({
+      metingOptions: {
+          global: false, // 开启关闭全局播放器
+          server: "netease",
+          api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+          type: "album",
+          mid: "253946279",
+      },
+      aplayerOptions: {
+          theme: '#3DD68C'
+      }
+  }),
+  ],
   lang: "zh-CN",
   title: "小奶奶博客",
   description: "",
@@ -35,6 +49,7 @@ export default defineUserConfig({
     // 页脚
     footer: "小奶奶网站",
     displayFooter: true,
+
   
     // 博客相关
     /*
@@ -176,6 +191,7 @@ export default defineUserConfig({
     },
     // 在这里配置主题提供的插件
     plugins: {
+      
       blog: true,
   
       // 启用之前需安装 @waline/client
