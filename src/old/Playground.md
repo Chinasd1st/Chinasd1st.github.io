@@ -39,7 +39,7 @@ span.aplayer-list-title {
 
 ## aplayer + Meting.js test
 
-[Mygo!!!!! 2nd Album「跡暖空」](https://bang-dream.com/discographies/3846)
+[MyGO!!!!! 2nd Album「跡暖空」](https://bang-dream.com/discographies/3846)
 
 <Meting mid="13251480603" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
