@@ -5,7 +5,7 @@ heroText: 小奶奶网站
 tagline: 分享各种小奶奶内容 这使人感到有趣味
 actions:
   - text: 进入
-    link: old/Grandmother
+    link: /old/Grandmother
     type: primary
 features:
 - title: 关于网站
