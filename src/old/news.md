@@ -6,6 +6,16 @@ category:
   - 小奶奶二创作品
 ---
 
+<style>
+.aplayer .aplayer-info .aplayer-music .aplayer-title {
+    font-size: 14px;
+    color: #3c3c43 !important;
+    }
+span.aplayer-list-title {
+    color: #3c3c43 !important;
+}
+</style>
+
 # 小奶奶新闻
 
 你说得对，但这里是小奶奶新闻，记录学校中一些十分女性的事情。

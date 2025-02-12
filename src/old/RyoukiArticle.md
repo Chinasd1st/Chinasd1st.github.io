@@ -8,6 +8,16 @@ tag:
   - AI生成
 ---
 
+<style>
+.aplayer .aplayer-info .aplayer-music .aplayer-title {
+    font-size: 14px;
+    color: #3c3c43 !important;
+    }
+span.aplayer-list-title {
+    color: #3c3c43 !important;
+}
+</style>
+
 # 猎奇文章合集
 
 :::important 声明
