@@ -10,6 +10,7 @@ import sidebar from "./sidebar.js";
 export default defineUserConfig({
   base: "/",
   plugins:[
+    
     metingPlugin({
       metingOptions: {
           global: false, // 开启关闭全局播放器
@@ -191,7 +192,26 @@ export default defineUserConfig({
     },
     // 在这里配置主题提供的插件
     plugins: {
-      
+        docsearch: {
+          appId: 'IOAA89YPZT',          // 从 Algolia 获取
+          apiKey: '3478fcc0736198573255a2053e63fc35', // Search-Only API Key
+          indexName: 'chinasd1stio',
+          // 可选：自定义搜索参数
+          searchParameters: {
+            facetFilters: ['tags:vuepress'], // 按标签过滤
+          },
+          // 可选：覆盖默认样式
+          locales: {
+            '/': {
+              placeholder: '搜索文档',
+              translations: {
+                button: {
+                  buttonText: '搜索',
+                },
+              },
+            },
+          },
+        },
       blog: true,
   
       // 启用之前需安装 @waline/client
