@@ -192,9 +192,13 @@ export default defineUserConfig({
     },
     // 在这里配置主题提供的插件
     plugins: {
-        docsearch: {
+      search: true,
+      // search: {
+      //   插件选项
+      // },
+        /*docsearch: {
           appId: 'IOAA89YPZT',          // 从 Algolia 获取
-          apiKey: '3478fcc0736198573255a2053e63fc35', // Search-Only API Key
+          apiKey: '560d7b97207fe12052ee5914cc753976', // Search-Only API Key
           indexName: 'chinasd1stio',
           // 可选：自定义搜索参数
           searchParameters: {
@@ -211,7 +215,7 @@ export default defineUserConfig({
               },
             },
           },
-        },
+        },*/
       blog: true,
   
       // 启用之前需安装 @waline/client
