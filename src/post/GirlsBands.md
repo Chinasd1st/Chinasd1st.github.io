@@ -1,5 +1,7 @@
 # 木柜子乐队相关内容
 
+## 少女乐队企划社区风向论述
+
 随着孤独摇滚等少女乐队的放送，日本动漫界逐渐掀起了少女乐队的风潮，甚至被人戏称为大少女乐队时代的来临。然而，这光鲜亮丽的表象下暗藏着亚文化社群内部的碰撞与冲突。由于乐队题材的风靡及大规模出圈，这一领域下的粉丝群体不断壮大，同时涌入了不少的逆天群体。
 
 ```mermaid
@@ -154,3 +156,78 @@ gantt
     <td colspan="6" align="center">备注：BanG Dream 1~3季（含OVA）、BanG Dream! Morfonication、PICO等由于大概率没人看过故不计入统计范围；未标明观看集数者为全部观看或未知</td>
   </tr>
 </table>
+
+## 少女乐队企划如何变现
+
+BanG Dream!（BanG Dream!／バンドリ！）是以女子乐队为主题，由Bushiroad制作的跨媒体企划。企划讲述女子高中生的乐队活动，拥有多个女子乐队组合，并以电视动画、手机音乐游戏、漫画、轻小说、广播、声优参与的现实演唱会和舞台活动等形式展开^[<https://mzh.moegirl.org.cn/BanG_Dream!>]。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.34](/img/GirlsBands/00_2/34.jpg)
+
+这类企划一般有以下几种盈利方式：
+
+- 卡牌TCG业务（TCGユニット）
+- 专辑CD、Blu-ray Live 录像、Live演出（ライブエンタメユニット）
+- 内容板块（コンテンツユニット，手游等）
+- 立牌、玩偶、手办等周边（MDユニット）
+
+其中，TCG业务占Bushiroad业务净销售额的大头。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.13](/img/GirlsBands/00_2/13.jpg)
+
+### TCG Unit 卡牌TCG板块
+
+集换式卡牌游戏，简称TCG（Trading Card Game），武士道作为IP企划公司，最先由TCG业务起家，因此该单元的ordinary profit在武士道总营收占比高达50%左右。旗下有热门产品黑白双翼（Weiß Schwarz / ヴァイスシュヴァルツ），发行于2008年，内含来自各类公司旗下的各类IP，如SEGA、角川（KADOKAWA）、Key社，以及武士道原创企划。随着各类IP企划的推出，武士道也会贩卖相应的booster补充包。
+
+2025财年Q2季度Bushiroad TCG板块销售收入为68.39亿日元，同比上涨21.46亿日元。
+
+TCG业务评级：顺利。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.16](/img/GirlsBands/00_2/16.jpg)
+
+### Contents Unit 内容板块
+
+武士道旗下有Bushiroad Games负责游戏开发运营，Bushiroad Works负责IP开发，手机游戏、主机游戏、书籍、电子书业务等。
+
+BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Craft Egg解散并于2024年4月1日被其母公司Cyber Agent吸收合并，2023年12月18日，「BanG Dream! 少女乐团派对！」宣布运营体制变更，Craft Egg将于2024年1月4日退出开发运营团队，由Bushiroad继续运营^[https://mzh.moegirl.org.cn/Craft_Egg]。
+
+2025财年Q2季度Bushiroad 内容板块板块销售收入为14.74亿日元，同比上涨0.54亿日元。
+
+内容板块业务评级：疲软。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.20](/img/GirlsBands/00_2/20.jpg)
+
+### Live & Entertainment Unit 演唱会及娱乐板块
+
+作为MediaMix形式的综合性企划，BanG Dream！有七个乐队的声优能够现场演奏乐器并演唱，如Poppin'Party、Roselia等。这些乐队的声优会参与线下Live演出。
+
+此外，Bushiroad旗下有Bushiroad Music负责Live、音乐Package、发行、舞台、面具音乐剧、音乐版权等业务。
+
+2025财年Q2季度Bushiroad 内容板块板块销售收入为13.58亿日元，同比上涨1.58亿日元。
+
+演唱会及娱乐板块业务评级：较顺利。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.22](/img/GirlsBands/00_2/22.jpg)
+
+下图展示了2025财年Q3季度专辑KillKiss发行、Q4季度乐队Ave Mujica将进行线下Live等事宜。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.23](/img/GirlsBands/00_2/23.jpg)
+
+### MD UNIT 周边板块
+
+财报中提及BanG Dream！相关周边在国内外市场销售情况均良好。
+
+2025财年Q2季度Bushiroad MD板块销售收入为22.26亿日元，同比上涨10.23亿日元。
+
+周边板块业务评级：顺利。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.24](/img/GirlsBands/00_2/24.jpg)
+
+下图展示了LIVE场贩售卖等内容。此外，图中还提到2025财年Q4季度，Bushiroad将成立新景品周边品牌たいにぃぎふと。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.25](/img/GirlsBands/00_2/25.jpg)
+
+### Appendix：ブシロードファン感謝ゴールデンウィーク
+
+ブシロードファン感謝ゴールデンウィーク是为向国内外所有 Bushiroad 粉丝表示感谢而举办的活动。
+
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.30](/img/GirlsBands/00_2/30.jpg)
