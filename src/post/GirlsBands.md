@@ -1,3 +1,14 @@
+<style>
+.aplayer .aplayer-info .aplayer-music .aplayer-title {
+    font-size: 14px;
+    color: #3c3c43 !important;
+    }
+span.aplayer-list-title {
+    color: #3c3c43 !important;
+}
+</style>
+
+
 # 木柜子乐队相关内容
 
 ## 少女乐队企划社区风向论述
@@ -244,3 +255,37 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 ブシロードファン感謝ゴールデンウィーク是为向国内外所有 Bushiroad 粉丝表示感谢而举办的活动。
 
 ![Bushiroad 2025年6月期第2四半期決算説明資料 Page.30](/img/GirlsBands/00_2/30.jpg)
+
+## 关于MyGO的音乐
+
+<Meting mid="13464915417" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+2023年11月1日，MyGO!!!!! 1st album 迷跡波发行。标题衍生自日语“航跡波（こうせきは）”，意为航行物体划过静止流体表面时在尾部产生的波^[详见b站官方动态：https://t.bilibili.com/865276713153593368]。以下为tracklist：
+
+<table>
+  <thead>
+    <tr>
+      <th>曲序</th>
+      <th>曲目</th>
+      <th>作词</th>
+      <th>作曲</th>
+      <th>编曲</th>
+      <th>时长</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>迷星叫</td><td>藤原優樹(SUPA LOVE)</td><td>長谷川大介(SUPA LOVE)</td><td>長谷川大介(SUPA LOVE)</td><td>3:31</td></tr>
+    <tr><td>2</td><td>壱雫空</td><td>藤原優樹(SUPA LOVE)</td><td>hisakuni(SUPA LOVE)</td><td>hisakuni(SUPA LOVE)</td><td>3:12</td></tr>
+    <tr><td>3</td><td>碧天伴走</td><td>藤原優樹(SUPA LOVE)</td><td>木下龍平(SUPA LOVE)</td><td>木下龍平(SUPA LOVE)</td><td>3:38</td></tr>
+    <tr><td>4</td><td>影色舞</td><td>藤原優樹(SUPA LOVE)</td><td>木下龍平(SUPA LOVE)</td><td>木下龍平(SUPA LOVE)</td><td>3:30</td></tr>
+    <tr><td>5</td><td>歌いましょう鳴らしましょう</td><td>メガテラ・ゼロ</td><td>メガテラ・ゼロ</td><td>Mr.FanTastiC</td><td>2:58</td></tr>
+    <tr><td>6</td><td>潜在表明</td><td>藤原優樹(SUPA LOVE)</td><td>鈴木裕明(SUPA LOVE)</td><td>鈴木裕明(SUPA LOVE)</td><td>4:23</td></tr>
+    <tr><td>7</td><td>音一会</td><td>藤原優樹(SUPA LOVE)</td><td>尾崎豪(SUPA LOVE)</td><td>尾崎豪(SUPA LOVE)</td><td>4:43</td></tr>
+    <tr><td>8</td><td>春日影(MyGO!!!!! ver.)</td><td>織田あすか(Elements Garden)</td><td>藤田淳平(Elements Garden)</td><td>藤田淳平(Elements Garden)</td><td>4:18</td></tr>
+    <tr><td>9</td><td>詩超絆</td><td>藤原優樹(SUPA LOVE)</td><td>橫地健太(SUPA LOVE)</td><td>橫地健太(SUPA LOVE)</td><td>3:58</td></tr>
+    <tr><td>10</td><td>迷路日々</td><td>藤原優樹(SUPA LOVE)</td><td>松坂康司(SUPA LOVE)</td><td>松坂康司(SUPA LOVE)</td><td>3:37</td></tr>
+    <tr><td>11</td><td>無路矢</td><td>藤原優樹(SUPA LOVE)</td><td>庄司夏葵(SUPA LOVE)</td><td>庄司夏葵(SUPA LOVE)</td><td>3:42</td></tr>
+    <tr><td>12</td><td>名無声</td><td>藤原優樹(SUPA LOVE)</td><td>金崎真士(SUPA LOVE)</td><td>金崎真士(SUPA LOVE)</td><td>4:31</td></tr>
+    <tr><td>13</td><td>栞</td><td>織田あすか(Elements Garden)</td><td>藤田淳平(Elements Garden)</td><td>藤田淳平(Elements Garden)</td><td>4:28</td></tr>
+  </tbody>
+</table>
