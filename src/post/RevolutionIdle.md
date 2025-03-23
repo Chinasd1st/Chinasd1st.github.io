@@ -1,10 +1,10 @@
 # 弱智游戏分享：Revolution Idle
 
-## 起源
+## 引言
 
-2025年2月，笔者在QQ群内发现了该游戏，先前本人认为这只是一款非常无聊的放置类小游戏，但是截止今日（2025.03.23）作者已经玩了一百三十多小时。
+2025年2月，笔者在某QQ群内发现了该游戏，先前本人认为这只是一款非常无聊的放置类小游戏，但是截止今日（2025.03.23）本人已经玩了一百三十多小时。
 
-本游戏可以直接在steam上[下载](https//store.steampowered.com/app/2763740/Revolution_Idle/)，本体免费但有内购。
+本游戏可以直接在steam上[下载](https://store.steampowered.com/app/2763740/Revolution_Idle/)，本体免费但有内购。
 
 ## 机制
 
@@ -51,6 +51,32 @@ $$\text{每旋转一圈的点数获取} = (\text{所有圆圈的乘积} \times \
 4. 前三个晋升的乘数  
     使前三个晋升乘以该数值。
 
+#### 排行榜
+
+排行榜上分数有以下计算公式（v0.212）：
+
+$$
+\text{Rank Score} = \left[
+\begin{aligned}
+&\left(1 + \log_{10}\left(1 + \log_{10}(1 + \text{max score})\right)\right) \\
+&\times \text{max exponent}^{0.5} \\
+&\times \left(1 + \log_{10}(1 + \text{max infinities})\right) \\
+&\times \left(1 + \log_{10}\left(1 + \log_{10}(1 + \text{max IPs})\right)\right) \\
+&\times \left(1 + \frac{\text{max ICs}}{10}\right)^{0.5} \\
+&\times \left(1 + \frac{\text{max stars}}{8}\right)^{0.3} \\
+&\times \left(1 + \log_{10}(1 + \text{max eternities})\right)^{0.25} \\
+&\times \left(1 + \log_{10}\left(1 + \log_{10}(1 + \text{max EPs})\right)\right) \\
+&\times \left(1 + \frac{\text{max animals}}{9}\right)^{0.5} \\
+&\times \left(1 + \frac{\text{max lab level}}{50}\right)^{0.35} \\
+&\times \left(1 + \frac{\text{max supernova}}{10}\right)^{0.6} \\
+&\times \left(1 + \log_{10}\left(1 + \log_{10}(1 + \text{max DPs})\right)\right) \\
+&\times \left(1 + \frac{\text{max DTPs}}{8}\right)^{0.8}
+\end{aligned}
+\right]^{0.35}
+$$
+
+由于作者现在迁移至IL2CPP进行开发，我们无法知晓该公式是否仍被使用。
+
 ### 离线点数
 
 该游戏不同于其他放置类游戏的一点是，该游戏离线后再次登录不会直接来到包括离线点数获取后的进度，而是转化为离线点数。
@@ -74,6 +100,43 @@ $$\text{每旋转一圈的点数获取} = (\text{所有圆圈的乘积} \times \
 #### 获取速率、容量升级
 
 玩家可以花费一定的时间点数为TF、OF获取速率、容量进行升级。
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Level</th>
+      <th colspan="2">TF容量</th>
+      <th colspan="2">TF获取</th>
+      <th colspan="2">OF容量</th>
+    </tr>
+    <tr>
+      <th>数量 (小时)</th>
+      <th>花费 (小时)</th>
+      <th>数量</th>
+      <th>花费 (小时)</th>
+      <th>数量 (天)</th>
+      <th>花费 (小时)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>1</td><td>-</td><td>0.06:00</td><td>-</td><td>1</td><td>-</td></tr>
+    <tr><td>1</td><td>2</td><td>0.5</td><td>0.10:54</td><td>1:00:00</td><td>2</td><td>5</td></tr>
+    <tr><td>2</td><td>4</td><td>1</td><td>0.15:00</td><td>1:45:00</td><td>4</td><td>10</td></tr>
+    <tr><td>3</td><td>8</td><td>2</td><td>0.18:27</td><td>3:03:45</td><td>8</td><td>20</td></tr>
+    <tr><td>4</td><td>16</td><td>4</td><td>0.21:25</td><td>5:21:33</td><td>16</td><td>40</td></tr>
+    <tr><td>5</td><td>32</td><td>8</td><td>0.24:00</td><td>9:22:44</td><td>32</td><td>80</td></tr>
+    <tr><td>6</td><td>64</td><td>16</td><td>0.26:15</td><td>16:24:47</td><td>64</td><td>160</td></tr>
+    <tr><td>7</td><td>128</td><td>32</td><td>0:28:14</td><td>28:43:22</td><td>128</td><td>320</td></tr>
+    <tr><td>8</td><td>256</td><td>64</td><td>0:30:00</td><td>50:15:54</td><td>256</td><td>640</td></tr>
+    <tr><td>9</td><td>512</td><td>128</td><td>0:31:34</td><td>89:57:49</td><td>512</td><td>1,280</td></tr>
+    <tr><td>10</td><td>1,024</td><td>256</td><td>0:33:00</td><td>153:56:12</td><td>1,024</td><td>2,560</td></tr>
+    <tr><td>11</td><td>2,048</td><td>512</td><td>0:34:17</td><td>269:23:21</td><td>2,048</td><td>5,120</td></tr>
+    <tr><td>12</td><td>4,096</td><td>1,024</td><td>0:35:27</td><td>471:25:53</td><td>4,096</td><td>10,240</td></tr>
+    <tr><td>13</td><td>8,192</td><td>2,048</td><td>0:36:31</td><td>825:00:18</td><td>8,192</td><td>20,480</td></tr>
+    <tr><td>14</td><td>16,384</td><td>4,096</td><td>0:37:30</td><td>1443:45:31</td><td>16,384</td><td>40,960</td></tr>
+    <tr><td>15</td><td>32,768</td><td>8,192</td><td>0:38:24</td><td>2526:34:40</td><td>32,768</td><td>81,920</td></tr>
+  </tbody>
+</table>
 
 ### 无限
 
@@ -210,7 +273,7 @@ $$
 
 ##### 具体分配示例
 
-###### 1. **当总点数 $T = 1384$**：
+###### 1. **当总点数 $T = 1384$**
 
 1. 优先分配 $g = 500$ 点至一般指数（达到软上限 $g(g) = 5.0$）。
 2. 剩余点数 $s = 1384 - 500 = 884$ 分配至生成器指数：
@@ -219,12 +282,12 @@ $$
 3. **最终增益**：
    - 总乘数 $M = \text{Base}^{5.0} \times \prod_{i=1}^{10} m_i^{1.22}$
 
-###### 2. **当总点数 $T = 300$**:
+###### 2. **当总点数 $T = 300$**
 
 - 全部分配至一般指数，但未达软上限：$g = 300$, $g(g) = 0.01 \times 300 = 3.0$
 - 生成器指数无分配：$s = 0$, $f(s) = 0$
 
-###### 3. **当总点数 $T = 2000$**：
+###### 3. **当总点数 $T = 2000$**
 
 1. 分配 $g = 500$ 点至一般指数（达到软上限）。
 2. 分配 $s = 800$ 点至生成器指数（达到其软上限）。
