@@ -119,13 +119,13 @@ $$
     </tr>
   </thead>
   <tbody>
-    <tr><td>0</td><td>1</td><td>-</td><td>0.06:00</td><td>-</td><td>1</td><td>-</td></tr>
-    <tr><td>1</td><td>2</td><td>0.5</td><td>0.10:54</td><td>1:00:00</td><td>2</td><td>5</td></tr>
-    <tr><td>2</td><td>4</td><td>1</td><td>0.15:00</td><td>1:45:00</td><td>4</td><td>10</td></tr>
-    <tr><td>3</td><td>8</td><td>2</td><td>0.18:27</td><td>3:03:45</td><td>8</td><td>20</td></tr>
-    <tr><td>4</td><td>16</td><td>4</td><td>0.21:25</td><td>5:21:33</td><td>16</td><td>40</td></tr>
-    <tr><td>5</td><td>32</td><td>8</td><td>0.24:00</td><td>9:22:44</td><td>32</td><td>80</td></tr>
-    <tr><td>6</td><td>64</td><td>16</td><td>0.26:15</td><td>16:24:47</td><td>64</td><td>160</td></tr>
+    <tr><td>0</td><td>1</td><td>-</td><td>0:06:00</td><td>-</td><td>1</td><td>-</td></tr>
+    <tr><td>1</td><td>2</td><td>0.5</td><td>0:10:54</td><td>1:00:00</td><td>2</td><td>5</td></tr>
+    <tr><td>2</td><td>4</td><td>1</td><td>0:15:00</td><td>1:45:00</td><td>4</td><td>10</td></tr>
+    <tr><td>3</td><td>8</td><td>2</td><td>0:18:27</td><td>3:03:45</td><td>8</td><td>20</td></tr>
+    <tr><td>4</td><td>16</td><td>4</td><td>0:21:25</td><td>5:21:33</td><td>16</td><td>40</td></tr>
+    <tr><td>5</td><td>32</td><td>8</td><td>0:24:00</td><td>9:22:44</td><td>32</td><td>80</td></tr>
+    <tr><td>6</td><td>64</td><td>16</td><td>0:26:15</td><td>16:24:47</td><td>64</td><td>160</td></tr>
     <tr><td>7</td><td>128</td><td>32</td><td>0:28:14</td><td>28:43:22</td><td>128</td><td>320</td></tr>
     <tr><td>8</td><td>256</td><td>64</td><td>0:30:00</td><td>50:15:54</td><td>256</td><td>640</td></tr>
     <tr><td>9</td><td>512</td><td>128</td><td>0:31:34</td><td>89:57:49</td><td>512</td><td>1,280</td></tr>
