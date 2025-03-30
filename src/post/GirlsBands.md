@@ -278,9 +278,13 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 
 ## 关于MyGO的音乐
 
+### MyGO!!!!! 1st album 「迷跡波」
+
+2023年11月1日，MyGO!!!!! 1st album 「迷跡波」发行。标题衍生自日语“航跡波（こうせきは）”，意为航行物体划过静止流体表面时在尾部产生的波^[详见b站官方动态：https://t.bilibili.com/865276713153593368]。
+
 <Meting mid="13464915417" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
-2023年11月1日，MyGO!!!!! 1st album 迷跡波发行。标题衍生自日语“航跡波（こうせきは）”，意为航行物体划过静止流体表面时在尾部产生的波^[详见b站官方动态：https://t.bilibili.com/865276713153593368]。以下为tracklist：
+
 
 <table>
   <thead>
@@ -309,3 +313,38 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
     <tr><td>13</td><td>栞</td><td>織田あすか(Elements Garden)</td><td>藤田淳平(Elements Garden)</td><td>藤田淳平(Elements Garden)</td><td>4:28</td></tr>
   </tbody>
 </table>
+
+值得注意的是，这张专辑中的曲名存在相当多的借字现象。
+
+日语中的借字有两种用法：一种是取读音（主要指的是音读 ^[训读是日语固有发音，按汉字含义对应和语词，如「山→やま」；音读模仿古汉语发音，多用于复合词，如「火山→かざん」。训读表意，音读表音，两者常混合使用。]）相同或相近的汉字来对假名进行表记，而常常不考虑其原本的字义。另一种是取含义相同或相关的汉字来对假名进行标记，而通常不考虑其原本的读音（主要指的是训读）。通常所说的借字（狭义的借字），一般是指前者。对于后者的情况，一般会称为“义训”（日语：義訓） ^[借字 - 萌娘百科_万物皆可萌的百科全书 [DB/OL]. 萌娘百科, \(2024-12-15\)[2025-03-30]. <https://mzh.moegirl.org.cn/%E5%80%9F%E5%AD%97>.]。
+
+笔者在这里举一些例子进行说明：
+
+**Tr.01 迷星叫**：MyGO!!!!! 动画第十二集正式成团后的Live演奏曲，也是乐队的第一首原创曲，同音借字自「迷い歌」，即迷惘之歌。
+
+**Tr.02 壱雫空**：MyGO!!!!! 动画OP，同时游戏内谱面（SP难度）为第六届GBP杯决赛团队赛的第一首课题曲。标题为日语“一滴”的同音借字，读音由“壱”（ひとつ，训读；“壹”的日本简化字，Unicode U+58F1 Shift_JIS-2004 88EB）、“雫”（しずく，训读；和制汉字，雨水滴落之意，Unicode U+96EB Shift_JIS-2004 8EB4）和“空（くう）”（音读）拆分重组而成。
+
+**Tr.10 迷路日々**: MyGO!!!!! 动画十二集插曲，标题读音同melody，意为旋律、曲调，由“迷（めい）”（音读）、“路（ろ）”（音读），以及将“日”的英译“デイ”（day）中的“イ”改为小写假名“ィ”后重组而成。
+
+除此之外，我们可以发现本专辑第五曲「歌いましょう鳴らしましょう」由producerメガテラ・ゼロ制作。该制作人于2011年开始于niconico发表翻唱作品，并于2021年开始VOCALOID相关制作。他曾为BanG Dream! 旗下虚拟歌手企划夢ノ結唱提供曲目《Be born》。这首曲目的吉他、贝斯等的演奏^[Guitar：つっくん、Bass：つっくん、Drums：ふじゃん]由其在2016年组建的乐队Mr.FanTastiC内成员负责。
+
+### MyGO!!!!! 2st album 「跡暖空」
+
+跡暖空（みちのく）是《BanG Dream!》企划组合MyGO!!!!!的第二张专辑，发售于2024年12月18日。分为Blu-ray付生产限定A、B两盘以及通常盘三种规格。
+
+<Meting mid="13251480603" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+| 曲序 | 曲目                     | 作词                       | 作曲                       | 编曲                     | 时长   |
+|------|--------------------------|---------------------------|---------------------------|-------------------------|--------|
+| 1    | 歩拾道                   | 藤原優樹(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)     | 4:20   |
+| 2    | 明弦音                   | 藤原優樹(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)     | 4:03   |
+| 3    | 孤壊牢                   | 藤原優樹(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)     | 3:34   |
+| 4    | 霧周途                   | 藤原優樹(SUPA LOVE)       | 藤田淳平(Elements Garden) | 藤田淳平(Elements Garden)| 3:42   |
+| 5    | 端程山                   | 藤原優樹(SUPA LOVE)       | トミタカズキ(SUPA LOVE)   | トミタカズキ(SUPA LOVE) | 4:20   |
+| 6    | 処救生                   | 藤原優樹(SUPA LOVE)       | 松坂康司(SUPA LOVE)       | 松坂康司(SUPA LOVE)     | 3:37   |
+| 7    | 輪符雨                   | 藤原優樹(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)     | 3:27   |
+| 8    | 夜隠染                   | 藤原優樹(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)     | 3:20   |
+| 9    | 過惰幻                   | 藤原優樹(SUPA LOVE)       | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)     | 3:57   |
+| 10   | 回層浮                   | 藤原優樹(SUPA LOVE)       | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)     | 4:21   |
+| 11   | 砂寸奏                   | 藤原優樹(SUPA LOVE)       | 槇島隆人(SUPA LOVE)       | 槇島隆人(SUPA LOVE)     | 3:43   |
+| 12   | 焚音打                   | 藤原優樹(SUPA LOVE)       | 長谷川大介(SUPA LOVE)     | 長谷川大介(SUPA LOVE)   | 4:06   |
