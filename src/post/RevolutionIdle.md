@@ -1,3 +1,8 @@
+---
+date: 2025-03-23
+changelog: true
+---
+
 # 弱智游戏分享：Revolution Idle
 
 ## 引言

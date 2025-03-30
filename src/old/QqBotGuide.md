@@ -1,7 +1,4 @@
 ---
-meta:
-  - name: referrer
-    content: no-referrer
 date: 2024-09-23
 category:
   - 存档

@@ -1,7 +1,4 @@
 ---
-meta:
-  - name: referrer
-    content: no-referrer
 category:
   - 存档
   - 网站事宜
