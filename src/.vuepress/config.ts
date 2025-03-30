@@ -50,8 +50,8 @@ export default defineUserConfig({
     // 页脚
     footer: "小奶奶网站",
     displayFooter: true,
-
-  
+    changelog: true,
+    
     // 博客相关
     /*
     blog: {

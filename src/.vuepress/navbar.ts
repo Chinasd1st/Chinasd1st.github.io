@@ -4,7 +4,7 @@ export default navbar([
   "/",
   { text: 'Status', link: 'https://stats.uptimerobot.com/NCUFdoSfM4' },,
   {
-    text: '子页面',
+    text: '旧文存档',
     children: [
       {
         text: '小奶奶二创作品',
@@ -27,6 +27,20 @@ export default navbar([
       }
     ]
   },
+
+  {
+    text: '博文',
+    children: [
+      {
+        text: '2025',
+        children: [
+          { text: '木柜子乐队相关内容', link: '/post/GirlsBands' },
+          { text: '弱智游戏分享：Revolution Idle', link: '/post/RevolutionIdle' },
+          { text: '古今中外奇文选', link: '/post/PeculiarAnthology' },
+        ]
+      }
+    ]
+  },  
   { text: 'QQ机器人文档', link: '/old/QqBotGuide' },
   {
     text: 'v.alpha-0.0.4',
