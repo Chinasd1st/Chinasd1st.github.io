@@ -37,6 +37,7 @@ export default navbar([
           { text: '木柜子乐队相关内容', link: '/post/GirlsBands' },
           { text: '弱智游戏分享：Revolution Idle', link: '/post/RevolutionIdle' },
           { text: '古今中外奇文选', link: '/post/PeculiarAnthology' },
+          { text: '猎奇文章合集：清明特辑', link: '/post/Qingming' },
         ]
       }
     ]
