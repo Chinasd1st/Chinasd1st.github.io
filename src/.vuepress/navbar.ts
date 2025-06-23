@@ -38,6 +38,7 @@ export default navbar([
           { text: '弱智游戏分享：Revolution Idle', link: '/post/RevolutionIdle' },
           { text: '古今中外奇文选', link: '/post/PeculiarAnthology' },
           { text: '猎奇文章合集：清明特辑', link: '/post/Qingming' },
+          { text: '黄睿涵导航页', link: '/post/HuangRuihanNavigation' },
         ]
       }
     ]
