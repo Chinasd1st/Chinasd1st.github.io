@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import metingPlugin from 'vuepress-plugin-meting2';
+import { commentPlugin } from '@vuepress/plugin-comment'
 
 import theme from "./theme.js";
 import navbar from "./navbar.js";
@@ -10,6 +11,10 @@ import sidebar from "./sidebar.js";
 export default defineUserConfig({
   base: "/",
   plugins:[
+    commentPlugin({
+      provider: 'Twikoo', 
+      envId: 'https://spontaneous-lebkuchen-f17631.netlify.app/'
+    }),
     
     metingPlugin({
       metingOptions: {
