@@ -13,7 +13,7 @@ export default defineUserConfig({
   plugins:[
     commentPlugin({
       provider: 'Twikoo', 
-      envId: 'https://spontaneous-lebkuchen-f17631.netlify.app/'
+      envId: 'https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo'
     }),
     
     metingPlugin({
