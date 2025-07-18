@@ -17,7 +17,8 @@ span.aplayer-list-title {
 # Playground
 
 :::warning
-受bilibili防盗链影响，不再使用`iframe`tag
+- 该页面为测试网站功能的沙盒界面。
+- 受bilibili防盗链影响，不再使用`iframe`tag。
 :::
 
 ## 二十一世纪音乐be like:
