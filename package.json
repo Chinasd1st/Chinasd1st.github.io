@@ -15,6 +15,7 @@
     "@vuepress/plugin-docsearch": "^2.0.0-rc.90",
     "@vuepress/plugin-revealjs": "^2.0.0-rc.90",
     "@vuepress/plugin-search": "^2.0.0-rc.90",
+    "echarts": "^5.6.0",
     "katex": "^0.16.21",
     "mermaid": "^11.6.0",
     "patch-package": "^8.0.0",

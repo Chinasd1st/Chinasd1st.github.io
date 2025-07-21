@@ -41,8 +41,8 @@ export default navbar([
           { text: '黄睿涵导航页', link: '/post/HuangRuihanNavigation' },
           { text: 'Synthesizer V 本体及曲库相关购买流程', link: '/post/SynthesizerV' },
           { text: 'Twikoo评论组件的引入', link: '/post/TwikooPlugin' },
+          { text: '李晨煜b站收藏夹标签统计', link: '/post/LCYBilibiliFavoritesStatistics' },
 
-          
         ]
       }
     ]
