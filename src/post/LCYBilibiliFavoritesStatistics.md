@@ -4,6 +4,10 @@ date: 2025-07-21
 
 # 对近期李晨煜b站收藏夹标签的统计——及对其分布规律的发散探究
 
+:::info
+本文于2025.08.02更新。
+:::
+
 ## 说明
 
 下表展示了自2025年6月22日（含）到2025年7月21日李晨煜的b站默认收藏夹所收藏的一千八百余个视频的tag统计信息。以下为相关事项：
@@ -21,7 +25,7 @@ date: 2025-07-21
 
 @tab 爬虫
 
-```py :collapsed-lines
+```py
 import requests
 import time
 import datetime
@@ -243,7 +247,7 @@ if __name__ == "__main__":
 
 @tab Tag统计
 
-```py :collapsed-lines
+```py
 import pandas as pd
 from collections import Counter
 import json
@@ -3902,22 +3906,19 @@ if __name__ == "__main__":
 |9.0|20|
 |10.0|21|
 
-由此可知：李晨煜近期收藏视频的tags符合幂律分布，即$f(x) \propto x^{-\alpha}$, 其中：$x \in [x_{\min}, +\infty),x_{\min} \in [0,+\infty)$. 在对数坐标下，可表示为$\log f(x) = -\alpha \log x + c$.
+由此可知：李晨煜近期收藏视频的tags符合幂律分布，即$f(x) \propto x^{-\alpha}$, 其中：$x \in [x_{\min}, +\infty),x_{\min} \in [0,+\infty)$. 在对数坐标下，可表示为 $\log f(x) = -\alpha \log x + c$.
 
-拟合方程：
+我们使用Desmos对排名前十的数据进行拟合（$y \sim kx^{\alpha}$），得到方程：
 
 $$
-\begin{cases}
-\log f(x) = -1.952 \log x + 3.227 \\
-\text{或：}f(x) \approx 10^{3.227} \times x^{-1.952}
-\end{cases}
+f(x) = 2374.13371x^{-2.31628}
 $$
 
 其中：
 
-$$R^2 \approx 0.92\text{(就出现排名前十的tags而言)},  \alpha \approx 1.952$$
+$$R^2 \approx 0.9994\text{(就出现排名前十的tags而言)}$$
 
-这一分析表明李晨煜的兴趣范围较为分散，tag分布具有明显的长尾效应。此
+这一分析表明李晨煜的兴趣范围较为分散，tag分布具有明显的长尾效应。
 
 ## 发散探究
 
