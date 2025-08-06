@@ -1,6 +1,11 @@
 ---
 date: 2025-03-23
 changelog: true
+category: 游戏
+tags: 
+  - 娱乐
+  - 攻略
+  - 分享
 ---
 
 # 弱智游戏分享：Revolution Idle

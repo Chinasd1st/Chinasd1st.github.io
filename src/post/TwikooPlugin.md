@@ -1,5 +1,7 @@
 ---
 date: 2025-07-16
+category: 网站事宜
+tag: 公告
 ---
 
 # Twikoo评论组件的引入
