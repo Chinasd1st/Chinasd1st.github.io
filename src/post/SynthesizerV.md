@@ -12,7 +12,7 @@ tag:
 
 Synthesizer V（以下简称SV）是 Dreamtonics 开发的系列歌声合成软件，它结合了将 AI 与样本强力融合的歌声合成引擎，以及精心设计的直观用户界面。只需绘制旋律并输入歌词，即可轻松创作原创歌曲。
 
-鉴于互联网现有资料大多已经过时，现在笔者提供Synthesizer V本体、曲库的相关购买方式，供读者参考。
+鉴于互联网现有资料大多已经过时，笔者现提供Synthesizer V本体、声库的相关购买方式，供读者参考。
 
 ## Synthesizer V Studio 2 Pro 的购买
 
@@ -76,3 +76,7 @@ Synthesizer V的声库分为两种类型，一种是Dreamtonics自行制作的�
 
 - 以声库ナツメイツキ为例，用户可在[DLsite](https://www.dlsite.com/soft/work/=/product_id/VJ01003998.html)上购买数字版，也可在[Booth](https://hifumi-pro.booth.pm/item_lists/m06Tx09W)上购买实体版，且实体版附有特典。
 - 以声库夢ノ結唱（共四个）为例，用户可在[DLsite](https://www.dlsite.com/soft/work/=/product_id/VJ01003885.html)上购买数字版，也可在[Bushiroad Online Store](https://bushiroad-store.com/pages/yumenokessho_bd)购买实体版（缺货，附立牌和贴纸特典）和数字版。
+
+## 笔者注
+
+升级至sv2后，Synthesizer V现要求用户在使用前注册Dreamtonics账号并且在软件内登录。请谨慎选择“离线登录”一选项。若是选择，在更换设备或是重装系统后，会出现新设备或新系统上无法登陆sv2的情况。如遇这种情况，可以在微信公众号上发送“客服”二字接入人工客服，寻求客服的帮助，以重置激活码。
