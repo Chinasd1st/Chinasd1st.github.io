@@ -87,6 +87,35 @@ $$
 
 由于作者现在迁移至IL2CPP进行开发，我们无法知晓该公式是否仍被使用。
 
+::: note
+[new general leaderboard (rank) score formula as of v1.007](https://discord.com/channels/481594050999353345/1296494492022603829/1390037604531179733)（2025.07.03）
+$$
+\text{Rank Score} = \left[
+    \begin{aligned}
+    &\left(1 + \log_{10}\left(1 + \log_{10}\left(1 + \text{MaxScore}\right)\right)\right) \\
+    &\times \left(\text{MaxExponent}\right)^{0.5} \\
+    &\times \left(1 + \log_{10}\left(1 + \text{MaxInfinities}\right)\right) \\
+    &\times \left(1 + \log_{10}\left(1 + \log_{10}\left(1 + \text{MaxIP}\right)\right)\right) \\
+    &\times \left(1 + \frac{\text{MaxInfChallenges}}{10}\right)^{0.5} \\
+    &\times \left(1 + \frac{\text{MaxStars}}{8}\right)^{0.3} \\
+    &\times \left(1 + \log_{10}\left(1 + \text{MaxEternities}\right)\right)^{0.25} \\
+    &\times \left(1 + \log_{10}\left(1 + \log_{10}\left(1 + \text{MaxEP}\right)\right)\right) \\
+    &\times \left(1 + \frac{\text{MaxAnimals}}{9}\right)^{0.5} \\
+    &\times \left(1 + \frac{\text{MaxLabLevel}}{50}\right)^{0.35} \\
+    &\times \left(1 + \frac{\text{MaxSupernova}}{10}\right)^{0.6} \\
+    &\times \left(1 + \log_{10}\left(1 + \log_{10}\left(1 + \text{MaxDP}\right)\right)\right) \\
+    &\times \left(1 + \frac{\text{MaxDTP}}{8}\right)^{0.8}
+    \end{aligned}
+\right]^{0.35}
+\begin{aligned}
+&\times \left(1 + \log_{10}\left(1 + \text{MaxUnities}\right)\right) \\
+&\times \left(1 + \frac{\text{MaxZodiacLevel}}{100}\right)^{0.5} \\
+&\times \left(1 + \frac{\text{MaxTrialCount}}{10}\right)^{0.5} \\
+&\times \left(1 + \log_{10}\left(1 + \text{MaxAttackLevel}\right)\right)
+\end{aligned}
+$$
+:::
+
 ### 离线点数
 
 该游戏不同于其他放置类游戏的一点是，该游戏离线后再次登录不会直接来到包括离线点数获取后的进度，而是转化为离线点数。
