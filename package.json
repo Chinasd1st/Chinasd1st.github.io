@@ -11,7 +11,7 @@
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/plugin-docsearch": "^2.0.0-rc.90",
     "@vuepress/plugin-revealjs": "^2.0.0-rc.90",
     "@vuepress/plugin-search": "^2.0.0-rc.90",
@@ -22,8 +22,8 @@
     "sass-embedded": "^1.83.0",
     "twikoo": "^1.6.44",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.20",
+    "vuepress": "2.0.0-rc.23",
     "vuepress-plugin-meting2": "^1.4.2",
-    "vuepress-theme-hope": "2.0.0-rc.77"
+    "vuepress-theme-hope": "2.0.0-rc.93"
   }
 }
