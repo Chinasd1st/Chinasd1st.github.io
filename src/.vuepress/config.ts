@@ -25,7 +25,7 @@ export default defineUserConfig({
           mid: "253946279",
       },
       aplayerOptions: {
-          theme: '#3DD68C'
+          theme: '#1e7fe6ff'
       }
   }),
   ],
