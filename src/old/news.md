@@ -68,7 +68,7 @@ span.aplayer-list-title {
 虽然有点疲惫，但也具有趣味。桐乡市现代实验学校的八年级同学们于近日结束了军训活动。在本次活动中，班中的小奶奶和小爷爷们也发明了不少的新梗。以下是部分新梗：
 
 - 零星泰国人
-- $\sqrt{\text{GOUGOU}}$
+- $\sqrt{\text{勾勾}}$
 - 丁小萍家庭厨房 × 必胜客
 - 缘缘书店 × 趣多多
 - 我内裤掉地上了
@@ -142,8 +142,8 @@ elif a == 1:
 
 @tab 加解密代码差别
 
-```diff
-@@ -1,14 +1,14 @@
+```diff :no-line-numbers {2-3,11-12,14-15,17-18,20-21}
+@@ -1,19 +1,19 @@
 -def encrypt():
 +def unencrypt():
      temp = raw_input("Please input your sentence: ")
