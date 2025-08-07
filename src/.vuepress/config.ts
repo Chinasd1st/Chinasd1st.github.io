@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import metingPlugin from 'vuepress-plugin-meting2';
-import { commentPlugin } from '@vuepress/plugin-comment'
+//import { commentPlugin } from '@vuepress/plugin-comment'
 
 import theme from "./theme.js";
 import navbar from "./navbar.js";
@@ -11,10 +11,10 @@ import sidebar from "./sidebar.js";
 export default defineUserConfig({
   base: "/",
   plugins:[
-    commentPlugin({
+    /*commentPlugin({
       provider: 'Twikoo', 
       envId: 'https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo'
-    }),
+    }),*/
     
     metingPlugin({
       metingOptions: {
@@ -45,6 +45,8 @@ export default defineUserConfig({
     repo: "Chinasd1st/Chinasd1st.github.io",
   
     docsDir: "src",
+
+    lastUpdated: true,
   
     // 导航栏
     navbar,
@@ -223,7 +225,8 @@ export default defineUserConfig({
             },
           },
         },*/
-      blog: true,
+      blog:{
+      },
   
       // 启用之前需安装 @waline/client
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
@@ -234,6 +237,11 @@ export default defineUserConfig({
   
       components: {
         components: ["Badge", "VPCard"],
+      },
+
+      comment: {
+      provider: "Twikoo",
+      envId: "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo" // 腾讯云环境ID或自建地址
       },
   
       icon: {
