@@ -43,6 +43,8 @@ export default navbar([
           { text: 'Twikoo评论组件的引入', link: '/post/TwikooPlugin' },
           { text: '[已脱敏]b站收藏夹标签统计', link: '/post/LCYBilibiliFavoritesStatistics' },
           { text: '[已脱敏]偷偷OD泰诺后不慎睡着了', link: '/post/WHYODTylenol' },
+          { text: '传奇人物志', link: '/post/LegendaryPerson' },
+
 
         ]
       }
