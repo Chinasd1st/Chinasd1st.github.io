@@ -12,7 +12,8 @@ category:
 ## ♿道理不慎将冰棍掉落，却反咬一口老理？♿
 
 [♿道理不慎将冰棍掉落，却反咬一口老理？♿(BV1qH6KYWEXw)](https://www.bilibili.com/video/BV1qH6KYWEXw/)
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113583128052947&bvid=BV1qH6KYWEXw&cid=27143309224&p=1" scrolling="no" border="0" frameborder="no" framespacing="0"  allowfullscreen="true"></iframe>
+
+<BiliBili bvid="BV1qH6KYWEXw" />
 
 ## 汇总：对2024年文理联赛的一切态度
 

@@ -207,10 +207,14 @@ woAiDaHongShi(); // 调用函数
 
 ### 视频
 
-<video controls width=510>
-    <!--<source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4" type="video/mp4"/>-->
+<!--<video controls width=510>
+    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4" type="video/mp4"/>
     <source src="https://chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4"/>
-</video>
+</video>-->
+
+<VidStack
+    src="https://chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4"
+/>
 <!--注意修改此处视频后缀名-->
 
 ## 2023.11.29 本学期最抽象的一场ABN联赛
@@ -278,12 +282,16 @@ woAiDaHongShi(); // 调用函数
 
 ### 视频
 
-<video controls width=510>
-    <!--<source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4" type="video/mp4"/>
-    -->
+<!--<video controls width=510>
+    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4" type="video/mp4"/>
+    
     <source src="https://chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4" type="video/mp4"/>
-</video>
+</video>-->
 <!--注意修改此处视频后缀名-->
+
+<VidStack
+    src="https://chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4"
+/>
 
 ## 2023.12.15 鸿合智能电子教鞭-preview-0.0.2
 
@@ -293,13 +301,16 @@ woAiDaHongShi(); // 调用函数
 ### 视频：使用方法
 
 本视频录制时本人感冒初愈，若有影响观感之处还请见谅
-
-<video controls  width=510>
-    <!--<source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>-->
+<!--<video controls  width=510>
+    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>
     <source src="https://chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>
 
-</video>
+</video>-->
 <!--注意修改此处视频后缀名-->
+
+<VidStack
+    src="https://chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4"
+/>
 
 ## 2024.1.7 BA标题生成器
 
@@ -350,12 +361,15 @@ Forked from <https://github.com/ldcivan/BA_logo>
 
 如下
 
-<video controls height=510>
-    <!--<source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>-->
+<!--<video controls height=510>
+    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>
     <source src="https://chinasd1st.github.io/videos/news/2025_01_12/video_20250112_145343.mp4" type="video/mp4"/>
     
+</video>-->
 
-</video>
+<VidStack
+    src="https://chinasd1st.github.io/videos/news/2025_01_12/video_20250112_145343.mp4"
+/>
 
 <!--
 <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">

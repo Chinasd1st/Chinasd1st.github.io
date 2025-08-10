@@ -3,6 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import metingPlugin from 'vuepress-plugin-meting2';
 //import { commentPlugin } from '@vuepress/plugin-comment'
 
+
 import theme from "./theme.js";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
@@ -15,7 +16,6 @@ export default defineUserConfig({
       provider: 'Twikoo', 
       envId: 'https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo'
     }),*/
-    
     metingPlugin({
       metingOptions: {
           global: false, // 开启关闭全局播放器
@@ -236,7 +236,7 @@ export default defineUserConfig({
       // },
   
       components: {
-        components: ["Badge", "VPCard"],
+        components: ["Badge", "VPCard", "VidStack", "BiliBili"],
       },
 
       comment: {
