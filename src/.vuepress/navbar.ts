@@ -45,9 +45,6 @@ export default navbar([
           { text: '王浩宇偷偷OD泰诺后不慎睡着了', link: '/post/WHYODTylenol' },
           { text: '传奇人物志', link: '/post/LegendaryPerson' },
           { text: '屎', link: '/post/Shit' },
-
-
-
         ]
       }
     ]
