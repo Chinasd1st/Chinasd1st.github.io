@@ -4,7 +4,7 @@ category:
   - 存档
   - 网站事宜
 ---
-
+<!--
 <style>
 .aplayer .aplayer-info .aplayer-music .aplayer-title {
     font-size: 14px;
@@ -13,7 +13,7 @@ category:
 span.aplayer-list-title {
     color: #3c3c43 !important;
 }
-</style>
+</style>-->
 
 # Playground
 
