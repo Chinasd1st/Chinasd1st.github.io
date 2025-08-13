@@ -7,7 +7,7 @@ tag:
   - 亚文化
 
 ---
-
+<!--
 <style>
 .aplayer .aplayer-info .aplayer-music .aplayer-title {
     font-size: 14px;
@@ -16,7 +16,7 @@ tag:
 span.aplayer-list-title {
     color: #3c3c43 !important;
 }
-</style>
+</style>-->
 
 
 # 木柜子乐队相关内容
