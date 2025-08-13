@@ -1,37 +1,34 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import metingPlugin from 'vuepress-plugin-meting2';
-//import { commentPlugin } from '@vuepress/plugin-comment'
-
+// import { commentPlugin } from '@vuepress/plugin-comment'
 
 import theme from "./theme.js";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-
 export default defineUserConfig({
   base: "/",
-  plugins:[
-    /*commentPlugin({
-      provider: 'Twikoo', 
-      envId: 'https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo'
-    }),*/
+  
+  plugins: [
     metingPlugin({
       metingOptions: {
-          global: false, // 开启关闭全局播放器
-          server: "netease",
-          api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
-          type: "album",
-          mid: "253946279",
+        global: false, // 开启关闭全局播放器
+        server: "netease",
+        api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+        type: "album",
+        mid: "253946279",
       },
       aplayerOptions: {
-          theme: '#1e7fe6ff'
+        theme: '#1e7fe6ff'
       }
-  }),
+    }),
   ],
+  
   lang: "zh-CN",
   title: "小奶奶博客",
-  description: "",
+  description: "分享各种小奶奶内容 这使人感到有趣味",
+  
   theme: hopeTheme({
     hostname: "https://chinasd1st.github.io",
   
@@ -60,50 +57,48 @@ export default defineUserConfig({
     changelog: true,
     
     // 博客相关
-    /*
+
     blog: {
-      description: "一个前端开发者",
-      intro: "/intro.html",
+      description: "美食家",
+      // intro: "/intro.html",
       medias: {
-        Baidu: "https://example.com",
-        BiliBili: "https://example.com",
-        Bitbucket: "https://example.com",
-        Dingding: "https://example.com",
-        Discord: "https://example.com",
-        Dribbble: "https://example.com",
-        Email: "mailto:info@example.com",
-        Evernote: "https://example.com",
-        Facebook: "https://example.com",
-        Flipboard: "https://example.com",
-        Gitee: "https://example.com",
-        GitHub: "https://example.com",
-        Gitlab: "https://example.com",
-        Gmail: "mailto:info@example.com",
-        Instagram: "https://example.com",
-        Lark: "https://example.com",
-        Lines: "https://example.com",
-        Linkedin: "https://example.com",
-        Pinterest: "https://example.com",
-        Pocket: "https://example.com",
-        QQ: "https://example.com",
-        Qzone: "https://example.com",
-        Reddit: "https://example.com",
-        Rss: "https://example.com",
-        Steam: "https://example.com",
-        Twitter: "https://example.com",
-        Wechat: "https://example.com",
-        Weibo: "https://example.com",
-        Whatsapp: "https://example.com",
-        Youtube: "https://example.com",
-        Zhihu: "https://example.com",
-        VuePressThemeHope: {
-          icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-          link: "https://theme-hope.vuejs.press",
-        },
-      },
-    },
-    */
-  
+        // Baidu: "https://example.com",
+        BiliBili: "https://space.bilibili.com/520682236",
+        // Bitbucket: "https://example.com",
+        // Dingding: "https://example.com",
+        // Discord: "https://example.com",
+        // Dribbble: "https://example.com",
+        // Email: "mailto:info@example.com",
+        // Evernote: "https://example.com",
+        // Facebook: "https://example.com",
+        // Flipboard: "https://example.com",
+        // Gitee: "https://example.com",
+        // GitHub: "https://example.com",
+        // Gitlab: "https://example.com",
+        // Gmail: "mailto:info@example.com",
+        // Instagram: "https://example.com",
+        // Lark: "https://example.com",
+        // Lines: "https://example.com",
+        // Linkedin: "https://example.com",
+        // Pinterest: "https://example.com",
+        // Pocket: "https://example.com",
+        // QQ: "https://example.com",
+        // Qzone: "https://example.com",
+        // Reddit: "https://example.com",
+        // Rss: "https://example.com",
+        // Steam: "https://example.com",
+        Twitter: "https://x.com/Silentnrtx",
+        // Wechat: "https://example.com",
+        // Weibo: "https://example.com",
+        // Whatsapp: "https://example.com",
+        // Youtube: "https://example.com",
+        // Zhihu: "https://example.com",
+        // VuePressThemeHope: {
+        //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+        //   link: "https://theme-hope.vuejs.press",
+         },
+       },
+
     // 加密配置
     encrypt: {
       config: {
@@ -199,33 +194,35 @@ export default defineUserConfig({
       // 在启用之前安装 sandpack-vue3
       // sandpack: true,
     },
+    
     // 在这里配置主题提供的插件
     plugins: {
       search: true,
       // search: {
       //   插件选项
       // },
-        /*docsearch: {
-          appId: 'IOAA89YPZT',          // 从 Algolia 获取
-          apiKey: '560d7b97207fe12052ee5914cc753976', // Search-Only API Key
-          indexName: 'chinasd1stio',
-          // 可选：自定义搜索参数
-          searchParameters: {
-            facetFilters: ['tags:vuepress'], // 按标签过滤
-          },
-          // 可选：覆盖默认样式
-          locales: {
-            '/': {
-              placeholder: '搜索文档',
-              translations: {
-                button: {
-                  buttonText: '搜索',
-                },
+      /* docsearch: {
+        appId: 'IOAA89YPZT',          // 从 Algolia 获取
+        apiKey: '560d7b97207fe12052ee5914cc753976', // Search-Only API Key
+        indexName: 'chinasd1stio',
+        // 可选：自定义搜索参数
+        searchParameters: {
+          facetFilters: ['tags:vuepress'], // 按标签过滤
+        },
+        // 可选：覆盖默认样式
+        locales: {
+          '/': {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索',
               },
             },
           },
-        },*/
-      blog:{
+        },
+      }, */
+      
+      blog: {
       },
   
       // 启用之前需安装 @waline/client
@@ -240,8 +237,8 @@ export default defineUserConfig({
       },
 
       comment: {
-      provider: "Twikoo",
-      envId: "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo" // 腾讯云环境ID或自建地址
+        provider: "Twikoo",
+        envId: "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo" // 腾讯云环境ID或自建地址
       },
   
       icon: {
@@ -307,7 +304,7 @@ export default defineUserConfig({
     },
   }),
   
-  //theme,
+  // theme,
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

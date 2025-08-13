@@ -8,7 +8,7 @@ tag:
   - AI生成
   - 娱乐
 ---
-
+<!--
 <style>
 .aplayer .aplayer-info .aplayer-music .aplayer-title {
     font-size: 14px;
@@ -17,7 +17,7 @@ tag:
 span.aplayer-list-title {
     color: #3c3c43 !important;
 }
-</style>
+</style>-->
 
 # 猎奇文章合集
 

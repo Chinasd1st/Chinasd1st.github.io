@@ -5,7 +5,7 @@ category:
   - 存档
   - 小奶奶二创作品
 ---
-
+<!--
 <style>
 .aplayer .aplayer-info .aplayer-music .aplayer-title {
     font-size: 14px;
@@ -14,7 +14,7 @@ category:
 span.aplayer-list-title {
     color: #3c3c43 !important;
 }
-</style>
+</style>-->
 
 # 小奶奶新闻
 
