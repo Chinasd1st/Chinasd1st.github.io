@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  { text: 'Status', link: 'https://stats.uptimerobot.com/NCUFdoSfM4' },,
+  // { text: 'Status', link: 'https://stats.uptimerobot.com/NCUFdoSfM4' },
   {
     text: '旧文存档',
     children: [
@@ -25,7 +25,8 @@ export default navbar([
           { text: '猎奇文章合集', link: '/old/RyoukiArticle.md' }
         ]
       }
-    ]
+    ],
+    icon: 'box-archive'
   },
 
   {
@@ -47,9 +48,10 @@ export default navbar([
           { text: '屎', link: '/post/Shit' },
         ]
       }
-    ]
+    ],
+    icon: 'book'
   },  
-  { text: 'QQ机器人文档', link: '/old/QqBotGuide' },
+  { text: 'QQ机器人文档', link: '/old/QqBotGuide', icon: 'robot'},
   {
     text: 'v.alpha-0.0.4',
     children: [
@@ -69,6 +71,7 @@ export default navbar([
           }
         ]
       }
-    ]
+    ],
+    icon: 'code-commit'
   }
 ]);

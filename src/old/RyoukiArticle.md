@@ -7,6 +7,7 @@ tag:
   - 猎奇
   - AI生成
   - 娱乐
+star: true
 ---
 <!--
 <style>

@@ -52,10 +52,15 @@ export default defineUserConfig({
     sidebar,
   
     // 页脚
-    footer: "小奶奶网站",
+    footer: "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a>",
     displayFooter: true,
     changelog: true,
     
+    navbarLayout: {
+      start: ["Brand"],
+      center: ["Links"],
+      end: ["Repo", "Outlook", "Search"],
+    },
     // 博客相关
 
     blog: {
@@ -103,7 +108,7 @@ export default defineUserConfig({
     encrypt: {
       config: {
         "/old/RyoukiArticle": {
-          hint: "密码在群公告内",
+          hint: process.env.PASSWORD!,
           password: "8c4b70d9e6c56eff",
         },
       },

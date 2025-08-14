@@ -4,22 +4,20 @@ category:
   - 存档
   - 网站事宜
 ---
-<!--
+
 <style>
-.aplayer .aplayer-info .aplayer-music .aplayer-title {
-    font-size: 14px;
-    color: #3c3c43 !important;
-    }
-span.aplayer-list-title {
-    color: #3c3c43 !important;
+.aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
+  background-color: var(--vp-c-accent-bg) !important
 }
-</style>-->
+</style>
 
 # Playground
 
 :::warning
+
 - 该页面为测试网站功能的沙盒界面。
 - 受bilibili防盗链影响，不再使用`iframe`tag。
+
 :::
 
 ## 二十一世纪音乐be like:

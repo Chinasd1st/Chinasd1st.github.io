@@ -4,10 +4,10 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "文章存档",
+      text: "旧文存档",
       collapsible: true,
       expanded: true,  
-      icon: "book",
+      icon: "box-archive",
       prefix: "old/",
       children: "structure",
     },
