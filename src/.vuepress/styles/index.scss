@@ -95,7 +95,11 @@
       &::-webkit-scrollbar-thumb,
       &::-webkit-scrollbar-thumb:hover {
         // 取消所有自定义背景色，继承主题样式
-        background: inherit !important;
+        scrollbar-color: var(--vp-c-accent-bg) var(--vp-c-border) !important
+      }
+
+      .aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
+        background-color: var(--vp-c-accent-bg) !important
       }
     }
   }
@@ -170,8 +174,8 @@
       &::-webkit-scrollbar-thumb:hover {
         // 取消所有自定义背景色，继承主题样式
         background: inherit !important;
+        scrollbar-color: var(--vp-c-accent-bg) var(--vp-c-border) !important
       }
     }
   }
 }
-    
