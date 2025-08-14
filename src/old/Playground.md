@@ -34,6 +34,10 @@ category:
 <!--
 <iframe src="https://www.bilibili.com/blackboard/newplayer.html?aid=580274788&bvid=BV1s64y1H7W7&cid=1381991631&p=1" width=510 height=286 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>-->
 
+## Bilibili component test
+
+<BiliBili bvid="BV1vr3Ez4EeB" />
+
 ## aplayer + Meting.js test
 
 [MyGO!!!!! 2nd Album「跡暖空」](https://bang-dream.com/discographies/3846)
