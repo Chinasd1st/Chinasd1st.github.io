@@ -7,6 +7,9 @@ category:
 
 # QQ机器人使用指南
 
+::: danger 该机器人暂时停止使用。
+:::
+
 [[toc]]
 
 ## 简介
@@ -22,7 +25,7 @@ category:
 ### bilibili
 
 ```bash
-/bilibili [-a,-b,-r,-s,-l,-v,-d,-re,-ck] <value>
+/bilibili ( -a | -b | -r | -s | -l | -v | -d | -re | -ck ) <value>
 ```
 
 Bilibili 相关功能
@@ -56,7 +59,7 @@ Bilibili 相关功能
 ### twitter <Badge type="warning" text="Experimental" vertical="middle" />
 
 ```bash
-/twitter [-a,-b,-r,-s,-ck,-l] <value>
+/twitter ( -a | -b | -r | -s | -ck | -l ) <value>
 ```
 
 Twitter 相关功能
@@ -179,7 +182,7 @@ music <keyword...>
 ## pixluna
 
 ```bash
-pixluna [tag...]
+pixluna <tag...>
 ```
 
 来张色图
@@ -279,7 +282,7 @@ koishi-plugin-minesweeper-ending 是一个基于 Koishi 框架的插件，实现
 ## tagger
 
 ```bash
-/tagger [rec,view-results...]
+/tagger [rec | view-results] <value>
 ```
 
 图片反推AI生成标签，角色识别，nsfw程度判断
@@ -317,3 +320,79 @@ koishi-plugin-minesweeper-ending 是一个基于 Koishi 框架的插件，实现
 - `divorce`  和群友离婚
 - `force-marry`  强娶群友
 - `propose`  向群友求婚
+
+## 扩展巴科斯范式（EBNF）表示法
+
+```ebnf
+// bilibili指令
+/bilibili ( 
+  -a <upInfo> | 
+  -b <upInfo>{,<upInfo>} | 
+  -r <upInfo> | 
+  -s <upInfo> | 
+  -l | 
+  -v <upInfo> | 
+  -d <upInfo> | 
+  --re | 
+  --ck <cookie> 
+)
+
+// twitter指令
+/twitter ( 
+  -a <userId> | 
+  -b <userId>{,<userId>} | 
+  -r <userId> | 
+  -s <userId> | 
+  -ck <cookie> | 
+  -l 
+)
+
+// 天气指令
+天气 <city>
+
+// 今日新闻指令
+今日新闻 | 新闻
+
+// 塔罗牌指令
+/塔罗牌
+
+// music指令
+music [ -p <platform> ] <keyword>{ <keyword> }
+// 其中platform可选值: qq | netease (默认netease)
+
+// pixluna指令
+pixluna [ -n <value> ] [ -s <source> ] <tag>{ <tag> }
+
+// pixluna子指令
+/pixluna get
+/pixluna source
+
+// 扫雷指令
+ed | 扫雷残局 | minesweeper-ending
+
+// 扫雷子指令
+ed.s <序号>{ <序号> } | 打开 <序号>{ <序号> } | s<序号>{ <序号> }
+ed.f <序号>{ <序号> } | 标记 <序号>{ <序号> } | f<序号>{ <序号> }
+ed.flag
+ed.end | 不玩了
+ed.l | 揭晓
+ed.n | 刷新残局
+ed.r | 雷神殿 | 雷神榜
+ed.fight
+ed.挑战榜
+ed.生涯
+
+// tagger指令
+/tagger rec <value>
+/tagger view-results <value>
+
+// EEW指令
+/eew ( 关闭 | 开启 | 测试 | 平台 | 目标 | 重置 | 状态 )
+
+// waifu指令
+/marry
+/divorce <target>
+/force-marry <target>
+/propose <target>
+
+```
