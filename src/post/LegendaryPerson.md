@@ -220,6 +220,6 @@ Minecraft是李晨煜本人最早混的圈子，但是由于众所周知的原�
 
 URI/URL格式由国际标准（RFC 3986）明确定义，其中端口号前的分隔符必须为半角冒号（如 example.com:443）。全角冒号（：）或其他符号会被视为非法字符，导致解析失败。^[引用RFC 3986原文：`3.2.3. Port: The port subcomponent of authority is designated by an optional port number in decimal following the host and delimited from it by a single colon (":") character.`]
 
-李晨煜于2023年8月29日在空间内发布说说：“服务器开啦/ip: 127.0.0.1/无需正版/（红石生电+骗赞服）”。127.0.0.1即localhost，在计算机网络中，localhost是一个主机名称，指当前用于访问的计算机。localhost一名是为了环回目的而保留，它用于通过环回网络接口，访问本机运行的服务。使用环回接口会绕过任何物理网络接口硬件。^[[localhost - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Localhost)，英文原文详见<https://en.wikipedia.org/wiki/Localhost>]也就是说，李晨煜实际上没有提供有效的ip地址，当玩家输入这一地址时，实际上是输入的本机的地址。
+李晨煜于2023年8月29日在空间内发布说说：“服务器开啦/ip: 127.0.0.1/无需正版/（红石生电+骗赞服）”。127.0.0.1即localhost，在计算机网络中，localhost是一个主机名称，指当前用于访问的计算机。localhost一名是为了环回目的而保留，它用于通过环回网络接口，访问本机运行的服务。使用环回接口会绕过任何物理网络接口硬件。^[[localhost - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Localhost)，英文原文详见<https://en.wikipedia.org/wiki/Localhost>]也就是说，李晨煜实际上没有提供有效的ip地址，当玩家输入这一地址时，实际上是输入的本机地址。
 
 （待补充）
