@@ -6,6 +6,7 @@ tags:
   - 娱乐
   - 攻略
   - 分享
+icon: gamepad
 ---
 
 # 弱智游戏分享：Revolution Idle

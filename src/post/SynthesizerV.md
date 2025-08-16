@@ -7,6 +7,7 @@ tag:
     - 音乐
     - 音声合成
     - 作编曲
+icon: music
 ---
 # Synthesizer V 本体及声库相关购买流程
 

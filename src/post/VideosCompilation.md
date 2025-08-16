@@ -3,6 +3,7 @@ date: 2025-08-13
 category: 存档
 tag: 
     - 视频
+icon: video
 ---
 
 # 抽象视频合辑
