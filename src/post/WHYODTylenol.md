@@ -23,4 +23,4 @@ icon: pills
 [^4]: Wheatley LM, Togias A. Clinical practice. Allergic rhinitis\[J\]. N Engl J Med, 2015, 372(5): 456-463. DOI: [10.1056/NEJMcp1412282](https://doi.org/10.1056/NEJMcp1412282).
 [^5]: Bousquet J, Khaltaev N, Cruz AA, et al. Allergic Rhinitis and its Impact on Asthma (ARIA) 2008 update (in collaboration with the World Health Organization, GA(2)LEN and AllerGen)\[J\]. Allergy, 2008, 63 Suppl 86: 8-160. DOI: [10.1111/j.1398-9995.2007.01620.x](https://doi.org/10.1111/j.1398-9995.2007.01620.x).
 [^6]: Okubo K, Kurono Y, Fujieda S, et al. Japanese Guideline for Allergic Rhinitis 2014\[J\]. Allergol Int, 2014, 63(3):357-375. DOI: [10.2332/allergolint.14-RAI-0768](https://doi.org/10.2332/allergolint.14-RAI-0768).
-[^7]: 中华耳鼻咽喉头颈外科杂志编辑委员会. 中国变应性鼻炎诊断和治疗指南（2022年，修订版）\[J\]. 中华耳鼻咽喉头颈外科杂志，2022, 57(2): 106-129.
+[^7]: 中华耳鼻咽喉头颈外科杂志编辑委员会鼻科组, 中华医学会耳鼻咽喉头颈外科学分会鼻科学组. 中国变应性鼻炎诊断和治疗指南（2022年，修订版）\[J\]. 中华耳鼻咽喉头颈外科杂志, 2022, 57 (2): 106-129. DOI: [10.3760/cma.j.cn115330-20211228-00828](https://doi.org/10.3760/cma.j.cn115330-20211228-00828).
