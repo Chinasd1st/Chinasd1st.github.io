@@ -45,7 +45,7 @@ export default navbar([
           { text: "[已脱敏]偷偷OD泰诺后不慎睡着了", link: "/post/WHYODTylenol", icon: "pills" },
           { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
           { text: "屎", link: "/post/Shit", icon: "poo" },
-          { text: "[已脱敏]不看网课", link: "/post/LCYSchoolwork", icon: "laptop" }
+          { text: "[已脱敏]不看网课", link: "/post/LCYSchoolWork", icon: "laptop" }
         ]
       }
     ],
