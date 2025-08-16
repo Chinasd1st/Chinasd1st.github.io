@@ -9,6 +9,7 @@ tag:
     - 推理
     - 回忆
 star: true
+icon: user-tie
 ---
 
 # 传奇人物志

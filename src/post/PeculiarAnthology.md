@@ -6,6 +6,7 @@ tag:
     - 娱乐
     - 荒谬
     - AI生成
+icon: book-open
 ---
 
 # 古今中外奇文选

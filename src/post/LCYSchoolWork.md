@@ -6,6 +6,7 @@ tag:
     - 作业
     - 暑假
     - 网课
+icon: person-chalkboard
 ---
 
 # 李晨煜不看网课，暑假最后几天才追悔莫及

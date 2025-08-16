@@ -28,29 +28,29 @@ export default navbar([
     ],
     icon: 'box-archive'
   },
-
   {
     text: '博文',
     children: [
       {
         text: '2025',
         children: [
-          { text: '木柜子乐队相关内容', link: '/post/GirlsBands' },
-          { text: '弱智游戏分享：Revolution Idle', link: '/post/RevolutionIdle' },
-          { text: '古今中外奇文选', link: '/post/PeculiarAnthology' },
-          { text: '猎奇文章合集：清明特辑', link: '/post/Qingming' },
-          { text: '黄睿涵导航页', link: '/post/HuangRuihanNavigation' },
-          { text: 'Synthesizer V 本体及声库相关购买流程', link: '/post/SynthesizerV' },
-          { text: 'Twikoo评论组件的引入', link: '/post/TwikooPlugin' },
-          { text: '李晨煜b站收藏夹标签统计', link: '/post/LCYBilibiliFavoritesStatistics' },
-          { text: '王浩宇偷偷OD泰诺后不慎睡着了', link: '/post/WHYODTylenol' },
-          { text: '传奇人物志', link: '/post/LegendaryPerson' },
-          { text: '屎', link: '/post/Shit' },
+          { text: "木柜子乐队相关内容", link: "/post/GirlsBands", icon: "guitar" },
+          { text: "弱智游戏分享：Revolution Idle", link: "/post/RevolutionIdle", icon: "gamepad" },
+          { text: "古今中外奇文选", link: "/post/PeculiarAnthology", icon: "book-open" },
+          { text: "猎奇文章合集：清明特辑", link: "/post/Qingming", icon: "scroll" },
+          { text: "黄睿涵导航页", link: "/post/HuangRuihanNavigation", icon: "compass" },
+          { text: "Synthesizer V 本体及声库相关购买流程", link: "/post/SynthesizerV", icon: "music" },
+          { text: "Twikoo评论组件的引入", link: "/post/TwikooPlugin", icon: "comments" },
+          { text: "李晨煜b站收藏夹标签统计", link: "/post/LCYBilibiliFavoritesStatistics", icon: "person-chalkboard" },
+          { text: "王浩宇偷偷OD泰诺后不慎睡着了", link: "/post/WHYODTylenol", icon: "pills" },
+          { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
+          { text: "屎", link: "/post/Shit", icon: "poo" },
+          { text: "李晨煜不看网课", link: "/post/LCYSchoolwork", icon: "laptop" }
         ]
       }
     ],
     icon: 'book'
-  },  
+  },
   { text: 'QQ机器人文档', link: '/old/QqBotGuide', icon: 'robot'},
   {
     text: 'v.alpha-0.0.4',
@@ -65,10 +65,7 @@ export default navbar([
       {
         text: '联系我们',
         children: [
-          {
-            text: 'bilibili',
-            link: 'https://space.bilibili.com/520682236'
-          }
+          { text: 'bilibili', link: 'https://space.bilibili.com/520682236' }
         ]
       }
     ],
