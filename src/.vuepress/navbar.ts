@@ -45,7 +45,7 @@ export default navbar([
           { text: "王浩宇偷偷OD泰诺后不慎睡着了", link: "/post/WHYODTylenol", icon: "pills" },
           { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
           { text: "屎", link: "/post/Shit", icon: "poo" },
-          { text: "李晨煜不看网课", link: "/post/LCYSchoolwork", icon: "laptop" }
+          { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "laptop" }
         ]
       }
     ],

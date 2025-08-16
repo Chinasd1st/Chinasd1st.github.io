@@ -25,7 +25,7 @@
     }
     
     .aplayer-played {
-      background: #66ccff !important;
+      background: var(--vp-c-accent) !important;
     }
     
     .aplayer-button,
@@ -52,7 +52,7 @@
       // 歌词区域渐变背景修正（上）
       .aplayer-lrc:before {
         background: linear-gradient(0deg, rgba(30, 30, 30, 0) 0%, rgba(30, 30, 30, 0.9) 100%) !important;
-        border-bottom: 1px solid #333 !important;
+        // border-bottom: 1px solid #00000000 !important;
       }
       
       // 歌词区域渐变背景修正（下）
@@ -120,7 +120,7 @@
     }
     
     .aplayer-played {
-      background: #66ccff !important;
+      background: var(--vp-c-accent) !important;
     }
     
     .aplayer-button,
@@ -131,7 +131,7 @@
     // 歌词区域渐变背景修正（上）
     .aplayer-info .aplayer-lrc:before {
       background: linear-gradient(0deg, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0.9) 100%) !important;
-      border-bottom: 1px solid #eee !important;
+      // border-bottom: 1px solid #eeeeee00 !important;
     }
     
     // 歌词区域渐变背景修正（下）
