@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
-import metingPlugin from 'vuepress-plugin-meting2';
+import metingPlugin from "vuepress-plugin-meting2";
 // import { commentPlugin } from '@vuepress/plugin-comment'
 
 import theme from "./theme.js";
@@ -9,7 +9,7 @@ import sidebar from "./sidebar.js";
 
 export default defineUserConfig({
   base: "/",
-  
+
   plugins: [
     metingPlugin({
       metingOptions: {
@@ -20,42 +20,43 @@ export default defineUserConfig({
         mid: "253946279",
       },
       aplayerOptions: {
-        theme: '#1e7fe6ff'
-      }
+        theme: "#1e7fe6ff",
+      },
     }),
   ],
-  
+
   lang: "zh-CN",
   title: "小奶奶博客",
   description: "分享各种小奶奶内容 这使人感到有趣味",
-  
+
   theme: hopeTheme({
     hostname: "https://chinasd1st.github.io",
-  
+
     author: {
       name: "Chinasd1st",
       url: "https://chinasd1st.github.io",
     },
-  
+
     logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-  
+
     repo: "Chinasd1st/Chinasd1st.github.io",
-  
+
     docsDir: "src",
 
     lastUpdated: true,
-  
+
     // 导航栏
     navbar,
-  
+
     // 侧边栏
     sidebar,
-  
+
     // 页脚
-    footer: "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a>",
+    footer:
+      "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a>",
     displayFooter: true,
     changelog: true,
-    
+
     navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
@@ -101,8 +102,8 @@ export default defineUserConfig({
         // VuePressThemeHope: {
         //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         //   link: "https://theme-hope.vuejs.press",
-         },
-       },
+      },
+    },
 
     // 加密配置
     encrypt: {
@@ -113,15 +114,15 @@ export default defineUserConfig({
         },
       },
     },
-  
+
     // 多语言配置
     metaLocales: {
       editLink: "在 GitHub 上编辑此页",
     },
-  
+
     // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
     // hotReload: true,
-  
+
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     markdown: {
       footnote: true,
@@ -161,7 +162,7 @@ export default defineUserConfig({
       tabs: true,
       tasklist: true,
       vPre: true,
-  
+
       // 取消注释它们如果你需要 TeX 支持
       // markdownMath: {
       //   // 启用前安装 katex
@@ -169,37 +170,37 @@ export default defineUserConfig({
       //   // 或者安装 mathjax-full
       //   type: "mathjax",
       // },
-  
+
       // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
       // revealjs: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
-  
+
       // 在启用之前安装 chart.js
       // chartjs: true,
-  
+
       // insert component easily
-  
+
       // 在启用之前安装 echarts
       echarts: true,
-  
+
       // 在启用之前安装 flowchart.ts
       // flowchart: true,
-  
+
       // 在启用之前安装 mermaid
       // mermaid: true,
-  
+
       // playground: {
       //   presets: ["ts", "vue"],
       // },
-  
+
       // 在启用之前安装 @vue/repl
       // vuePlayground: true,
-  
+
       // 在启用之前安装 sandpack-vue3
       // sandpack: true,
     },
-    
+
     // 在这里配置主题提供的插件
     plugins: {
       search: true,
@@ -226,30 +227,42 @@ export default defineUserConfig({
           },
         },
       }, */
-      
-      blog: {
-      },
-  
+
+      blog: {},
+
+      notice: [
+        {
+          path: "/",
+          title: "网站更新",
+          content:
+            "网站近日使用SCSS对APlayer增加了深色模式支持，但在包含有播放器的界面切换深浅色主题时会遇到卡顿，目前暂无有效办法解决这一问题。",
+          actions: [{ text: "确认" }],
+          // fullscreen: true,
+          showOnce: true,
+        },
+      ],
+
       // 启用之前需安装 @waline/client
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
       // comment: {
       //   provider: "Waline",
       //   serverURL: "https://waline-comment.vuejs.press",
       // },
-  
+
       components: {
         components: ["Badge", "VPCard", "VidStack", "BiliBili"],
       },
 
       comment: {
         provider: "Twikoo",
-        envId: "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo" // 腾讯云环境ID或自建地址
+        envId:
+          "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo", // 腾讯云环境ID或自建地址
       },
-  
+
       icon: {
         prefix: "fa6-solid:",
       },
-  
+
       // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
       // pwa: {
       //   favicon: "/favicon.ico",
@@ -308,7 +321,7 @@ export default defineUserConfig({
       // },
     },
   }),
-  
+
   // theme,
 
   // 和 PWA 一起启用
