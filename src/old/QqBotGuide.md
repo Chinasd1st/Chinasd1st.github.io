@@ -323,7 +323,7 @@ koishi-plugin-minesweeper-ending 是一个基于 Koishi 框架的插件，实现
 
 ## 扩展巴科斯范式（EBNF）表示法
 
-```ebnf
+``` ebnf
 // bilibili指令
 /bilibili ( 
   -a <upInfo> | 

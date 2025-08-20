@@ -2,12 +2,25 @@ import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import metingPlugin from "vuepress-plugin-meting2";
 // import { commentPlugin } from '@vuepress/plugin-comment'
+// import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
 import theme from "./theme.js";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default defineUserConfig({
+
+  head: [
+    // busuanzi 访问统计
+    [
+      "script",
+      {
+        async: "true",
+        src: "//api.busuanzi.cc/static/3.6.9/busuanzi.min.js",
+      },
+    ],
+  ],
+
   base: "/",
 
   plugins: [
@@ -33,7 +46,7 @@ export default defineUserConfig({
     hostname: "https://chinasd1st.github.io",
 
     author: {
-      name: "Chinasd1st",
+      name: "Silentnrtx",
       url: "https://chinasd1st.github.io",
     },
 
@@ -53,7 +66,7 @@ export default defineUserConfig({
 
     // 页脚
     footer:
-      "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a>",
+      "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a> <Busuanzi />",
     displayFooter: true,
     changelog: true,
 
@@ -66,7 +79,7 @@ export default defineUserConfig({
 
     blog: {
       description: "美食家",
-      // intro: "/intro.html",
+      intro: "/intro.html",
       medias: {
         // Baidu: "https://example.com",
         BiliBili: "https://space.bilibili.com/520682236",
@@ -162,6 +175,11 @@ export default defineUserConfig({
       tabs: true,
       tasklist: true,
       vPre: true,
+      highlighter: {
+        // 代码高亮配置
+        type: "shiki",
+        lineNumbers: true,
+      },
 
       // 取消注释它们如果你需要 TeX 支持
       // markdownMath: {
