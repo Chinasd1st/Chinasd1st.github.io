@@ -8,6 +8,13 @@ import theme from "./theme.js";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+// 可选：用环境变量管理密钥，避免硬编码
+const {
+  ALGOLIA_APP_ID,
+  ALGOLIA_INDEX_NAME,
+  ALGOLIA_SEARCH_API_KEY, // 这是search-only key，前端可公开
+} = process.env as Record<string, string>;
+
 export default defineUserConfig({
 
   head: [
@@ -221,14 +228,14 @@ export default defineUserConfig({
 
     // 在这里配置主题提供的插件
     plugins: {
-      search: true,
+      // search: true,
       // search: {
       //   插件选项
       // },
-      /* docsearch: {
-        appId: 'IOAA89YPZT',          // 从 Algolia 获取
-        apiKey: '560d7b97207fe12052ee5914cc753976', // Search-Only API Key
-        indexName: 'chinasd1stio',
+      docsearch: {
+        appId: "IOAA89YPZT",          // 从 Algolia 获取
+        apiKey: "19fafa699edf64ff6d874db44007da94", // Search-Only API Key
+        indexName: "chinasd1stio",
         // 可选：自定义搜索参数
         searchParameters: {
           facetFilters: ['tags:vuepress'], // 按标签过滤
@@ -244,7 +251,7 @@ export default defineUserConfig({
             },
           },
         },
-      }, */
+      }, 
 
       blog: {},
 
