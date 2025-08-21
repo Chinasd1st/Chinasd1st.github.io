@@ -234,12 +234,10 @@ export default defineUserConfig({
       // },
       docsearch: {
         appId: "IOAA89YPZT",          // 从 Algolia 获取
-        apiKey: "19fafa699edf64ff6d874db44007da94", // Search-Only API Key
+        apiKey: "4a1e8c0c4c23bbe3fdc74909fe2b8366", // Search-Only API Key
         indexName: "chinasd1stio",
         // 可选：自定义搜索参数
-        searchParameters: {
-          facetFilters: ['tags:vuepress'], // 按标签过滤
-        },
+
         // 可选：覆盖默认样式
         locales: {
           '/': {
