@@ -41,11 +41,11 @@ export default navbar([
           { text: "黄睿涵导航页", link: "/post/HuangRuihanNavigation", icon: "compass" },
           { text: "Synthesizer V 本体及声库相关购买流程", link: "/post/SynthesizerV", icon: "music" },
           { text: "Twikoo评论组件的引入", link: "/post/TwikooPlugin", icon: "comments" },
-          { text: "李晨煜b站收藏夹标签统计", link: "/post/LCYBilibiliFavoritesStatistics", icon: "person-chalkboard" },
+          { text: "李晨煜b站收藏夹标签统计", link: "/post/LCYBilibiliFavoritesStatistics", icon: "tag" },
           { text: "王浩宇偷偷OD泰诺后不慎睡着了", link: "/post/WHYODTylenol", icon: "pills" },
           { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
           { text: "屎", link: "/post/Shit", icon: "poo" },
-          { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "laptop" }
+          { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "person-chalkboard" }
         ]
       }
     ],
