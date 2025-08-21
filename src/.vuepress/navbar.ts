@@ -9,20 +9,20 @@ export default navbar([
       {
         text: '小奶奶二创作品',
         children: [
-          { text: '小奶奶诗集', link: '/old/Poems' },
-          { text: '中华民国临时春晚', link: '/old/SpringFestival' },
-          { text: '中登', link: '/old/zhongDeng' },
-          { text: '愚公智叟', link: '/old/Mountain' },
-          { text: '小奶奶新闻', link: '/old/news' }
+          { text: '小奶奶诗集', link: '/old/Poems', icon: 'book' },
+          { text: '中华民国临时春晚', link: '/old/SpringFestival', icon: 'tv' },
+          { text: '中登', link: '/old/zhongDeng', icon: 'person' },
+          { text: '愚公智叟', link: '/old/Mountain', icon: 'mountain' },
+          { text: '小奶奶新闻', link: '/old/news', icon: 'newspaper' }
         ]
       },
       {
         text: 'Others',
         children: [
-          { text: 'Playground', link: '/old/Playground' },
-          { text: '极限挑战：生命挑战', link: '/old/dianBi.md' },
-          { text: '文理联赛讽刺作品集', link: '/old/ASCompetition.md' },
-          { text: '猎奇文章合集', link: '/old/RyoukiArticle.md' }
+          { text: 'Playground', link: '/old/Playground', icon: 'flask' },
+          { text: '极限挑战：生命挑战', link: '/old/dianBi.md', icon: 'heart-pulse' },
+          { text: '文理联赛讽刺作品集', link: '/old/ASCompetition.md', icon: 'school' },
+          { text: '猎奇文章合集', link: '/old/RyoukiArticle.md', icon: 'book' }
         ]
       }
     ],
@@ -51,6 +51,14 @@ export default navbar([
     ],
     icon: 'book'
   },
+  {
+    text: '子页面',
+    children: [
+      { text: '黄睿涵导航页', link: './pages/', icon: 'compass' },
+      { text: '蔚蓝档案标题生成器', link: './BA_logo/', icon: 'gears' }
+    ],
+    icon: 'folder'
+  },
   { text: 'QQ机器人文档', link: '/old/QqBotGuide', icon: 'robot'},
   {
     text: 'v.alpha-0.0.4',
@@ -58,14 +66,14 @@ export default navbar([
       {
         text: '网站事宜',
         children: [
-          { text: '更新历史', link: '/old/UpdateHistory' },
-          { text: 'Problems Q&A', link: '/old/ProblemsSolving' }
+          { text: '更新历史', link: '/old/UpdateHistory', icon: 'clock-rotate-left' },
+          { text: 'Problems Q&A', link: '/old/ProblemsSolving', icon: 'question' }
         ]
       },
       {
         text: '联系我们',
         children: [
-          { text: 'bilibili', link: 'https://space.bilibili.com/520682236' }
+          { text: 'bilibili', link: 'https://space.bilibili.com/520682236', icon: 'fab:bilibili' }
         ]
       }
     ],
