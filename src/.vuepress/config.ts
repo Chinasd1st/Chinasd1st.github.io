@@ -283,7 +283,8 @@ export default defineUserConfig({
       },
 
       icon: {
-        prefix: "fa6-solid:",
+        assets: "fontawesome-with-brands",
+        type: "fontawesome",
       },
 
       // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
