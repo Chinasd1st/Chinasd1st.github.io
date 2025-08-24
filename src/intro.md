@@ -5,22 +5,8 @@ icon: circle-info
 
 # 介绍页
 
-网站最近换用vuepress-theme-hope主题，可能存在诸多bug，如有问题可提交反馈。
+[![github stats](https://github-readme-stats.vercel.app/api?bg_color=0000&text_color=888&hide_border=true&username=Chinasd1st&hide=contribs&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
-## 2025.02.06 网站无法访问的临时解决方案
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?bg_color=0000&text_color=888&hide_border=true&username=Chinasd1st&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-经实验，Github Pages被中国移动屏蔽，请尽量使用WLAN访问。  
-该项目目前已部署至Vercel，**境外用户**可通过下方任意一个URL进行访问。  
-
-```txt
-https://xnnweb2.vercel.app/
-https://xnnweb2-silentnrtxs-projects.vercel.app/
-https://xnnweb2-git-main-silentnrtxs-projects.vercel.app/
-```
-
-- 方案一（Windows）：安装[Steamcommunity 302](https://www.dogfight360.com/blog/686/)后运行（需要管理员权限），在设置中看到“本地反代服务选择”一项，勾选“Github 访问”前复选框，重启应用后尝试访问网站。
-- 方案二（Windows/Android）：安装[Watt Toolkit](https://steampp.net/)（原Steam++），开启本地反代方法与Steamcommunity 302大同小异，但该方法未经测试。
-
-<div class="catalog-display-container">
-  <Catalog base='/old/' />
-</div>
+[![osu! signature card](https://osu-sig.vercel.app/card?user=Silentnrtx&mode=mania&lang=en&animation=true&hue=200)](https://osu.ppy.sh/u/Silentnrtx)
