@@ -45,7 +45,9 @@ export default navbar([
           { text: "王浩宇偷偷OD泰诺后不慎睡着了", link: "/post/WHYODTylenol", icon: "pills" },
           { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
           { text: "屎", link: "/post/Shit", icon: "poo" },
-          { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "person-chalkboard" }
+          { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "person-chalkboard" },
+          { text: "桐高军训实录", link: "/post/MilitaryTraining", icon: "person-military-rifle" }
+
         ]
       }
     ],
@@ -54,8 +56,8 @@ export default navbar([
   {
     text: '子页面',
     children: [
-      { text: '黄睿涵导航页', link: './pages/', icon: 'compass' },
-      { text: '蔚蓝档案标题生成器', link: './BA_logo/', icon: 'gears' }
+      { text: '黄睿涵导航页', link: 'https://chinasd1st.github.io/pages/', icon: 'compass' },
+      { text: '蔚蓝档案标题生成器', link: 'https://chinasd1st.github.io/BA_logo/', icon: 'gears' }
     ],
     icon: 'folder'
   },
@@ -67,7 +69,7 @@ export default navbar([
         text: '网站事宜',
         children: [
           { text: '更新历史', link: '/old/UpdateHistory', icon: 'clock-rotate-left' },
-          { text: 'Problems Q&A', link: '/old/ProblemsSolving', icon: 'question' }
+          { text: 'FAQ', link: '/old/ProblemsSolving', icon: 'question' }
         ]
       },
       {
