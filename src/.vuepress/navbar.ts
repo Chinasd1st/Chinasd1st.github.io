@@ -46,7 +46,9 @@ export default navbar([
           { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
           { text: "屎", link: "/post/Shit", icon: "poo" },
           { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "person-chalkboard" },
-          { text: "桐高军训实录", link: "/post/MilitaryTraining", icon: "person-military-rifle" }
+          { text: "桐高军训实录", link: "/post/MilitaryTraining", icon: "person-military-rifle" },
+          { text: "Hyperflip介绍", link: "/post/HyperflipIntroduction.md", icon: "music" }
+
 
         ]
       }

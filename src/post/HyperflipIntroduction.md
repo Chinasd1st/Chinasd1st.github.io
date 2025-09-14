@@ -1,0 +1,81 @@
+---
+date: 2025-09-14
+category:
+  - 社群观察
+  - 人文社科
+  - 音乐
+tags: 
+  - 音乐
+  - 亚文化
+  - 电子音乐
+  - 同人音乐
+icon: music
+star: true
+---
+# Dariacore/Hyperflip：Hyperpop 的分支，2020年代以来的新兴曲风
+
+:::info
+
+本文尚未编写完成。
+
+:::
+
+2025年初，Capchii 在日本同人音乐厂牌 HARDCORE TANO*C 推出的合辑《UNITED KONCEPT》中投稿了《Light Leak (feat. ChumuNote)》。由于该专辑以 UK Hardcore 为主题，这首曲目在第二段 Drop 部分采用了 UK Hardcore 的经典编排。然而，引人注目的是，第一段 Drop 部分却呈现出一种名为 **Dariacore** 的曲风。那么，Dariacore 究竟是什么？为何世界各地越来越多的音乐制作人开始热衷于创作这类音乐？
+
+## 起源
+
+Dariacore （AKA Hyperflip）通常被视为 Hyperpop 的一个子类型。Hyperpop（高能流行或超级流行），有时也被称作 Bubblegum Bass（泡泡糖贝斯），是一种起源于2010年代初英国、边界较为模糊的电子音乐运动与微流派。它以极度繁复的手法重新解构流行音乐，融合了电子、嘻哈和舞曲等元素，呈现出夸张而前卫的审美倾向。
+
+随着2021年专辑 **《Dariacore》** 及其两张续作的发布，Dariacore 这一风格逐渐进入大众视野。
+
+<Meting mid="1948269321" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+《Dariacore》专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9月14日）。乐评人 Bowman 在 Sputnikmusic 上写道：“this is the sound of someone who adores music […] and has enormous talent pairing that with a sense of humor, a short attention span, and, above all, brilliant musicality。”（这声音来自一个深爱音乐的人……惊人的才华，结合幽默感、跳跃的注意力，以及最为重要的——卓越的音乐性。）
+
+## 发展与争议
+
+2021至2022年间，Dariacore 通过 SoundCloud 逐渐流行起来。其典型特征包括对流行音乐及其他大众媒体片段进行加速与音高变换处理，并深受 breakbeats 和 Jersey club 的影响。《The Fader》的 Raphael Helfand 将其形容为“一个完全独立的音乐流派，将 Hyperpop 最荒诞的一面推向了极致。”
+
+然而，就在这种风格迅速席卷亚文化圈之际，2022年爆发了一场争议：部分艺术家——例如 Carbine——公开反对继续使用“Dariacore”这一标签，认为其原初声音已被“稀释”，甚至遭到模仿（如 Jane Remover 以 Leroy 名义发布的作品）。这一分歧导致该微流派内部出现分化，一些音乐人甚至主动从作品中移除 Dariacore 标签，整个社群也经历了快速膨胀后又迅速降温的循环。[^1][^2]
+
+## 复兴
+
+2023年，leroy 意外发布的专辑《Grave Robbing》重新点燃了听众对这一风格的热情。新作品在保留 Dariacore 核心制作手法的同时，融入了 Hard Dance 的影响，带来令人耳目一新的听感。
+
+与此同时，Dariacore 在日本也积累了大量粉丝，最具代表性的推广者之一是厂牌 **Lost Frog Productions** 所发行的相关合辑。该厂牌成立于1992年，由 Haruo Ishihara 创立，最初以噪音、实验与电子音乐为主，被誉为日本现存最古老的网络厂牌之一。随着时间推移，Lost Frog 的音乐重心逐渐转向更具节奏感的电子乐类型，如 breakcore、speedcore、IDM、footwork，以及多种基于采样的电子子类型。[^3]
+
+在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是《CAR CRASH AND SIREN》和《FASTFUSION》。以下试听两首专辑中的第一曲：
+
+<Meting mid="2082115887" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2150486811" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+这些作品中大量采样了欧美与日本流行音乐（如 sakanaction 鱼韵），以及 ACG 文化中的经典曲目（例如《海色》、《Don’t say lazy》等）。作者也借此表达对特定社群（如《碧蓝档案》、《赛马娘》）的热爱，甚至使用相关角色作为创作马甲。
+
+2025年，这一风气进一步蔓延至日本同人电子音乐圈。1月17日，Capchii 在 HARDCORE TANO*C 发布《Light Leak (feat. ChumuNote)》，其第一段 Drop 的前半部分明显融入了 Dariacore 元素：
+
+<Meting mid="2665678520" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+4月27日，Nextlight 在 M3-55 展会发行专辑《NX WIRED》，其中部分曲目亦体现出相近风格：
+
+<Meting mid="2707038471" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+可注意到，Nextlight 相较 Lost Frog Productions 更少使用人声切片与高密度采样，失真处理也更为克制，整体响度控制在更易接受的范围内。
+
+## icesawder 与 Curren
+
+自2022年12月起，以《赛马娘》角色“真机伶”（カレンチャン）为虚拟形象的账号 `.｡ﾟ+..Curren｡+..｡ﾟ+` 陆续发布了七张 Dariacore 专辑。2025年，网友发现该 [SoundCloud 账号](https://soundcloud.com/lookatcurren)与日本同人音乐人 **icesawder** 相关联，随后 Curren 承认自己就是 icesawder，并将 [X（原推特）账号](https://x.com/__curren__)更名为 `____`。同时，Curren 公开了所有作品中使用的采样列表（[详见博客](https://lookatcurren.blog.fc2.com/blog-entry-1.html)）。
+
+5月29日，Curren 发布最终专辑《Cutest in Ur ♡》中的主题曲：
+
+<Meting mid="2714684580" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+该曲采样来源广泛，包括 Olivia Rodrigo、PSYQUI、星街すいせい等多位艺术家的作品。最后一曲《Currencore Song Tutorial》甚至使用了116首歌曲作为采样素材：
+
+<Meting mid="2714684581" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
+采样列表涵盖从 Charli XCX、100 gecs 等国际 Hyperpop 音乐人，到 Eve、初音ミク、星野源等日本流行与虚拟歌手作品，充分体现出 Dariacore其拼贴与再创作的文化特征。
+
+[^1]: [Dariacore - Music genre - Rate Your Music](https://rateyourmusic.com/genre/dariacore/)  
+[^2]: [Digital swing: An interview with carbine](https://nobells.blog/carbine-interview/)  
+[^3]: [Netlabels in Japan - Wikipedia](https://en.wikipedia.org/wiki/Netlabels_in_Japan#Lost_Frog_Productions)
+
