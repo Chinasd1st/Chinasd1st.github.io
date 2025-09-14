@@ -46,7 +46,9 @@ export default navbar([
           { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
           { text: "屎", link: "/post/Shit", icon: "poo" },
           { text: "[已脱敏]不看网课", link: "/post/LCYSchoolWork", icon: "person-chalkboard" },
-          { text: "[已脱敏]军训实录", link: "/post/MilitaryTraining", icon: "person-military-rifle" }
+          { text: "[已脱敏]军训实录", link: "/post/MilitaryTraining", icon: "person-military-rifle" },
+          { text: "Hyperflip介绍", link: "/post/HyperflipIntroduction.md", icon: "music" }
+
 
         ]
       }
