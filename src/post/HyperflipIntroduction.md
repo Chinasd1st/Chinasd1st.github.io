@@ -1,4 +1,25 @@
-# Dariacore/Hyperflip：Hyperpop 的分支，2020年代以来的新兴曲风
+---
+date: 2025-09-14
+category:
+  - 社群观察
+  - 人文社科
+  - 音乐
+tags: 
+  - 音乐
+  - 亚文化
+  - 电子音乐
+  - 同人音乐
+icon: music
+star: true
+---
+# Dariacore/Hyperflip：Hyperpop 的分支，2020s以来的新兴曲风
+
+:::info
+
+本文尚未编写完成。如有存在纰漏，请予以指出。
+~~受CORS Policy限制，音乐播放器可能无法正常显示。~~
+
+:::
 
 2025年初，Capchii 在日本同人音乐厂牌 HARDCORE TANO*C 推出的合辑《UNITED KONCEPT》中投稿了《Light Leak (feat. ChumuNote)》。由于该专辑以 UK Hardcore 为主题，这首曲目在第二段 Drop 部分采用了 UK Hardcore 的经典编排。然而，引人注目的是，第一段 Drop 部分却呈现出一种名为 **Dariacore** 的曲风。那么，Dariacore 究竟是什么？为何世界各地越来越多的音乐制作人开始热衷于创作这类音乐？
 
@@ -8,7 +29,7 @@ Dariacore（又称 Hyperflip）通常被视为 Hyperpop 的一个子类型。Hyp
 
 随着2021年专辑 **《Dariacore》** 及其两张续作的发布，Dariacore 这一风格逐渐进入大众视野。
 
-<Meting mid="1948269321" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="1948269321" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 《Dariacore》专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9月14日）。乐评人 Bowman 在 Sputnikmusic 上写道：“this is the sound of someone who adores music […] and has enormous talent pairing that with a sense of humor, a short attention span, and, above all, brilliant musicality。”（这声音来自一个深爱音乐的人……惊人的才华，结合幽默感、跳跃的注意力，以及最为重要的——卓越的音乐性。）
 
@@ -26,32 +47,50 @@ Dariacore（又称 Hyperflip）通常被视为 Hyperpop 的一个子类型。Hyp
 
 在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是《CAR CRASH AND SIREN》和《FASTFUSION》。以下试听两首专辑中的第一曲：
 
-<Meting mid="2082115887" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
-<Meting mid="2150486811" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2082115887" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+<Meting mid="2150486811" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 这些作品中大量采样了欧美与日本流行音乐（如 sakanaction 鱼韵），以及 ACG 文化中的经典曲目（例如《海色》、《Don’t say lazy》等）。作者也借此表达对特定社群（如《碧蓝档案》、《赛马娘》）的热爱，甚至使用相关角色作为创作马甲。“CAR CRASH AND SIREN”一词被认为是指代Dariacore中常常出现的车祸与警笛采样。
 
+### FASTFUSION
+
+由曲师**DJ Raisei**创作的**せかいから____がきえるとき**可谓是国内作为知名的Hyperflip/Dariacore曲目，这不仅单纯是由于DJ Raisei本身的热度，更是因为这一曲中他对于Hardcore与Melodic Dubstep的巧妙运用。结合歌词可知，曲目标题中的`____`应为“おんがく（音楽）”。
+
+<Meting mid="2082115896" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+值得一提的是，为本曲目作词的**雨部冷キザミ**（Amebre Kizami）也是一名Hyperflip制作人。他为FASTFUSION制作的Last Track也被收录于他的个人专《Hype Fripped》。相较于FASTFUSION中收录的 **《With the rain that never stops》** ，这一版明显弱化了失真。
+
+<Meting mid="2653091349" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+
+### CAR CRASH AND SIREN
+
 第四曲 **Find the Scenery you've dreamed of.** 的作者署名为 Special Week（身份尚未公开）。Special Week（特别周）是跨媒体企划《赛马娘 Pretty Derby》中的角色，原型为日本纯血竞赛马匹スペシャルウィーク。该曲巧妙融合了 Drum and Bass、Breakbeat、Jersey Club、Happy Hardcore 等多种电子音乐风格，旋律丰富，听感新颖。
 
-<Meting mid="2150486813" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2150486813" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-2024年8月28日，曲师 MIDy 在 Niconico 和 YouTube 上投稿了《CarCrash'n'Siren feat.カゼヒキβ ゲキヤクβ》（Track 44）的[音乐视频](https://www.nicovideo.jp/watch/sm44030710)。该曲歌词与MV颇具“电波系”风格，其中“音の雲の上”被网友解读为指代音乐流媒体平台 SoundCloud，反映了Dariacore社群围绕该平台展开创作活动的现象。[^4]
+---
+
+> ***CarCrash'n'Siren!!!!!***
+
+2024年8月28日，曲师 MIDy 在 [Niconico](https://www.nicovideo.jp/watch/sm44030710) 和 [YouTube](https://www.youtube.com/watch?v=Gov2u6LAuIU) 上投稿了《CarCrash'n'Siren feat.カゼヒキβ ゲキヤクβ》（Track 44）的MV。该曲歌词与MV颇具“电波系”风格，其中“音の雲”被网友解读为指代音乐流媒体平台 SoundCloud ，反映了 Dariacore 社群围绕该平台展开创作活动的现象。[^4]
 
 <BiliBili bvid="BV1hRsKeoEwd" />
 
-<Meting mid="2150484363" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2150484363" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿《Angel Theory》一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的《hand in hand》flip）。
 
-<Meting mid="2638192885" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2638192885" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 2025年，这一风气进一步蔓延至日本同人电子音乐圈。1月17日，Capchii 在 HARDCORE TANO*C 发布《Light Leak (feat. ChumuNote)》，其第一段 Drop 的前半部分明显融入了 Dariacore 元素：
 
-<Meting mid="2665678520" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2665678520" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-4月27日，NextLight 在 M3-55 展会发行专辑《NX WIRED》，其中部分曲目亦体现出相近风格：
+4月27日，NextLight 在 M3-55 展会发行专辑《NX WIRED》，其中部分曲目亦体现出相近风格：[^5]
 
-<Meting mid="2707038471" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2707038471" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 可注意到，Nextlight 相较 Lost Frog Productions 更少使用人声切片与高密度采样，失真处理也更为克制，整体响度控制在更易接受的范围内。
 
@@ -69,19 +108,31 @@ Dariacore（又称 Hyperflip）通常被视为 Hyperpop 的一个子类型。Hyp
 
 5月29日，Curren 发布最终专辑《Cutest in Ur ♡》：
 
-<Meting mid="2714684580" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2714684580" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 该曲采样来源广泛，包括 Olivia Rodrigo、PSYQUI、星街すいせい等多位艺术家的作品。最后一曲《Currencore Song Tutorial》甚至使用了116首歌曲作为采样素材：
 
-<Meting mid="2714684581" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2714684581" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 采样列表涵盖从 Charli XCX、100 gecs 等国际 Hyperpop 音乐人，到 Eve、初音ミク、星野源等日本流行与虚拟歌手作品，充分体现出 Dariacore 拼贴与再创作的文化特征。
 
 2025年6月25日，icesawder 发行单曲《†Down 4U†》，全曲在 C# Major 的基础上抬升40音分，营造出类似 Nightcore 等互联网音乐特有的听觉体验。（[Bandcamp](https://icesawder.bandcamp.com/track/down-4u)）
 
-<Meting mid="2723416418" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+<Meting mid="2723416418" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+## Dariacore/Hyperflip Compliation
+
+下面展示了本人选择的一些相对不错的Hyperflip音乐，供读者欣赏。
+
+<Meting mid="14288201307" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+下面则展示了网易云用户一米四玉玉武装直升机高整理的歌单 **【ダリハイ】Japanese Dariacore/Hyperflip**。这一歌单显得更为全面，但是其中一些曲目可能显得比较实验，请结合自己喜好进行聆听。
+
+<Meting mid="10093420008" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
 
 [^1]: [Dariacore - Music genre - Rate Your Music](https://rateyourmusic.com/genre/dariacore/)  
 [^2]: [Digital swing: An interview with carbine](https://nobells.blog/carbine-interview/)  
 [^3]: [Netlabels in Japan - Wikipedia](https://en.wikipedia.org/wiki/Netlabels_in_Japan#Lost_Frog_Productions)  
 [^4]: カゼヒキβ 与 ゲキヤクβ 是来自雅马哈旗下 VOCALOID β-STUDIO 的虚拟歌姬。值得注意的是，VX-β 并非下一版 Vocaloid 的测试版本，而属于实验性产品，其服务于2024年3月31日终止。
+[^5]: M3（Music Media-Mix Market）是日本规模最大的同人音乐展会，因其英文缩写为3个连续的M而得名，每年春秋各办一次，场地在东京流通中心（TRC）。它由同人社团自发组织，面向音乐创作者与爱好者开放，涵盖J-POP、电子、摇滚、古典改编、游戏BGM、实验噪音等多元风格。参展社团在展位上直接贩售自主制作的CD、数字下载卡及周边，常伴随原创插画或小说跨界合作。M3不仅是小型音乐人推广与交流的平台，也是商业厂牌发掘新兴人才的重要渠道。因其氛围自由、作品更新快，M3被视为日本同人音乐生态的核心枢纽，与Comic Market并列，却更专注“声音与创作本身”。近年线上化趋势增强，国际听众也通过网络参与购买，使其影响力逐渐跨越同人圈，成为亚文化与独立音乐交汇的象征。M3-55即第五十五届M3，举办于2025年4月27日。
