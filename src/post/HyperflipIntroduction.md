@@ -15,6 +15,8 @@ star: true
 
 # Dariacore/Hyperflip：Hyperpop 的分支，2020s以来的新兴曲风
 
+~~Hyperpop高能回，豆筋音乐曲师献给耳疾患者的一封情书。~~
+
 :::info
 
 <Badge text="Info Badge" type="info" vertical="middle" />内呈现的信息为Catalog。
