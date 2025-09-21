@@ -200,7 +200,7 @@ pinky swear（also pinkie swear）是英语习语，即拉钩。美语中常用p
 ### My Lights
 
 （实际上与Daria无关，只是因为m4titann经常写Daria）
-2024年8月30日，曲师m4titann, Sunow&Nachick在SoundCloud上发布单曲My Lights。曲师提到这一曲目本是All Nighter, Vol 9的投稿曲，后遗憾落选。同时，曲师还提到：*We wanted to make a Kasane Teto track inspired by DJ Genki and DJ Noriken. I had a ton of fun working on this track and I really think we made something special here, so I hope you enjoy!*，可见DJ Noriken和DJ Genki对新生代曲师影响深远。[^10]
+2024年8月30日，曲师m4titann, Sunow&Nachick在SoundCloud上发布单曲My Lights。曲师提到这一曲目本是All Nighter, Vol 9的投稿曲，后遗憾落选 ~~（J-core比起投anv更适合找同人厂投M3）~~ 。同时，曲师还提到：*We wanted to make a Kasane Teto track inspired by DJ Genki and DJ Noriken. I had a ton of fun working on this track and I really think we made something special here, so I hope you enjoy!*，可见DJ Noriken和DJ Genki对新生代曲师影响深远。[^10]
 
 <Meting mid="2621732129" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 <br />
