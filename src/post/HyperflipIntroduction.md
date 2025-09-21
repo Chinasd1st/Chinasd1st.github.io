@@ -47,12 +47,14 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 2023年，leroy 意外发布的专辑Grave Robbing重新点燃了听众对这一风格的热情。新作品在保留 Dariacore 核心制作手法的同时，融入了 Hard Dance 的影响，带来令人耳目一新的听感。
 
+### Lost Frog Productions
+
 与此同时，Dariacore 在日本也积累了大量粉丝，最具代表性的推广者之一是厂牌 **Lost Frog Productions** 所发行的相关合辑。该厂牌成立于1992年，由 Haruo Ishihara 创立，最初以噪音、实验与电子音乐为主，被誉为日本现存最古老的网络厂牌之一。随着时间推移，Lost Frog 的音乐重心逐渐转向更具节奏感的电子乐类型，如 breakcore、speedcore、IDM、footwork，以及多种基于采样的电子子类型。[^3]
 
 :::info
 
-欲了解更多有关于 Lost Frog Productions 的信息，请阅读乐评网站 Pitchfork 于2025年4月9日刊载的文章：[Remember Jane Remover’s Mashup Genre Dariacore? It’s Blowing Up in Japan Now](https://pitchfork.com/thepitch/remember-jane-removers-mashup-genre-dariacore-its-blowing-up-in-japan-now/)。
-中译可参考<https://www.bilibili.com/opus/1055386143137202195>。
+- 这里无法面面俱到地介绍所有的LFP专辑，仅挑选一些比较有代表性的或者热度较高的专辑进行展示。
+- 欲了解更多有关于 Lost Frog Productions 的信息，请阅读乐评网站 Pitchfork 于2025年4月9日刊载的文章：[Remember Jane Remover’s Mashup Genre Dariacore? It’s Blowing Up in Japan Now](https://pitchfork.com/thepitch/remember-jane-removers-mashup-genre-dariacore-its-blowing-up-in-japan-now/)。中译可参考<https://www.bilibili.com/opus/1055386143137202195>。
 
 :::
 
@@ -64,7 +66,11 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 这些作品中大量采样了欧美与日本流行音乐（如 sakanaction 鱼韵），以及 ACG 文化中的经典曲目（例如海色、Don’t say lazy等）。作者也借此表达对特定社群（如碧蓝档案、赛马娘）的热爱，甚至使用相关角色作为创作马甲。“CAR CRASH AND SIREN”一词被认为是指代Dariacore中常常出现的车祸与警笛采样。[^6]
 
-### FASTFUSION
+#### FASTFUSION
+
+:::info
+本专辑有实体发行CD。购买详见[Propyl](https://payhip.com/b/lWCu1)。
+:::
 
 由曲师**DJ Raisei**创作的**せかいから____がきえるとき**可谓是国内最为知名的Hyperflip/Dariacore曲目，这首曲目之所以能如此热门，不单纯是由于DJ Raisei本身的热度较高，更是因为这一曲中他对于Hardcore与Melodic Dubstep的巧妙运用。结合歌词可知，曲目标题中的`____`应为“おんがく（音楽）”。
 
@@ -74,7 +80,7 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 <Meting mid="2653091349" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-### CAR CRASH AND SIREN
+#### CAR CRASH AND SIREN
 
 第四曲 **Find the Scenery you've dreamed of.** 的作者署名为 Special Week（身份尚未公开）。Special Week（特别周）是跨媒体企划赛马娘 Pretty Derby中的角色，原型为日本纯血竞赛马匹スペシャルウィーク。该曲巧妙融合了 Drum and Bass、Breakbeat、Jersey Club、Happy Hardcore 等多种电子音乐风格，旋律丰富，听感新颖。
 
@@ -90,13 +96,21 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 <Meting mid="2150484363" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
+#### magnet conversion
+
+2024年7月26日，LFP 在 Bandcamp上 发行 VS Themes #04 200BPM Hyperflip 专辑 magnet conversion<Badge text="LF245MP3" type="info" vertical="middle" />。全专由nottanishi vs samebeam两人制作。
+
+<Meting mid="2614414298" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+#### BUZZ CUTZ
+
 2025年4月，TWC Sound Team "Strike Back Squad" 为 TWC 2025 创作了 BUZZ CUTZ 一曲，全曲长达十分钟，对参赛选手的耐力有极高的要求。同时曲目大量采样了以前既有的Hyperflip作品，被誉为“Hyperflip听众的走马灯”。
 
 <Meting mid="2699916026" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ### 其他厂牌
 
-2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿Angel Theory[<Badge text="NXSR-0004" type="info" vertical="middle" />](https://nextlight.io/singlereleases/nxsr-0004)（[YouTube](https://www.youtube.com/watch?v=ynGInggF0LY)、[Niconico](https://www.nicovideo.jp/watch/sm44273477)）一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的hand in handflip）。[^7]
+2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿Angel Theory[<Badge text="NXSR-0004" type="info" vertical="middle" />](https://nextlight.io/singlereleases/nxsr-0004)（[YouTube](https://www.youtube.com/watch?v=ynGInggF0LY)、[Niconico](https://www.nicovideo.jp/watch/sm44273477)）一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖 ~~（实际上也不是很新颖）~~。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的hand in handflip）。[^7]
 
 <Meting mid="2638192885" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
@@ -109,6 +123,16 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 <Meting mid="2707038471" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 可注意到，Nextlight 相较 Lost Frog Productions 更少使用人声切片与高密度采样，失真处理也更为克制，整体响度控制在更易接受的范围内。
+
+---
+
+> それでも生きるの♪
+
+2025年8月22日，purini在[Niconico](https://www.nicovideo.jp/watch/sm45308123)投稿ボカコレ2025夏TOP100ランキング参加曲 md(ay)² feat. 花隈千冬，次日将视频投稿至[YouTube](https://www.youtube.com/watch?v=rAiqk7E8TKI)。结合歌词可知，曲名md(ay)²实际上代表“Mayday”，即国际上通用的无线电求救信号。[^9]
+
+<BiliBili bvid="BV1PheJzYEh5" />
+
+<Meting mid="2707039286" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ### icesawder 与 Curren
 
@@ -138,7 +162,50 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 2025年10月18日，LFP 将在大阪市中央区的 club JOULE 举办 Car Crash & Siren OSAKA 线下 DJ live 活动。票务信息详见[livepocket](https://t.livepocket.jp/e/ccsosaka)。
 
-![CCS Osaka Poster，图中角色名为“ファソ子”，与 FASTFUSION 曲绘为同一角色](/img/2025.9.14/CCS_Osaka.jpg)
+![CCS Osaka Poster，图中角色名为“ファス子”，与 FASTFUSION 曲绘为同一角色](/img/2025.9.14/CCS_Osaka.jpg)
+
+## Hyperflip 与 Dariacore 有何区别？
+
+目前圈内对这两个曲风尚未明确的界定。网易云用户Staticwave在歌单Dariacore/Hyperflip的简介中将这两种曲风的特征进行了总结：
+
+| 曲风 | 描述 |
+| --- | --- |
+| **Dariacore** | 特征为高频人声变调，高频snare，爆破式失真，Glitch切割，欧美流行Mash up，其中Jersey Club和Breakcore对Dariacore的影响也颇大，经常会有同时出现的情况（不限于这两种）。 |
+| **Hyperflip** | 更注重节奏，bpm通常会更高，但依旧会有爆破式失真，高频snare等特征，二次元Mash up采样明显（尤其是赛马娘，vtb，偶像大师占比很大）。其本身也是由日本曲师从Dariacore分化出来的风格。 |
+| **Futureflip** | 可以理解为Hyperflip+Futurecore，目前并未广泛传播，仅作为科普。 |
+
+现一般认为这两种表述并无实质上的区别。
+
+## 杂谈
+
+### 对いただきバベル (Prod. ケンモチヒデフミ)的大量采样
+
+<BiliBili bvid="BV1Zf4y1q7Q3" />
+
+这一首歌几乎可以被称为Dariacore制作者最喜欢采样的一首曲子，在许多Daria作品中都可以发现这首歌的身影。
+
+49秒开始：
+
+:::note
+pinky swear（also pinkie swear）是英语习语，即拉钩。美语中常用pinky promise。
+> If two people, especially children, pinky swear, they promise each other something by connecting their little fingers. (Cambridge Dictionary)
+:::
+
+<Meting mid="2150484342" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+1分42秒开始：
+
+<Meting mid="2676687967" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### My Lights
+
+（实际上与Daria无关，只是因为m4titann经常写Daria）
+2024年8月30日，曲师m4titann, Sunow&Nachick在SoundCloud上发布单曲My Lights。曲师提到这一曲目本是All Nighter, Vol 9的投稿曲，后遗憾落选。同时，曲师还提到：*We wanted to make a Kasane Teto track inspired by DJ Genki and DJ Noriken. I had a ton of fun working on this track and I really think we made something special here, so I hope you enjoy!*，可见DJ Noriken和DJ Genki对新生代曲师影响深远。[^10]
+
+<Meting mid="2621732129" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<br />
+<div style="text-align: center;"><iframe width="98%" height="150" scrolling="no" frameborder="no" allow="autoplay" style="text-align: center; border-radius: 2px;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1894955820&color=%23216c9d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</div>
 
 ## 轶事
 
@@ -159,8 +226,10 @@ Hyperflip粉丝们在Wplace上用像素画的形式将FASTFUSION专辑曲绘绘�
 [^1]: [Dariacore - Music genre - Rate Your Music](https://rateyourmusic.com/genre/dariacore/)  
 [^2]: [Digital swing: An interview with carbine](https://nobells.blog/carbine-interview/)  
 [^3]: [Netlabels in Japan - Wikipedia](https://en.wikipedia.org/wiki/Netlabels_in_Japan#Lost_Frog_Productions)  
-[^4]: カゼヒキβ 与 ゲキヤクβ 是来自雅马哈旗下 VOCALOID β-STUDIO 的虚拟歌姬。值得注意的是，VX-β 并非下一版 Vocaloid 的测试版本，而属于实验性产品，其服务于2024年3月31日终止。
+[^4]: カゼヒキβ：最初作为创作者 **くるくる数字** 在 UTAU 社群中发布的角色/音源，因其“中性且带有かすれ（沙哑）”的声色而被广泛使用；之后被纳入雅马哈的实验性项目 **VOCALOID β-STUDIO（VX-β）** 作为试作音源（标记为「カゼヒキβ」），并于 2024 年被正式商品化为 **VOCALOID6 Voicebank「カゼヒキV」**（角色语音与设定仍由 くるくる数字 负责）。ゲキヤクβ：同样源自创作者 **くるくる数字** 的 UTAU 音源/角色，声线在社群中以“强气且带有朴素感的少女嗓音”著称；它也被收录入 VOCALOID β-STUDIO 的试作阵容（以「ゲキヤクβ」出现），并在 2024 年以 **VOCALOID6 Voicebank「ゲキヤクV」** 正式发布，官方与作者均保留并管理角色设定与使用规则。(<https://kurukuru2suuzi.wixsite.com/kuzutokaze>)
 [^5]: M3（Music Media-Mix Market）是日本规模最大的同人音乐展会，因其英文缩写为3个连续的M而得名，每年春秋各办一次，场地在东京流通中心（TRC）。它由同人社团自发组织，面向音乐创作者与爱好者开放，涵盖J-POP、电子、摇滚、古典改编、游戏BGM、实验噪音等多元风格。参展社团在展位上直接贩售自主制作的CD、数字下载卡及周边，常伴随原创插画或小说跨界合作。M3不仅是小型音乐人推广与交流的平台，也是商业厂牌发掘新兴人才的重要渠道。因其氛围自由、作品更新快，M3被视为日本同人音乐生态的核心枢纽，与Comic Market并列，却更专注“声音与创作本身”。近年线上化趋势增强，国际听众也通过网络参与购买，使其影响力逐渐跨越同人圈，成为亚文化与独立音乐交汇的象征。M3-55即第五十五届M3，举办于2025年4月27日。THE VOC@LOiD 超 M@STER（简称ボーマス）是日本规模最大、最具影响力的Vocaloid同人即卖会，由“ドレミファクラブ”主办，自2007年起在东京举办。
 [^6]: 鱼韵（日语：サカナクション）是日本摇滚乐团，2005年于北海道札幌市结合而成。其乐风综合了另类摇滚、电子音乐、新浪潮、Pop等等，很难将其归类为其中之一。[（维基百科）](https://zh.wikipedia.org/wiki/%E9%AD%9A%E9%9F%BB)
 [^7]: NEXTLIGHT 是日本成立的电音厂牌，由制作人 Reno 发起，专注于 **Vocaloid 与电子舞曲的融合**。厂牌不仅发行音乐，还通过举办活动、制作Sample Packs与企划合辑推动这一小众文化。其作品常见 Electro-Pop、Future Bounce、Future Bass 等风格，在舞曲的力量感与 Vocaloid 的虚拟声线之间取得独特平衡。NEXTLIGHT 旗下有多个系列企划，如以流行与明快为特色的 **NX STARS**，强调律动与能量的 **NX GRAVITY**，以及偏梦幻与情绪化的 **NX ENCHANT**。厂牌的艺术家阵容以 Reno 与 picco 为核心，并广泛吸纳网络新锐音乐人参与合辑创作，作品已在 Bandcamp、Spotify 等平台上线。凭借跨界企划和鲜明定位，NEXTLIGHT 已成为日本 Vocaloid 电音圈中极具影响力的代表厂牌之一。
 [^8]: Hardcore TANO*C（ハードコアタノシー）是日本一个知名的 J-CORE / Hardcore 音乐厂牌 / 同人团体，由 REDALiCE（本名 Nagai Yoshikazu）于2003年6月创立。
+[^9]: 花隈千冬（Hanakuma Chifuyu，はなくま ちふゆ）是由TOKYO6 ENTERTAINMENT与AH-Software合作推出的虚拟歌手与语音合成角色，声源由声优奥野香耶提供，角色形象由插画师手岛nari设计。
+[^10]: **All Nighter** 是由 artbyFORM 发起的线上创意与慈善合辑企划，要求音乐人和视觉艺术家在 24 小时内完成作品，最终从所有提交中选出约 45 首歌曲与 1 个封面设计制作成合辑，并通过社区投票确定最终封面。合辑发布后，收益全部捐赠给指定慈善机构。该企划自 2018 年开启，每年都会举办，至 2025 年已进行到第 10 期（最后一期），汇聚了大量独立音乐人与视觉创作者。
