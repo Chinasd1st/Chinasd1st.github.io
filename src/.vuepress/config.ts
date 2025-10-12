@@ -273,7 +273,7 @@ export default defineUserConfig({
       // },
 
       components: {
-        components: ["Badge", "VPCard", "VidStack", "BiliBili"],
+        components: ["Badge", "VPCard", "VidStack", "BiliBili","PDF"],
       },
 
       comment: {

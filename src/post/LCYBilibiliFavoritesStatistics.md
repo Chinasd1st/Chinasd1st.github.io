@@ -5233,17 +5233,29 @@ if __name__ == "__main__":
 |9.0|20|
 |10.0|21|
 
-由此可知：李晨煜近期收藏视频的tags符合幂律分布，即$f(x) \propto x^{-\alpha}$, 其中：$x \in [x_{\min}, +\infty),x_{\min} \in [0,+\infty)$. 在对数坐标下，可表示为 $\log f(x) = -\alpha \log x + c$.
-
-我们使用Desmos对排名前十的数据进行拟合（$y \sim kx^{\alpha}$），得到方程：
+假设 tag 出现频率 $f(x)$ 服从幂律分布形式：
 
 $$
-f(x) = 2374.13371x^{-2.31628}
+f(x) \propto x^{-\alpha}, \quad x \in [x_{\min}, +\infty), \quad x_{\min} > 0.
+$$
+
+在对数坐标下可线性化为：
+
+$$
+\log f(x) = -\alpha \log x + c.
 $$
 
 其中：
 
-$$R^2 \approx 0.9994\text{(就出现排名前十的tags而言)}$$
+- $f(x)$ 表示出现次数为 $x$ 的标签数量；
+- $\alpha$ 为幂律指数；
+- $c = \log k$ 为常数项。
+
+我们使用Desmos对排名前十的数据进行最小二乘拟合（$y \sim kx^{\alpha}$），得到方程：
+
+$$
+f(x) = 2374.13\,x^{-2.32}, \quad R^2 \approx 0.9994.
+$$
 
 这一分析表明李晨煜的兴趣范围较为分散，tag分布具有明显的长尾效应。
 
