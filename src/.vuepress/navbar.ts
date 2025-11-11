@@ -2,85 +2,146 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  // { text: 'Status', link: 'https://stats.uptimerobot.com/NCUFdoSfM4' },
   {
-    text: '旧文存档',
+    text: "旧文存档",
+    icon: "box-archive",
     children: [
       {
-        text: '小奶奶二创作品',
+        text: "2023.08",
         children: [
-          { text: '小奶奶诗集', link: '/old/Poems', icon: 'book' },
-          { text: '中华民国临时春晚', link: '/old/SpringFestival', icon: 'tv' },
-          { text: '中登', link: '/old/zhongDeng', icon: 'person' },
-          { text: '愚公智叟', link: '/old/Mountain', icon: 'mountain' },
-          { text: '小奶奶新闻', link: '/old/news', icon: 'newspaper' }
-        ]
+          { text: "小奶奶诗集", link: "/old/2023/08/Poems.html", icon: "book" }
+        ],
       },
       {
-        text: 'Others',
+        text: "2023.10",
         children: [
-          { text: 'Playground', link: '/old/Playground', icon: 'flask' },
-          { text: '极限挑战：生命挑战', link: '/old/dianBi.md', icon: 'heart-pulse' },
-          { text: '文理联赛讽刺作品集', link: '/old/ASCompetition.md', icon: 'school' },
-          { text: '猎奇文章合集', link: '/old/RyoukiArticle.md', icon: 'book' }
-        ]
-      }
-    ],
-    icon: 'box-archive'
-  },
-  {
-    text: '博文',
-    children: [
-      {
-        text: '2025',
-        children: [
-          { text: "木柜子乐队相关内容", link: "/post/GirlsBands", icon: "guitar" },
-          { text: "弱智游戏分享：Revolution Idle", link: "/post/RevolutionIdle", icon: "gamepad" },
-          { text: "古今中外奇文选", link: "/post/PeculiarAnthology", icon: "book-open" },
-          { text: "猎奇文章合集：清明特辑", link: "/post/Qingming", icon: "scroll" },
-          { text: "黄睿涵导航页", link: "/post/HuangRuihanNavigation", icon: "compass" },
-          { text: "Synthesizer V 本体及声库相关购买流程", link: "/post/SynthesizerV", icon: "music" },
-          { text: "Twikoo评论组件的引入", link: "/post/TwikooPlugin", icon: "comments" },
-          { text: "李晨煜b站收藏夹标签统计", link: "/post/LCYBilibiliFavoritesStatistics", icon: "tag" },
-          { text: "王浩宇偷偷OD泰诺后不慎睡着了", link: "/post/WHYODTylenol", icon: "pills" },
-          { text: "传奇人物志", link: "/post/LegendaryPerson", icon: "user-tie" },
-          { text: "屎", link: "/post/Shit", icon: "poo" },
-          { text: "李晨煜不看网课", link: "/post/LCYSchoolWork", icon: "person-chalkboard" },
-          { text: "桐高军训实录", link: "/post/MilitaryTraining", icon: "person-military-rifle" },
-          { text: "Hyperflip介绍", link: "/post/HyperflipIntroduction.md", icon: "music" }
-
-
-        ]
-      }
-    ],
-    icon: 'book'
-  },
-  {
-    text: '子页面',
-    children: [
-      { text: '黄睿涵导航页', link: 'https://chinasd1st.github.io/pages/', icon: 'compass' },
-      { text: '蔚蓝档案标题生成器', link: 'https://chinasd1st.github.io/BA_logo/', icon: 'gears' }
-    ],
-    icon: 'folder'
-  },
-  { text: 'QQ机器人文档', link: '/old/QqBotGuide', icon: 'robot'},
-  {
-    text: 'v.alpha-0.0.4',
-    children: [
-      {
-        text: '网站事宜',
-        children: [
-          { text: '更新历史', link: '/old/UpdateHistory', icon: 'clock-rotate-left' },
-          { text: 'FAQ', link: '/old/ProblemsSolving', icon: 'question' }
-        ]
+          { text: "中华民国临时春晚", link: "/old/2023/10/SpringFestival.html", icon: "tv" },
+          { text: "Playground", link: "/old/2023/10/Playground.html", icon: "flask" },
+          { text: "更新历史", link: "/old/2023/10/UpdateHistory.html", icon: "clock-rotate-left" },
+          { text: "FAQ", link: "/old/2023/10/ProblemsSolving.html", icon: "question" }
+        ],
       },
       {
-        text: '联系我们',
+        text: "2023.11",
         children: [
-          { text: 'bilibili', link: 'https://space.bilibili.com/520682236', icon: 'fab:bilibili' }
-        ]
+          { text: "小奶奶新闻", link: "/old/2023/11/news.html", icon: "newspaper" }
+        ],
+      },
+      {
+        text: "2023.12",
+        children: [
+          { text: "中登", link: "/old/2023/12/zhongDeng.html", icon: "person" },
+          { text: "愚公智叟", link: "/old/2023/12/Mountain.html", icon: "mountain" }
+        ],
+      },
+      {
+        text: "2024.09",
+        children: [
+          { text: "QQ机器人文档", link: "/old/2024/09/QqBotGuide.html", icon: "robot" }
+        ],
+      },
+      {
+        text: "2024.10",
+        children: [
+          { text: "极限挑战：生命挑战", link: "/old/2024/10/dianBi.html", icon: "heart-pulse" }
+        ],
+      },
+      {
+        text: "2024.12",
+        children: [
+          { text: "文理联赛讽刺作品集", link: "/old/2024/12/ASCompetition.html", icon: "school" }
+        ],
+      },
+      {
+        text: "2025.02",
+        children: [
+          { text: "猎奇文章合集", link: "/old/2025/02/RyoukiArticle.html", icon: "book" },
+          { text: "Sovits 教程", link: "/old/2025/02/SovitsTutorial.html", icon: "book" }
+        ],
       }
     ],
-    icon: 'code-commit'
+  },
+  {
+    text: "博文",
+    icon: "book",
+    children: [
+      {
+        text: "2025.02",
+        children: [
+          { text: "木柜子乐队相关内容", link: "/post/2025/02/GirlsBands.html", icon: "guitar" }
+        ],
+      },
+      {
+        text: "2025.03",
+        children: [
+          { text: "弱智游戏分享：Revolution Idle", link: "/post/2025/03/RevolutionIdle.html", icon: "gamepad" },
+          { text: "古今中外奇文选", link: "/post/2025/03/PeculiarAnthology.html", icon: "book-open" }
+        ],
+      },
+      {
+        text: "2025.04",
+        children: [
+          { text: "猎奇文章合集：清明特辑", link: "/post/2025/04/Qingming.html", icon: "scroll" }
+        ],
+      },
+      {
+        text: "2025.06",
+        children: [
+          { text: "黄睿涵导航页", link: "/post/2025/06/HuangRuihanNavigation.html", icon: "compass" }
+        ],
+      },
+      {
+        text: "2025.07",
+        children: [
+          { text: "Synthesizer V 本体及声库相关购买流程", link: "/post/2025/07/SynthesizerV.html", icon: "music" },
+          { text: "Twikoo评论组件的引入", link: "/post/2025/07/TwikooPlugin.html", icon: "comments" },
+          { text: "李晨煜b站收藏夹标签统计", link: "/post/2025/07/LCYBilibiliFavoritesStatistics.html", icon: "tag" },
+          { text: "王浩宇偷偷OD泰诺后不慎睡着了", link: "/post/2025/07/WHYODTylenol.html", icon: "pills" }
+        ],
+      },
+      {
+        text: "2025.08",
+        children: [
+          { text: "传奇人物志", link: "/post/2025/08/LegendaryPerson.html", icon: "user-tie" },
+          { text: "屎", link: "/post/2025/08/Shit.html", icon: "poo" },
+          { text: "李晨煜不看网课", link: "/post/2025/08/LCYSchoolWork.html", icon: "person-chalkboard" },
+          { text: "桐高军训实录", link: "/post/2025/08/MilitaryTraining.html", icon: "person-military-rifle" },
+          { text: "视频合辑", link: "/post/2025/08/VideosCompilation.html", icon: "film" }
+        ],
+      },
+      {
+        text: "2025.09",
+        children: [
+          { text: "Hyperflip介绍", link: "/post/2025/09/HyperflipIntroduction.html", icon: "music" }
+        ],
+      }
+    ],
+  },
+  {
+    text: "子页面",
+    icon: "folder",
+    children: [
+      { text: "黄睿涵导航页", link: "https://chinasd1st.github.io/pages/", icon: "compass" },
+      { text: "蔚蓝档案标题生成器", link: "https://chinasd1st.github.io/BA_logo/", icon: "gears" }
+    ],
+  },
+  {
+    text: "v.alpha-0.0.4",
+    icon: "code-commit",
+    children: [
+      {
+        text: "网站事宜",
+        children: [
+          { text: "更新历史", link: "/old/2023/10/UpdateHistory.html", icon: "clock-rotate-left" },
+          { text: "FAQ", link: "/old/2023/10/ProblemsSolving.html", icon: "question" }
+        ],
+      },
+      {
+        text: "联系我们",
+        children: [
+          { text: "bilibili", link: "https://space.bilibili.com/520682236", icon: "fab:bilibili" }
+        ],
+      }
+    ],
   }
 ]);
