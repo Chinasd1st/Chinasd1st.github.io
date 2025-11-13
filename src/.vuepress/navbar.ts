@@ -114,6 +114,12 @@ export default navbar([
         children: [
           { text: "Hyperflip介绍", link: "/post/2025/09/HyperflipIntroduction.html", icon: "music" }
         ],
+      },
+      {
+        text: "2025.11",
+        children: [
+          { text: "同人音乐聆听记录", link: "/post/2025/11/DoujinMusicRecords.html", icon: "music" }
+        ],
       }
     ],
   },
