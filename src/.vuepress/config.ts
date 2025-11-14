@@ -73,7 +73,7 @@ export default defineUserConfig({
 
     // 页脚
     footer:
-      "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a> <Busuanzi />",
+      "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a>",
     displayFooter: true,
     changelog: true,
 
