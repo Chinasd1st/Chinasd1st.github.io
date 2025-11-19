@@ -219,3 +219,8 @@ nerdneko 4th Album
 
 - **Catalog**: VGND001
 - **Artists / Label**: VGND
+
+### Wakuwaku Remixes Vol.3<Badge text="2025.11.19" type="info" vertical="middle" />
+
+- **Catalog**: KRHS-60850
+- **Artists / Label**: Mwk / KARENT
