@@ -38,7 +38,7 @@ Font Family：[ZETUEI FONTS](https://www.zetuei.com/) Sky Scraper, DIN, Noto San
 ## 无题
 
 :::info 注意
-下列两首诗在[小奶奶诗集](Poems.md#小奶奶诗集-五-【2024-11】)中亦有记载
+下列两首诗在[小奶奶诗集](/old/2023/08/Poems.md#小奶奶诗集-五-【2024-11】)中亦有记载
 :::
 
 【元】朱香豪  

@@ -5271,11 +5271,11 @@ $$
 
 :::
 
-在经济学中，这一分布趋势也有所体现，具体表现形式即为 ***帕累托法则***。帕累托法则（英语：Pareto principle，或称**80/20法则**、**关键少数法则**、**二八法则**、**巴莱多定律**）^[[THE APPLICATION OF THE PARETO PRINCIPLE IN SOFTWARE ENGINEERING. Ankunda R. Kiremire 19th October, 2011](http://www2.latech.edu/~box/ase/papers2011/Ankunda_termpaper.PDF) (PDF). [2017-10-22].]指出，约仅有20%的因素影响80%的结果。也就是说：所有变因中，最重要的仅有20%，虽然剩余的80%占了多数，其影响程度却远低于“关键的少数”^[Bunkley, Nick, [Joseph Juran, 103, Pioneer in Quality Control, Dies](https://www.nytimes.com/2008/03/03/business/03juran.html), 纽约时报, March 3, 2008 [2017-10-22]]。
+在经济学中，这一分布趋势也有所体现，具体表现形式即为 ***帕累托法则***。帕累托法则（英语：Pareto principle，或称**80/20法则**、**关键少数法则**、**二八法则**、**巴莱多定律**）^[[THE APPLICATION OF THE PARETO PRINCIPLE IN SOFTWARE ENGINEERING. Ankunda R. Kiremire 19th October, 2011](http://www2.latech.edu/~box/ase/papers2011/Ankunda_termpaper.PDF) (PDF). [2017-10-22].]指出，约仅有 **20%** 的因素影响 **80%** 的结果。也就是说：所有变因中，最重要的仅有 **20%** ，虽然剩余的 **80%** 占了多数，其影响程度却远低于“关键的少数”^[Bunkley, Nick, [Joseph Juran, 103, Pioneer in Quality Control, Dies](https://www.nytimes.com/2008/03/03/business/03juran.html), 纽约时报, March 3, 2008 [2017-10-22]]。
 
 帕累托最初的观察与人口和财富有关。他注意到，意大利约有80%的土地由20%的人口所有。^[Pareto, Vilfredo; Page, Alfred N., Translation of Manuale di economia politica ("Manual of political economy"), A.M. Kelley, 1971, ISBN 978-0-678-00881-2]之后，他调查了其他国家。令人惊讶的是，其他国家也存在类似的分布模式。许多产品的市场被约三个寡头垄断。^[[全球份額調查：優勢企業走向寡頭化](https://cn.nikkei.com/industry/management-strategy/31312-2018-07-25-04-59-11.html),（原始内容[存档](https://web.archive.org/web/20200925012535/https://cn.nikkei.com/industry/management-strategy/31312-2018-07-25-04-59-11.html)于2020-09-25）]
 
-1992年的“联合国开发计划署报告”将这个不平等现象以非常直观和易于理解的形式呈现出来，即所谓的“香槟杯”效应^[Gorostiaga, Xabier, World has become a 'champagne glass' globalization will fill it fuller for a wealthy few, National Catholic Reporter, January 27, 1995]。该报告显示全球收入分配高度不平衡，全球最富有的20%人口控制着世界总收入的82.7%。^[United Nations Development Program, 1992 Human Development Report, Oxford University Press, New York, 1992]^[[Human Development Report 1992, Chapter 3](http://hdr.undp.org/en/reports/global/hdr1992/chapters/),（原始内容[存档](https://web.archive.org/web/20150315203549/http://hdr.undp.org/en/reports/global/hdr1992/chapters)于2015-03-15）]
+1992年的“联合国开发计划署报告”将这个不平等现象以非常直观和易于理解的形式呈现出来，即所谓的“香槟杯”效应^[Gorostiaga, Xabier, World has become a 'champagne glass' globalization will fill it fuller for a wealthy few, National Catholic Reporter, January 27, 1995]。该报告显示全球收入分配高度不平衡，全球最富有的 **20%** 人口控制着世界总收入的82.7%。^[United Nations Development Program, 1992 Human Development Report, Oxford University Press, New York, 1992]^[[Human Development Report 1992, Chapter 3](http://hdr.undp.org/en/reports/global/hdr1992/chapters/),（原始内容[存档](https://web.archive.org/web/20150315203549/http://hdr.undp.org/en/reports/global/hdr1992/chapters)于2015-03-15）]
 
 | 人口分组       | 收入占比 |
 |----------------|----------|
@@ -5285,11 +5285,11 @@ $$
 | 次低 20%       | 1.85%    |
 | 最贫穷 20%     | 1.40%    |
 
-80/20法则在许多领域被视为经验法则，但它常被误用。例如，仅仅因为80%的案例符合某种模式，就断定其“符合80/20法则”是错误的；还必须满足解决问题的资源投入也仅需20%这一条件。此外，在类别或观察样本数量过少时应用80/20法则也是一种滥用。
+*80/20法则*在许多领域被视为经验法则，但它常被误用。例如，仅仅因为 **80%** 的案例符合某种模式，就断定其“符合80/20法则”是错误的；还必须满足解决问题的资源投入也仅需 **20%** 这一条件。此外，在类别或观察样本数量过少时应用80/20法则也是一种滥用。
 
 例如前文提及，在美国，20%的患者消耗了80%的医疗资源。但仔细思考真实情况，疾病本就有轻重缓急之分。消耗80%医疗资源的人群，很可能是因为病情较重。此外还需考虑美国医疗费用昂贵、人们就医决策等因素。在这些考虑之下，二八法则提供的数字本身可能并不具备充分的解释力，这种简单化的观念可能导致部分读者未加深入思考就对该情况产生误解。
 
-帕累托法则是更广泛的**帕累托分布**（Pareto distribution）的一个特例。如果表征帕累托分布的参数之一——帕累托指数 α 满足 α = log₄5 ≈ 1.16，那么就有80%的效应来自20%的原因。
+帕累托法则是更广泛的 **帕累托分布** （Pareto distribution）的一个特例。如果表征帕累托分布的参数之一——帕累托指数 `α` 满足 `α = log₄5 ≈ 1.16`，那么就有80%的效应来自20%的原因。
 
 因此，80%的效应中的80%又来自那前20%原因中的前20%。80%的80%是64%；20%的20%是4%，所以这就意味着存在一个“64/4法则”；同理也意味着“51.2/0.8法则”。类似地，对于底层80%的原因和它们产生的20%效应，底层80%中的底层80%只贡献了那剩余20%效应中的20%。这与世界人口/财富分布表大致相符：底层60%人口拥有的财富占比为5.5%（1.85% + 2.30% + 1.40%），接近于64/4法则中底层64%对应4%效应的比例。
 
@@ -5297,7 +5297,7 @@ $$
 
 术语80/20只是描述这一普遍原理的简称。在具体个案中，分布也可能更接近80/10或80/30。没有必要要求两个数字相加为100%，因为它们衡量的是不同事物的比例（例如，“客户数量占比”与“销售额占比”）。然而，每个比例本身都不能超过100%。例如，如上所述，“64/4法则”（两个数字相加不等于100%）在逻辑上等价于“80/20法则”（两个数字相加为100%）。因此，独立指定两个百分比并不能比通过指定一个比例并让另一个作为其补数（相对于100%）来定义更广泛的分布。所以，两者相加为100%的情况（如80:20）具有对称性：如果80%的效应来自前20%的原因，那么剩余的20%效应必然来自底层80%的原因。这种组合比例（如80:20）可用于衡量不平衡程度：96:4的比例表示极度不平衡，80:20表示显著不平衡（对应的基尼系数约为60%），70:30表示中度不平衡（基尼系数约40%），而55:45则略显不平衡。
 
-帕累托法则是**幂律关系**（power law relationship）的一个实例，这种关系也出现在火山爆发和地震等现象中。^[Bak, Per, How Nature Works: the science of self-organized criticality, Springer, 1999, page 89, ISBN 0-387-94791-4] 因为它（幂律分布）在很宽的尺度范围内具有自相似性，其结果与完全不同的正态分布现象产生的结果截然不同。这一事实解释了复杂金融工具为何频繁崩溃，因为这些工具的设计往往基于（错误的）假设，例如认为股价波动遵循正态分布（高斯分布）。^[Taleb, Nassim, The Black Swan, 2007, pages 229–252, 274–285]
+帕累托法则是**幂律关系**（power law relationship）的一个实例，这种关系也出现在火山爆发和地震等现象中。^[Bak, Per, How Nature Works: the science of self-organized criticality, Springer, 1999, page 89, ISBN 0-387-94791-4] 因为它（幂律分布）*在很宽的尺度范围内具有自相似性*，其结果与完全不同的正态分布现象产生的结果截然不同。这一事实解释了复杂金融工具为何频繁崩溃，因为这些工具的设计往往基于（错误的）假设，例如认为股价波动遵循正态分布（高斯分布）。^[Taleb, Nassim, The Black Swan, 2007, pages 229–252, 274–285]
 
 [^1]:1. **第一层级（80/20法则）**  
         - 前20%的群体（原因）→ 创造80%的财富（效应）  

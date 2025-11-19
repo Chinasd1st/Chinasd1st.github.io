@@ -10,7 +10,7 @@ category:
 ## 2025.02.03 v.alpha-0.0.4
 
 - 更新版本号至v.alpha-0.0.4
-- <Badge type="tip" text="ContentUpdate" vertical="middle" /> 新增板块[猎奇文章合集](RyoukiArticle.md)，内含多篇由Deepseek LLM生成的文章（包括《万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡》、《永辉超市智能货架酿惨剧 四岁女童命丧"无人化"安全隐患》、《黄睿涵被他的黄毛奶奶锁在家里，但是他要去看肖战的新电影》、《卤汁与锈斑》等）
+- <Badge type="tip" text="ContentUpdate" vertical="middle" /> 新增板块[猎奇文章合集](/old/2025/02/RyoukiArticle.md)，内含多篇由Deepseek LLM生成的文章（包括《万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡》、《永辉超市智能货架酿惨剧 四岁女童命丧"无人化"安全隐患》、《黄睿涵被他的黄毛奶奶锁在家里，但是他要去看肖战的新电影》、《卤汁与锈斑》等）
 - <Badge type="important" text="CoreUpdate" vertical="middle" /> 新增四个插件（如下）
 
 ```js title=".vuepress/config.js"
@@ -23,14 +23,14 @@ import { copyrightPlugin } from '@vuepress/plugin-copyright';//支持在用户�
 
 ## 2025.01.12 v.alpha-0.0.3
 
-- <Badge type="tip" text="ContentUpdate" vertical="middle" /> 极限挑战S20E02更名为[极限挑战：生命挑战](dianBi.md)，增加了电击逃生 - 智勇大挑战，化学逃生 - 智慧与勇气的较量两个板块
+- <Badge type="tip" text="ContentUpdate" vertical="middle" /> 极限挑战S20E02更名为[极限挑战：生命挑战](/old/2024/10/dianBi.md)，增加了电击逃生 - 智勇大挑战，化学逃生 - 智慧与勇气的较量两个板块
 - <Badge type="tip" text="ContentUpdate" vertical="middle" /> 小奶奶新闻新增2024年度回顾和2025.01.12某三人钻某店铺大门的视频
 - <Badge type="important" text="CoreUpdate" vertical="middle" /> 增加`markdownItKatex`扩展，更新网站内核至`vuepress2.0.0-rc.19`
 - <Badge type="info" text="Iprv" vertical="middle" /> 小奶奶新闻界面视频支持预加载
 
 ## 2024.12.02 新增文理联赛讽刺作品集
 
-[文理联赛讽刺作品合集](ASCompetition.md)
+[文理联赛讽刺作品合集](/old/2024/12/ASCompetition.md)
 
 ## 2024.09.29 v.alpha-0.0.2
 
