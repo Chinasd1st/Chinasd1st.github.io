@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import metingPlugin from "vuepress-plugin-meting2";
+import dotenv from "dotenv";
 // import { commentPlugin } from '@vuepress/plugin-comment'
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
@@ -14,6 +15,8 @@ const {
   ALGOLIA_INDEX_NAME,
   ALGOLIA_SEARCH_API_KEY, // 这是search-only key，前端可公开
 } = process.env as Record<string, string>;
+
+dotenv.config();
 
 export default defineUserConfig({
 
@@ -128,9 +131,9 @@ export default defineUserConfig({
     // 加密配置
     encrypt: {
       config: {
-        "/old/RyoukiArticle": {
-          hint: process.env.PASSWORD!,
-          password: "8c4b70d9e6c56eff",
+        "/old/2025/02/RyoukiArticle": {
+          hint: "密码在群公告中",
+          password: process.env.PASSWORD!,
         },
       },
     },
@@ -233,8 +236,8 @@ export default defineUserConfig({
       //   插件选项
       // },
       docsearch: {
-        appId: "IOAA89YPZT",          // 从 Algolia 获取
-        apiKey: "4a1e8c0c4c23bbe3fdc74909fe2b8366", // Search-Only API Key
+        appId: process.env.ALGOLIA_APP_ID!,          // 从 Algolia 获取
+        apiKey: process.env.ALGOLIA_SEARCH_API_KEY!, // Search-Only API Key
         indexName: "chinasd1stio",
         // 可选：自定义搜索参数
 
