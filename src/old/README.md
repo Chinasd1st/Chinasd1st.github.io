@@ -34,7 +34,7 @@ https://xnnweb2-git-main-silentnrtxs-projects.vercel.app/
 ## 2025.02.03 本站近日新增
 
 - 更新版本号至v.alpha-0.0.4
-- <Badge type="tip" text="ContentUpdate" vertical="middle" /> 新增板块[猎奇文章合集](RyoukiArticle.md)，内含多篇由Deepseek LLM生成的文章（包括《万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡》、《永辉超市智能货架酿惨剧 四岁女童命丧"无人化"安全隐患》、《黄睿涵被他的黄毛奶奶锁在家里，但是他要去看肖战的新电影》、《卤汁与锈斑》等）
+- <Badge type="tip" text="ContentUpdate" vertical="middle" /> 新增板块[猎奇文章合集](/2025/02/RyoukiArticle.md)，内含多篇由Deepseek LLM生成的文章（包括《万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡》、《永辉超市智能货架酿惨剧 四岁女童命丧"无人化"安全隐患》、《黄睿涵被他的黄毛奶奶锁在家里，但是他要去看肖战的新电影》、《卤汁与锈斑》等）
 
 > 2025.02.05于该页面更新特别板块：2024年度最猎奇图片
 
