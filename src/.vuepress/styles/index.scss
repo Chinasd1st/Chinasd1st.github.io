@@ -6,6 +6,17 @@
   color: var(--text-color) !important;
 }
 
+@font-face {
+  font-family: "Torus";
+  src: url("/assets/fonts/Torus-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Torus", "Noto Sans SC", sans-serif;
+}
+
 // 深色模式下的样式
 [data-theme="dark"] {
   .aplayer {
