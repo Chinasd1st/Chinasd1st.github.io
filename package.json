@@ -16,6 +16,7 @@
     "@vuepress/plugin-prismjs": "2.0.0-rc.118",
     "@vuepress/plugin-revealjs": "2.0.0-rc.118",
     "@vuepress/plugin-search": "2.0.0-rc.118",
+    "@vuepress/plugin-watermark": "^2.0.0-rc.118",
     "chart.js": "^4.5.1",
     "echarts": "^5.6.0",
     "katex": "^0.16.21",
