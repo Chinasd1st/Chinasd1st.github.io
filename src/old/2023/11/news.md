@@ -143,32 +143,31 @@ elif a == 1:
 
 @tab 加解密代码差别
 
-```diff :no-line-numbers {2-3,11-12,14-15,17-18,20-21}
-@@ -1,19 +1,19 @@
--def encrypt():
-+def unencrypt():
-     temp = raw_input("Please input your sentence: ")
-     key = int(raw_input("Please input your key: "))
-     listA = map(ord, temp)
-     lens = len(listA)
-     for i in range(lens):
-         a = listA[i]
-         if 65 <= a <= 90:
--            a += key
-+            a -= key
-             while a > 90:
--                a -= 26
-+                a += 26
-         elif 97 <= a <= 122:
--            a += key
-+            a -= key
-             while a > 122:
--                a -= 26
-+                a += 26
-         listA[i] = a
-     listA = map(chr, listA)
-     listA = ''.join(listA)
-     print listA
+```py
+def encrypt(): # [!code --]
+def unencrypt(): # [!code ++]
+    temp = raw_input("Please input your sentence: ")
+    key = int(raw_input("Please input your key: "))
+    listA = map(ord, temp)
+    lens = len(listA)
+    for i in range(lens):
+        a = listA[i]
+        if 65 <= a <= 90:
+            a += key # [!code --]
+            a -= key # [!code ++]
+            while a > 90:
+                a -= 26 # [!code --]
+                a += 26 # [!code ++]
+        elif 97 <= a <= 122:
+            a += key # [!code --]
+            a -= key # [!code ++]
+            while a > 122:
+                a -= 26 # [!code --]
+                a += 26 # [!code ++]
+        listA[i] = a
+    listA = map(chr, listA)
+    listA = ''.join(listA)
+    print listA
 ```
 
 :::

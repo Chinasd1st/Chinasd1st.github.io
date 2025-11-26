@@ -16,21 +16,22 @@ category:
 - <Badge type="info" text="Info" vertical="middle" /> 更换字体：
 
 ``` scss title=".vuepress/styles/palette.scss" :line-numbers=2
-$vp-font: 'Torus, "Noto Sans SC", sans-serif';
+$vp-font: 'Torus, "Noto Sans SC", sans-serif'; //Torus——osu同款字体（
 $vp-font-heading: 'Torus, "Noto Sans SC", sans-serif';
-$vp-font-mono: 'Cascadia Code, "Noto Sans SC", Consolas, "Courier New", monospace'
+$vp-font-mono: 'Cascadia Code, "Noto Sans SC", Consolas,
+               "Courier New", monospace'
 ```
 
-``` scss title=".vuepress/styles/index.scss" :line-numbers=9
+``` scss title=".vuepress/styles/index.scss" :line-numbers=9 
 @font-face {
-  font-family: "Torus";
-  src: url("/assets/fonts/Torus-SemiBold.ttf") format("truetype");
+  font-family: "Torus"; // [!code focus]
+  src: url("/assets/fonts/Torus-SemiBold.ttf") format("truetype"); // [!code focus]
   font-weight: 600; /* SemiBold */
   font-style: normal;
   font-display: swap;
 }
 body {
-  font-family: "Torus", "Noto Sans SC", sans-serif;
+  font-family: "Torus", "Noto Sans SC", sans-serif; // [!code focus]
 }
 ```
 
@@ -46,7 +47,7 @@ body {
 
 - <Badge type="info" text="Iprv" vertical="middle" /> 优化文件directory，按照yyyy/mm/dd的结构进行分类
 - <Badge type="info" text="Iprv" vertical="middle" /> 引入`fontawesome-with-brands` icon库，增强页面内容丰度
-- <Badge type="info" text="？？？" vertical="middle" /> 2025年2月以来已经写了16篇文章，令人感叹（
+- <Badge type="info" text="???" vertical="middle" /> 2025年2月以来已经写了16篇文章，令人感叹（
 
 ## 2025.02.03 v0.0.4
 

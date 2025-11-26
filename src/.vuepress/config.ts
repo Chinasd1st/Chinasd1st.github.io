@@ -201,6 +201,9 @@ export default defineUserConfig({
         // 代码高亮配置
         type: "shiki",
         lineNumbers: true,
+        notationFocus: true,
+        notationDiff: true,
+        notationWordHighlight: true
       },
 
       // 取消注释它们如果你需要 TeX 支持
