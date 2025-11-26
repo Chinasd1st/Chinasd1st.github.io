@@ -132,13 +132,13 @@ export default navbar([
     ],
   },
   {
-    text: "v.alpha-0.0.4",
+    text: "v1.0.0",
     icon: "code-commit",
     children: [
       {
         text: "网站事宜",
         children: [
-          { text: "更新历史", link: "/old/2023/10/UpdateHistory.html", icon: "clock-rotate-left" },
+          { text: "更新历史", link: "UpdateHistory.html", icon: "clock-rotate-left" },
           { text: "FAQ", link: "/old/2023/10/ProblemsSolving.html", icon: "question" }
         ],
       },

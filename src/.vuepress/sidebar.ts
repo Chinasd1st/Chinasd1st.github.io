@@ -20,5 +20,6 @@ export default sidebar({
       children: "structure",
     },
     "intro",
+    "UpdateHistory"
   ],
 });
