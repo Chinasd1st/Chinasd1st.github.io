@@ -10,28 +10,42 @@ category:
 
 ## 2025.11.26 v1.0.0
 
-- <Badge type="tip" text="CoreUpdate" vertical="middle" /> 改用Vuepress Theme Hope主题（本改动实则早在2025年2月就已作出）
-- <Badge type="tip" text="CoreUpdate" vertical="middle" /> 引入`@vuepress/plugin-docsearch`等多个组件，支持由algolia提供的搜索服务
-- <Badge type="info" text="Info" vertical="middle" /> 改进原先不规范的版本号命名，换用Semantic Versioning 2.0.0(`主版本号.次版本号.修订号`) 作为命名规范
+- <Badge type="important" text="CoreUpdate" vertical="middle" /> 改用Vuepress Theme Hope主题（本改动实则早在2025年2月就已作出）
+- <Badge type="important" text="CoreUpdate" vertical="middle" /> 引入`@vuepress/plugin-docsearch`等多个组件，支持由algolia提供的搜索服务
+- <Badge type="info" text="Info" vertical="middle" /> 改进原先不规范的版本号命名，换用Semantic Versioning 2.0.0 (`主版本号.次版本号.修订号`) 作为命名规范
 - <Badge type="info" text="Info" vertical="middle" /> 更换字体：
 
 ``` scss title=".vuepress/styles/palette.scss" :line-numbers=2
-$vp-font: 'Torus, "Noto Sans SC", sans-serif'; //Torus——osu同款字体（
-$vp-font-heading: 'Torus, "Noto Sans SC", sans-serif';
-$vp-font-mono: 'Cascadia Code, "Noto Sans SC", Consolas,
-               "Courier New", monospace'
+$vp-font: '"TorusPro", "Noto Sans SC", sans-serif'; //Torus——osu同款字体（
+$vp-font-heading: '"TorusPro", "Noto Sans SC", sans-serif';
 ```
 
 ``` scss title=".vuepress/styles/index.scss" :line-numbers=9 
+/* TorusPro Regular – 400 */
 @font-face {
-  font-family: "Torus"; // [!code focus]
-  src: url("/assets/fonts/Torus-SemiBold.ttf") format("truetype"); // [!code focus]
-  font-weight: 600; /* SemiBold */
+  font-family: "TorusPro";
+  src: url("/assets/fonts/TorusPro-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-body {
-  font-family: "Torus", "Noto Sans SC", sans-serif; // [!code focus]
+
+/* TorusPro SemiBold – 600 */
+@font-face {
+  font-family: "TorusPro";
+  src: url("/assets/fonts/TorusPro-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TorusPro Bold – 700 */
+@font-face {
+  font-family: "TorusPro";
+  src: url("/assets/fonts/TorusPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 ```
 

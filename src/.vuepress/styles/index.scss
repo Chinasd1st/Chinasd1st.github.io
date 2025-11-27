@@ -6,15 +6,38 @@
   color: var(--text-color) !important;
 }
 
+/* TorusPro Regular – 400 */
 @font-face {
-  font-family: "Torus";
-  src: url("/assets/fonts/Torus-SemiBold.ttf") format("truetype");
-  font-weight: 600; /* SemiBold */
+  font-family: "TorusPro";
+  src: url("/assets/fonts/TorusPro-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-body {
-  font-family: "Torus", "Noto Sans SC", sans-serif;
+
+/* TorusPro SemiBold – 600 */
+@font-face {
+  font-family: "TorusPro";
+  src: url("/assets/fonts/TorusPro-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TorusPro Bold – 700 */
+@font-face {
+  font-family: "TorusPro";
+  src: url("/assets/fonts/TorusPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.vp-badge {
+  font-weight: 600 !important;
+  font-family: "TorusPro", "Noto Sans JP", sans-serif;
+}
+a {
+  font-weight: 600 !important;     // SemiBold
 }
 
 // 深色模式下的样式
