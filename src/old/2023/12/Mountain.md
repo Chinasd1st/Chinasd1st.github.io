@@ -1,6 +1,4 @@
 ---
-prev: zhongDeng.md
-next: news.md
 date: 2023-12-29
 category:
   - 存档

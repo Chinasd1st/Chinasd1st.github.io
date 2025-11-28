@@ -25,7 +25,7 @@ export default defineUserConfig({
     [
       "script",
       {
-        async: "true",
+        defer: true,
         src: "//api.busuanzi.cc/static/3.6.9/busuanzi.min.js",
       },
     ],
@@ -87,8 +87,7 @@ export default defineUserConfig({
     sidebar,
 
     // 页脚
-    footer:
-      "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a>",
+    footer: "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 今日pv <span id='busuanzi_today_pv'>加载中...</span> 次 / 总pv <span id='busuanzi_site_pv'>加载中...</span> 次",
     displayFooter: true,
     changelog: true,
 
@@ -102,6 +101,7 @@ export default defineUserConfig({
     blog: {
       description: "美食家",
       intro: "/intro.html",
+      avatar:"/assets/avatar/SP6C_01.jpg",
       medias: {
         // Baidu: "https://example.com",
         BiliBili: "https://space.bilibili.com/520682236",

@@ -1,6 +1,4 @@
 ---
-prev: Poems.md
-next: zhongDeng.md
 date: 2023-10-16
 category:
   - 存档

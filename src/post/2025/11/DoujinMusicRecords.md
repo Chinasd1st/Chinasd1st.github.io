@@ -28,6 +28,7 @@ star: true
 - **Artists / Label**: wavforme
 - **Genre**: Uplifting Trance / Tech Trance etc.
 
+<Meting mid="3319288480" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 ### Stargazing Youth<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: SIREN : 0021
@@ -61,6 +62,8 @@ nerdneko 4th Album
 - **Catalog**: DVSP-0315
 - **Artists / Label**: DIverse System
 - **Genre**: Electronic
+
+<Meting mid="3315027679" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ### CHROMA VEIL<Badge text="2025.11.12" type="info" vertical="middle" />
 
