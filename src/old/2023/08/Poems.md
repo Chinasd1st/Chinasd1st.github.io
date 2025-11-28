@@ -1,6 +1,5 @@
 ---
 # AutoLinkConfig
-next: SpringFestival.md
 date: 2023-08-16
 
 category:

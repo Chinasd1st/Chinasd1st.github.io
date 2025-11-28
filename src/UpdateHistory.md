@@ -20,7 +20,7 @@ $vp-font: '"TorusPro", "Noto Sans SC", sans-serif'; //Torus——osu同款字体
 $vp-font-heading: '"TorusPro", "Noto Sans SC", sans-serif';
 ```
 
-``` scss title=".vuepress/styles/index.scss" :line-numbers=9 
+``` scss title=".vuepress/styles/index.scss" :line-numbers=9
 /* TorusPro Regular – 400 */
 @font-face {
   font-family: "TorusPro";

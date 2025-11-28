@@ -1,5 +1,4 @@
 ---
-prev: Mountain.md
 date: 2023-11-01
 category:
   - 存档

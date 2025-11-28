@@ -1,6 +1,4 @@
 ---
-prev: SpringFestival.md
-next: Mountain.md
 date: 2023-12-17
 category:
   - 存档
