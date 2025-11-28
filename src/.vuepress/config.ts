@@ -90,7 +90,7 @@ export default defineUserConfig({
     footer: "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 今日pv <span id='busuanzi_today_pv'><i class='fa fa-spinner fa-spin'></i></span> 次 / 总pv <span id='busuanzi_site_pv'><i class='fa fa-spinner fa-spin'></i></span> 次",
     displayFooter: true,
     changelog: true,
-
+    
     navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
