@@ -30,7 +30,7 @@ icon: circle-info
 
 ## 📈 访问统计
 
-- **今日访问量**：<span id="busuanzi_today_pv">加载中...</span> 次  
-- **今日总访客数**： <span id="busuanzi_today_uv">加载中...</span> 人
-- **本站总访问量**：<span id="busuanzi_site_pv">加载中...</span> 次
-- **本站总访客数**： <span id="busuanzi_site_uv">加载中...</span> 人
+- **今日访问量**：<span id="busuanzi_today_pv"><i class="fa fa-spinner fa-spin"></i></span> 次  
+- **今日总访客数**： <span id="busuanzi_today_uv"><i class="fa fa-spinner fa-spin"></i></span> 人
+- **本站总访问量**：<span id="busuanzi_site_pv"><i class="fa fa-spinner fa-spin"></i></span> 次
+- **本站总访客数**： <span id="busuanzi_site_uv"><i class="fa fa-spinner fa-spin"></i></span> 人
