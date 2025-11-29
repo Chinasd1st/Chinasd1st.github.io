@@ -59,7 +59,7 @@ watch(
         
         <!-- 不蒜子数据容器 -->
         <span id="busuanzi_container_page_pv">
-          <span id="busuanzi_page_pv"></span> 次阅读
+          <span id="busuanzi_page_pv">加载中</span> 次阅读
         </span>
       </span>
     </Teleport>
