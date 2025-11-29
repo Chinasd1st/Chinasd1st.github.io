@@ -144,7 +144,6 @@ watch(
   align-items: center;
   gap: 0.25em;
   margin-left: 0.5em;
-  font-size: 0.875em;
   color: inherit;
 }
 
@@ -164,7 +163,6 @@ watch(
 }
 
 .busuanzi-value {
-  font-weight: 600;
   color: var(--theme-color);
 }
 </style>
