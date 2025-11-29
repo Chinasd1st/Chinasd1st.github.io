@@ -1,14 +1,45 @@
 <script setup lang="ts">
-import { onMounted, watch, nextTick, ref } from "vue";
+import { onMounted, watch, nextTick, ref, computed } from "vue";
 import { useRoute } from "vue-router";
+import { usePageData } from "@vuepress/client";
 
 const route = useRoute();
+const pageData = usePageData();
 const show = ref(false);
 const pageView = ref("0");
 const siteView = ref("0");
 
+// 判断当前是否在文章详情页
+const isArticlePage = computed(() => {
+  // 根据你的路由结构来判断，这里假设文章页面的路径包含 "/post/"
+  return route.path.includes("/post/") ||
+         route.path.includes("/old/") ||
+         // 或者根据frontmatter中的isArticle属性判断
+         (pageData.value && pageData.value.frontmatter && pageData.value.frontmatter.article !== false);
+});
+
+// 获取正确的统计URL
+const getStatUrl = () => {
+  // 如果在文章详情页，使用当前URL
+  if (isArticlePage.value) {
+    return location.href;
+  }
+  
+  // 如果在其他页面（如主页），但需要显示文章的阅读量
+  // 这里需要获取文章的URL，可能需要通过props传入
+  // 暂时返回null，表示不统计
+  return null;
+};
+
 // 不蒜子请求函数
 const fetchBusuanzi = async () => {
+  const statUrl = getStatUrl();
+  if (!statUrl) {
+    // 如果不是文章页面，不进行统计
+    pageView.value = "---";
+    return;
+  }
+  
   if ((window as any).busuanziRequestSent) return;
   
   try {
@@ -18,7 +49,7 @@ const fetchBusuanzi = async () => {
     const response = await fetch(u.protocol + '//' + u.host + '/api.php', {
       method: 'POST',
       body: JSON.stringify({
-        url: location.href,
+        url: statUrl,
         referrer: document.referrer
       })
     });
@@ -52,7 +83,7 @@ const initBusuanzi = () => {
 
   nextTick(() => {
     const pageInfo = document.querySelector(".page-info");
-    if (pageInfo) {
+    if (pageInfo && isArticlePage.value) {
       show.value = true;
       
       // 重置请求状态，允许重新请求
