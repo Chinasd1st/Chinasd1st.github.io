@@ -26,7 +26,7 @@ export default defineUserConfig({
       "script",
       {
         defer: true,
-        src: "//api.busuanzi.cc/static/3.6.9/busuanzi.min.js",
+        src: "/assets/js/busuanzi.min.js",
       },
     ],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
