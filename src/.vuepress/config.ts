@@ -177,6 +177,7 @@ export default defineUserConfig({
       imgSize: true,
       include: true,
       mark: true,
+      flowchart: true,
       plantuml: true,
       spoiler: true,
       stylize: [
