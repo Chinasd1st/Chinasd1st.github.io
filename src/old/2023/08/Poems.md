@@ -375,15 +375,14 @@ duang
 同舟共济六年  
 同归于尽六年
 
-<!--
 ## Video（最后更新：2023.11.19）
 
 此处的视频不具有时效性，无法及时更新。
+20251130更新：恢复此处视频展示
 
-<video controls width=510>
-    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/Poems_23_11_19_web.mp4" type="video/mp4"/>
-</video>
-注意修改此处视频后缀名-->
+<VidStack
+    src="/videos/Poems_23_11_19_web.mp4"
+/>
 
 ## 下载
 
