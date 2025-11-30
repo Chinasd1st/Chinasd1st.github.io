@@ -141,14 +141,14 @@ export default defineUserConfig({
     },
 
     // 加密配置
-    encrypt: {
+    /*encrypt: {
       config: {
         "/old/2025/02/RyoukiArticle": {
           hint: "密码在群公告中",
           password: process.env.PASSWORD!,
         },
       },
-    },
+    },*/
 
     // 多语言配置
     metaLocales: {
