@@ -46,7 +46,7 @@ span.aplayer-list-title {
 
 ***PS：建议在查看新闻内容的同时播放下方音乐：***
 
-:::details 网易云Playlist：https://music.163.com/#/playlist?id=7721557249
+:::details 网易云Playlist：<https://music.163.com/#/playlist?id=7721557249>
 
 <Meting mid="7721557249" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
@@ -204,17 +204,11 @@ woAiDaHongShi(); // 调用函数
 
 *何跃胜看了也很是高兴，不禁开了几瓶啤酒，三人一起宿醉了。（完）
 
-### 视频
-
-<!--<video controls width=510>
-    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4" type="video/mp4"/>
-    <source src="https://chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4"/>
-</video>-->
+### 视频_0
 
 <VidStack
     src="https://chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4"
 />
-<!--注意修改此处视频后缀名-->
 
 ## 2023.11.29 本学期最抽象的一场ABN联赛
 
@@ -279,14 +273,7 @@ woAiDaHongShi(); // 调用函数
 
 原来何跃胜早在一个月之前就准备好了27张红十，准备今天爆杀虞国祥，但是不幸的是，何跃胜被篮球zhuangsi了。
 
-### 视频
-
-<!--<video controls width=510>
-    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4" type="video/mp4"/>
-    
-    <source src="https://chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4" type="video/mp4"/>
-</video>-->
-<!--注意修改此处视频后缀名-->
+### 视频_1
 
 <VidStack
     src="https://chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4"
@@ -296,16 +283,9 @@ woAiDaHongShi(); // 调用函数
 
 点击此处下载[鸿合智能电子教鞭-preview-0.0.2](https://github.com/Chinasd1st/Electronic-whip/releases/tag/%E9%B8%BF%E5%90%88%E6%99%BA%E8%83%BD%E7%94%B5%E5%AD%90%E6%95%99%E9%9E%AD-preview-0.0.2)
 
-
 ### 视频：使用方法
 
-本视频录制时本人感冒初愈，若有影响观感之处还请见谅
-<!--<video controls  width=510>
-    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>
-    <source src="https://chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>
-
-</video>-->
-<!--注意修改此处视频后缀名-->
+本视频录制时本人感冒初愈，若有影响观感之处还请见谅。
 
 <VidStack
     src="https://chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4"

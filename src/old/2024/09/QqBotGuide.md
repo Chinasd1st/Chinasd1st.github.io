@@ -82,8 +82,6 @@ Twitter 相关功能
 
 - `-l, --list`  展示当前订阅 twitter 博主列表
 
-
-
 ### 天气
 
 ```bash
