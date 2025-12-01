@@ -25,27 +25,27 @@ star: true
 
 :::
 
-2025年初，Capchii 在日本同人音乐厂牌 HARDCORE TANO*C 推出的合辑UNITED KONCEPT[<Badge text="TCPLUS-0059" type="info" vertical="middle" />](https://www.tano-c.net/release/tcplus-0059/)中投稿了Light Leak (feat. ChumuNote)。由于该专辑以 UK Hardcore 为主题，这首曲目在第二段 Drop 部分采用了 UK Hardcore 的经典编排。然而，引人注目的是，第一段 Drop 部分却呈现出一种名为 **Dariacore** 的曲风。那么，Dariacore 究竟是什么？为何世界各地越来越多的音乐制作人开始热衷于创作这类音乐？
+2025年初，**Capchii** 在日本同人音乐厂牌 **HARDCORE TANO*C** 推出的合辑 **UNITED KONCEPT**[<Badge text="TCPLUS-0059" type="info" vertical="middle" />](https://www.tano-c.net/release/tcplus-0059/)中投稿了 **Light Leak (feat. ChumuNote)** 。由于该专辑以 UK Hardcore 为主题，这首曲目在第二段 Drop 部分采用了 UK Hardcore 的经典编排。然而，引人注目的是，第一段 Drop 部分却呈现出一种名为 **Dariacore** 的曲风。那么，Dariacore 究竟是什么？为何世界各地越来越多的音乐制作人开始热衷于创作这类音乐？
 
 ## 起源
 
-Dariacore（又称 Hyperflip）通常被视为 Hyperpop 的一个子类型。Hyperpop（高能流行或超级流行），有时也被称作 Bubblegum Bass（泡泡糖贝斯），是一种起源于2010年代初英国、边界较为模糊的电子音乐运动与微流派。它以极度繁复的手法重新解构流行音乐，融合了电子、嘻哈和舞曲等元素，呈现出夸张而前卫的审美倾向。
+**Dariacore**（又称 Hyperflip）通常被视为 **Hyperpop** 的一个子曲风。Hyperpop（高能流行或超级流行），有时也被称作 Bubblegum Bass（泡泡糖贝斯），是一种起源于2010年代初英国、边界较为模糊的电子音乐运动与微流派。它以极度繁复的手法重新解构流行音乐，融合了电子、嘻哈和舞曲等元素，呈现出夸张而前卫的审美倾向。
 
 随着2021年专辑 **Dariacore** 及其两张续作的发布，Dariacore 这一风格逐渐进入大众视野。
 
 <Meting mid="1948269321" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9月14日）。乐评人 Bowman 在 Sputnikmusic 上写道：“this is the sound of someone who adores music […] and has enormous talent pairing that with a sense of humor, a short attention span, and, above all, brilliant musicality。”（这声音来自一个深爱音乐的人……惊人的才华，结合幽默感、跳跃的注意力，以及最为重要的——卓越的音乐性。）
+专辑 **Dariacore** 在 Rateyourmusic 上获得了3.56分的评分（截至2025年9月14日）。乐评人 Bowman 在 Sputnikmusic 上写道：“this is the sound of someone who adores music […] and has enormous talent pairing that with a sense of humor, a short attention span, and, above all, brilliant musicality。”（这声音来自一个深爱音乐的人……惊人的才华，结合幽默感、跳跃的注意力，以及最为重要的——卓越的音乐性。）
 
 ## 发展与争议
 
 2021至2022年间，Dariacore 通过 SoundCloud 逐渐流行起来。其典型特征包括对流行音乐及其他大众媒体片段进行加速与音高变换处理，并深受 breakbeats 和 Jersey club 的影响。The Fader的 Raphael Helfand 将其形容为“一个完全独立的音乐流派，将 Hyperpop 最荒诞的一面推向了极致。”
 
-然而，就在这种风格迅速席卷亚文化圈之际，2022年爆发了一场争议：部分艺术家——例如 Carbine——公开反对继续使用“Dariacore”这一标签，认为其原初声音已被“稀释”，甚至遭到模仿（如 Jane Remover 以 Leroy 名义发布的作品）。这一分歧导致该微流派内部出现分化，一些音乐人甚至主动从作品中移除 Dariacore 标签，整个社群也经历了快速膨胀后又迅速降温的循环。[^1][^2]
+然而，就在这种风格迅速席卷亚文化圈之际，2022年爆发了一场争议：部分艺术家——例如 Carbine——公开反对继续使用“Dariacore”这一标签，认为其原初声音已被“稀释”，甚至遭到模仿（如 Jane Remover 以 Leroy 名义发布的作品）。这一分歧导致该子曲风内部出现分化，一些音乐人甚至主动从作品中移除 Dariacore 标签，整个社群也经历了快速膨胀后又迅速降温的循环。[^1][^2]
 
 ## 复兴
 
-2023年，leroy 意外发布的专辑Grave Robbing重新点燃了听众对这一风格的热情。新作品在保留 Dariacore 核心制作手法的同时，融入了 Hard Dance 的影响，带来令人耳目一新的听感。
+2023年，leroy 意外发布的专辑 **Grave Robbing** 重新点燃了听众对这一风格的热情。新作品在保留 Dariacore 核心制作手法的同时，融入了 Hard Dance 的影响，带来令人耳目一新的听感。
 
 ### Lost Frog Productions
 
@@ -58,25 +58,25 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 :::
 
-在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是CAR CRASH AND SIREN<Badge text="LF231MP3" type="info" vertical="middle" />和FASTFUSION<Badge text="LF215MP3" type="info" vertical="middle" />。以下试听两首专辑中的第一曲：
+在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是 CAR CRASH AND SIREN<Badge text="LF231MP3" type="info" vertical="middle" /> 和 FASTFUSION<Badge text="LF215MP3" type="info" vertical="middle" />。以下试听两首专辑中的第一曲：
 
 <Meting mid="2082115887" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 <Meting mid="2150486811" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-这些作品中大量采样了欧美与日本流行音乐（如 sakanaction 鱼韵），以及 ACG 文化中的经典曲目（例如海色、Don’t say lazy等）。作者也借此表达对特定社群（如碧蓝档案、赛马娘）的热爱，甚至使用相关角色作为创作马甲。“CAR CRASH AND SIREN”一词被认为是指代Dariacore中常常出现的车祸与警笛采样。[^6]
+这些作品中大量采样了欧美与日本流行音乐（如 sakanaction 鱼韵），以及 ACG 文化中的经典曲目（例如海色、Don’t say lazy 等）。作者也借此表达对特定社群（如碧蓝档案、赛马娘）的热爱，甚至使用相关角色作为创作马甲。**“CAR CRASH AND SIREN”** 一词被认为是指代 Dariacore 中常常出现的车祸与警笛采样。[^6]
 
 #### FASTFUSION
 
 :::info
-本专辑有实体发行CD。购买详见[Propyl](https://payhip.com/b/lWCu1)。
+本专辑有实体发行CD。购买详见 [Propyl](https://payhip.com/b/lWCu1)。
 :::
 
-由曲师**DJ Raisei**创作的**せかいから____がきえるとき**可谓是国内最为知名的Hyperflip/Dariacore曲目，这首曲目之所以能如此热门，不单纯是由于DJ Raisei本身的热度较高，更是因为这一曲中他对于Hardcore与Melodic Dubstep的巧妙运用。结合歌词可知，曲目标题中的`____`应为“おんがく（音楽）”。
+由曲师 **DJ Raisei** 创作的 **せかいから____がきえるとき** 可谓是国内最为知名的Hyperflip/Dariacore曲目，这首曲目之所以能如此热门，不单纯是由于 DJ Raisei 自身热度较高，更因为这一曲中他对于Hardcore与Melodic Dubstep的巧妙运用。结合歌词可知，曲目标题中的`____`应为“おんがく（音楽）”。
 
 <Meting mid="2082115896" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-值得一提的是，为本曲目作词的**雨部冷キザミ**（Amebre Kizami）也是一名Hyperflip制作人。他为FASTFUSION制作的Last Track也被收录于他的个人专Hype Fripped。相较于FASTFUSION中收录的 **With the rain that never stops** ，这一版明显弱化了失真。
+值得一提的是，为本曲目作词的 **雨部冷キザミ（Amebre Kizami）**也是一名 Hyperflip 制作人。他为 FASTFUSION 制作的 Last Track 也被收录于他的个人专 Hype Fripped。相较于 FASTFUSION 中收录的 **With the rain that never stops** ，这一版明显弱化了失真。
 
 <Meting mid="2653091349" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
@@ -98,19 +98,47 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 #### magnet conversion
 
-2024年7月26日，LFP 在 Bandcamp上 发行 VS Themes #04 200BPM Hyperflip 专辑 magnet conversion<Badge text="LF245MP3" type="info" vertical="middle" />。全专由nottanishi vs samebeam两人制作。
+2024年7月26日，LFP 在 Bandcamp 上发行 VS Themes #04 200BPM Hyperflip 专辑 magnet conversion<Badge text="LF245MP3" type="info" vertical="middle" />。全专由nottanishi vs samebeam两人制作。
 
 <Meting mid="2614414298" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 #### BUZZ CUTZ
 
-2025年4月，TWC Sound Team "Strike Back Squad" 为 TWC 2025 创作了 BUZZ CUTZ 一曲，全曲长达十分钟，对参赛选手的耐力有极高的要求。同时曲目大量采样了以前既有的Hyperflip作品，被誉为“Hyperflip听众的走马灯”。
+2025年4月，TWC Sound Team "Strike Back Squad" 为 TWC 2025 创作了 BUZZ CUTZ 一曲，全曲长达十分钟，对参赛选手的耐力有极高的要求。同时曲目大量采样了以前既有的 Hyperflip 作品，被戏称为 “Hyperflip听众的走马灯”。
 
 <Meting mid="2699916026" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-### 其他厂牌
+### icesawder 与 Curren
 
-2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿Angel Theory[<Badge text="NXSR-0004" type="info" vertical="middle" />](https://nextlight.io/singlereleases/nxsr-0004)（[YouTube](https://www.youtube.com/watch?v=ynGInggF0LY)、[Niconico](https://www.nicovideo.jp/watch/sm44273477)）一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖 ~~（实际上也不是很新颖）~~。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的hand in handflip）。[^7]
+> *These samples have no context — they’re just music I LOVE.*
+
+自2022年12月起，以赛马娘角色“真机伶”（カレンチャン）为虚拟形象的账号 `.｡ﾟ+..Curren｡+..｡ﾟ+` 陆续发布了三张 Dariacore 专辑。2025年，网友发现该 [SoundCloud 账号](https://soundcloud.com/lookatcurren)与日本同人音乐人 **icesawder** 相关联，随后 Curren 承认自己就是 icesawder，并将 [X（原推特）账号](https://x.com/__curren__)更名为 `____`。同时，Curren 公开了所有作品中使用的采样列表（[详见博客](https://lookatcurren.blog.fc2.com/blog-entry-1.html)）。
+
+**worldwidesuperstar** 是SoundCloud上播放量最高的Hyperflip单曲，收录于 LookatCurren 1st Album **Crown of Cuteness**。截至目前（2025.12.1）本曲已有911k播放。
+
+<Meting mid="2057486478" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+<div style="text-align: center;">
+  <iframe width="98%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1185203857&color=%23216c9d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</div>
+
+2025年5月29日，Curren 发布最终专辑Cutest in Ur ♡：
+
+<Meting mid="2714684580" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+该曲采样来源广泛，包括 Olivia Rodrigo、PSYQUI、星街すいせい等多位艺术家的作品。最后一曲 Currencore Song Tutorial 甚至使用了116首歌曲作为采样素材：
+
+<Meting mid="2714684581" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+采样列表涵盖从 Charli XCX、100 gecs 等国际 Hyperpop 音乐人，到 Eve、初音ミク、星野源等日本流行与虚拟歌手作品，充分体现出 Dariacore 拼贴与再创作的文化特征。
+
+2025年6月25日，icesawder 发行单曲 †Down 4U† ，全曲在 C# Major 的基础上抬升40音分，营造出类似 Nightcore 等互联网音乐特有的听觉体验。（[Bandcamp](https://icesawder.bandcamp.com/track/down-4u)）
+
+<Meting mid="2723416418" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### 其他厂牌/社团
+
+2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿Angel Theory[<Badge text="NXSR-0004" type="info" vertical="middle" />](https://nextlight.io/singlereleases/nxsr-0004)（[YouTube](https://www.youtube.com/watch?v=ynGInggF0LY)、[Niconico](https://www.nicovideo.jp/watch/sm44273477)）一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖 ~~（实际上也不是很新颖）~~。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的 **hand in hand** flip）。[^7]
 
 <Meting mid="2638192885" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
@@ -128,31 +156,11 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 > それでも生きるの♪
 
-2025年8月22日，purini在[Niconico](https://www.nicovideo.jp/watch/sm45308123)投稿ボカコレ2025夏TOP100ランキング参加曲 md(ay)² feat. 花隈千冬，次日将视频投稿至[YouTube](https://www.youtube.com/watch?v=rAiqk7E8TKI)。结合歌词可知，曲名md(ay)²实际上代表“Mayday”，即国际上通用的无线电求救信号。[^9]
+2025年8月22日，**purini** 在[Niconico](https://www.nicovideo.jp/watch/sm45308123)投稿 ボカコレ2025夏TOP100ランキング 参加曲 **md(ay)² feat. 花隈千冬**，次日将视频投稿至[YouTube](https://www.youtube.com/watch?v=rAiqk7E8TKI)。结合歌词可知，曲名 **md(ay)²** 实际上代表“Mayday”，即国际上通用的无线电求救信号。[^9]
 
 <BiliBili bvid="BV1PheJzYEh5" />
 
 <Meting mid="2707039286" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
-
-### icesawder 与 Curren
-
-> *These samples have no context — they’re just music I LOVE.*
-
-自2022年12月起，以赛马娘角色“真机伶”（カレンチャン）为虚拟形象的账号 `.｡ﾟ+..Curren｡+..｡ﾟ+` 陆续发布了七张 Dariacore 专辑。2025年，网友发现该 [SoundCloud 账号](https://soundcloud.com/lookatcurren)与日本同人音乐人 **icesawder** 相关联，随后 Curren 承认自己就是 icesawder，并将 [X（原推特）账号](https://x.com/__curren__)更名为 `____`。同时，Curren 公开了所有作品中使用的采样列表（[详见博客](https://lookatcurren.blog.fc2.com/blog-entry-1.html)）。
-
-5月29日，Curren 发布最终专辑Cutest in Ur ♡：
-
-<Meting mid="2714684580" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
-
-该曲采样来源广泛，包括 Olivia Rodrigo、PSYQUI、星街すいせい等多位艺术家的作品。最后一曲 Currencore Song Tutorial 甚至使用了116首歌曲作为采样素材：
-
-<Meting mid="2714684581" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
-
-采样列表涵盖从 Charli XCX、100 gecs 等国际 Hyperpop 音乐人，到 Eve、初音ミク、星野源等日本流行与虚拟歌手作品，充分体现出 Dariacore 拼贴与再创作的文化特征。
-
-2025年6月25日，icesawder 发行单曲 †Down 4U† ，全曲在 C# Major 的基础上抬升40音分，营造出类似 Nightcore 等互联网音乐特有的听觉体验。（[Bandcamp](https://icesawder.bandcamp.com/track/down-4u)）
-
-<Meting mid="2723416418" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ## 线下活动
 
@@ -160,13 +168,13 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 <BiliBili bvid="BV1t11DY5EFs" />
 
-2025年10月18日，LFP 将在大阪市中央区的 club JOULE 举办 Car Crash & Siren OSAKA 线下 DJ live 活动。票务信息详见[livepocket](https://t.livepocket.jp/e/ccsosaka)。
+2025年10月18日，LFP 在大阪市中央区的 club JOULE 举办 Car Crash & Siren OSAKA 线下 DJ live 活动。
 
 ![CCS Osaka Poster，图中角色名为“ファス子”，与 FASTFUSION 曲绘为同一角色](/img/2025.9.14/CCS_Osaka.jpg)
 
 ## Hyperflip 与 Dariacore 有何区别？
 
-目前圈内对这两个曲风尚未明确的界定。网易云用户Staticwave在歌单Dariacore/Hyperflip的简介中将这两种曲风的特征进行了总结：
+目前圈内对这两个曲风尚未明确的界定。网易云用户 Staticwave 在歌单 **Dariacore/Hyperflip** 的简介中将这两种曲风的特征进行了总结：
 
 | 曲风 | 描述 |
 | --- | --- |
@@ -182,12 +190,12 @@ Dariacore专辑在 Rateyourmusic 上获得了3.56分的评分（截至2025年9�
 
 <BiliBili bvid="BV1Zf4y1q7Q3" />
 
-这一首歌几乎可以被称为Dariacore制作者最喜欢采样的一首曲子，在许多Daria作品中都可以发现这首歌的身影。
+这一首歌几乎可以被称为 Dariacore 制作者最频繁采样的一首曲子，在许多 Daria 作品中都可以发现这首歌的身影。
 
 49秒开始：
 
 :::note
-pinky swear（also pinkie swear）是英语习语，即拉钩。美语中常用pinky promise。
+pinky swear (also pinkie swear) 是英语习语，即拉钩。美语中常用 pinky promise。
 > If two people, especially children, pinky swear, they promise each other something by connecting their little fingers. (Cambridge Dictionary)
 :::
 
@@ -199,27 +207,29 @@ pinky swear（also pinkie swear）是英语习语，即拉钩。美语中常用p
 
 ### My Lights
 
-（实际上与Daria无关，只是因为m4titann经常写Daria）
-2024年8月30日，曲师m4titann, Sunow&Nachick在SoundCloud上发布单曲My Lights。曲师提到这一曲目本是All Nighter, Vol 9的投稿曲，后遗憾落选 ~~（J-core比起投anv更适合找同人厂投M3）~~ 。同时，曲师还提到：*We wanted to make a Kasane Teto track inspired by DJ Genki and DJ Noriken. I had a ton of fun working on this track and I really think we made something special here, so I hope you enjoy!*，可见DJ Noriken和DJ Genki对新生代曲师影响深远。[^10]
+（实际上与 Daria 无关，只是因为 m4titann 经常写 Daria）
+2024年8月30日，曲师 m4titann, Sunow&Nachick 在 SoundCloud 上发布单曲 My Lights 。曲师提到这一曲目本是 All Nighter, Vol 9 的投稿曲，后遗憾落选 ~~（J-core比起投anv更适合找同人厂投M3）~~ 。同时，曲师还提到：*We wanted to make a Kasane Teto track inspired by DJ Genki and DJ Noriken. I had a ton of fun working on this track and I really think we made something special here, so I hope you enjoy!*，可见 DJ Noriken 和 DJ Genki 对新生代曲师影响深远。[^10]
 
 <Meting mid="2621732129" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 <br />
-<div style="text-align: center;"><iframe width="98%" height="150" scrolling="no" frameborder="no" allow="autoplay" style="text-align: center; border-radius: 2px;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1894955820&color=%23216c9d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<div style="text-align: center;">
+  <iframe width="98%" height="150" scrolling="no" frameborder="no" allow="autoplay" style="text-align: center; border-radius: 2px;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1894955820&color=%23216c9d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+  </iframe>
 </div>
 
 ## 轶事
 
-Hyperflip粉丝们在Wplace上用像素画的形式将FASTFUSION专辑曲绘绘制在了相模湾三浦半岛一侧的洋面上。
+Hyperflip粉丝们在 Wplace 上用像素画的形式将 FASTFUSION 专辑曲绘绘制在了相模湾三浦半岛一侧的洋面上。
 
 详见<https://wplace.live/?lat=35.219487&lng=139.561217&zoom=12>。
 
 ## Dariacore/Hyperflip Compliation
 
-下面展示了本人选择的一些在各个方面表现都较为出色的Hyperflip音乐，供读者聆听。
+下面展示了本人选择的一些在各个方面表现都较为出色的 Hyperflip 音乐，供读者聆听。
 
 <Meting mid="14288201307" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-下面则展示了网易云用户一米四玉玉武装直升机高整理的歌单 **【ダリハイ】Japanese Dariacore/Hyperflip**。这一歌单囊括的歌曲更为全面，但是其中一些曲目可能比较实验，请结合自己喜好进行聆听。
+下面则展示了网易云用户一米四玉玉武装直升机高整理的歌单 **【ダリハイ】Japanese Dariacore/Hyperflip**。
 
 <Meting mid="10093420008" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
