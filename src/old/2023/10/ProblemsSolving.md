@@ -24,7 +24,7 @@ It is normal for this situation to occur as we are using the APlayer.js and Meti
 1. Copyright 版权  
 
     我们的网站一律使用[CC BY-NC-SA 4.0许可](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)
-    <p xmlns:cc="http://creativecommons.org/ns#" >*This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/cc.svg"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/by.svg"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/nc.svg"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/sa.svg"></a></p>
+    <p xmlns:cc="http://creativecommons.org/ns#" >*This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img alt="cc" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/cc.svg"><img alt="by" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/by.svg"><img alt="nc" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/nc.svg"><img alt="sa" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/icon/sa.svg"></a></p>
 
 2. Embed our page in your website 在您的网站中嵌入我们的页面
 

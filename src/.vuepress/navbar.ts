@@ -17,7 +17,7 @@ export default navbar([
         children: [
           { text: "中华民国临时春晚", link: "/old/2023/10/SpringFestival.html", icon: "tv" },
           { text: "Playground", link: "/old/2023/10/Playground.html", icon: "flask" },
-          { text: "更新历史", link: "/old/2023/10/UpdateHistory.html", icon: "clock-rotate-left" },
+          //{ text: "更新历史", link: "/old/2023/10/UpdateHistory.html", icon: "clock-rotate-left" },
           { text: "FAQ", link: "/old/2023/10/ProblemsSolving.html", icon: "question" }
         ],
       },

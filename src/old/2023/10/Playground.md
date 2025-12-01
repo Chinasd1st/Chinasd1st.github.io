@@ -5,12 +5,6 @@ category:
   - 网站事宜
 ---
 
-<style>
-.aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
-  background-color: var(--vp-c-accent-bg) !important
-}
-</style>
-
 # Playground
 
 :::warning

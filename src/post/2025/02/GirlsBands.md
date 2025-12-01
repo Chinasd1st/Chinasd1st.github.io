@@ -7,18 +7,6 @@ tag:
   - 亚文化
 icon: guitar
 ---
-<!--
-<style>
-.aplayer .aplayer-info .aplayer-music .aplayer-title {
-    font-size: 14px;
-    color: #3c3c43 !important;
-    }
-span.aplayer-list-title {
-    color: #3c3c43 !important;
-}
-</style>-->
-
-
 # 木柜子乐队相关内容
 
 ## 少女乐队企划社区风向论述
@@ -290,8 +278,6 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 2023年11月1日，MyGO!!!!! 1st album 「迷跡波」发行。标题衍生自日语“航跡波（こうせきは）”，意为航行物体划过静止流体表面时在尾部产生的波^[详见b站官方动态：https://t.bilibili.com/865276713153593368]。
 
 <Meting mid="13464915417" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
-
-
 
 <table>
   <thead>
