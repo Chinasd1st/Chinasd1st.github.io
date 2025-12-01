@@ -22,7 +22,7 @@ span.aplayer-list-title {
 
 :::important
 
-1. 下列内容由于发布时间较久，不能代表真实情况或声明作者立场
+1. 下列内容由于发布时间较久，不能代表真实情况或声明作者立场。
 2. 视频源由境外cdn提供，可能无法正常播放。
 
 :::
@@ -179,9 +179,9 @@ def unencrypt(): # [!code ++]
 
 话说三人最近正沉迷于打红十无法自拔，冯晓杰红十瘾突然犯了，便邀请何跃胜来他家里打红十。以下是两人的对话：
 
-*何跃胜*：哈哈，这把我又赢了。话说最近我在教学生们函数（Function）
+**何跃胜**：哈哈，这把我又赢了。话说最近我在教学生们函数（Function）
 
-*冯晓杰*：哈哈，这不是我们Python里的梗吗，下次使用记得标明出处。
+**冯晓杰**：哈哈，这不是我们Python里的梗吗，下次使用记得标明出处。
 
 >你说得对，但是，Python函数是组织好的，可重复使用的，用来实现单一，或相关联功能的代码段。函数能提高应用的模块性，和代码的重复利用率。
 
@@ -192,7 +192,7 @@ def woAiDaHongShi():
 woAiDaHongShi()
 ```
 
-*虞国祥*：哈哈，我学前端，用JavaScript
+**虞国祥**：哈哈，我学前端，用JavaScript
 
 ```javascript
 function woAiDaHongShi() { // 声明函数
@@ -207,7 +207,7 @@ woAiDaHongShi(); // 调用函数
 ### 视频_0
 
 <VidStack
-    src="https://chinasd1st.github.io/videos/news/2023_11_26/2023_11_26_hongshi.mp4"
+    src="/videos/news/2023_11_26/2023_11_26_hongshi.mp4"
 />
 
 ## 2023.11.29 本学期最抽象的一场ABN联赛
@@ -239,21 +239,21 @@ woAiDaHongShi(); // 调用函数
 
 何跃胜先生作为一名专业的红十玩家，抱着试一试的心态参加了非诚勿扰。
 
-孟非：......有请下一位男嘉宾登场。
+**孟非**：......有请下一位男嘉宾登场。
 
 （何跃胜拿着他的红十牌闪亮登场）
 
-孟非：你好男嘉宾，介绍一下你自己。
+**孟非**：你好男嘉宾，介绍一下你自己。
 
 何跃胜：大家好，我叫何跃胜，来自桐乡市现代实验学校。
 
 （掌声）
 
-孟非：好，那么话不多说，我们先看一段VCR
+**孟非**：好，那么话不多说，我们先看一段VCR
 
 （以下为VCR内容）
 
-何跃胜：大家好，我是来自现代实验学校的何跃胜，是一位数学老师。平常，我总会在数学课上向各位同学们传授自己的教学经验以及解题技巧。除此之外，我上课还喜欢批驳那些罕见，我认为，他们吃着国家的饭，还帮着立本人说好话，简直是脸都不要了，让他们去吃立本人的狗粮吧！我们中国不差这些人！平日里，我最喜欢的休闲娱乐活动是打红十，红十是一个很考验脑力的益智游戏，当然，你数学好的人打红十肯定也不会差。我总是喜欢约上三五好友，一起打上几把红十，这样，一日里的疲惫就全部被消除了。无论如何，我都推荐你打红十，因为这有助于开发你的智力。
+**何跃胜**：大家好，我是来自现代实验学校的何跃胜，是一位数学老师。平常，我总会在数学课上向各位同学们传授自己的教学经验以及解题技巧。除此之外，我上课还喜欢批驳那些罕见，我认为，他们吃着国家的饭，还帮着立本人说好话，简直是脸都不要了，让他们去吃立本人的狗粮吧！我们中国不差这些人！平日里，我最喜欢的休闲娱乐活动是打红十，红十是一个很考验脑力的益智游戏，当然，你数学好的人打红十肯定也不会差。我总是喜欢约上三五好友，一起打上几把红十，这样，一日里的疲惫就全部被消除了。无论如何，我都推荐你打红十，因为这有助于开发你的智力。
 
 （0/24）
 
@@ -265,7 +265,7 @@ woAiDaHongShi(); // 调用函数
 
 王浩宇（*冲撞，投篮）
 
-何跃胜：哈哈，一看你就不会打篮球，我教你。
+**何跃胜**：哈哈，一看你就不会打篮球，我教你。
 
 王浩宇先生用力过猛，把何跃胜给zhuangsi了。何跃胜想着今天晚上的牌局，不禁感到遗憾。便掏出手机，给虞国祥打了个电话：抱歉，我今天可能来不了了。
 
@@ -276,7 +276,7 @@ woAiDaHongShi(); // 调用函数
 ### 视频_1
 
 <VidStack
-    src="https://chinasd1st.github.io/videos/news/2023_12_02/feichengwurao.mp4"
+    src="/videos/news/2023_12_02/feichengwurao.mp4"
 />
 
 ## 2023.12.15 鸿合智能电子教鞭-preview-0.0.2
@@ -288,7 +288,7 @@ woAiDaHongShi(); // 调用函数
 本视频录制时本人感冒初愈，若有影响观感之处还请见谅。
 
 <VidStack
-    src="https://chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4"
+    src="/videos/news/2023_12_16/jiaobian.mp4"
 />
 
 ## 2024.1.7 BA标题生成器
@@ -340,19 +340,6 @@ Forked from <https://github.com/ldcivan/BA_logo>
 
 如下
 
-<!--<video controls height=510>
-    <source src="https://jsd.onmicrosoft.cn/gh/chinasd1st/chinasd1st.github.io/videos/news/2023_12_16/jiaobian.mp4" type="video/mp4"/>
-    <source src="https://chinasd1st.github.io/videos/news/2025_01_12/video_20250112_145343.mp4" type="video/mp4"/>
-    
-</video>-->
-
 <VidStack
-    src="https://chinasd1st.github.io/videos/news/2025_01_12/video_20250112_145343.mp4"
+    src="/videos/news/2025_01_12/video_20250112_145343.mp4"
 />
-
-<!--
-<link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
-<script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
-<meting-js server="netease" type="playlist" id="7721557249" fixed="true"></meting-js>
--->

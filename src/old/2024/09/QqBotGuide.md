@@ -322,75 +322,100 @@ koishi-plugin-minesweeper-ending 是一个基于 Koishi 框架的插件，实现
 ## 扩展巴科斯范式（EBNF）表示法
 
 ``` ebnf
-// bilibili指令
-/bilibili ( 
-  -a <upInfo> | 
-  -b <upInfo>{,<upInfo>} | 
-  -r <upInfo> | 
-  -s <upInfo> | 
-  -l | 
-  -v <upInfo> | 
-  -d <upInfo> | 
-  --re | 
-  --ck <cookie> 
-)
+Document           = CommandSection , { CommandSection } ;
 
-// twitter指令
-/twitter ( 
-  -a <userId> | 
-  -b <userId>{,<userId>} | 
-  -r <userId> | 
-  -s <userId> | 
-  -ck <cookie> | 
-  -l 
-)
+CommandSection     = CommandName , Options ;
 
-// 天气指令
-天气 <city>
+CommandName        = "bilibili-command"
+                   | "twitter-command"
+                   | "weather-command"
+                   | "news-command"
+                   | "tarot-command"
+                   | "music-command"
+                   | "emojihub-command"
+                   | "pixluna-command"
+                   | "minesweeper-command"
+                   | "tagger-command"
+                   | "eew-command"
+                   | "waifu-command"
+                   ;
 
-// 今日新闻指令
-今日新闻 | 新闻
+(* -------------------------- bilibili -------------------------- *)
+bilibili-command   = "/bilibili" , bili-option , value ;
+bili-option        = ("-a" | "--add")
+                   | ("-b" | "--batch")
+                   | ("-r" | "--remove")
+                   | ("-s" | "--search")
+                   | ("-l" | "--list")
+                   | ("-v" | "--vup")
+                   | ("-d" | "--danmu")
+                   | ("--re" | "--refresh")
+                   | ("--ck" | "--cookie")
+                   ;
+value              = NonEmptyString ;
 
-// 塔罗牌指令
-/塔罗牌
+(* -------------------------- twitter ---------------------------- *)
+twitter-command    = "/twitter" , twitter-option , value ;
+twitter-option     = ("-a" | "--add")
+                   | ("-b" | "--batch")
+                   | ("-r" | "--remove")
+                   | ("-s" | "--search")
+                   | ("-ck" | "--cookie")
+                   | ("-l" | "--list")
+                   ;
 
-// music指令
-music [ -p <platform> ] <keyword>{ <keyword> }
-// 其中platform可选值: qq | netease (默认netease)
+(* -------------------------- weather ---------------------------- *)
+weather-command    = "天气" , city ;
+city               = NonEmptyString ;
 
-// pixluna指令
-pixluna [ -n <value> ] [ -s <source> ] <tag>{ <tag> }
+(* -------------------------- news ------------------------------- *)
+news-command       = ("今日新闻" | "新闻") ;
 
-// pixluna子指令
-/pixluna get
-/pixluna source
+(* -------------------------- tarot ------------------------------ *)
+tarot-command      = "/塔罗牌" ;
 
-// 扫雷指令
-ed | 扫雷残局 | minesweeper-ending
+(* -------------------------- music ------------------------------ *)
+music-command      = ("music" | "mdff" | "点歌") , keyword , { keyword } , [ music-option ] ;
+music-option       = ("-p" | "--platform") , ("qq" | "netease") ;
+keyword            = NonEmptyString ;
 
-// 扫雷子指令
-ed.s <序号>{ <序号> } | 打开 <序号>{ <序号> } | s<序号>{ <序号> }
-ed.f <序号>{ <序号> } | 标记 <序号>{ <序号> } | f<序号>{ <序号> }
-ed.flag
-ed.end | 不玩了
-ed.l | 揭晓
-ed.n | 刷新残局
-ed.r | 雷神殿 | 雷神榜
-ed.fight
-ed.挑战榜
-ed.生涯
+(* ----------------------- emojihub-bili ------------------------- *)
+emojihub-command   = EmojiHubName ;
+EmojiHubName       = NonEmptyString ;
 
-// tagger指令
-/tagger rec <value>
-/tagger view-results <value>
+(* -------------------------- pixluna ----------------------------- *)
+pixluna-command    = "pixluna" , { tag } , [ pixluna-option ] | pixluna-subcommand ;
+pixluna-option     = ("-n" , number) | ("-s" , source) ;
+pixluna-subcommand = "/pixluna" , ("get" | "source") ;
+tag                = NonEmptyString ;
+number             = Digit , { Digit } ;
+source             = NonEmptyString ;
 
-// EEW指令
-/eew ( 关闭 | 开启 | 测试 | 平台 | 目标 | 重置 | 状态 )
+(* ------------------------- minesweeper -------------------------- *)
+minesweeper-command = "ed" , [ minesweeper-option ] , [ minesweeper-sub ] ;
+minesweeper-option = ("-f" | "--force") ;
+minesweeper-sub    = ("残局" | "打开" | "标记" | "ed.flag" | "不玩了"
+                     | "揭晓" | "刷新残局" | "雷神殿" | "雷神榜"
+                     | "fight" | "挑战榜" | "生涯") , [ sequence ] ;
+sequence           = Digit , Digit , Digit , Digit ;
 
-// waifu指令
-/marry
-/divorce <target>
-/force-marry <target>
-/propose <target>
+(* --------------------------- tagger ----------------------------- *)
+tagger-command     = "/tagger" , tagger-sub , value ;
+tagger-sub         = "rec" | "view-results" ;
+
+(* ---------------------------- EEW ------------------------------- *)
+eew-command        = "/eew" , ( "关闭" | "开启" | "测试" | "平台"
+                               | "目标" | "重置" | "状态" ) ;
+
+(* ---------------------------- waifu ----------------------------- *)
+waifu-command      = ("/marry"
+                     | "/divorce" , target
+                     | "/force-marry" , target
+                     | "/propose" , target ) ;
+target             = NonEmptyString ;
+
+(* ------------------------ Terminals ---------------------------- *)
+NonEmptyString     = ? any non-empty sequence of characters without newline ? ;
+Digit              = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
 
 ```

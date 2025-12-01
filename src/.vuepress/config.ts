@@ -96,6 +96,8 @@ export default defineUserConfig({
       center: ["Links"],
       end: ["Repo", "Outlook", "Search"],
     },
+
+    
     // 博客相关
 
     blog: {
@@ -247,10 +249,11 @@ export default defineUserConfig({
 
     // 在这里配置主题提供的插件
     plugins: {
-      // search: true,
-      // search: {
-      //   插件选项
-      // },
+
+      watermark: {
+      enabled: false, // 必须开启插件，否则 frontmatter 无效
+    },
+
       docsearch: {
         appId: process.env.ALGOLIA_APP_ID!,          // 从 Algolia 获取
         apiKey: process.env.ALGOLIA_SEARCH_API_KEY!, // Search-Only API Key

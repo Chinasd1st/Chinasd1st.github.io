@@ -9,10 +9,7 @@ tag:
   - 娱乐
 star: true
 watermark:
-  width: 200
-  height: 200
-  content: 禁止无断转载
-  opacity: 0.5
+  content: 禁止无断转载 小奶奶博客
 ---
 <!--
 <style>
