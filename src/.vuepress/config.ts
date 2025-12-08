@@ -275,17 +275,17 @@ export default defineUserConfig({
 
       blog: {},
 
-      notice: [
-        {
-          path: "/",
-          title: "网站更新",
-          content:
-            "网站近日使用SCSS对APlayer增加了深色模式支持，但在包含有播放器的界面切换深浅色主题时会遇到卡顿，目前暂无有效办法解决这一问题。",
-          actions: [{ text: "确认" }],
-          // fullscreen: true,
-          showOnce: true,
-        },
-      ],
+      // notice: [
+      //   {
+      //     path: "/",
+      //     title: "网站更新",
+      //     content:
+      //       "网站近日使用SCSS对APlayer增加了深色模式支持，但在包含有播放器的界面切换深浅色主题时会遇到卡顿，目前暂无有效办法解决这一问题。",
+      //     actions: [{ text: "确认" }],
+      //     // fullscreen: true,
+      //     showOnce: true,
+      //   },
+      // ],
 
       // 启用之前需安装 @waline/client
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
