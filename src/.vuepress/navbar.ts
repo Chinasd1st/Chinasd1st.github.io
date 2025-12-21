@@ -128,7 +128,9 @@ export default navbar([
     icon: "folder",
     children: [
       { text: "黄睿涵导航页", link: "https://chinasd1st.github.io/pages/", icon: "compass" },
-      { text: "蔚蓝档案标题生成器", link: "https://chinasd1st.github.io/BA_logo/", icon: "gears" }
+      { text: "蔚蓝档案标题生成器", link: "https://chinasd1st.github.io/BA_logo/", icon: "gears" },
+      { text: "Material Player", link: "https://chinasd1st.github.io/material-music-3/", icon: "music" }
+
     ],
   },
   {
