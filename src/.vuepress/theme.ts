@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -7,15 +6,17 @@ export default hopeTheme({
   hostname: "https://chinasd1st.github.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "Silentnrtx",
     url: "https://chinasd1st.github.io",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "Chinasd1st/Chiansd1st.github.io",
+  repo: "Chinasd1st/Chinasd1st.github.io",
 
   docsDir: "src",
+
+  lastUpdated: true,
 
   // 导航栏
   navbar,
@@ -24,63 +25,36 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "小奶奶网站",
+  footer: "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 今日pv <span id='busuanzi_today_pv'><i class='fa fa-spinner fa-spin'></i></span> 次 / 总pv <span id='busuanzi_site_pv'><i class='fa fa-spinner fa-spin'></i></span> 次",
   displayFooter: true,
+  changelog: true,
+
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Repo", "Outlook", "Search"],
+  },
 
   // 博客相关
-  /*
   blog: {
-    description: "一个前端开发者",
+    description: "美食家",
     intro: "/intro.html",
+    avatar: "/assets/avatar/SP6C_01.jpg",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      BiliBili: "https://space.bilibili.com/520682236",
+      Twitter: "https://x.com/Silentnrtx",
     },
   },
-  */
 
   // 加密配置
-  encrypt: {
+  /*encrypt: {
     config: {
-      "/old/RyoukiArticle": {
-        hint: "密码在群公告内",
-        password: "8c4b70d9e6c56eff",
+      "/old/2025/02/RyoukiArticle": {
+        hint: "密码在群公告中",
+        password: process.env.PASSWORD!,
       },
     },
-  },
+  },*/
 
   // 多语言配置
   metaLocales: {
@@ -92,6 +66,12 @@ export default hopeTheme({
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
+    footnote: true,
+    mermaid: true,
+    revealjs: true,
+    math: {
+      type: "katex", // 或 'mathjax'
+    },
     align: true,
     attrs: true,
     codeTabs: true,
@@ -103,6 +83,7 @@ export default hopeTheme({
     imgSize: true,
     include: true,
     mark: true,
+    flowchart: true,
     plantuml: true,
     spoiler: true,
     stylize: [
@@ -123,121 +104,70 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
-
-    // 取消注释它们如果你需要 TeX 支持
-    // markdownMath: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
-
-    // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
-
-    // 在启用之前安装 chart.js
-    // chartjs: true,
-
-    // insert component easily
-
-    // 在启用之前安装 echarts
-    // echarts: true,
-
-    // 在启用之前安装 flowchart.ts
-    // flowchart: true,
-
-    // 在启用之前安装 mermaid
-    mermaid: true,
-
-    // playground: {
-    //   presets: ["ts", "vue"],
-    // },
-
-    // 在启用之前安装 @vue/repl
-    // vuePlayground: true,
-
-    // 在启用之前安装 sandpack-vue3
-    // sandpack: true,
+    highlighter: {
+      // 代码高亮配置
+      type: "shiki",
+      lineNumbers: true,
+      notationFocus: true,
+      notationDiff: true,
+      notationWordHighlight: true
+    },
+    chartjs: true,
+    echarts: true,
   },
-  math: {
-    type: "katex", // 或 'mathjax'
-  },
+
   // 在这里配置主题提供的插件
   plugins: {
-    blog: true,
+    watermark: {
+      enabled: false, // 必须开启插件，否则 frontmatter 无效
+    },
 
-    // 启用之前需安装 @waline/client
-    // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    docsearch: {
+      appId: process.env.ALGOLIA_APP_ID!,          // 从 Algolia 获取
+      apiKey: process.env.ALGOLIA_SEARCH_API_KEY!, // Search-Only API Key
+      indexName: "chinasd1stio",
+      // 可选：自定义搜索参数
+
+      // 可选：覆盖默认样式
+      locales: {
+        '/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索',
+            },
+          },
+        },
+      },
+    },
+
+    blog: {},
+
+    // notice: [
+    //   {
+    //     path: "/",
+    //     title: "网站更新",
+    //     content:
+    //       "网站近日使用SCSS对APlayer增加了深色模式支持，但在包含有播放器的界面切换深浅色主题时会遇到卡顿，目前暂无有效办法解决这一问题。",
+    //     actions: [{ text: "确认" }],
+    //     // fullscreen: true,
+    //     showOnce: true,
+    //   },
+    // ],
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "VidStack", "BiliBili", "PDF"],
+    },
+
+    comment: {
+      provider: "Twikoo",
+      envId:
+        "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo", // 腾讯云环境ID或自建地址
     },
 
     icon: {
-      prefix: "fa6-solid:",
+      assets: "fontawesome-with-brands",
+      type: "fontawesome",
     },
-
-    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cacheImage: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
   },
 });
