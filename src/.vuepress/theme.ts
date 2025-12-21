@@ -156,7 +156,7 @@ export default hopeTheme({
     // ],
 
     components: {
-      components: ["Badge", "VPCard", "VidStack", "BiliBili", "PDF"],
+      components: ["Badge", "VPCard", "VidStack", "BiliBili", "PDF", "SiteInfo"],
     },
 
     comment: {
