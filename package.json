@@ -7,7 +7,7 @@
   "scripts": {
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src --port 11451",
+    "docs:dev": "vuepress-vite dev src --port 1145",
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
