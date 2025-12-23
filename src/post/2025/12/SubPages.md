@@ -36,3 +36,11 @@ star: true
   repo="https://github.com/Chinasd1st/material-music-3"
   preview="/img/SubpagePreview/Player.jpeg"
 />
+
+<SiteInfo
+  name="CineTech Architecture"
+  desc="基于 React + Vite 的相机全链路原理展示网页"
+  url="https://chinasd1st.github.io/lensoptics-lab/"
+  repo="https://github.com/Chinasd1st/lensoptics-lab"
+  preview="/img/SubpagePreview/Lensoptics.jpeg"
+/>
