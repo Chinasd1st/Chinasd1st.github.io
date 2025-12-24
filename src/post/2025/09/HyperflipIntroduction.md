@@ -76,7 +76,7 @@ star: true
 
 <Meting mid="2082115896" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-值得一提的是，为本曲目作词的 **雨部冷キザミ（Amebre Kizami）**也是一名 Hyperflip 制作人。他为 FASTFUSION 制作的 Last Track 也被收录于他的个人专 Hype Fripped。相较于 FASTFUSION 中收录的 **With the rain that never stops** ，这一版明显弱化了失真。
+值得一提的是，为本曲目作词的 **雨部冷キザミ (Amebre Kizami)** 也是一名 Hyperflip 制作人。他为 FASTFUSION 制作的 Last Track 也被收录于他的个人专 Hype Fripped。相较于 FASTFUSION 中收录的 **With the rain that never stops** ，这一版明显弱化了失真。
 
 <Meting mid="2653091349" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
