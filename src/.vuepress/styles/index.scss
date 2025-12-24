@@ -1,3 +1,11 @@
+// 处理Aplayer在深色模式下的样式问题
+// 基础样式调整
+.aplayer {
+  // 确保背景色可以被覆盖
+  background: transparent !important;
+  color: var(--text-color) !important;
+}
+
 /* TorusPro Regular – 400 */
 @font-face {
   font-family: "TorusPro";
@@ -32,139 +40,176 @@ a {
   font-weight: 600 !important;     // SemiBold
 }
 
-// 定义 APlayer 专用的颜色变量
-// ----------------------------------------------------
-
-// 浅色模式下的变量定义
-[data-theme="light"] {
-  --aplayer-bg: #f5f5f5;
-  --aplayer-text: #333;
-  --aplayer-bar-bg: #eee;
-  --aplayer-loaded-bg: #ddd;
-  --aplayer-list-bg: #fff;
-  --aplayer-list-border: #eee;
-  --aplayer-list-hover-bg: #f0f0f0;
-  --aplayer-button-color: #666;
-  --aplayer-border-color: #eee;
-  --aplayer-lrc-gradient-start: rgba(245, 245, 245, 0);
-  --aplayer-lrc-gradient-end: rgba(245, 245, 245, 0.9);
-}
-
-// 深色模式下的变量定义
+// 深色模式下的样式
 [data-theme="dark"] {
-  --aplayer-bg: #1e1e1e;
-  --aplayer-text: #f5f5f5;
-  --aplayer-bar-bg: #333;
-  --aplayer-loaded-bg: #444;
-  --aplayer-list-bg: #2d2d2d;
-  --aplayer-list-border: #333;
-  --aplayer-list-hover-bg: #383838;
-  --aplayer-button-color: #ccc;
-  --aplayer-border-color: #333;
-  --aplayer-lrc-gradient-start: rgba(30, 30, 30, 0);
-  --aplayer-lrc-gradient-end: rgba(30, 30, 30, 0.9);
+  .aplayer {
+    // 深色模式下的背景
+    background: #1e1e1e !important;
+    
+    // 深色模式下的文本
+    color: #f5f5f5 !important;
+    
+    // 进度条和控件
+    .aplayer-bar {
+      background: #333 !important;
+    }
+    
+    .aplayer-loaded {
+      background: #444 !important;
+    }
+    
+    .aplayer-played {
+      background: var(--vp-c-accent) !important;
+    }
+    
+    .aplayer-button,
+    .aplayer-icon {
+      color: #ccc !important;
+    }
+    
+    .aplayer-button:hover,
+    .aplayer-icon:hover {
+      color: #fff !important;
+    }
+    
+    // 歌曲信息区域
+    .aplayer-info {
+      .aplayer-music {
+        .aplayer-title {
+          color: #fff !important;
+        }
+        .aplayer-author {
+          color: #aaa !important;
+        }
+      }
+      
+      // 歌词区域渐变背景修正（上）
+      .aplayer-lrc:before {
+        background: linear-gradient(0deg, rgba(30, 30, 30, 0) 0%, rgba(30, 30, 30, 0.9) 100%) !important;
+        // border-bottom: 1px solid #00000000 !important;
+      }
+      
+      // 歌词区域渐变背景修正（下）
+      .aplayer-lrc:after {
+        background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, rgba(30, 30, 30, 0.9) 100%) !important;
+      }
+    }
+    
+    // 带列表的播放器信息区域底部边框
+    &.aplayer-withlist .aplayer-info {
+      border-bottom: 1px solid #333 !important;
+    }
+    
+    // 列表样式
+    .aplayer-list {
+      background: #2d2d2d !important;
+      
+      // 列表项样式修正
+      ol li {
+        border-top: 1px solid #333 !important;
+        
+        &.aplayer-list-light {
+          background: #383838 !important;
+        }
+        
+        // 列表项hover状态
+        &:hover {
+          background: #383838 !important;
+        }
+      }
+      
+      // 移除Aplayer自定义滚动条样式，使用主题默认样式
+      &::-webkit-scrollbar {
+        // 仅保留基础尺寸定义，移除颜色设置
+        width: 6px !important;
+        height: 6px !important;
+      }
+      
+      &::-webkit-scrollbar-track,
+      &::-webkit-scrollbar-thumb,
+      &::-webkit-scrollbar-thumb:hover {
+        // 取消所有自定义背景色，继承主题样式
+        scrollbar-color: var(--vp-c-accent-bg) var(--vp-c-border) !important
+      }
+
+      .aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
+        background-color: var(--vp-c-accent-bg) !important
+      }
+    }
+  }
 }
 
-// APlayer 通用样式 (只使用变量，避免重复计算)
-// ----------------------------------------------------
-.aplayer {
-  // 基础样式和颜色
-  background: var(--aplayer-bg) !important;
-  color: var(--aplayer-text) !important;
-  border-radius: 6px; // 继承主题的圆角
-  box-shadow: var(--box-shadow); // 继承主题的阴影
-
-  // 进度条和控件
-  .aplayer-bar {
-    background: var(--aplayer-bar-bg) !important;
-  }
-  
-  .aplayer-loaded {
-    background: var(--aplayer-loaded-bg) !important;
-  }
-
-  .aplayer-played {
-    // 播放进度条颜色不变，始终使用主题强调色
-    background: var(--vp-c-brand) !important;
-  }
-
-  .aplayer-button,
-  .aplayer-icon {
-    color: var(--aplayer-button-color) !important;
-  }
-
-  .aplayer-button:hover,
-  .aplayer-icon:hover {
-    // 悬浮颜色使用主题颜色
-    color: var(--vp-c-brand) !important;
-  }
-
-  // 歌曲信息区域
-  .aplayer-info {
-    .aplayer-music {
-      .aplayer-title {
-        color: var(--aplayer-text) !important;
-      }
-      .aplayer-author {
-        color: var(--aplayer-button-color) !important; // 使用较暗的颜色作为作者颜色
-      }
+// 浅色模式下的样式（确保与主题协调）
+[data-theme="light"] {
+  .aplayer {
+    background: #f5f5f5 !important;
+    color: #333 !important;
+    
+    .aplayer-bar {
+      background: #eee !important;
+    }
+    
+    .aplayer-loaded {
+      background: #ddd !important;
+    }
+    
+    .aplayer-played {
+      background: var(--vp-c-accent) !important;
+    }
+    
+    .aplayer-button,
+    .aplayer-icon {
+      color: #666 !important;
     }
     
     // 歌词区域渐变背景修正（上）
-    .aplayer-lrc:before {
-      background: linear-gradient(0deg, var(--aplayer-lrc-gradient-start) 0%, var(--aplayer-lrc-gradient-end) 100%) !important;
+    .aplayer-info .aplayer-lrc:before {
+      background: linear-gradient(0deg, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0.9) 100%) !important;
+      // border-bottom: 1px solid #eeeeee00 !important;
     }
-
+    
     // 歌词区域渐变背景修正（下）
-    .aplayer-lrc:after {
-      background: linear-gradient(180deg, var(--aplayer-lrc-gradient-start) 0%, var(--aplayer-lrc-gradient-end) 100%) !important;
-    }
-  }
-
-  // 带列表的播放器信息区域底部边框
-  &.aplayer-withlist .aplayer-info {
-    border-bottom: 1px solid var(--aplayer-border-color) !important;
-  }
-
-  // 列表样式
-  .aplayer-list {
-    background: var(--aplayer-list-bg) !important;
-
-    ol li {
-      border-top: 1px solid var(--aplayer-list-border) !important;
-
-      &.aplayer-list-light {
-        background: var(--aplayer-list-hover-bg) !important;
-      }
-
-      // 列表项hover状态
-      &:hover {
-        background: var(--aplayer-list-hover-bg) !important;
-      }
+    .aplayer-info .aplayer-lrc:after {
+      background: linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0.9) 100%) !important;
     }
     
-    // 滚动条样式优化：直接使用 CSS 变量
-    // 这里的目的是取消 APlayer 自身的自定义滚动条颜色，继承主题样式
-    &::-webkit-scrollbar {
-      width: 6px !important;
-      height: 6px !important;
+    // 带列表的播放器信息区域底部边框
+    &.aplayer-withlist .aplayer-info {
+      border-bottom: 1px solid #eee !important;
     }
     
-    // 移除不必要的样式覆盖，让浏览器和主题去处理滚动条颜色
-    &::-webkit-scrollbar-track,
-    &::-webkit-scrollbar-thumb,
-    &::-webkit-scrollbar-thumb:hover {
-      background: unset !important;
-      scrollbar-color: var(--vp-c-brand-light) var(--vp-c-bg-soft) !important; 
+    // 列表样式
+    .aplayer-list {
+      background: #fff !important;
+      
+      // 列表项样式修正
+      ol li {
+        border-top: 1px solid #eee !important;
+        
+        &.aplayer-list-light {
+          background: #f0f0f0 !important;
+        }
+        
+        // 列表项hover状态
+        &:hover {
+          background: #f0f0f0 !important;
+        }
+      }
+      
+      // 移除Aplayer自定义滚动条样式，使用主题默认样式
+      &::-webkit-scrollbar {
+        // 仅保留基础尺寸定义，移除颜色设置
+        width: 6px !important;
+        height: 6px !important;
+      }
+      
+      &::-webkit-scrollbar-track,
+      &::-webkit-scrollbar-thumb,
+      &::-webkit-scrollbar-thumb:hover {
+        // 取消所有自定义背景色，继承主题样式
+        background: inherit !important;
+        scrollbar-color: var(--vp-c-accent-bg) var(--vp-c-border) !important
+      }
     }
   }
-}
-
-.aplayer {
-  /* 提升到独立的合成层 */
-  will-change: transform, opacity; 
-  /* 或者使用 transform: translateZ(0); */
-  transform: translateZ(0);
-  /* 确保平滑的过渡，虽然在这里主要是为了性能 */
-  -webkit-font-smoothing: antialiased;
 }
