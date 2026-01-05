@@ -120,6 +120,12 @@ export default navbar([
         children: [
           { text: "同人音乐聆听记录", link: "/post/2025/11/DoujinMusicRecords.html", icon: "music" }
         ],
+      },
+      {
+        text: "2026.01",
+        children: [
+          { text: "桐高幽默事件", link: "/post/2026/01/HumorousIncidents.html", icon: "user-tie" }
+        ],
       }
     ],
   },
