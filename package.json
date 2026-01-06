@@ -1,13 +1,13 @@
 {
-  "name": "test",
+  "name": "blog",
   "description": "A project of vuepress-theme-hope",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src --port 1145",
+    "docs:dev": "vuepress-vite dev src --port 6656",
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
