@@ -123,8 +123,8 @@ export default hopeTheme({
     },
 
     docsearch: {
-      appId: process.env.ALGOLIA_APP_ID!,          // 从 Algolia 获取
-      apiKey: process.env.ALGOLIA_SEARCH_API_KEY!, // Search-Only API Key
+      appId: 'IOAA89YPZT',          // 从 Algolia 获取
+      apiKey: '4a1e8c0c4c23bbe3fdc74909fe2b8366', // Search-Only API Key
       indexName: "chinasd1stio",
       // 可选：自定义搜索参数
 
