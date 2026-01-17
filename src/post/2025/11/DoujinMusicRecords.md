@@ -11,12 +11,34 @@ star: true
 ---
 # 同人音乐聆听记录
 
-:::warning WORK IN PROGRESS
+:::info WORK IN PROGRESS
+
 <Badge text="yyyy.mm.dd" type="info" vertical="middle" />为专辑添加时间
-目前仅统计2025年部分专辑
+
+~~目前仅统计2025年部分专辑~~
+
 :::
 
 [[toc]]
+
+## Comic Market 107 (2025.12.30 - 2025.12.31)
+
+> The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
+
+### Qualia<Badge text="2026.01.17" type="info" vertical="middle" />
+
+- **Catalog**: DSVP-0320
+- **Artists / Label**: Diverse System / Ryo Arue
+- **Genre**: Techcore / DnB / Hardstyle (tr.04) / Uplifting Trance / Psytrance / Future Bounce
+
+Ryo Arue 1st solo album; [DL](https://pixeldrain.com/u/GU3fXvou)
+
+### Genexx Nova<Badge text="2026.01.17" type="info" vertical="middle" />
+
+- **Catalog**: MRX-180
+- **Artists / Label**: MEGAREX / lapix
+
+<Meting mid="3332059890" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ## M3-2025秋 (2025.10.26)
 
@@ -29,6 +51,7 @@ star: true
 - **Genre**: Uplifting Trance / Tech Trance etc.
 
 <Meting mid="3319288480" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
 ### Stargazing Youth<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: SIREN : 0021
@@ -227,3 +250,107 @@ nerdneko 4th Album
 
 - **Catalog**: KRHS-60850
 - **Artists / Label**: Mwk / KARENT
+
+## Comic Market 105 (2024.12.29 - 2024.12.30)
+
+> The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
+
+### AD:TECHNO 8<Badge text="2026.01.17" type="info" vertical="middle" />
+
+- **Catalog**: DVSP-0308
+- **Artists / Label**: Diverse System / Akihabara Heavy Industry Inc.
+
+### copium.<Badge text="2026.01.17" type="info" vertical="middle" />
+
+- **Catalog**: N/A
+- **Artists / Label**: crayvxn
+
+### HYPER DUO 2<Badge text="2026.01.17" type="info" vertical="middle" />
+
+- **Catalog**: TCPLUS-0058
+- **Artists / Label**: HARDCORE TANO*C
+
+## M3-2024秋 (2024.10.27)
+
+> 54th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+- AD:Garage<Badge text="2026.01.17" type="info" vertical="middle" />
+- AETHERION / satella<Badge text="2026.01.17" type="info" vertical="middle" />
+- Antique -The United-<Badge text="2026.01.17" type="info" vertical="middle" />
+- APEXA DISC-01 : REFLEX<Badge text="2026.01.17" type="info" vertical="middle" />
+- ARTIFACTS:ATMØSPHERE<Badge text="2026.01.17" type="info" vertical="middle" />
+- BASS ATHANASIA 2nd Season<Badge text="2026.01.17" type="info" vertical="middle" />
+- BeyondCORE ESSENCE<Badge text="2026.01.17" type="info" vertical="middle" />
+- Brightness<Badge text="2026.01.17" type="info" vertical="middle" />
+- Colors 2 -AD:HOUSE VOCAL REMIXES-<Badge text="2026.01.17" type="info" vertical="middle" />
+- E-LIP 01<Badge text="2026.01.17" type="info" vertical="middle" />
+- ELYSIAN / BlackY feat. Risa Yuzuki<Badge text="2026.01.17" type="info" vertical="middle" />
+- ENIGMA / 棗いつき<Badge text="2026.01.17" type="info" vertical="middle" />
+- ハピコア流星群II<Badge text="2026.01.17" type="info" vertical="middle" />
+- HARDCORE SYNDROME 18<Badge text="2026.01.17" type="info" vertical="middle" />
+- ICONIC / ななひら<Badge text="2026.01.17" type="info" vertical="middle" />
+- Laur The BEST / Laur<Badge text="2026.01.17" type="info" vertical="middle" />
+- Mega Meteoroid / Sakuzyo<Badge text="2026.01.17" type="info" vertical="middle" />
+- nexuz onoken vocal collection<Badge text="2026.01.17" type="info" vertical="middle" />
+- our intelligence vol.3<Badge text="2026.01.17" type="info" vertical="middle" />
+- PUPA -Metamorphoses-<Badge text="2026.01.17" type="info" vertical="middle" />
+- 劇場版QUATTUORUX -オリジナルサウンドトラック- / 打打だいず Vs. Tanchiky Vs. からめる<Badge text="2026.01.17" type="info" vertical="middle" />
+- Solas na Gréine<Badge text="2026.01.17" type="info" vertical="middle" />
+- Stargaze / Juggernaut.<Badge text="2026.01.17" type="info" vertical="middle" />
+- Techcore Horizon 02<Badge text="2026.01.17" type="info" vertical="middle" />
+- Two♡Hearts / Tatsunoshin & 藍良あれれ<Badge text="2026.01.17" type="info" vertical="middle" />
+- Unity of Raw Vol.9 -QRISIS MODE-<Badge text="2026.01.17" type="info" vertical="middle" />
+- V/A<Badge text="2026.01.17" type="info" vertical="middle" />
+- WAVES OF EUPHORIA 4<Badge text="2026.01.17" type="info" vertical="middle" />
+
+## Comic Market 104 (2024.08.11 - 2024.08.12)
+
+> The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
+
+- AD:HOUSE 12<Badge text="2026.01.17" type="info" vertical="middle" />
+- Insane Insights / Sakuzyo<Badge text="2026.01.17" type="info" vertical="middle" />
+- new wave 2024 Spring/Summer<Badge text="2026.01.17" type="info" vertical="middle" />
+
+## M3-2024春 (2024.04.28)
+
+> 53rd installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+- Aggregation of the Cosmos<Badge text="2026.01.17" type="info" vertical="middle" />
+- BASS ATTACK<Badge text="2026.01.17" type="info" vertical="middle" />
+- BLUE:NOTES. / MisoilePunch♪<Badge text="2026.01.17" type="info" vertical="middle" />
+- COLOURS.04 "Yelling" / Endorfin.<Badge text="2026.01.17" type="info" vertical="middle" />
+- entr'acte EP / ARForest<Badge text="2026.01.17" type="info" vertical="middle" />
+- Ether Drive / crayvxn<Badge text="2026.01.17" type="info" vertical="middle" />
+- Fiesta!<Badge text="2026.01.17" type="info" vertical="middle" />
+- GOODCOLLECTION ANTOHER 1.25<Badge text="2026.01.17" type="info" vertical="middle" />
+- HiTECH ALLiON<Badge text="2026.01.17" type="info" vertical="middle" />
+- HiTNEX ViRTUAL SHiFTERZ / Kobaryo feat. Matatabi Sound System, DJ NECOJITA, Shinonome I/F, blaxervant<Badge text="2026.01.17" type="info" vertical="middle" />
+- Innocent Proof / Risa Yuzuki<Badge text="2026.01.17" type="info" vertical="middle" />
+- INTERDIXION / Juggernaut.<Badge text="2026.01.17" type="info" vertical="middle" />
+- IRREGULAR NATION 10<Badge text="2026.01.17" type="info" vertical="middle" />
+- 九龍 / Massive New Krew & Yuta Imai<Badge text="2026.01.17" type="info" vertical="middle" />
+- NITE 2 FLOW / icesawder x moyu<Badge text="2026.01.17" type="info" vertical="middle" />
+- our intelligence vol.2<Badge text="2026.01.17" type="info" vertical="middle" />
+- RAVE TOOL / Yuta Imai<Badge text="2026.01.17" type="info" vertical="middle" />
+- Stream Palette 5 -CHATTING-<Badge text="2026.01.17" type="info" vertical="middle" />
+- Stream Palette 5 -RANKED-<Badge text="2026.01.17" type="info" vertical="middle" />
+- TECHCORE EVANGELIX 04<Badge text="2026.01.17" type="info" vertical="middle" />
+- THALEIA / satella<Badge text="2026.01.17" type="info" vertical="middle" />
+- The Cosmologist / Laur<Badge text="2026.01.17" type="info" vertical="middle" />
+- ULTRA SYNERGY MATRIX アルティメットコレクション / Tanchiky<Badge text="2026.01.17" type="info" vertical="middle" />
+- Vivid Refrain / DJ Genki<Badge text="2026.01.17" type="info" vertical="middle" />
+- works.14<Badge text="2026.01.17" type="info" vertical="middle" />
+
+## Comic Market 103 (2024.12.30 - 2024.12.31)
+
+> The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
+
+- AD:PIANO VIVACE 2<Badge text="2026.01.17" type="info" vertical="middle" />
+- AD:TRANCE 10<Badge text="2026.01.17" type="info" vertical="middle" />
+- GOD SLAIN / Juggernaut.<Badge text="2026.01.17" type="info" vertical="middle" />
+- JAPAN 2<Badge text="2026.01.17" type="info" vertical="middle" />
+- LilacFeel / t+pazolite<Badge text="2026.01.17" type="info" vertical="middle" />
+- MAGGOD / DJ Myosuke feat.つぐ<Badge text="2026.01.17" type="info" vertical="middle" />
+- MEGATON KICK 5<Badge text="2026.01.17" type="info" vertical="middle" />
+- new wave 2023 Autumn/Winter<Badge text="2026.01.17" type="info" vertical="middle" />
+- パラフォビア / lapix<Badge text="2026.01.17" type="info" vertical="middle" />
