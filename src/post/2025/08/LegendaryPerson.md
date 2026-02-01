@@ -19,16 +19,11 @@ icon: user-tie
 ::: warning
 
 - 本文中的一些内容鉴于时间久远不能完全保证其准确性，请酌情阅读。
-- 文章中的“/”符号指换行。
 - 为了保护隐私，不会展示下列人物的真人图片。后续可能会考虑通过打码等方式加工后展示图片。
-
-:::
-
-::: note
-
-- 若未特别注明，下方提及所有时间均为UTC+8。
-- 文章中的 ==\[sic\]== 指  **“原文如此”**
-- 若有残缺部分，欢迎点击下方的[在 GitHub 上编辑此页](https://github.com/Chinasd1st/Chinasd1st.github.io/edit/main/src/post/LegendaryPerson.md)以扩充内容。
+- 若未特别注明，下方提及所有时间均为 UTC+8。
+- 文章中的 “/” 符号指换行。
+- 文章中的 ==\[sic\]== 指 **“原文如此”**。
+- 若有残缺部分，欢迎点击下方的[在 GitHub 上编辑此页](https://github.com/Chinasd1st/Chinasd1st.github.io/edit/main/src/post/2025/08/LegendaryPerson.md)以扩充内容。
 
 :::
 
