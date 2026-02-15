@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import metingPlugin from "vuepress-plugin-meting2";
 import dotenv from "dotenv";
+import { llmsPlugin } from '@vuepress/plugin-llms'
 // import { commentPlugin } from '@vuepress/plugin-comment'
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
@@ -45,6 +46,9 @@ export default defineUserConfig({
   base: "/",
 
   plugins: [
+    llmsPlugin({
+      // 选项
+    }),
     metingPlugin({
       metingOptions: {
         global: false, // 开启关闭全局播放器
