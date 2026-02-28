@@ -112,9 +112,11 @@ star: true
 
 > *These samples have no context — they’re just music I LOVE.*
 
+注：本人没有接触过赛马娘。
+
 自2022年12月起，以赛马娘角色“真机伶”（カレンチャン）为虚拟形象的账号 `.｡ﾟ+..Curren｡+..｡ﾟ+` 陆续发布了三张 Dariacore 专辑。2025年，网友发现该 [SoundCloud 账号](https://soundcloud.com/lookatcurren)与日本同人音乐人 **icesawder** 相关联，随后 Curren 承认自己就是 icesawder，并将 [X（原推特）账号](https://x.com/__curren__)更名为 `____`。同时，Curren 公开了所有作品中使用的采样列表（[详见博客](https://lookatcurren.blog.fc2.com/blog-entry-1.html)）。
 
-**worldwidesuperstar** 是SoundCloud上播放量最高的Hyperflip单曲，收录于 LookatCurren 1st Album **Crown of Cuteness**。截至目前（2025.12.1）本曲已有911k播放。
+**worldwidesuperstar**是 Curren 发布的第二首 Hyperflip 单曲，在 Hyperflip 圈子中影响深远，是许多听众初次了解 Dariacore/Hyperflip 的契机。它同时也是SoundCloud上播放量最高的Hyperflip单曲，收录于 LookatCurren 1st Album **Crown of Cuteness**。截至目前（2025.12.1）本曲已有911k播放。
 
 <Meting mid="2057486478" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
@@ -137,6 +139,8 @@ star: true
 <Meting mid="2723416418" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ### 其他厂牌/社团
+
+随着这一曲风的不断发展，Hyperflip音乐的发展不再局限于Soundcloud等互联网平台，转而反向影响相对传统的同人音乐厂牌。
 
 2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿Angel Theory[<Badge text="NXSR-0004" type="info" vertical="middle" />](https://nextlight.io/singlereleases/nxsr-0004)（[YouTube](https://www.youtube.com/watch?v=ynGInggF0LY)、[Niconico](https://www.nicovideo.jp/watch/sm44273477)）一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖 ~~（实际上也不是很新颖）~~。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的 **hand in hand** flip）。[^7]
 
@@ -174,7 +178,7 @@ star: true
 
 ## Hyperflip 与 Dariacore 有何区别？
 
-目前圈内对这两个曲风尚未明确的界定。网易云用户 Staticwave 在歌单 **Dariacore/Hyperflip** 的简介中将这两种曲风的特征进行了总结：
+目前圈内对这两个曲风尚未明确的界定。本质上看来，Dariacore在传入日本后不断创新发展形成了所谓的Hyperflip。网易云用户 Staticwave 在歌单 **Dariacore/Hyperflip** 的简介中将这两种曲风的特征进行了总结：
 
 | 曲风 | 描述 |
 | --- | --- |
@@ -232,6 +236,13 @@ Hyperflip粉丝们在 Wplace 上用像素画的形式将 FASTFUSION 专辑曲绘
 下面则展示了网易云用户一米四玉玉武装直升机高整理的歌单 **【ダリハイ】Japanese Dariacore/Hyperflip**。
 
 <Meting mid="10093420008" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+## 更多
+
+推荐视频：
+
+- [【熟肉】从Dariacore到Hyperflip：一场互联网音乐运动的演变史](https://www.bilibili.com/video/BV1W2nuzvE4b/)
+- [【熟肉】简单介绍（一些）赛马娘主题Hyperflip制作人](https://www.bilibili.com/video/BV1qEm2BCE6z)
 
 [^1]: [Dariacore - Music genre - Rate Your Music](https://rateyourmusic.com/genre/dariacore/)  
 [^2]: [Digital swing: An interview with carbine](https://nobells.blog/carbine-interview/)  
