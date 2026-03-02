@@ -21,7 +21,7 @@ category:
 
 我们鼓励拥有原创能力的网站用户投稿。
 
-投稿邮箱：<1297537384@qq.com>
+投稿邮箱：<a href="mailto:1297537384@qq.com" target="_blank" rel="noopener noreferrer">1297537384[at]qq.com</a>
 （注明版权所有人、作者、创作时间）
 
 :::info 版权许可声明
