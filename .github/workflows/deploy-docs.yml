@@ -28,6 +28,10 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Clean node_modules and package-lock  # ← 新增这个步骤
+        run: |
+          rm -rf node_modules package-lock.json
+
       - name: 安装依赖
         run: |
           corepack enable
