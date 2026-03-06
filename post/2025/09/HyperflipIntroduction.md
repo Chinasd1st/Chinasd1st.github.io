@@ -84,7 +84,7 @@ url: /post/2025/09/HyperflipIntroduction.md
 
 自2022年12月起，以赛马娘角色“真机伶”（カレンチャン）为虚拟形象的账号 `.｡ﾟ+..Curren｡+..｡ﾟ+` 陆续发布了三张 Dariacore 专辑。2025年，网友发现该 [SoundCloud 账号](https://soundcloud.com/lookatcurren)与日本同人音乐人 **icesawder** 相关联，随后 Curren 承认自己就是 icesawder，并将 [X（原推特）账号](https://x.com/__curren__)更名为 `____`。同时，Curren 公开了所有作品中使用的采样列表（[详见博客](https://lookatcurren.blog.fc2.com/blog-entry-1.html)）。
 
-**worldwidesuperstar**是 Curren 发布的第二首 Hyperflip 单曲，在 Hyperflip 圈子中影响深远，是许多听众初次了解 Dariacore/Hyperflip 的契机。它同时也是SoundCloud上播放量最高的Hyperflip单曲，收录于 LookatCurren 1st Album **Crown of Cuteness**。截至目前（2025.12.1）本曲已有911k播放。
+**worldwidesuperstar**是 Curren 发布的第二首 Hyperflip 单曲，在 Hyperflip 圈子中影响深远，是许多听众初次了解 Dariacore/Hyperflip 的契机。它同时也是SoundCloud上播放量最高的Hyperflip单曲，收录于 LookatCurren 1st Album **Crown of Cuteness**。截至目前（2025.12.1）本曲已有911k播放。2026年3月6日，worldwidesuperstar在Soundcloud上的播放量突破了100万，成为Soundcloud上第一首突破100万播放量的Hyperflip/Dariacore单曲。
 
 2025年5月29日，Curren 发布最终专辑Cutest in Ur ♡：
 
