@@ -49,6 +49,7 @@ export default hopeTheme({
       BiliBili: "https://space.bilibili.com/520682236",
       Twitter: "https://x.com/Silentnrtx",
       GitHub: "https://github.com/Chinasd1st",
+      Rss: "https://chinasd1st.github.io/rss.xml"
     },
     timeline: "71M3L1N3",
     articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime", "Word"]
@@ -132,7 +133,7 @@ export default hopeTheme({
 
     docsearch: {
       appId: process.env.ALGOLIA_APP_ID || "IOAA89YPZT",  // fallback 防止本地没 env 时崩
-      apiKey: process.env.ALGOLIA_API_KEY,         // 空字符串 fallback，开发时会提示搜索失效但不崩溃
+      apiKey: process.env.ALGOLIA_API_KEY || "",
       indexName: process.env.ALGOLIA_INDEX_NAME || "chinasd1stio",
       // 可选：自定义搜索参数
 
@@ -162,7 +163,9 @@ export default hopeTheme({
         "lensoptics-lab/",
         "material-music-3/",
         "BA_logo/",
-        "pages/"
+        "pages/",
+        "llms.txt",
+        "llms-full.txt"
       ]
     },
 
@@ -180,6 +183,11 @@ export default hopeTheme({
 
     components: {
       components: ["Badge", "VPCard", "VidStack", "BiliBili", "PDF", "SiteInfo"],
+    },
+
+    seo: {
+      twitterID: "@Silentnrtx",
+      autoDescription: true
     },
 
     comment: {
