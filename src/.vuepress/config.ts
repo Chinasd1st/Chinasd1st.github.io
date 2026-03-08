@@ -9,14 +9,7 @@ import theme from "./theme.ts"; // 修改这行
 // import navbar from "./navbar.js";
 // import sidebar from "./sidebar.js";
 
-// 可选：用环境变量管理密钥，避免硬编码
-const {
-  ALGOLIA_APP_ID,
-  ALGOLIA_INDEX_NAME,
-  ALGOLIA_SEARCH_API_KEY, // 这是search-only key，前端可公开
-} = process.env as Record<string, string>;
-
-dotenv.config();
+dotenv.config({ path: '.env.local' });
 
 export default defineUserConfig({
 

@@ -1,6 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import dotenv from "dotenv";
+
+dotenv.config({ path: '.env.local' });
 
 export default hopeTheme({
   hostname: "https://chinasd1st.github.io",
@@ -32,7 +35,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["Repo", "Outlook", "Search"],
+    end: ["Search", "Repo", "Outlook"],
   },
 
   // 博客相关
@@ -43,6 +46,7 @@ export default hopeTheme({
     medias: {
       BiliBili: "https://space.bilibili.com/520682236",
       Twitter: "https://x.com/Silentnrtx",
+      GitHub: "https://github.com/Chinasd1st",
     },
   },
 
@@ -123,9 +127,9 @@ export default hopeTheme({
     },
 
     docsearch: {
-      appId: 'IOAA89YPZT',          // 从 Algolia 获取
-      apiKey: '4a1e8c0c4c23bbe3fdc74909fe2b8366', // Search-Only API Key
-      indexName: "chinasd1stio",
+      appId: process.env.ALGOLIA_APP_ID || "IOAA89YPZT",  // fallback 防止本地没 env 时崩
+      apiKey: process.env.ALGOLIA_API_KEY,         // 空字符串 fallback，开发时会提示搜索失效但不崩溃
+      indexName: process.env.ALGOLIA_INDEX_NAME || "chinasd1stio",
       // 可选：自定义搜索参数
 
       // 可选：覆盖默认样式
