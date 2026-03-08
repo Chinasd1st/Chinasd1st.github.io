@@ -167,9 +167,9 @@ export default navbar([
       {
         text: "订阅格式",
         children: [
-          { text: "RSS 2.0", link: "/rss.xml", icon: "rss" },
-          { text: "Atom 1.0", link: "/atom.xml", icon: "atom" },
-          { text: "JSON Feed", link: "/feed.json", icon: "file-code" }
+          { text: "RSS 2.0", link: "./rss.xml", icon: "rss" },
+          { text: "Atom 1.0", link: "./atom.xml", icon: "atom" },
+          { text: "JSON Feed", link: "./feed.json", icon: "file-code" }
         ],
       },
     ],
