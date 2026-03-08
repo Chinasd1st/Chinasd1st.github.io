@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/plugin-docsearch": "2.0.0-rc.124",
+    "@vuepress/plugin-feed": "^2.0.0-rc.124",
     "@vuepress/plugin-llms": "2.0.0-rc.124",
     "@vuepress/plugin-prismjs": "2.0.0-rc.124",
     "@vuepress/plugin-revealjs": "2.0.0-rc.124",
@@ -36,6 +37,6 @@
     "dotenv": "^17.2.3"
   },
   "optionalDependencies": {
-  "@rollup/rollup-linux-x64-gnu": "^4.18.0"   
-}
+    "@rollup/rollup-linux-x64-gnu": "^4.18.0"
+  }
 }

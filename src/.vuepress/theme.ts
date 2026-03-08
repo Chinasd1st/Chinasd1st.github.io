@@ -8,6 +8,8 @@ dotenv.config({ path: '.env.local' });
 export default hopeTheme({
   hostname: "https://chinasd1st.github.io",
 
+  license: "CC BY-NC-SA 4.0",
+
   author: {
     name: "Silentnrtx",
     url: "https://chinasd1st.github.io",
@@ -48,6 +50,8 @@ export default hopeTheme({
       Twitter: "https://x.com/Silentnrtx",
       GitHub: "https://github.com/Chinasd1st",
     },
+    timeline: "71M3L1N3",
+    articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime", "Word"]
   },
 
   // 加密配置
@@ -147,12 +151,18 @@ export default hopeTheme({
 
     blog: {},
 
+    feed: {
+      rss: true,
+      atom: true,
+      json: true,
+    },
+
     sitemap: {
       extraUrls: [
-        "https://chinasd1st.github.io/lensoptics-lab/",
-        "https://chinasd1st.github.io/material-music-3/",
-        "https://chinasd1st.github.io/BA_logo/",
-        "https://chinasd1st.github.io/pages/"
+        "lensoptics-lab/",
+        "material-music-3/",
+        "BA_logo/",
+        "pages/"
       ]
     },
 
