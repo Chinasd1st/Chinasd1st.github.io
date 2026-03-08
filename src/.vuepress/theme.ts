@@ -143,6 +143,15 @@ export default hopeTheme({
 
     blog: {},
 
+    sitemap: {
+      extraUrls: [
+        "https://chinasd1st.github.io/lensoptics-lab/",
+        "https://chinasd1st.github.io/material-music-3/",
+        "https://chinasd1st.github.io/BA_logo/",
+        "https://chinasd1st.github.io/pages/"
+      ]
+    },
+
     // notice: [
     //   {
     //     path: "/",
