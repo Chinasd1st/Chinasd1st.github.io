@@ -153,9 +153,25 @@ export default navbar([
       {
         text: "联系我们",
         children: [
-          { text: "bilibili", link: "https://space.bilibili.com/520682236", icon: "fab:bilibili" }
+          { text: "bilibili", link: "https://space.bilibili.com/520682236", icon: "fab:bilibili" },
+          { text: "Github", link: "https://github.com/Chinasd1st", icon: "fab:github" },
+          { text: "X (Twitter)", link: "https://x.com/Silentnrtx", icon: "fab:x-twitter" },
         ],
       }
     ],
-  }
+  },
+  {
+    text: "订阅更新",
+    icon: "rss", // 核心订阅图标（仅保留名称）
+    children: [
+      {
+        text: "订阅格式",
+        children: [
+          { text: "RSS 2.0", link: "/rss.xml", icon: "rss" },
+          { text: "Atom 1.0", link: "/atom.xml", icon: "atom" },
+          { text: "JSON Feed", link: "/feed.json", icon: "file-code" }
+        ],
+      },
+    ],
+  },
 ]);
