@@ -6,10 +6,11 @@
     <link>https://chinasd1st.github.io/</link>
     <description>分享各种小奶奶内容 这使人感到有趣味</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Mar 2026 13:51:48 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Mar 2026 13:51:48 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2026 14:12:37 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2026 14:12:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>计算机技术</category>
     <category>人文社科</category>
     <category>文学文化</category>
     <category>网站事宜</category>
@@ -19,12 +20,71 @@
     <category>校园生活</category>
     <category>存档</category>
     <category>科学</category>
-    <category>计算机技术</category>
     <category>兴趣爱好</category>
     <category>游戏</category>
     <category>小奶奶二创作品</category>
     <category>视频</category>
     <category>其他</category>
+    <item>
+      <title>DOMPurify XSS 漏洞绕过：对我的影响——开源是否更安全？</title>
+      <link>https://chinasd1st.github.io/post/2026/03/CVE20260540DOMPurify.html</link>
+      <guid>https://chinasd1st.github.io/post/2026/03/CVE20260540DOMPurify.html</guid>
+      <source url="https://chinasd1st.github.io/rss.xml">DOMPurify XSS 漏洞绕过：对我的影响——开源是否更安全？</source>
+      <description>DOMPurify XSS 漏洞绕过：对我的影响——开源是否更安全？ 最近笔者闲来无事关注一些互联网资讯时发现 DOMPurify 爆了一个漏洞，因为我的站点大量依赖（大嘘） Mermaid 来画图，而 Mermaid 的上游依赖有 DOMPurify，这令人忍俊不禁。 具体漏洞 DOMPurify 是一个用于 HTML、MathML 和 SVG 的高...</description>
+      <category>计算机技术</category>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>最近笔者闲来无事关注一些互联网资讯时发现 DOMPurify 爆了一个漏洞，因为我的站点大量依赖（大嘘） Mermaid 来画图，而 Mermaid 的上游依赖有 DOMPurify，这令人忍俊不禁。</p>
+<h2>具体漏洞</h2>
+<p>DOMPurify 是一个用于 HTML、MathML 和 SVG 的高性能、可容错的 DOM 级 XSS 清洗库。</p>
+<p>在 3.1.3-3.3.1 和 2.5.3-2.5.8 版本中，其 <code>SAFE_FOR_XML</code> 配置相关的正则表达式由于缺失了对五个 Rawtext 元素（noscript, xmp, noembed, noframes, iframe）的处理，导致存在逻辑缺陷。</p>
+<p>攻击者可以通过在属性值中构造包含闭合标签（如 <code>&lt;/noscript&gt;</code>）的恶意载荷，在清洗后的内容被放置于上述 Rawtext 上下文时实现闭合绕过，从而触发跨站脚本攻击（XSS）。<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p>
+<p>CVSS v4.0 ≈ 5.1, AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N<sup class="footnote-ref"><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2"></a></sup></p>
+<h3>受影响版本</h3>
+<ul>
+<li><strong>3.x 分支</strong>：3.1.3 ≤ x ≤ 3.3.1</li>
+<li><strong>2.x 分支</strong>：2.5.3 ≤ x ≤ 2.5.8</li>
+</ul>
+<h3>External Links</h3>
+<p>GitHub Advisory GHSA-v2wj-7wpq-c8vv：<a href="https://github.com/advisories/GHSA-v2wj-7wpq-c8vv" target="_blank" rel="noopener noreferrer">https://github.com/advisories/GHSA-v2wj-7wpq-c8vv</a></p>
+<p>NVD Detail: <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0540" target="_blank" rel="noopener noreferrer">https://nvd.nist.gov/vuln/detail/CVE-2026-0540</a></p>
+<h2>对我的直接影响</h2>
+<p>这一漏洞对本人的影响约等于0。<br>
+Mermaid 在 Vuepress 中是客户端渲染，并且 Twikoo 评论系统作为一个轻量级的 MD 评论组件原生不支持 Mermaid 图表渲染，进而导致攻击者根本没有乘虚而入的机会。外加我使用纯静态部署 + Github Pages，没人会费力攻击。</p>
+<p>如果你的项目中可能受到影响，可以运行<code>npm audit fix</code>来自动更新到<code>^3.3.2 || ^2.5.9</code>来解决问题。</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sh"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">$</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> audit</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">found</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 3</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vulnerabilities</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (1 </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">moderate,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> high</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">run</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> `</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> audit fix`</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> to</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> fix</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> them,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> `</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> audit`</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> details</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">$</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> audit</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> fix</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">...</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>警钟</h2>
+<p>DOMPurify这一次爆雷并非孤案，就在同天，CVE-2025-15599 披露 DOMPurify 存在 SAFE_FOR_XML 正则遗漏 <code>&lt;textarea&gt;</code> 等 rawtext 元素处理的问题，提醒广大前端开发者注意关注供应链漏洞。</p>
+<p>而这还是小巫见大巫。譬如去年十二月的 <strong>React2Shell</strong> 致命漏洞（CVE-2025-55182）,CVSS评分直接来到一个满分10分，Cloudflare 在紧急部署防护规则时，间接导致了一次约半小时的局部停摆。<sup class="footnote-ref"><a href="#footnote3">[3]</a><a class="footnote-anchor" id="footnote-ref3"></a></sup> <sup class="footnote-ref"><a href="#footnote4">[4]</a><a class="footnote-anchor" id="footnote-ref4"></a></sup>RSC的引入虽优化了前端网页的性能，但也在无形间产生了安全风险。一旦协议验证不足，后果就是服务器直接沦陷。前端开发越来越“全栈化”，我们享受便利的同时，也把后端风险带进了浏览器生态。</p>
+<p>针对这类事件（Github Actions 供应链投毒等），有人将其归咎于开源社区的风险，然而事实并非如此。正如 <strong>真理元素（Veritasium）</strong> 2月26日发布的有关 XZ 投毒事件视频中所言：</p>
+<blockquote>
+<p>In fact, who's to say that there aren't already state spies working as paid software engineers at some of the larger companies putting in exactly backdoors like this? But then there would be no community member running free testing and detecting this by chance. This backdoor, if anything, underlines the ethos of open source. <sup class="footnote-ref"><a href="#footnote5">[5]</a><a class="footnote-anchor" id="footnote-ref5"></a></sup></p>
+</blockquote>
+<p>这类后门事件反而证明了开源精神的核心不在于所谓的“权威”，而是这份难能可贵的公开透明。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p><a href="https://avd.aliyun.com/detail?id=AVD-2026-0540" target="_blank" rel="noopener noreferrer">阿里云漏洞库. DOMPurify 属性清洗绕过 XSS 漏洞(CVE-2026-0540).</a> <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote2" class="footnote-item"><p><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0540" target="_blank" rel="noopener noreferrer">NVD - CVE-2026-0540.</a> <a href="#footnote-ref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote3" class="footnote-item"><p><a href="https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components" target="_blank" rel="noopener noreferrer">Critical Security Vulnerability in React Server Components – React.</a> <a href="#footnote-ref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote4" class="footnote-item"><p><a href="https://blog.cloudflare.com/5-december-2025-outage" target="_blank" rel="noopener noreferrer">Cloudflare outage on December 5, 2025.</a> <a href="#footnote-ref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote5" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=aoag03mSuXQ" target="_blank" rel="noopener noreferrer">Youtube. The Internet Was Weeks Away From Disaster and No One Knew.</a> <a href="#footnote-ref5" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
     <item>
       <title>桐高幽默事件</title>
       <link>https://chinasd1st.github.io/post/2026/01/HumorousIncidents.html</link>
@@ -1383,29 +1443,56 @@ Lancer：九下课文其实是这个改编过来的</p>
       <link>https://chinasd1st.github.io/intro.html</link>
       <guid>https://chinasd1st.github.io/intro.html</guid>
       <source url="https://chinasd1st.github.io/rss.xml">介绍页</source>
-      <description>介绍页 GitHub Stats Top Langs 🖼️ 头像来源 From: Stream Palette 6 -CHATTING- Illustrator: FAMY / ふぁみ @famy_siraso 📈 访问统计 今日访问量： 次 今日总访客数： 人 本站总访问量： 次 本站总访客数： 人</description>
+      <description>介绍页 Github Stats GitHub Stats Top Languages 🖼️ 头像来源 From: Stream Palette 6 -CHATTING- Illustrator: FAMY / ふぁみ @famy_siraso 📈 访问统计 今日访问量 次 今日访客 人 总访问量 次 总访客数 人</description>
       <pubDate>Tue, 11 Feb 2025 08:30:28 GMT</pubDate>
       <content:encoded><![CDATA[
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=Chinasd1st&show_icons=true&count_private=true&hide=contribs&hide_border=true&bg_color=0000&text_color=888" alt="GitHub Stats">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 2.5rem; margin: 2rem 0 4rem;">
+  <h2 style="margin: 0.5rem 0; color: var(--vp-c-brand);">Github Stats</h2>
+  <!-- Stats Card -->
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api?username=Chinasd1st&show_icons=true&count_private=true&hide=contribs&hide_border=true&bg_color=00000000&text_color=888888&icon_color=7dd3fc&title_color=60a5fa" alt="GitHub Stats" style="max-width: 480px; height: auto; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.08); transition: transform 0.3s;" @mouseover="this.style.transform='scale(1.03)'" @mouseout="this.style.transform='scale(1)'">
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chinasd1st&layout=compact&hide_border=true&bg_color=0000&text_color=888" alt="Top Langs">
+  <!-- Top Langs -->
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chinasd1st&layout=compact&hide_border=true&bg_color=00000000&text_color=888888&title_color=60a5fa&icon_color=7dd3fc&langs_count=8" alt="Top Languages" style="max-width: 380px; height: auto; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.08); transition: transform 0.3s;">
   </a>
-</p>
-<h2>🖼️ 头像来源</h2>
-<p><strong>From:</strong> <a href="https://sp6.diverse.jp/" target="_blank" rel="noopener noreferrer">Stream Palette 6 -CHATTING-</a><br>
-<strong>Illustrator:</strong> FAMY / ふぁみ  <a href="https://x.com/famy_siraso" target="_blank" rel="noopener noreferrer">@famy_siraso</a></p>
-<h2>📈 访问统计</h2>
-<ul>
-<li><strong>今日访问量</strong>：<span id="busuanzi_today_pv"><i class="fa fa-spinner fa-spin"></i></span> 次</li>
-<li><strong>今日总访客数</strong>： <span id="busuanzi_today_uv"><i class="fa fa-spinner fa-spin"></i></span> 人</li>
-<li><strong>本站总访问量</strong>：<span id="busuanzi_site_pv"><i class="fa fa-spinner fa-spin"></i></span> 次</li>
-<li><strong>本站总访客数</strong>： <span id="busuanzi_site_uv"><i class="fa fa-spinner fa-spin"></i></span> 人</li>
-</ul>
+</div>
+<div style="text-align: center; margin: 3rem 0 2rem;">
+  <h2 style="margin: 0.5rem 0; color: var(--vp-c-brand);">🖼️ 头像来源</h2>
+  <p style="margin: 0.5rem 0; font-size: 1.05rem;">
+    <strong>From:</strong> <a href="https://sp6.diverse.jp/">Stream Palette 6 -CHATTING-</a><br>
+    <strong>Illustrator:</strong> FAMY / ふぁみ  <a href="https://x.com/famy_siraso">@famy_siraso</a>
+  </p>
+</div>
+<div style="text-align: center; margin: 3rem 0; padding: 1.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 12px; font-size: 0.95rem;">
+  <h2 style="margin: 0 0 1.2rem; color: var(--vp-c-brand);">📈 访问统计</h2>
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; max-width: 500px; margin: 0 auto;">
+    <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <strong>今日访问量</strong><br>
+      <span id="busuanzi_today_pv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+        <i class="fa fa-spinner fa-spin"></i>
+      </span> 次
+    </div>
+    <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <strong>今日访客</strong><br>
+      <span id="busuanzi_today_uv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+        <i class="fa fa-spinner fa-spin"></i>
+      </span> 人
+    </div>
+    <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <strong>总访问量</strong><br>
+      <span id="busuanzi_site_pv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+        <i class="fa fa-spinner fa-spin"></i>
+      </span> 次
+    </div>  
+    <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <strong>总访客数</strong><br>
+      <span id="busuanzi_site_uv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+        <i class="fa fa-spinner fa-spin"></i>
+      </span> 人
+    </div>
+  </div>
+</div>
 ]]></content:encoded>
     </item>
     <item>
