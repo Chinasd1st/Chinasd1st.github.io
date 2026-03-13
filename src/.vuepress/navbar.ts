@@ -126,6 +126,12 @@ export default navbar([
         children: [
           { text: "桐高幽默事件", link: "/post/2026/01/HumorousIncidents.html", icon: "user-tie" }
         ],
+      },
+      {
+        text: "2026.03",
+        children: [
+          { text: "DOMPurify XSS 漏洞绕过", link: "/post/2026/03/CVE20260540DOMPurify.html", icon: "bug" }
+        ],
       }
     ],
   },
