@@ -15,7 +15,7 @@ export default hopeTheme({
     url: "https://chinasd1st.github.io",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "Chinasd1st/Chinasd1st.github.io",
 

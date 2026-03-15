@@ -6,9 +6,10 @@ tags:
   - 音乐
   - 电子音乐
   - 同人音乐
+  - 记录
 icon: music
 star: true
-#cover: /img/Cover/2025.11.12/cover.jpg
+cover: /img/Cover/2025.11.12/cover.webp
 ---
 # 同人音乐聆听记录
 

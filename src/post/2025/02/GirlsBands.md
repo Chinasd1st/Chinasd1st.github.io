@@ -5,8 +5,10 @@ tag:
   - 社群观察
   - 研究
   - 亚文化
+  - 少女乐队
+  - 二次元
 icon: guitar
-cover: /img/Cover/2025.2.22/cover.jpg
+cover: /img/Cover/2025.2.22/cover.webp
 ---
 # 木柜子乐队相关内容
 
