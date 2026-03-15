@@ -7,3 +7,4 @@ src/.vuepress/dist/
 .env.local
 .env.*
 .venv
+*.psd

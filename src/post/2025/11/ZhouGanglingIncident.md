@@ -7,8 +7,14 @@ tags:
   - 周罡令
   - 事件
   - 挑拨
+  - 生活记录
+  - 校园日常
+  - 隐私
+  - 边界感
+  - 沟通
 icon: gun
 star: true
+cover: /img/Cover/2025.11.29/cover.webp
 ---
 
 # 周罡令事件：对他人名誉权与肖像权的挑战

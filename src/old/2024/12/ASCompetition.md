@@ -3,6 +3,7 @@ date: 2024-12-02
 category:
   - 存档
   - 其他
+cover: /img/Cover/2024.12.2/cover.webp
 ---
 
 # 文理联赛讽刺作品合集

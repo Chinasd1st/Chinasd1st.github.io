@@ -10,8 +10,11 @@ tag:
     - 探究
     - 推理
     - 回忆
+    - 互联网
+    - 肖像
 star: true
 icon: user-tie
+cover: /img/Cover/2025.8.9/cover.png
 ---
 
 # 传奇人物志

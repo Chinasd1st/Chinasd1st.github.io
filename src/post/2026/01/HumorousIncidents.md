@@ -11,7 +11,10 @@ tags:
   - '1977'
   - 新疆入
   - 桐高
+  - 肖像
 icon: user-tie
+cover: /img/Cover/2026.1.5/cover.webp
+banner: /img/Cover/2024.12.2/cover.webp
 ---
 
 # 桐高幽默事件
