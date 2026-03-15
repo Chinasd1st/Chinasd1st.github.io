@@ -7830,7 +7830,7 @@ DOMPurify这一次爆雷并非孤案，就在同天，CVE-2025-15599 披露 DOMP
 ---
 
 ---
-url: /post/test.md
+url: /test.md
 ---
 # 桐高数学报
 
