@@ -1,5 +1,5 @@
 import { defineClientConfig } from "vuepress/client";
-// import Blog from "./layouts/Blog.vue";
+import Blog from "./layouts/Blog.vue";
 import BusuanziStats from "./components/BusuanziStats.vue";
 
 export default defineClientConfig({
@@ -7,7 +7,7 @@ export default defineClientConfig({
 
   layouts: {
     // ...
-    //Blog,
+    Blog,
   },
   enhance({ app }) {
     // 注册组件

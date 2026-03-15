@@ -1,6 +1,7 @@
 ---
 bibliography:
 - ch09.bib
+date: 1970-01-01
 ---
 # [已脱敏]数学报
 
