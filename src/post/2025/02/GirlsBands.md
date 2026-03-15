@@ -6,8 +6,11 @@ tag:
   - 研究
   - 亚文化
 icon: guitar
+cover: /img/Cover/2025.2.22/cover.jpg
 ---
 # 木柜子乐队相关内容
+
+> Cover: <https://bang-dream.com/bdp11th/>
 
 ## 少女乐队企划社区风向论述
 

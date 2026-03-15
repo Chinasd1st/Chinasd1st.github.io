@@ -11,6 +11,7 @@ tag:
     - 过敏
     - 医药
 icon: pills
+cover: /img/Cover/2025.7.22/cover.png
 ---
 
 # 王浩宇偷偷OD泰诺后不慎睡着了

@@ -8,6 +8,7 @@ tags:
   - 同人音乐
 icon: music
 star: true
+#cover: /img/Cover/2025.11.12/cover.jpg
 ---
 # 同人音乐聆听记录
 

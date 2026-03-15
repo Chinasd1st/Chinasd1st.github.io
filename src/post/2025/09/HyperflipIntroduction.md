@@ -11,6 +11,7 @@ tags:
   - 同人音乐
 icon: music
 star: true
+cover: /img/Cover/2025.9.14/cover.jpg
 ---
 
 # Dariacore/Hyperflip：Hyperpop 的分支，2020s以来的新兴曲风
@@ -20,8 +21,7 @@ star: true
 :::info
 
 <Badge text="Info Badge" type="info" vertical="middle" />内呈现的信息为Catalog。
-本文尚未编写完成。如有存在纰漏，请予以指出。
-~~受CORS Policy限制，音乐播放器可能无法正常显示。~~
+本文尚未编写完成。如有纰漏，请予以指出。
 
 :::
 
