@@ -24,17 +24,17 @@ cover: /img/Cover/2024.12.2/cover.webp
 Font Family：[ZETUEI FONTS](https://www.zetuei.com/) Sky Scraper, DIN, Noto Sans CJK SC
 :::
 
-![1](/img/2024.12.2/1.png)
-![2](/img/2024.12.2/2.png)
-![3](/img/2024.12.2/3.png)
-![4](/img/2024.12.2/4.png)
-![5](/img/2024.12.2/5.png)
-![6](/img/2024.12.2/6.png)
-![7](/img/2024.12.2/7.png)
-![8](/img/2024.12.2/8.png)
-![9](/img/2024.12.2/9.png)
-![10](/img/2024.12.2/10.png)
-![11](/img/2024.12.2/11.png)
+![1](/img/2024.12.2/1.webp)
+![2](/img/2024.12.2/2.webp)
+![3](/img/2024.12.2/3.webp)
+![4](/img/2024.12.2/4.webp)
+![5](/img/2024.12.2/5.webp)
+![6](/img/2024.12.2/6.webp)
+![7](/img/2024.12.2/7.webp)
+![8](/img/2024.12.2/8.webp)
+![9](/img/2024.12.2/9.webp)
+![10](/img/2024.12.2/10.webp)
+![11](/img/2024.12.2/11.webp)
 
 ## 无题
 
