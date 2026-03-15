@@ -6,8 +6,8 @@
     <link>https://chinasd1st.github.io/</link>
     <description>分享各种小奶奶内容 这使人感到有趣味</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 15 Mar 2026 13:38:29 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2026 13:38:29 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2026 13:50:34 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2026 13:50:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>计算机技术</category>
@@ -1533,51 +1533,57 @@ Lancer：九下课文其实是这个改编过来的</p>
       <link>https://chinasd1st.github.io/intro.html</link>
       <guid>https://chinasd1st.github.io/intro.html</guid>
       <source url="https://chinasd1st.github.io/rss.xml">介绍页</source>
-      <description>介绍页 Github Stats GitHub Stats Top Languages 🖼️ 头像来源 From: Stream Palette 6 -CHATTING- Illustrator: FAMY / ふぁみ @famy_siraso 📈 访问统计 今日访问量 次 今日访客 人 总访问量 次 总访客数 人</description>
+      <description>介绍页 Github Stats GitHub Stats Top Languages Top Languages WakaTime Stats Silentnrtx&amp;apos;s WakaTime Stats 🖼️ 头像来源 From: Stream Palette 6 -CHATTING- Illustrator: FAMY / ふぁみ @famy_sir...</description>
       <pubDate>Tue, 11 Feb 2025 08:30:28 GMT</pubDate>
       <content:encoded><![CDATA[
-<div style="display: flex; flex-direction: column; align-items: center; gap: 2.5rem; margin: 2rem 0 4rem; width: 100%; max-width: 100%; overflow-x: hidden;">
-  <h2 style="margin: 0.5rem 0; color: var(--vp-c-brand);">Github Stats</h2>
-  <!-- Stats Card -->
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer" style="width: 100%; max-width: 500px; text-align: center;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Chinasd1st&show_icons=true&count_private=true&hide=contribs&hide_border=true&bg_color=00000000&text_color=888888&icon_color=7dd3fc&title_color=60a5fa" alt="GitHub Stats" style="width: 100%; height: auto; max-width: 500px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.08); transition: transform 0.3s; display: block; margin: 0 auto;" @mouseover="this.style.transform='scale(1.03)'" @mouseout="this.style.transform='scale(1)'">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin: 2.5rem 0; width: 100%; max-width: 900px; margin-left: auto; margin-right: auto; padding: 0 0.5rem; box-sizing: border-box;">
+  <!-- Github Stats Card -->
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer" style="flex: 1 1 380px; max-width: 420px; text-align: center; min-width: 280px;">
+    <h3 style="margin: 0.4rem 0 0.8rem; font-size: 1.25rem;">Github Stats</h3>
+    <img src="https://github-readme-stats.vercel.app/api?username=Chinasd1st&show_icons=true&count_private=true&hide=contribs&hide_border=true&bg_color=00000000&text_color=888888&icon_color=7dd3fc&title_color=60a5fa" alt="GitHub Stats" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;" @mouseover="this.style.transform='scale(1.04)'; this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)'" @mouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 24px rgba(0,0,0,0.08)'">
   </a>
-  <!-- Top Langs -->
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer" style="width: 100%; max-width: 400px; text-align: center;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chinasd1st&layout=compact&hide_border=true&bg_color=00000000&text_color=888888&title_color=60a5fa&icon_color=7dd3fc&langs_count=8" alt="Top Languages" style="width: 100%; height: auto; max-width: 400px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.08); transition: transform 0.3s; display: block; margin: 0 auto;">
+  <!-- Top Languages Card -->
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer" style="flex: 1 1 300px; max-width: 340px; text-align: center; min-width: 280px;">
+    <h3 style="margin: 0.4rem 0 0.8rem; font-size: 1.25rem;">Top Languages</h3>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chinasd1st&layout=compact&hide_border=true&bg_color=00000000&text_color=888888&title_color=60a5fa&icon_color=7dd3fc&langs_count=8" alt="Top Languages" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;" @mouseover="this.style.transform='scale(1.04)'; this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)'" @mouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 24px rgba(0,0,0,0.08)'">
+  </a>
+  <!-- WakaTime Stats Card -->
+  <a href="https://wakatime.com/@Silentnrtx" target="_blank" rel="noopener noreferrer" style="flex: 1 1 380px; max-width: 420px; text-align: center; min-width: 280px;">
+    <h3 style="margin: 0.4rem 0 0.8rem; font-size: 1.25rem;">WakaTime Stats</h3>
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Silentnrtx&custom_title=Silentnrtx's WakaTime Stats&langs_count=9&hide_border=true&bg_color=00000000&text_color=888888&icon_color=7dd3fc&title_color=60a5fa" alt="Silentnrtx's WakaTime Stats" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;" @mouseover="this.style.transform='scale(1.04)'; this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)'" @mouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 24px rgba(0,0,0,0.08)'">
   </a>
 </div>
 <div style="text-align: center; margin: 3rem 0 2rem;">
-  <h2 style="margin: 0.5rem 0; color: var(--vp-c-brand);">🖼️ 头像来源</h2>
+  <h2 style="margin: 0.5rem 0;">🖼️ 头像来源</h2>
   <p style="margin: 0.5rem 0; font-size: 1.05rem;">
     <strong>From:</strong> <a href="https://sp6.diverse.jp/">Stream Palette 6 -CHATTING-</a><br>
     <strong>Illustrator:</strong> FAMY / ふぁみ  <a href="https://x.com/famy_siraso">@famy_siraso</a>
   </p>
 </div>
 <div style="text-align: center; margin: 3rem 0; padding: 1.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 12px; font-size: 0.95rem;">
-  <h2 style="margin: 0 0 1.2rem; color: var(--vp-c-brand);">📈 访问统计</h2>
+  <h2 style="margin: 0 0 1.2rem;">📈 访问统计</h2>
   <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; max-width: 500px; margin: 0 auto;">
     <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <strong>今日访问量</strong><br>
-      <span id="busuanzi_today_pv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+      <span id="busuanzi_today_pv" style="font-size: 1.4rem; font-weight: bold;">
         <i class="fa fa-spinner fa-spin"></i>
       </span> 次
     </div>
     <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <strong>今日访客</strong><br>
-      <span id="busuanzi_today_uv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+      <span id="busuanzi_today_uv" style="font-size: 1.4rem; font-weight: bold;">
         <i class="fa fa-spinner fa-spin"></i>
       </span> 人
     </div>
     <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <strong>总访问量</strong><br>
-      <span id="busuanzi_site_pv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+      <span id="busuanzi_site_pv" style="font-size: 1.4rem; font-weight: bold;">
         <i class="fa fa-spinner fa-spin"></i>
       </span> 次
     </div>  
     <div style="padding: 1rem;  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <strong>总访客数</strong><br>
-      <span id="busuanzi_site_uv" style="font-size: 1.4rem; font-weight: bold; color: var(--vp-c-brand);">
+      <span id="busuanzi_site_uv" style="font-size: 1.4rem; font-weight: bold;">
         <i class="fa fa-spinner fa-spin"></i>
       </span> 人
     </div>
@@ -2105,52 +2111,6 @@ span.aplayer-list-title {
 ]]></content:encoded>
     </item>
     <item>
-      <title>猎奇文章合集</title>
-      <link>https://chinasd1st.github.io/old/2025/02/RyoukiArticle.html</link>
-      <guid>https://chinasd1st.github.io/old/2025/02/RyoukiArticle.html</guid>
-      <source url="https://chinasd1st.github.io/rss.xml">猎奇文章合集</source>
-      <description>猎奇文章合集 声明 以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。 文章使用Deepseek-R1模型生成。 Last Update: 2025.03.19 First Editing: 2025.02.03 目录 特别板块：2024年度最猎奇图片 万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡 相关信息 从本篇文章...</description>
-      <category>存档</category>
-      <category>文学文化</category>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<!--
-<style>
-.aplayer .aplayer-info .aplayer-music .aplayer-title {
-    font-size: 14px;
-    color: #3c3c43 !important;
-    }
-span.aplayer-list-title {
-    color: #3c3c43 !important;
-}
-</style>-->
-<h1>猎奇文章合集</h1>
-<div class="hint-container important">
-<p class="hint-container-title">声明</p>
-<p>以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。<br>
-文章使用Deepseek-R1模型生成。<br>
-Last Update: 2025.03.19<br>
-First Editing: 2025.02.03</p>
-</div>
-<h2>目录</h2>
-
-<h2>特别板块：2024年度最猎奇图片</h2>
-]]></content:encoded>
-      <enclosure url="https://chinasd1st.github.io/img/RyoukiArticle/p1.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>So-vits-svc v4.x AI人声替换教程</title>
-      <link>https://chinasd1st.github.io/old/2025/02/SovitsTutorial.html</link>
-      <guid>https://chinasd1st.github.io/old/2025/02/SovitsTutorial.html</guid>
-      <source url="https://chinasd1st.github.io/rss.xml">So-vits-svc v4.x AI人声替换教程</source>
-      <description>So-vits-svc v4.x AI人声替换教程 目前懒得写。</description>
-      <category>存档</category>
-      <category>其他</category>
-      <pubDate>Sat, 08 Feb 2025 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>目前懒得写。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>QQ机器人使用指南</title>
       <link>https://chinasd1st.github.io/old/2024/09/QqBotGuide.html</link>
       <guid>https://chinasd1st.github.io/old/2024/09/QqBotGuide.html</guid>
@@ -2623,6 +2583,52 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 功名路上，几人能终？</p>
 ]]></content:encoded>
       <enclosure url="https://chinasd1st.github.io/img/Cover/2024.12.2/cover.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>猎奇文章合集</title>
+      <link>https://chinasd1st.github.io/old/2025/02/RyoukiArticle.html</link>
+      <guid>https://chinasd1st.github.io/old/2025/02/RyoukiArticle.html</guid>
+      <source url="https://chinasd1st.github.io/rss.xml">猎奇文章合集</source>
+      <description>猎奇文章合集 声明 以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。 文章使用Deepseek-R1模型生成。 Last Update: 2025.03.19 First Editing: 2025.02.03 目录 特别板块：2024年度最猎奇图片 万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡 相关信息 从本篇文章...</description>
+      <category>存档</category>
+      <category>文学文化</category>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<!--
+<style>
+.aplayer .aplayer-info .aplayer-music .aplayer-title {
+    font-size: 14px;
+    color: #3c3c43 !important;
+    }
+span.aplayer-list-title {
+    color: #3c3c43 !important;
+}
+</style>-->
+<h1>猎奇文章合集</h1>
+<div class="hint-container important">
+<p class="hint-container-title">声明</p>
+<p>以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。<br>
+文章使用Deepseek-R1模型生成。<br>
+Last Update: 2025.03.19<br>
+First Editing: 2025.02.03</p>
+</div>
+<h2>目录</h2>
+
+<h2>特别板块：2024年度最猎奇图片</h2>
+]]></content:encoded>
+      <enclosure url="https://chinasd1st.github.io/img/RyoukiArticle/p1.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>So-vits-svc v4.x AI人声替换教程</title>
+      <link>https://chinasd1st.github.io/old/2025/02/SovitsTutorial.html</link>
+      <guid>https://chinasd1st.github.io/old/2025/02/SovitsTutorial.html</guid>
+      <source url="https://chinasd1st.github.io/rss.xml">So-vits-svc v4.x AI人声替换教程</source>
+      <description>So-vits-svc v4.x AI人声替换教程 目前懒得写。</description>
+      <category>存档</category>
+      <category>其他</category>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>目前懒得写。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
