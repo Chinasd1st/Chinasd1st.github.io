@@ -201,7 +201,7 @@ gantt
 
 BanG Dream!（BanG Dream!／バンドリ！）是以女子乐队为主题，由Bushiroad制作的跨媒体企划。企划讲述女子高中生的乐队活动，拥有多个女子乐队组合，并以电视动画、手机音乐游戏、漫画、轻小说、广播、声优参与的现实演唱会和舞台活动等形式展开^[BanG Dream! - 萌娘百科_万物皆可萌的百科全书 [DB/OL]. 萌娘百科, \(2025-03-06\)[2025-03-14]. <https://mzh.moegirl.org.cn/BanG_Dream!>.]。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.34](/img/GirlsBands/00_2/34.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.34](/img/GirlsBands/00_2/34.webp)
 
 这类企划一般有以下几种盈利方式：
 
@@ -212,7 +212,7 @@ BanG Dream!（BanG Dream!／バンドリ！）是以女子乐队为主题，由B
 
 其中，TCG业务占Bushiroad业务净销售额的大头。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.13](/img/GirlsBands/00_2/13.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.13](/img/GirlsBands/00_2/13.webp)
 
 ### TCG Unit 卡牌TCG板块
 
@@ -224,7 +224,7 @@ TCG业务评级：顺利。
 
 [^second]: Bushiroad 2025年6月期第2四半期決算説明資料 [EB/OL]. Bushiroad, \(2025-03-06\)[2025-03-14]. <https://bushiroad.com/information/244>.
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.16](/img/GirlsBands/00_2/16.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.16](/img/GirlsBands/00_2/16.webp)
 
 ### Contents Unit 内容板块
 
@@ -238,7 +238,7 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 
 内容板块业务评级：疲软。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.20](/img/GirlsBands/00_2/20.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.20](/img/GirlsBands/00_2/20.webp)
 
 ### Live & Entertainment Unit 演唱会及娱乐板块
 
@@ -250,11 +250,11 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 
 演唱会及娱乐板块业务评级：较顺利。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.22](/img/GirlsBands/00_2/22.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.22](/img/GirlsBands/00_2/22.webp)
 
 下图展示了2025财年Q3季度专辑KiLLKiSS发行、Q4季度乐队Ave Mujica将进行线下Live等事宜。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.23](/img/GirlsBands/00_2/23.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.23](/img/GirlsBands/00_2/23.webp)
 
 ### MD UNIT 周边板块
 
@@ -264,17 +264,17 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 
 周边板块业务评级：顺利。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.24](/img/GirlsBands/00_2/24.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.24](/img/GirlsBands/00_2/24.webp)
 
 下图展示了LIVE场贩售卖等内容。此外，图中还提到2025财年Q4季度，Bushiroad将成立新景品周边品牌たいにぃぎふと。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.25](/img/GirlsBands/00_2/25.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.25](/img/GirlsBands/00_2/25.webp)
 
 ### Appendix：ブシロードファン感謝ゴールデンウィーク
 
 ブシロードファン感謝ゴールデンウィーク是为向国内外所有 Bushiroad 粉丝表示感谢而举办的活动。
 
-![Bushiroad 2025年6月期第2四半期決算説明資料 Page.30](/img/GirlsBands/00_2/30.jpg)
+![Bushiroad 2025年6月期第2四半期決算説明資料 Page.30](/img/GirlsBands/00_2/30.webp)
 
 ## 关于MyGO的音乐
 

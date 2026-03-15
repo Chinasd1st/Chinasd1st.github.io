@@ -5,6 +5,8 @@ icon: house
 title: 博客主页
 #heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 小奶奶博客
+bgImage: /assets/images/SP6C-WallPaper-16-9-4K.webp
 heroFullScreen: true
 tagline: 分享各种小奶奶内容 这使人感到有趣味
 ---
+
