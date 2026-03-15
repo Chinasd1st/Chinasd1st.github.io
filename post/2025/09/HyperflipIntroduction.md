@@ -8,8 +8,7 @@ url: /post/2025/09/HyperflipIntroduction.md
 :::info
 
 内呈现的信息为Catalog。
-本文尚未编写完成。如有存在纰漏，请予以指出。
-\~~受CORS Policy限制，音乐播放器可能无法正常显示。~~
+本文尚未编写完成。如有纰漏，请予以指出。
 
 :::
 
