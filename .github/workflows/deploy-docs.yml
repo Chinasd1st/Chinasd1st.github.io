@@ -13,31 +13,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 代码
-        uses: actions/checkout@v6          # 更新到 v6（最新 major，支持更好性能）
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: 设置 Node.js 环境
-        uses: actions/setup-node@v6        # 更新到 v6（最新，内置 pnpm 缓存支持）
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v4          # 先安装 pnpm，让 PATH 里有 pnpm 可执行文件
         with:
-          node-version: 22                 # 当前推荐 LTS（支持到 2027 年 4 月），如兼容可改 24
-          cache: 'pnpm'                    # 官方推荐，自动缓存 pnpm 依赖，取代手动 cache 步骤
+          version: 10                       # 或去掉这一行，用 package.json 中的 "packageManager": "pnpm@10.x.x"
 
-      # 以下三个步骤已不需要，可删除（setup-node + cache: 'pnpm' 已覆盖）
-      # - name: 安装 pnpm
-      #   uses: pnpm/action-setup@v4
-      #   with:
-      #     version: 10
-      #     run_install: false
-      #
-      # - name: 获取 pnpm 存储目录
-      #   ...
-      #
-      # - name: 配置 pnpm 缓存
-      #   ...
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22                  # 或 24
+          cache: 'pnpm'                     # 现在 pnpm 已存在，可以安全使用缓存
 
       - name: 安装依赖
-        run: pnpm install --frozen-lockfile   # 加上 --frozen-lockfile 防止意外升级依赖
+        run: pnpm install --frozen-lockfile
 
       - name: 构建文档
         env:
@@ -51,7 +43,7 @@ jobs:
           touch src/.vuepress/dist/.nojekyll
 
       - name: 部署到 GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4   # 可选升级到 @v4.8.0，但 v4 仍稳定
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: src/.vuepress/dist
