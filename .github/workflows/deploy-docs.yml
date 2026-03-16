@@ -18,12 +18,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'  # 这会自动缓存 ~/.npm，根据 package-lock.json hash 键
+          cache: 'pnpm'
 
       - name: 安装依赖
         run: |
           corepack enable
-          npm ci --legacy-peer-deps  # 保持你的 --legacy-peer-deps，如果有 peer 冲突
+          pnpm install
 
       - name: 构建文档
         env:
@@ -33,7 +33,7 @@ jobs:
           ALGOLIA_API_KEY: ${{ vars.ALGOLIA_API_KEY }}
           ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
         run: |-
-          npm run docs:build
+          pnpm run docs:build
           touch src/.vuepress/dist/.nojekyll  # 用 touch 更标准（创建空文件）
 
       - name: 部署文档
