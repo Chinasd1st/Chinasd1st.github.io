@@ -1,47 +1,43 @@
 name: 部署文档
+
 on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
+
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout 代码
+        uses: actions/checkout@v6          # 更新到 v6（最新 major，支持更好性能）
         with:
           fetch-depth: 0
 
-      - name: 设置 Node.js
-        uses: actions/setup-node@v4
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v6        # 更新到 v6（最新，内置 pnpm 缓存支持）
         with:
-          node-version: 22
+          node-version: 22                 # 当前推荐 LTS（支持到 2027 年 4 月），如兼容可改 24
+          cache: 'pnpm'                    # 官方推荐，自动缓存 pnpm 依赖，取代手动 cache 步骤
 
-      # 👇 关键修改：使用 pnpm 官方动作安装 pnpm（最稳定）
-      - name: 安装 pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-          run_install: false
-
-      - name: 获取 pnpm 存储目录
-        id: pnpm-cache
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_OUTPUT
-
-      - name: 配置 pnpm 缓存
-        uses: actions/cache@v4
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+      # 以下三个步骤已不需要，可删除（setup-node + cache: 'pnpm' 已覆盖）
+      # - name: 安装 pnpm
+      #   uses: pnpm/action-setup@v4
+      #   with:
+      #     version: 10
+      #     run_install: false
+      #
+      # - name: 获取 pnpm 存储目录
+      #   ...
+      #
+      # - name: 配置 pnpm 缓存
+      #   ...
 
       - name: 安装依赖
-        run: pnpm install
+        run: pnpm install --frozen-lockfile   # 加上 --frozen-lockfile 防止意外升级依赖
 
       - name: 构建文档
         env:
@@ -54,8 +50,8 @@ jobs:
           pnpm docs:build
           touch src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: 部署到 GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4   # 可选升级到 @v4.8.0，但 v4 仍稳定
         with:
           branch: gh-pages
           folder: src/.vuepress/dist
