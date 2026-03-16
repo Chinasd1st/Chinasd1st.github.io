@@ -13,13 +13,21 @@ cover: /img/Cover/2025.11.12/cover.webp
 ---
 # 同人音乐聆听记录
 
-:::info WORK IN PROGRESS
-
-<Badge text="yyyy.mm.dd" type="info" vertical="middle" />为专辑添加时间
-
-~~目前仅统计2025年部分专辑~~
-
+:::info Info Badge 为专辑添加时间
 :::
+
+## Intro
+
+入同人音乐这个神秘小团体也有好几年了，但是认真听也才是不久前的事，甚至M3我在二二年的时候对其还一无所知，十分幽默，，
+写篇文章记录一下这么几年来的历程。
+
+众所周知Comiket不是同人音乐专门展会因此专辑数量会少很多
+
+夹带私货：[同人生活咖啡馆（原DOUJiN LiFE'S CAFE） - 从这个视频开启同人音乐的大门！丨2025年度同人音乐推！](https://www.bilibili.com/video/BV1QQAZzCEXK/)
+
+*Just Enjoy Your DOUJiN LiFE.*
+
+<BiliBili bvid="BV1QQAZzCEXK" />
 
 [[toc]]
 
@@ -27,13 +35,43 @@ cover: /img/Cover/2025.11.12/cover.webp
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
 
+### AD:HOUSE Winter 4<Badge text="2026.03.16" type="info" vertical="middle" />
+
+- **Catalog**: DSVP-0319
+- **Artists / Label**: Diverse System
+- **Genre**: 还用我说？（
+
+<Meting mid="3343738021" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+KO3这首直接起飞，与其他曲目截然不同的色彩
+
+### AD:TECHNO 9<Badge text="2026.03.16" type="info" vertical="middle" />
+
+- **Catalog**: DSVP-0318
+- **Artists / Label**: Diverse System / 秋葉原重工
+- **Genre**: 还用我说？（
+
+<Meting mid="3343737929" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### Cities: Neonlights 3<Badge text="2026.03.16" type="info" vertical="middle" />
+
+- **Catalog**: WAV-054
+- **Artists / Label**: wavforme
+- **Genre**: Drum and Bass
+
+<Meting mid="3345034153" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
 ### Qualia<Badge text="2026.01.17" type="info" vertical="middle" />
 
 - **Catalog**: DSVP-0320
 - **Artists / Label**: Diverse System / Ryo Arue
 - **Genre**: Techcore / DnB / Hardstyle (tr.04) / Uplifting Trance / Psytrance / Future Bounce
 
-Ryo Arue 1st solo album; [DL](https://pixeldrain.com/u/GU3fXvou)
+Ryo Arue 1st solo album
+
+Ryo Arue 第一张个人solo专喵，蕾姆了喵，，
+第一次听Ryo Arue还是在Stream Palette 3，依旧美丽旋律向DNB，，蕾姆了，，
+
+<Meting mid="3343735193" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ### Genexx Nova<Badge text="2026.01.17" type="info" vertical="middle" />
 
@@ -62,6 +100,10 @@ Ryo Arue 1st solo album; [DL](https://pixeldrain.com/u/GU3fXvou)
 
 nerdneko 4th Album
 
+第一次在M3听到盯鞋对我来说还是非常新颖的（可能是我不关注
+这张专在某些神秘小团体广为流传，，
+可惜nerdneko CN live疑似暴毙，，令人感叹
+
 [Bandcamp](https://eneiongaku.bandcamp.com/album/stargazing-youth)
 
 <Meting mid="2754139225" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
@@ -87,6 +129,10 @@ nerdneko 4th Album
 - **Catalog**: DVSP-0315
 - **Artists / Label**: DIverse System
 - **Genre**: Electronic
+
+买了实体
+
+シルキ可爱
 
 <Meting mid="3315027679" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
@@ -136,6 +182,9 @@ nerdneko 4th Album
 - **Artists / Label**: Bernis, Alinut, Nago / Digital Logics
 - **Genre**: Progressive House / Psytrance / Uplifting Trance
 
+这张也买了实体（
+纸包装有点磕碜，虽然很多豆筋音乐CD都是纸包装，但是毕竟亚克力还是更有质感一点（
+
 <Meting mid="2756947930" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ### FÜGENE 05<Badge text="2025.11.12" type="info" vertical="middle" />
@@ -170,6 +219,14 @@ nerdneko 4th Album
 
 > 55th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
 
+### Glow in the Dark<Badge text="2026.3.16" type="info" vertical="middle" />
+
+- **Catalog**: STRT-009
+- **Artists / Label**: 瓶底眼鏡女子同盟 / Stratosphere
+- **Genre**: Tech...
+
+其实这张老早就有听了，只不过忘加了今天补一下
+
 ### Twilight<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: QCCD-0002
@@ -194,11 +251,15 @@ nerdneko 4th Album
 - **Artists / Label**: icesawder x moyu
 - **Genre**: ?? (Unknown)
 
+icesawder你是我叠
+
 ### our intelligence 4<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: SCLP-005
 - **Artists / Label**: sculptured
 - **Genre**: IDM / Botanica
+
+依旧Sound Design
 
 ### Clippings of youth vol.4<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -217,6 +278,11 @@ nerdneko 4th Album
 - **Catalog**: DVSP-0312
 - **Artists / Label**: Diverse System
 - **Genre**: Hi-tech??
+
+从Jacket到公式HP都像是愚人节产物，，
+听感非常劲，
+去霓虹的时候在蜜瓜买了实体
+现在DS社的碟子都有下载卡非常好
 
 ### works.15<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -248,6 +314,9 @@ nerdneko 4th Album
 - **Catalog**: VGND001
 - **Artists / Label**: VGND
 
+其实也没有网上说的那么难堪（
+不过结合专辑概念来说就有点德不配位了，
+
 ### Wakuwaku Remixes Vol.3<Badge text="2025.11.19" type="info" vertical="middle" />
 
 - **Catalog**: KRHS-60850
@@ -275,6 +344,8 @@ nerdneko 4th Album
 ## M3-2024秋 (2024.10.27)
 
 > 54th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+哈哈懒得写了摆了
 
 - AD:Garage<Badge text="2026.01.17" type="info" vertical="middle" />
 - AETHERION / satella<Badge text="2026.01.17" type="info" vertical="middle" />
