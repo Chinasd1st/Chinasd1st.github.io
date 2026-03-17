@@ -414,7 +414,7 @@ icesawder你是我叠
 - Vivid Refrain / DJ Genki<Badge text="2026.01.17" type="info" vertical="middle" />
 - works.14<Badge text="2026.01.17" type="info" vertical="middle" />
 
-## Comic Market 103 (2024.12.30 - 2024.12.31)
+## Comic Market 103 (2023.12.30 - 2023.12.31)
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
 
@@ -427,3 +427,52 @@ icesawder你是我叠
 - MEGATON KICK 5<Badge text="2026.01.17" type="info" vertical="middle" />
 - new wave 2023 Autumn/Winter<Badge text="2026.01.17" type="info" vertical="middle" />
 - パラフォビア / lapix<Badge text="2026.01.17" type="info" vertical="middle" />
+
+## M3-2023秋 (2023.10.29)
+
+> 52nd installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+- AD:Progressive House 4 / Diverse System<Badge text="2026.03.17" type="info" vertical="middle" />
+- AD:TECHNO 7 / Diverse System, 秋葉原重工<Badge text="2026.03.17" type="info" vertical="middle" />
+- Angel Gelato / irucaice<Badge text="2026.03.17" type="info" vertical="middle" />
+- ARTIFACTS:ASCENSIØN / Connexio<Badge text="2026.03.17" type="info" vertical="middle" />
+- Ascension / Maozon<Badge text="2026.03.17" type="info" vertical="middle" />
+- B.B.K.K.B.K.K. 10TH ANNIVERSARY<Badge text="2026.03.17" type="info" vertical="middle" />
+- BACK2BACK / KO3<Badge text="2026.03.17" type="info" vertical="middle" />
+- COLOURS.03 "Redraw" / Endorfin.<Badge text="2026.03.17" type="info" vertical="middle" />
+- HYPNOSONIC / 棗いつき<Badge text="2026.03.17" type="info" vertical="middle" />
+- Neko-Write Vol. 1 / Neko Hacker<Badge text="2026.03.17" type="info" vertical="middle" />
+- our intelligence / sculptured<Badge text="2026.03.17" type="info" vertical="middle" />
+- TECHCORE ESSENCE<Badge text="2026.03.17" type="info" vertical="middle" />
+- XODUS / DJ Myosuke & Gram<Badge text="2026.03.17" type="info" vertical="middle" />
+
+## Comic Market 102 (2023.8.12 - 2023.8.13)
+
+> The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
+
+- HARDCORE SYNDROME 17<Badge text="2026.03.17" type="info" vertical="middle" />
+- AD:HOUSE 11<Badge text="2026.03.17" type="info" vertical="middle" />
+- AD:Drum'n Bass 5<Badge text="2026.03.17" type="info" vertical="middle" />
+
+## M3-2023春 (2023.4.30)
+
+> 51st installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+- ANAMNESIS / 棗いつき<Badge text="2026.03.17" type="info" vertical="middle" />
+- Cities: Neonlights 2<Badge text="2026.03.17" type="info" vertical="middle" />
+- Find My Future / EmoCosine<Badge text="2026.03.17" type="info" vertical="middle" />
+- Immortal / Juggernaut.<Badge text="2026.03.17" type="info" vertical="middle" />
+- IRREGULAR NATION 9<Badge text="2026.03.17" type="info" vertical="middle" />
+- ミラクルポップ☆アドベンチャー!!!!! / DJ Genki<Badge text="2026.03.17" type="info" vertical="middle" />
+- 新生生活DREAM EP / icesawder<Badge text="2026.03.17" type="info" vertical="middle" />
+- 非日常スケッチブック<Badge text="2026.03.17" type="info" vertical="middle" />
+- works.13<Badge text="2026.03.17" type="info" vertical="middle" />
+
+## Comic Market 101 (2022.12.30 - 2022.12.31)
+
+> The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
+
+- AD:HOUSE Winter 3<Badge text="2026.03.17" type="info" vertical="middle" />
+- AD:PIANO IX -Alt-<Badge text="2026.03.17" type="info" vertical="middle" />
+- AD:TRANCE 9<Badge text="2026.03.17" type="info" vertical="middle" />
+- Storm and Impulse / xi<Badge text="2026.03.17" type="info" vertical="middle" />
