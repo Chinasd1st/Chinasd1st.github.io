@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.57.0",
-    "@typescript-eslint/parser": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/plugin-docsearch": "2.0.0-rc.125",
@@ -29,11 +29,11 @@
     "eslint": "^10.0.3",
     "eslint-plugin-vue": "^10.8.0",
     "flowchart.ts": "^3.0.1",
-    "katex": "^0.16.33",
-    "mermaid": "^11.12.3",
-    "patch-package": "^8.0.0",
-    "sass-embedded": "^1.97.3",
-    "twikoo": "^1.7.1",
+    "katex": "^0.16.38",
+    "mermaid": "^11.13.0",
+    "patch-package": "^8.0.1",
+    "sass-embedded": "^1.98.0",
+    "twikoo": "^1.7.3",
     "typescript": "^5.9.3",
     "vidstack": "^1.12.13",
     "vue": "^3.5.30",
@@ -44,9 +44,9 @@
     "vuepress-theme-hope": "2.0.0-rc.103"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.3.1"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.18.0"
+    "@rollup/rollup-linux-x64-gnu": "^4.59.0"
   }
 }

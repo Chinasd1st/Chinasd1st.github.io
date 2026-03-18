@@ -44,7 +44,7 @@ export default hopeTheme({
   blog: {
     description: "美食家",
     intro: "/intro.html",
-    avatar: "/assets/avatar/SP6C_01.jpg",
+    avatar: "/assets/avatar/SP6C_01.webp",
     medias: {
       BiliBili: "https://space.bilibili.com/520682236",
       Twitter: "https://x.com/Silentnrtx",
@@ -119,7 +119,9 @@ export default hopeTheme({
       lineNumbers: true,
       notationFocus: true,
       notationDiff: true,
-      notationWordHighlight: true
+      notationWordHighlight: true,
+      // twoslash: true,
+      collapsedLines: false
     },
     chartjs: true,
     echarts: true,
