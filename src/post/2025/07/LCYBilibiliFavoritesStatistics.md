@@ -41,7 +41,7 @@ icon: tag
 
 @tab 爬虫
 
-```py
+```py :collapsed-lines
 import requests
 import time
 import datetime
@@ -382,7 +382,7 @@ if __name__ == "__main__":
 
 @tab Tag统计
 
-```py
+```py :collapsed-lines
 import pandas as pd
 from collections import Counter
 import json
