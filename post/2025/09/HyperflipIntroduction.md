@@ -44,8 +44,7 @@ ylg一时兴起写的文章望请海涵，，
 
 :::
 
-2025年3月，Lost Frog迎来33周年庆，发行了以Dariacore/Hyperflip为核心的纪念合辑 Complex Numbers。厂牌创始人Haruo Ishihara（52岁）在接受Pitchfork采访时表示：“There is technical awesomeness, but I think the most important thing is passion, \[...] It is filled with everything they like and feel nostalgic about. It's music that is like life flashing before one's eyes!（技术上的厉害当然有，但我认为最重要的是热情……它装满了他们喜欢的一切和怀念的东西，就像人生在眼前闪过一样！）”
-同年3月30日，**CAR CRASH & SIREN #3** 在东京涩谷WOMB举办，吸引超过700人到场，成为厂牌史上最大规模线下活动。活动直接以“车祸与警笛采样”命名，现场播放了curren的《Accelerate》《INTERNET\_IRIS》等曲目。
+2025年3月，Lost Frog迎来33周年庆，发行了以Dariacore/Hyperflip为核心的纪念合辑 Complex Numbers。厂牌创始人Haruo Ishihara（52岁）在接受Pitchfork采访时表示：“There is technical awesomeness, but I think the most important thing is passion, \[...] It is filled with everything they like and feel nostalgic about. It's music that is like life flashing before one's eyes!（技术上的厉害当然有，但我认为最重要的是热情……它装满了他们喜欢的一切和怀念的东西，就像人生在眼前闪过一样！）”。同年3月30日，**CAR CRASH & SIREN #3** 在东京涩谷WOMB举办，吸引超过700人到场，成为厂牌史上最大规模线下活动。活动直接以“车祸与警笛采样”命名，现场播放了curren的《Accelerate》《INTERNET\_IRIS》等曲目。
 
 在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是 CAR CRASH AND SIREN 和 FASTFUSION。以下试听两首专辑中的第一曲：
 
