@@ -9,6 +9,8 @@ tags:
   - 亚文化
   - 电子音乐
   - 同人音乐
+  - Hyperflip
+  - Dariacore
 icon: music
 star: true
 cover: /img/Cover/2025.9.14/cover.jpg
@@ -22,6 +24,7 @@ cover: /img/Cover/2025.9.14/cover.jpg
 
 <Badge text="Info Badge" type="info" vertical="middle" />内呈现的信息为Catalog。
 本文尚未编写完成。如有纰漏，请予以指出。
+ylg一时兴起写的文章望请海涵，，
 
 :::
 
@@ -49,7 +52,7 @@ cover: /img/Cover/2025.9.14/cover.jpg
 
 ### Lost Frog Productions
 
-与此同时，Dariacore 在日本也积累了大量粉丝，最具代表性的推广者之一是厂牌 **Lost Frog Productions** 所发行的相关合辑。该厂牌成立于1992年，由 Haruo Ishihara 创立，最初以噪音、实验与电子音乐为主，被誉为日本现存最古老的网络厂牌之一。随着时间推移，Lost Frog 的音乐重心逐渐转向更具节奏感的电子乐类型，如 breakcore、speedcore、IDM、footwork，以及多种基于采样的电子子类型。[^3]
+与此同时，Dariacore 在日本也积累了大量粉丝，最具代表性的推广者之一是厂牌 **Lost Frog Productions** 所发行的相关合辑。该厂牌成立于1992年，由Haruo Ishihara创立，最初以噪音、实验与电子音乐为主，被誉为日本现存最古老的网络厂牌之一。随着时间推移，Lost Frog 的音乐重心逐渐转向更具节奏感的电子乐类型，如 breakcore、speedcore、IDM、footwork，以及多种基于采样的电子子类型。[^3]
 
 :::info
 
@@ -57,6 +60,9 @@ cover: /img/Cover/2025.9.14/cover.jpg
 - 欲了解更多有关于 Lost Frog Productions 的信息，请阅读乐评网站 Pitchfork 于2025年4月9日刊载的文章：[Remember Jane Remover’s Mashup Genre Dariacore? It’s Blowing Up in Japan Now](https://pitchfork.com/thepitch/remember-jane-removers-mashup-genre-dariacore-its-blowing-up-in-japan-now/)。中译可参考<https://www.bilibili.com/opus/1055386143137202195>。
 
 :::
+
+2025年3月，Lost Frog迎来33周年庆，发行了以Dariacore/Hyperflip为核心的纪念合辑 Complex Numbers。厂牌创始人Haruo Ishihara（52岁）在接受Pitchfork采访时表示：“There is technical awesomeness, but I think the most important thing is passion, [...] It is filled with everything they like and feel nostalgic about. It's music that is like life flashing before one's eyes!（技术上的厉害当然有，但我认为最重要的是热情……它装满了他们喜欢的一切和怀念的东西，就像人生在眼前闪过一样！）”
+同年3月30日，**CAR CRASH & SIREN #3** 在东京涩谷WOMB举办，吸引超过700人到场，成为厂牌史上最大规模线下活动。活动直接以“车祸与警笛采样”命名，现场播放了curren的《Accelerate》《INTERNET_IRIS》等曲目。
 
 在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是 CAR CRASH AND SIREN<Badge text="LF231MP3" type="info" vertical="middle" /> 和 FASTFUSION<Badge text="LF215MP3" type="info" vertical="middle" />。以下试听两首专辑中的第一曲：
 
@@ -146,7 +152,7 @@ cover: /img/Cover/2025.9.14/cover.jpg
 
 <Meting mid="2638192885" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
-2025年，这一风气进一步蔓延至日本同人电子音乐圈。1月17日，Capchii 在 HARDCORE TANO*C 发布Light Leak (feat. ChumuNote)，其第一段 Drop 的前半部分明显融入了 Dariacore 元素：[^8]
+2025年，这一风气进一步蔓延至日本同人电子音乐圈。2025年1月17日，Capchii 在 HARDCORE TANO*C 发布Light Leak (feat. ChumuNote)，其第一段 Drop 的前半部分明显融入了 Dariacore 元素：[^8]
 
 <Meting mid="2665678520" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
@@ -165,6 +171,18 @@ cover: /img/Cover/2025.9.14/cover.jpg
 <BiliBili bvid="BV1PheJzYEh5" />
 
 <Meting mid="2707039286" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### 奏 (Kanade)
+
+2026年2月20日，奏 于 Niconico 投稿 **再現.leaper / 星尘Infinity**。本曲是ボカコレ2026冬ルーキーランキング参加曲，取得了Rookie组第二位的成绩。全曲在Hyper音乐的基础上融合了类似Leftfield Bass的音色，并采用Synthesizer V声库**星尘Infinity**作为Vocal，将Hyper音乐推广到了更为大众的领域。
+
+奏本人身兼三职，同时担任插图、PV以及曲目本身的制作，展现了新生代制作人的强大实力。PV本身也非常值得一聊，PV画面融入了Glitch、拼贴等艺术表达手法，将Hyperflip的混乱节奏与视觉碎片化完美结合。
+
+2026年3月3日，DJ Raisei发布了Hyperflip作品 **REMEMBER MAZE / 天乃おつげ＆DJ Raisei**，奏担任了这首曲目的映像制作。
+
+<BiliBili bvid="BV1h1fiBeEJA" />
+
+<BiliBili bvid="BV1VVPFzEEhH" />
 
 ## 线下活动
 
@@ -186,7 +204,7 @@ cover: /img/Cover/2025.9.14/cover.jpg
 | **Hyperflip** | 更注重节奏，bpm通常会更高，但依旧会有爆破式失真，高频snare等特征，二次元Mash up采样明显（尤其是赛马娘，vtb，偶像大师占比很大）。其本身也是由日本曲师从Dariacore分化出来的风格。 |
 | **Futureflip** | 可以理解为Hyperflip+Futurecore，目前并未广泛传播，仅作为科普。 |
 
-现一般认为这两种表述并无实质上的区别。
+海外圈更常用“Dariacore”，日本则普遍接受“Hyperflip”作为替代名。Reddit与Periscope访谈^[[A Deep Dive into the Dariacore/Hyperflip scene – Periscope](https://www.chsperiscope.com/ae/2026/02/17/a-deep-dive-into-the-dariacore-hyperflip-scene/)]中，创作者普遍认为：Dariacore偏向欧美流行mashup + 高密度人声变调，而Hyperflip更强调高BPM、二次元/赛马娘/Vtuber采样，以及日本特有的音MAD文化。目前两者已高度融合，并无不可逾越的鸿沟。
 
 ## 杂谈
 
