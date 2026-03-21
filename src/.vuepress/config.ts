@@ -39,7 +39,7 @@ export default defineUserConfig({
       'script',
       {
         defer: true,
-        src: 'https://analytics.umami.is/script.js',  // 或你的 Cloud/self-hosted URL
+        src: 'https://cloud.umami.is/script.js',
         'data-website-id': '0775eaf8-19ed-4d8b-ae56-c62a750e0691',
         'data-exclude-hash': 'true',  // ← 核心属性
         'data-auto-track': "false"
