@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import metingPlugin from "vuepress-plugin-meting2";
 import dotenv from "dotenv";
 import { llmsPlugin } from '@vuepress/plugin-llms'
+import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
 // import { commentPlugin } from '@vuepress/plugin-comment'
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
@@ -53,6 +54,10 @@ export default defineUserConfig({
       aplayerOptions: {
         theme: "#1e7fe6ff",
       },
+    }),
+    umamiAnalyticsPlugin({
+      id: "0775eaf8-19ed-4d8b-ae56-c62a750e0691",
+      cache: true
     }),
   ],
 

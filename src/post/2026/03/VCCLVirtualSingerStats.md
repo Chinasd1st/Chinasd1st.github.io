@@ -29,7 +29,7 @@ cover: /img/Cover/2026.3.20/cover.webp
 | 2 | 重音テト | 1,047 | 18.13% | やや減(-40) | <span style="color:#999999">→</span> |
 | 3 | 可不 | 283 | 4.90% | やや減(-23) | <span style="color:#00CCFF">↘1</span> |
 | 4 | 知声 | 280 | 4.85% | やや減(-34) | <span style="color:#00CCFF">↘1</span> |
-| 5 | 宮舞モカ | 221 | 3.83% | 減(-67) | <span style="color:#999999">-</span> |
+| 5 | 宮舞モカ | 221 | 3.83% | 減(-67) | <span style="color:#999999">→</span> |
 | 6 | 音街ウナ | 169 | 2.93% | やや増(+19) | <span style="color:#FF2255">↗4</span> |
 | 7 | ナースロボ_タイプT | 166 | 2.87% | やや減(-14) | <span style="color:#999999">→</span> |
 | 8 | GUMI | 163 | 2.82% | 同数(-6) | <span style="color:#FF2255">↗1</span> |

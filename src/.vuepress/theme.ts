@@ -189,7 +189,8 @@ export default hopeTheme({
 
     seo: {
       twitterID: "@Silentnrtx",
-      autoDescription: true
+      autoDescription: true,
+      fallBackImage: "/assets/avatar/SP6C_01.webp"
     },
 
     comment: {
