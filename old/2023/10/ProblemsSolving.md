@@ -26,3 +26,7 @@ It is normal for this situation to occur as we are using the APlayer.js and Meti
 ```html
 <iframe src="https://chinasd1st.github.io"></iframe>
 ```
+
+## sessionStorage
+
+本网站使用浏览器的 sessionStorage 技术临时存储少量非个人信息（如缓存配置、脚本状态），仅用于提升追踪脚本加载性能和页面响应速度。这些数据仅限于当前会话，关闭标签页后自动清除，不涉及个人信息收集、上传或共享。该使用属于网站功能优化所必需的技术措施。
