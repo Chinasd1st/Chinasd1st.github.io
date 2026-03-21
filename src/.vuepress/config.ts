@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import metingPlugin from "vuepress-plugin-meting2";
 import dotenv from "dotenv";
 import { llmsPlugin } from '@vuepress/plugin-llms'
-import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
+// import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
 // import { commentPlugin } from '@vuepress/plugin-comment'
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
@@ -35,6 +35,16 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
+    [
+      'script',
+      {
+        defer: true,
+        src: 'https://analytics.umami.is/script.js',  // 或你的 Cloud/self-hosted URL
+        'data-website-id': '0775eaf8-19ed-4d8b-ae56-c62a750e0691',
+        'data-exclude-hash': 'true',  // ← 核心属性
+        'data-auto-track': "false"
+      },
+    ],
   ],
 
   base: "/",
@@ -55,10 +65,10 @@ export default defineUserConfig({
         theme: "#1e7fe6ff",
       },
     }),
-    umamiAnalyticsPlugin({
+    /* umamiAnalyticsPlugin({
       id: "0775eaf8-19ed-4d8b-ae56-c62a750e0691",
-      cache: true
-    }),
+      cache: true,
+    }),*/
   ],
 
   lang: "zh-CN",
