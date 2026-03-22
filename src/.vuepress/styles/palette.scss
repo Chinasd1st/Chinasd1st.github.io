@@ -2,3 +2,8 @@
 $vp-font: '"TorusPro", "Noto Sans SC", sans-serif';
 $vp-font-heading: '"TorusPro", "Noto Sans SC", sans-serif';
 $font-weight-heading: 600 !default;
+
+.theme-container.lang-ja div#markdown-content {
+  font-family: "TorusPro", "Noto Sans JP", "Noto Sans SC", sans-serif;
+  // --vp-font-heading: "TorusPro", "Noto Sans JP", "Noto Sans SC", sans-serif;
+}

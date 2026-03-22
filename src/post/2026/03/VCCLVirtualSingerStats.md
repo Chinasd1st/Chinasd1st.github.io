@@ -11,11 +11,20 @@ tags:
     - 数据统计
 icon: music
 cover: /img/Cover/2026.3.20/cover.webp
+containerClass: lang-ja
 #banner: /img/Cover/2024.12.2/cover.webp
 ---
 # ボカコレ声库统计
 
+:::info
+
+本页面使用ja-JP字形
+
+:::
+
 封面：<https://vocaloid-collection.jp/>
+
+©CFM ©線 / 小山乃舞世 / TD ©3774.
 
 ## ボカコレ 2026冬（2026.02.19~2026.02.23）
 
