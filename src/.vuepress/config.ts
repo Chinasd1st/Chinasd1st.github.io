@@ -38,9 +38,9 @@ export default defineUserConfig({
     [
       'script',
       {
-        async: true,
         defer: true,
-        src: './assets/js/loader.js',
+        async: true,
+        src: 'https://cloud.umami.is/script.js',
         'data-website-id': '0775eaf8-19ed-4d8b-ae56-c62a750e0691',
         'data-exclude-hash': 'true',  // ← 核心属性
         'data-auto-track': "true"
