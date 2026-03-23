@@ -14,9 +14,12 @@ tags:
 icon: music
 star: true
 cover: /img/Cover/2025.9.14/cover.jpg
+description: Dariacore / Hyperflip 是什么？探究这一新兴曲风的起源和发展，从 Leroy 到 Lost Frog，再到同人厂牌与VOCALOID融合，一文搞懂它的发展历程，看看曲师们是怎么围绕 SoundCloud 和 Bandcamp 展开创作的，速通 Glitch 采样 和 Car Crash and Siren 的融合！
 ---
 
 # Dariacore/Hyperflip：Hyperpop 的分支，2020s以来的新兴曲风
+
+> 封面：<https://x.com/lostfrognet/status/2032804315317035392?s=20>
 
 ~~Hyperpop高能回，豆筋音乐曲师献给耳疾患者的一封情书。~~
 

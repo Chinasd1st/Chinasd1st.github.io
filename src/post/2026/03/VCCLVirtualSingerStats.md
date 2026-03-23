@@ -22,9 +22,9 @@ containerClass: lang-ja
 
 :::
 
-封面：<https://vocaloid-collection.jp/>
-
-©CFM ©線 / 小山乃舞世 / TD ©3774.
+> 封面：<https://vocaloid-collection.jp/>
+>
+> ©CFM ©線 / 小山乃舞世 / TD ©3774.
 
 ## ボカコレ 2026冬（2026.02.19~2026.02.23）
 
