@@ -5,7 +5,6 @@
 ## Table of Contents
 
 - [介绍页](/intro.md)
-- [小奶奶网站（原主页存档）](/old/index.md)
 - [小奶奶诗集](/old/2023/08/Poems.md)
 - [这是一个小奶奶界面](/old/2023/10/Grandmother.md)
 - [Playground](/old/2023/10/Playground.md)
@@ -33,12 +32,12 @@
 - [桐高军训实录](/post/2025/08/MilitaryTraining.md)
 - [屎](/post/2025/08/Shit.md)
 - [抽象视频合辑](/post/2025/08/VideosCompilation.md)
-- [Dariacore/Hyperflip：Hyperpop 的分支，2020s以来的新兴曲风](/post/2025/09/HyperflipIntroduction.md)
+- [Dariacore/Hyperflip：Hyperpop 的分支，2020s以来的新兴曲风](/post/2025/09/HyperflipIntroduction.md): Dariacore / Hyperflip 是什么？探究这一新兴曲风的起源和发展，从 Leroy 到 Lost Frog，再到同人厂牌与VOCALOID融合，一文搞懂它的发展历程，看看曲师们是怎么围绕 SoundCloud 和 Bandcamp 展开创作的，速通 Glitch 采样 和 Car Crash and Siren 的融合！
 - [同人音乐聆听记录](/post/2025/11/DoujinMusicRecords.md)
 - [周罡令事件：对他人名誉权与肖像权的挑战](/post/2025/11/ZhouGanglingIncident.md)
 - [小奶奶网站子页面合集](/post/2025/12/SubPages.md): 小奶奶网站子页面合集
 - [桐高幽默事件](/post/2026/01/HumorousIncidents.md)
-- [中日韩混排的字形难题：从日文页面字体适配说起](/post/2026/03/CJKGlyphMixProblem.md)
+- [中日韩混排的字形难题：从日文页面字体适配说起](/post/2026/03/CJKGlyphMixProblem.md): 中日韩混排字形串味怎么办？从 Unicode Han Unification 根源讲起，分享局部 lang 标记 + Noto 字体栈的实用方案，避免全局设置导致的 UI 异常。
 - [DOMPurify XSS 漏洞绕过：对我的影响——开源是否更安全？](/post/2026/03/CVE20260540DOMPurify.md)
 - [ボカコレ声库统计](/post/2026/03/VCCLVirtualSingerStats.md)
 - [桐高数学报](/test.md)
