@@ -8,11 +8,14 @@ tags:
     - 中日混排
     - 字形问题
 icon: font
-#cover: /img/Cover/2026.3.20/cover.webp
+cover: /img/2026.3.22/Source_Han_Sans_Version_2_Specimen.svg
+description: 中日韩混排字形串味怎么办？从 Unicode Han Unification 根源讲起，分享局部 lang 标记 + Noto 字体栈的实用方案，避免全局设置导致的 UI 异常。
 #banner: /img/Cover/2024.12.2/cover.webp
 ---
 
 # 中日韩混排的字形难题：从日文页面字体适配说起
+
+> 封面：By <a href="//commons.wikimedia.org/wiki/User:Emphrase" title="User:Emphrase">Emphrase</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=83381606">Link</a>
 
 ## 起因：网站纯日文文章的字体问题
 
@@ -64,11 +67,15 @@ containerClass: lang-ja
 
 这种同一汉字在不同场景下的字形差异，并非字体厂商的设计失误，其根源在于 Unicode 对 CJK 汉字的编码设计决策。
 
-在互联网上，我们时常遇到一个汉字在不同的字体中显示不同的情况。这是因为不同语言中汉字的字形并非完全相同，甚至有很大差异。这一切的源头要追溯到 Unicode 的设计决策。这种同一汉字在不同语言环境下的字形差异，根源在于 Unicode 的 CJK 统一表意文字设计，也就是业内常说的**Han Unification（汉字统一编码）**。当年 Unicode 与 ISO/IEC 10646 国际编码标准融合时，为了避免同源同义的汉字重复编码，决定将中、日、韩三地同源、语义对等、仅存在地域字形差异的汉字，合并到同一个 Unicode 码位中。
+在互联网上，我们时常遇到一个汉字在不同的字体中显示不同的情况。这是因为不同语言中汉字的字形并非完全相同，甚至有很大差异。这一切的源头要追溯到 Unicode 的设计决策。这种同一汉字在不同语言环境下的字形差异，根源在于 Unicode 的 CJK 统一表意文字设计，也就是业内常说的**Han Unification（汉字统一编码）**。当年 Unicode 与 ISO/IEC 10646 国际编码标准融合时，为了避免同源同义的汉字重复编码，决定将中、日、韩三地同源、语义对等、仅存在地域字形差异的汉字，合并到同一个 Unicode 码位中。[^1]
 
-![直在不同语言的不同字形，参见[直 - 中日韩汉字求同询异 - 书同文汉字网](https://hanzi.unihan.com.cn/cjkCompare/detail/%E7%9B%B4)](/img/2026.3.22/1-zhi.webp)
+![“直”在不同地区的不同字形，参见[直 - 中日韩汉字求同询异 - 书同文汉字网](https://hanzi.unihan.com.cn/cjkCompare/detail/%E7%9B%B4)](/img/2026.3.22/1-zhi.webp)
 
-针对同一码位的地域字形差异，行业有两种主流解决方案：一是像 **Noto Sans** 系列这样，按地区拆分独立的字体文件，直接通过字体引入决定渲染字形；二是制作 CJK 超集字体，在单文件内为同一码位准备多套字形变体，通过 **OpenType** 的 `locl（Localized Forms）`特性，匹配元素的lang属性自动切换对应字形。
+![“返”在不同地区的不同字形 - By <a href="//commons.wikimedia.org/wiki/User:Emphrase" title="User:Emphrase">Emphrase</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=83392604">Link</a>](/img/2026.3.22/Source_Han_Sans_Version_Difference.svg)
+
+![Source Han Sans 五地区字形对比（简中/台繁/港繁/日/韩）- By <a href="//commons.wikimedia.org/wiki/User:Emphrase" title="User:Emphrase">Emphrase</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=83381606">Link</a>](/img/2026.3.22/Source_Han_Sans_Version_2_Specimen.svg)
+
+针对同一码位的地域字形差异，行业有两种主流解决方案：一是像 **Noto Sans** 系列这样，按地区拆分独立的字体文件，直接通过字体引入决定渲染字形；二是制作 CJK 超集字体，在单文件内为同一码位准备多套字形变体，通过 **OpenType** 的 `locl（Localized Forms）`特性，匹配元素的lang属性自动切换对应字形。[^2]
 
 - 当 `lang="ja"` 时 → 显示日文字形
 - 当 `lang="zh-Hans"` 时 → 显示简中字形
@@ -78,6 +85,34 @@ containerClass: lang-ja
 
 只能说这是 Unicode 在几十年前欠下的技术债，结果就是无数的开发者、UI设计师被 Unicode 坑惨了。Unicode 当年为了省码位统一了汉字，却把“谁来决定这个字长什么样”的责任甩给了字体和渲染引擎。对内容呈现严谨性有要求的开发者而言，极易影响阅读体验与内容质感。
 
+1993年，日本电子信息技术产业协会（一般社団法人电子情报技术产业协会，JEIDA）出版了一本小册子，标题为“未来の文字コード体系に私達は不安をもっています｡”（我们对未来的字符编码体系感到不安，[JPNO 20985671](https://ndlsearch.ndl.go.jp/en/openurl?cs=api_openurl&f-ndl_jpno=20985671)），总结了对Unicode采用的汉字统一（Han Unification）方法的主要批评。[^1]
+
 ## 多邻国的解决方案
 
 多邻国作为全球主流的语言学习平台，天然存在大量多语言混排的内容场景。通过分析其页面源码可以发现，多邻国采用了HTML 原生精细化语言标记的核心方案：页面全局根标签设置主语言，所有日语学习内容的区块、短语，均通过`<span lang="ja">`标签单独标记日语属性，同时为不同lang属性的元素配置对应的字体栈。这套方案的核心，是通过精准的语言标记，同时触发字体的locl地域字形特性与 CSS 字体 fallback 规则，确保日语汉字始终渲染正确的日文字形，同时不影响其他语言内容的正常展示。
+
+## SCSS泛用CJK混排方案
+
+以下是我总结的scss代码：
+
+```scss
+/* 简中优先 */
+:root {
+  --font-sans: "Noto Sans SC", "Source Han Sans SC", system-ui, sans-serif;
+}
+
+/* 日文 */
+.lang-ja,
+:lang(ja) {
+  font-family: "Noto Sans JP", "Source Han Sans JP", var(--font-sans);
+}
+
+/* 韩文 */
+.lang-ko,
+:lang(ko) {
+  font-family: "Noto Sans KR", "Source Han Sans KR", var(--font-sans);
+}
+```
+
+[^1]: [Wikipedia. Han unification.](https://en.wikipedia.org/wiki/Han_unification)
+[^2]: <https://fonts.google.com/noto>
