@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import metingPlugin from "vuepress-plugin-meting2";
 import dotenv from "dotenv";
 import { llmsPlugin } from '@vuepress/plugin-llms'
+import { clarityAnalyticsPlugin } from '@vuepress/plugin-clarity-analytics'
 // import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
 // import { commentPlugin } from '@vuepress/plugin-comment'
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
@@ -77,6 +78,9 @@ export default defineUserConfig({
       id: "0775eaf8-19ed-4d8b-ae56-c62a750e0691",
       cache: true,
     }),*/
+    clarityAnalyticsPlugin({
+      id: "w0s3h16l6o"
+    }),
   ],
 
   lang: "zh-CN",
