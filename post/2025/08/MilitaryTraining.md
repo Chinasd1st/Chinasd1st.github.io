@@ -51,4 +51,4 @@ url: /post/2025/08/MilitaryTraining.md
 
 编者按：这起事件虽然荒诞，却提醒我们，在面对群体压力时，更需要保持理性与独立判断。
 
-[^1]: 参见[小奶奶新闻#2023.11.10_军训归来有感]\(https://chinasd1st.github.io/old/2023/11/news.html#_2023-11-10-%E5%86%9B%E8%AE%AD%E5%BD%92%E6%9D%A5%E6%9C%89%E6%84%9F\)
+[^1]: 参见[小奶奶新闻#2023.11.10_军训归来有感]\(https://silentnrtx.top/old/2023/11/news.html#_2023-11-10-%E5%86%9B%E8%AE%AD%E5%BD%92%E6%9D%A5%E6%9C%89%E6%84%9F\)

@@ -265,7 +265,7 @@ woAiDaHongShi(); // 调用函数
 ## 2024.1.7 BA标题生成器
 
 ![BA标题生成器](/img/2024.1.7/BAtitleGenerator.png)
-[BA标题生成器（https://chinasd1st.github.io/BA\_logo/）](https://chinasd1st.github.io/BA_logo/)
+[BA标题生成器（https://silentnrtx.top/BA\_logo/）](https://silentnrtx.top/BA_logo/)
 
 十分易用的BA标题生成器，可以用来整蛊QQ群友等。\
 Forked from <https://github.com/ldcivan/BA_logo>

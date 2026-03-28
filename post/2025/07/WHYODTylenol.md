@@ -7,7 +7,7 @@ url: /post/2025/07/WHYODTylenol.md
 
 视频（2025.11.3）：
 
-下方提供本文的[pdf版本](https://chinasd1st.github.io/PDF/20251012WHYOD.pdf)：
+下方提供本文的[pdf版本](https://silentnrtx.top/PDF/20251012WHYOD.pdf)：
 
 [^1]: 上海强生制药有限公司.酚麻美敏片.
 
