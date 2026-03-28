@@ -6,13 +6,13 @@ import dotenv from "dotenv";
 dotenv.config({ path: '.env.local' });
 
 export default hopeTheme({
-  hostname: "https://chinasd1st.github.io",
+  hostname: "https://silentnrtx.top",
 
   license: "CC BY-NC-SA 4.0",
 
   author: {
     name: "Silentnrtx",
-    url: "https://chinasd1st.github.io",
+    url: "https://silentnrtx.top",
   },
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -49,7 +49,7 @@ export default hopeTheme({
       BiliBili: "https://space.bilibili.com/520682236",
       Twitter: "https://x.com/Silentnrtx",
       GitHub: "https://github.com/Chinasd1st",
-      Rss: "https://chinasd1st.github.io/rss.xml"
+      Rss: "https://silentnrtx.top/rss.xml"
     },
     timeline: "71M3L1N3",
     articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime", "Word"]
