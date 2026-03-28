@@ -16,10 +16,10 @@ export default navbar([
     text: "子页面",
     icon: "pager",
     children: [
-      { text: "黄睿涵导航页", link: "https://chinasd1st.github.io/pages/", icon: "compass" },
-      { text: "蔚蓝档案标题生成器", link: "https://chinasd1st.github.io/BA_logo/", icon: "gears" },
-      { text: "Material Player", link: "https://chinasd1st.github.io/material-music-3/", icon: "music" },
-      { text: "CineTech Architecture", link: "https://chinasd1st.github.io/lensoptics-lab/", icon: "camera" }
+      { text: "黄睿涵导航页", link: "https://silentnrtx.top/pages/", icon: "compass" },
+      { text: "蔚蓝档案标题生成器", link: "https://silentnrtx.top/BA_logo/", icon: "gears" },
+      { text: "Material Player", link: "https://silentnrtx.top/material-music-3/", icon: "music" },
+      { text: "CineTech Architecture", link: "https://silentnrtx.top/lensoptics-lab/", icon: "camera" }
     ],
   },
   {
