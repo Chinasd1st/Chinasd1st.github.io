@@ -50,9 +50,9 @@ export default navbar([
       {
         text: "订阅格式",
         children: [
-          { text: "RSS 2.0", link: "https://chinasd1st.github.io/rss", icon: "rss" },
-          { text: "Atom 1.0", link: "https://chinasd1st.github.io/atom", icon: "atom" },
-          { text: "JSON Feed", link: "https://chinasd1st.github.io/feed.json", icon: "file-code" }
+          { text: "RSS 2.0", link: "https://silentnrtx.top/rss", icon: "rss" },
+          { text: "Atom 1.0", link: "https://silentnrtx.top/atom", icon: "atom" },
+          { text: "JSON Feed", link: "https://silentnrtx.top/feed.json", icon: "file-code" }
         ],
       },
     ],

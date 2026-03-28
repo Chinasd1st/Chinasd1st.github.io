@@ -29,7 +29,7 @@ It is normal for this situation to occur as we are using the APlayer.js and Meti
 2. Embed our page in your website 在您的网站中嵌入我们的页面
 
 ```html
-<iframe src="https://chinasd1st.github.io"></iframe>
+<iframe src="https://silentnrtx.top"></iframe>
 ```
 
 ## sessionStorage

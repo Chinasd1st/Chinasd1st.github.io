@@ -24,9 +24,9 @@ cover: /img/Cover/2025.7.22/cover.webp
     src="/videos/2025.7.22/whyod_h265_720p_512kbps.mp4"
 />
 
-下方提供本文的[pdf版本](https://chinasd1st.github.io/PDF/20251012WHYOD.pdf)：
+下方提供本文的[pdf版本](https://silentnrtx.top/PDF/20251012WHYOD.pdf)：
 
-<PDF url="//chinasd1st.github.io/PDF/20251012WHYOD.pdf" />
+<PDF url="//silentnrtx.top/PDF/20251012WHYOD.pdf" />
 
 [^1]: 上海强生制药有限公司.酚麻美敏片.
 [^2]: 程雷.变应性鼻炎治疗中应关注的几个临床问题\[J\].中华耳鼻咽喉头颈外科杂志, 2020, 55(5): 437-439. DOI: [10.3760/cma.j.cn115330-20200323-00230](https://doi.org/10.3760/cma.j.cn115330-20200323-00230).
