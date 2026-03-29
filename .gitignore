@@ -8,3 +8,4 @@ src/.vuepress/dist/
 .env.*
 .venv
 *.psd
+*.py
