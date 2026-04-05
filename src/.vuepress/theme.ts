@@ -121,7 +121,10 @@ export default hopeTheme({
       notationDiff: true,
       notationWordHighlight: true,
       // twoslash: true,
-      collapsedLines: false
+      collapsedLines: false,
+      themes: {
+        light: "catppuccin-latte", dark: "catppuccin-macchiato"
+      }
     },
     chartjs: true,
     echarts: true,
