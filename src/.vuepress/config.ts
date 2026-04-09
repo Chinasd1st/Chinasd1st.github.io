@@ -54,6 +54,13 @@ export default defineUserConfig({
         'data-auto-track': "true"
       },
     ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@5.2.3/index.min.css",
+      },
+    ],
   ],
 
   base: "/",
