@@ -3,7 +3,7 @@
   <id>https://silentnrtx.top/</id>
   <title>小奶奶博客</title>
   <subtitle>分享各种小奶奶内容 这使人感到有趣味</subtitle>
-  <updated>2026-04-11T11:45:32.010Z</updated>
+  <updated>2026-04-11T16:29:06.396Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://silentnrtx.top/atom.xml"/>
   <link rel="alternate" href="https://silentnrtx.top/"/>
@@ -33,23 +33,22 @@
     <title type="text">从 VuePress Theme Hope 迁移到 Astro Firefly</title>
     <id>https://silentnrtx.top/post/2026/04/AstroMigration.html</id>
     <link href="https://silentnrtx.top/post/2026/04/AstroMigration.html"/>
-    <updated>2026-04-04T12:31:29.000Z</updated>
+    <updated>2026-04-11T16:28:13.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>Intro</h2>
-<p>众所周知，VuePress 1 现在已经进入 maintenance-only 状态，VuePress 2 也是半死不活，rc 版本的开发维护工作已经移交给社区。Vue 官方在 Vitepress 的文档中说道：<em>并行维护两个 SSG 是难以持续的，因此 Vue 团队决定将 VitePress 作为长期维护并推荐的 SSG。现在 VuePress 1 已被弃用，VuePress 2 已移交给 VuePress 社区团队进行进一步开发和维护。</em>因此在2026年这个时点进行迁移是十分有必要的。</p>
-<p><s>虽然本站基本上不会迁移到 Astro（因为重新配置 SEO 和各种 Dependencies 非常搞）</s></p>]]></summary>
+<p>众所周知，VuePress 1 现在已经进入 maintenance-only 状态，VuePress 2 也是半死不活，RC 版本的开发维护工作已经移交给社区。Vue 官方在 VitePress 文档里也提到：<em>并行维护两个 SSG 是难以持续的，因此 Vue 团队决定将 VitePress 作为长期维护并推荐的 SSG。现在 VuePress 1 已被弃用，VuePress 2 已移交给 VuePress 社区团队进行进一步开发和维护。</em>所以在 2026 年这个时间点，把站点迁移出去是很有必要的。</p>
+<p>本站是一个博客站点，因此我选择了 Astro 作为迁移目标，它比 VitePress 更适合构建博客。Astro 因为其默认零客户端 JS 的特性，性能相较于 VuePress 和 VitePress 都更为出色，Lighthouse 的性能评分通常能超过90分，相比之下本站五十几分的性能分数就显得相形见绌（其实是因为本人加了太多图片，，）。</p>]]></summary>
     <content type="html"><![CDATA[
 <h2>Intro</h2>
-<p>众所周知，VuePress 1 现在已经进入 maintenance-only 状态，VuePress 2 也是半死不活，rc 版本的开发维护工作已经移交给社区。Vue 官方在 Vitepress 的文档中说道：<em>并行维护两个 SSG 是难以持续的，因此 Vue 团队决定将 VitePress 作为长期维护并推荐的 SSG。现在 VuePress 1 已被弃用，VuePress 2 已移交给 VuePress 社区团队进行进一步开发和维护。</em>因此在2026年这个时点进行迁移是十分有必要的。</p>
-<p><s>虽然本站基本上不会迁移到 Astro（因为重新配置 SEO 和各种 Dependencies 非常搞）</s></p>
-<p>本站是一个博客站点，因此我选择了相较于 Vitepress 对博客构建更为友好的 Astro 作为迁移目标。Astro 的性能因为原生零客户端JS，相较于 VuePress 和 Vitepress 都更为出色，Lighthouse 的性能评分一般都能大于90分，相比之下本站五十几分的性能分数就显得捉襟见肘（其实是因为本人加了太多图片，，）。</p>
-<p>主题方面，我则选择了 Firefly 这一基于 Material Design 的博客主题。这一主题性能优秀、功能繁多，并且高度可定制，同时主题本身还提供了自动压缩图片等异常实用的功能（终于不用每次都用 squoosh 转成 Webp 了哈哈）。虽然它不像 Theme Hope 那样开箱即用，但是对于普通 Blogger 来说也是绰绰有余。</p>
-<p>Astro 并不完全兼容 VuePress 2（Theme Hope）的语法，有很多地方需要进行改动。具体差异参见<a href="https://docs.astro.build/zh-cn/guides/migrate-to-astro/from-vuepress/" target="_blank" rel="noopener noreferrer">https://docs.astro.build/zh-cn/guides/migrate-to-astro/from-vuepress/</a>。然而手动修改这么多篇文章的配置显得不太现实，因此作者让 Grok 和 Gemini 生成了一些批量修改代码。</p>
+<p>众所周知，VuePress 1 现在已经进入 maintenance-only 状态，VuePress 2 也是半死不活，RC 版本的开发维护工作已经移交给社区。Vue 官方在 VitePress 文档里也提到：<em>并行维护两个 SSG 是难以持续的，因此 Vue 团队决定将 VitePress 作为长期维护并推荐的 SSG。现在 VuePress 1 已被弃用，VuePress 2 已移交给 VuePress 社区团队进行进一步开发和维护。</em>所以在 2026 年这个时间点，把站点迁移出去是很有必要的。</p>
+<p>本站是一个博客站点，因此我选择了 Astro 作为迁移目标，它比 VitePress 更适合构建博客。Astro 因为其默认零客户端 JS 的特性，性能相较于 VuePress 和 VitePress 都更为出色，Lighthouse 的性能评分通常能超过90分，相比之下本站五十几分的性能分数就显得相形见绌（其实是因为本人加了太多图片，，）。</p>
+<p>主题方面，我则选择了 Firefly 这一基于 Material Design 的博客主题。这一主题性能优秀、功能繁多，并且高度可定制，同时 Astro 本身还提供了自动压缩图片等异常实用的功能（终于不用每次都用 squoosh 转成 WebP 了哈哈）。虽然它不像 Theme Hope 那样开箱即用，但是对于普通 Blogger 来说也绰绰有余。</p>
+<p>Astro 并不完全兼容 VuePress 2（Theme Hope）的语法，有很多地方需要进行改动。具体差异参见<a href="https://docs.astro.build/zh-cn/guides/migrate-to-astro/from-vuepress/" target="_blank" rel="noopener noreferrer">https://docs.astro.build/zh-cn/guides/migrate-to-astro/from-vuepress/</a>。然而手动修改这么多篇文章的配置显得不太现实，因此我让 Grok 和 Gemini 生成了一些批量修改代码。</p>
 <p>以下语法均以 Firefly 主题为例。</p>
 <h2>迁移</h2>
 <h3>脚本运行相关</h3>
 <p>运行环境：Python 3.13.11 (venv)（3.8+ 都可以）</p>
-<p>使用时建议在项目根目录中找到 <code>scripts</code> 文件夹并将脚本放在这个目录中运行，否则执行 <code>pnpm build</code> 时有可能导致错误运行脚本文件导致构建失败。</p>
+<p>建议将脚本放在项目根目录的 <code>scripts</code> 文件夹运行，否则执行 <code>pnpm build</code> 时有可能会错误运行这些脚本，导致构建失败。</p>
 <p>可能用到的依赖安装命令：</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#4c4f69;--shiki-dark:#cad3f5;--shiki-light-bg:#eff1f5;--shiki-dark-bg:#24273a"><pre class="shiki shiki-themes catppuccin-latte catppuccin-macchiato vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#1E66F5;--shiki-light-font-style:italic;--shiki-dark:#8AADF4;--shiki-dark-font-style:italic">pip</span><span style="--shiki-light:#40A02B;--shiki-dark:#A6DA95"> install</span><span style="--shiki-light:#40A02B;--shiki-dark:#A6DA95"> -r</span><span style="--shiki-light:#40A02B;--shiki-dark:#A6DA95"> requirements.txt</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3>脚注格式</h3>
@@ -74,11 +73,11 @@
 <span class="line"><span style="--shiki-light:#7287FD;--shiki-dark:#B7BDF8">[^second]</span><span style="--shiki-light:#179299;--shiki-dark:#8BD5CA">:</span><span style="--shiki-light:#1E66F5;--shiki-dark:#8AADF4"> 脚注文字。</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
 </ul>
-<p>然而，Firefly 主题 <mark>原生</mark> 不支持行内脚注。以下是由Gemini 3.1 Pro生成的批量迁移代码：</p>
+<p>然而，Firefly 主题 <mark>原生</mark> 不支持行内脚注。以下是由 Gemini 3.1 Pro 生成的批量迁移代码：</p>
 
 <h3>YAML Frontmatter 中更新时间迁移</h3>
-<p>相较于 Theme Hope，Firefly 主题中提供了 <code>updated</code> 这一属性用于展示更新日期。虽然这一属性是 optional 的，但是为了美观，我们也可以选择填写。</p>
-<p>作者本人是直接将 VuePress 项目中的 md 文件复制到 Firefly 项目 content 目录的。由于迁移后一些属性、语法并不适用，因此可能对文章内容进行修改，这就会导致文章实质内容修改时间被污染。因此作者想到可以使用复制的源文件的修改时间作为 Updated 字段的填入内容，而非粘贴后文件的修改时间。</p>
+<p>相较于 Theme Hope，Firefly 主题中提供了 <code>updated</code> 这一属性用于展示更新日期。虽然这一属性是可选的，但是为了美观，我们也可以选择填写。</p>
+<p>本人是直接将 VuePress 项目中的 Markdonw 文件复制到 Firefly 项目 <code>content</code> 目录的。由于迁移后一些属性、语法并不适用，因此我可能对文章内容进行修改，这就会导致文件的修改时间被覆盖，无法反映文章实质内容的最后修改时间。因此作者想到可以使用源文件的修改时间填入 <code>updated</code> 字段，而非粘贴后文件的修改时间。</p>
 
 ]]></content>
     <category term="计算机技术"/>
@@ -1223,7 +1222,7 @@ ylg一时兴起写的文章望请海涵，，</p>
     <title type="text">传奇人物志</title>
     <id>https://silentnrtx.top/post/2025/08/LegendaryPerson.html</id>
     <link href="https://silentnrtx.top/post/2025/08/LegendaryPerson.html"/>
-    <updated>2026-03-28T10:34:03.000Z</updated>
+    <updated>2026-04-11T16:28:13.000Z</updated>
     <summary type="html"><![CDATA[
 <div class="hint-container warning">
 <p class="hint-container-title">声明</p>
