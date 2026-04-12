@@ -123,7 +123,7 @@ export default hopeTheme({
       // twoslash: true,
       collapsedLines: false,
       themes: {
-        light: "catppuccin-latte", dark: "catppuccin-macchiato"
+        light: "catppuccin-latte", dark: "catppuccin-mocha"
       }
     },
     chartjs: true,
