@@ -94,7 +94,6 @@ html[data-theme="dark"] .busuanzi-card {
 
   <!-- Github Stats Card -->
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer" class="stats-card-wrapper">
-    <h3>Github Stats</h3>
     <img
       src="https://github-stats-extended.vercel.app/api?username=Chinasd1st&show_icons=true&count_private=true&hide=contribs&hide_border=true&bg_color=00000000&text_color=888888&icon_color=2196f3&title_color=2196f3"
       alt="GitHub Stats"
@@ -104,7 +103,6 @@ html[data-theme="dark"] .busuanzi-card {
 
   <!-- Top Languages Card -->
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer" class="stats-card-wrapper">
-    <h3>Top Languages</h3>
     <img
       src="https://github-stats-extended.vercel.app/api/top-langs/?username=Chinasd1st&layout=compact&hide_border=true&bg_color=00000000&text_color=888888&title_color=2196f3&icon_color=2196f3&langs_count=8"
       alt="Top Languages"
@@ -114,10 +112,17 @@ html[data-theme="dark"] .busuanzi-card {
 
   <!-- WakaTime Stats Card -->
   <a href="https://wakatime.com/@Silentnrtx" target="_blank" rel="noopener noreferrer" class="stats-card-wrapper">
-    <h3>WakaTime Stats</h3>
     <img
       src="https://github-stats-extended.vercel.app/api/wakatime?username=Silentnrtx&custom_title=Silentnrtx%27s%20WakaTime%20Stats&langs_count=9&hide_border=true&bg_color=00000000&text_color=888888&icon_color=2196f3&title_color=2196f3"
       alt="Silentnrtx's WakaTime Stats"
+      class="stats-card"
+    />
+  </a>
+
+  <a href="https://osu.ppy.sh/community/forums/topics/1502604?n=1" target="_blank" rel="noopener noreferrer" class="stats-card-wrapper">
+    <img
+      src="https://osu-sig.s23.moe/card?user=Silentnrtx&mode=mania&lang=en&animation=true&hue=200&flop=true"
+      alt="osu! Stats Signature"
       class="stats-card"
     />
   </a>
