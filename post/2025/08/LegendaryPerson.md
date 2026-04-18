@@ -219,6 +219,22 @@ url: /post/2025/08/LegendaryPerson.md
 
 李晨煜来自湖北孝感，他自诩为MC老萌新，平常喜欢混的圈子有：音游、木柜子乐队、碧蓝档案、泛VOCALOID等。
 
+### 空间备份
+
+2026年4月12日前后，李晨煜的QQ空间疑似开启了“访客仅能查看最近一年说说”的权限设置。为了防止相关信息再度灭失，本人对其近一年的QQ空间说说进行了备份。
+
+:::center
+
+```component VPCard
+title: Lichenyu Blog Backup
+desc: 2025.04 — 2026.04 近一年完整存档 · 共 130+ 条说说
+<!-- logo: https://mister-hope.com/logo.svg -->
+link: https://silentnrtx.top/LCYBlogBak
+background: rgba(81, 67, 232, 0.34)
+```
+
+:::
+
 ### 图表展示2023年8月以来李晨煜qq空间发帖涉及要素
 
 下列图表展示了2023年8月以来李晨煜qq空间发帖所涉及的相关要素。总和相关数据使用左侧y轴，其余各要素使用右侧y轴。
