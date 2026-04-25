@@ -42,5 +42,6 @@
 - [ボカコレ声库统计](/post/2026/03/VCCLVirtualSingerStats.md)
 - [RTL-SDR + Dump1090 + Tar1090 搭建简单 ADS-B 接收系统](/post/2026/04/ADSBReceiving.md)
 - [从 VuePress Theme Hope 迁移到 Astro Firefly](/post/2026/04/AstroMigration.md)
+- [ChatGPT Images 2.0 实测：角色 + 城市特色平面海报生成效果](/post/2026/04/GPTImage2Trial.md)
 - [桐高数学报](/test.md)
 - [更新历史](/UpdateHistory.md)

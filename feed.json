@@ -6,6 +6,20 @@
   "description": "分享各种小奶奶内容 这使人感到有趣味",
   "items": [
     {
+      "title": "ChatGPT Images 2.0 实测：角色 + 城市特色平面海报生成效果",
+      "url": "https://silentnrtx.top/post/2026/04/GPTImage2Trial.html",
+      "id": "https://silentnrtx.top/post/2026/04/GPTImage2Trial.html",
+      "summary": "ChatGPT Images 2.0 实测：角色 + 城市特色平面海报生成效果 2026年4月21日，OpenAI 正式向所有 ChatGPT 用户全量推送了 GPT Images 2.0 图像生成模型。这次更新被视为继 DALL·E 3 之后，OpenAI 在文生图领域的一次重大迭代。GPT Images 2.0 在图像细节、文字渲染、风格控制以及复...",
+      "content_html": "\n<p>2026年4月21日，OpenAI 正式向所有 ChatGPT 用户全量推送了 <strong>GPT Images 2.0</strong> 图像生成模型。这次更新被视为继 DALL·E 3 之后，OpenAI 在文生图领域的一次重大迭代。GPT Images 2.0 在图像细节、文字渲染、风格控制以及复杂构图能力上都有显著提升，尤其在平面设计、海报排版等需要精准控制的场景中表现更为出色。</p>\n<p>本人在模型全量推送后第一时间体验了这一模型的文生图能力。以下是相关测试结果。</p>\n<p>提示词参考：<br>\n<a href=\"https://www.bilibili.com/video/BV1SBobBuEYY\" target=\"_blank\" rel=\"noopener noreferrer\">gpt image 2生成的赛马娘平面构成海报. Sunny_Wind. 哔哩哔哩.</a></p>\n<p>OpenAI 介绍页：<br>\n<a href=\"https://openai.com/zh-Hans-CN/index/introducing-chatgpt-images-2-0/\" target=\"_blank\" rel=\"noopener noreferrer\">ChatGPT 图像 2.0 现已上线. OpenAI</a></p>\n<h2>角色 + 地区特色平面海报</h2>\n<h3>小樽市</h3>\n<blockquote>\n<p><strong>角色参考</strong>：小春六花(こはるりっか) <a href=\"https://x.com/rikka_info/status/1803548318829871198?s=20\" target=\"_blank\" rel=\"noopener noreferrer\">@rikka_info</a></p>\n</blockquote>\n<figure><img src=\"/img/2026.4.25/1_1/ref.webp\" alt=\"Reference\" tabindex=\"0\" loading=\"lazy\"><figcaption>Reference</figcaption></figure>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">生成提示词</p>\n<p>帮我生成一张平面构成海报，主题为日本北海道小樽市，介绍当地运河、玻璃工坊与复古文艺特色，部分构成要素用镂空排版，用 反色蒙版 遮住人物一部分，呈现现代设计感，以给出的参考图人物为标准参考，配色主色：#F8BBD0（柔粉）、#CE93D8（淡紫），辅色：#F5F5F5（奶白）、#424242（深灰），点缀：#FFB347（暖橙），要求有英日文字点缀，整体充满几何感，横向排版 Make the aspect ratio 16:9</p>\n</div>\n<figure><img src=\"/img/2026.4.25/1_1/1_1.webp\" alt=\"Result\" tabindex=\"0\" loading=\"lazy\"><figcaption>Result</figcaption></figure>\n<h3>春日部市</h3>\n<blockquote>\n<p><strong>角色参考</strong>：春日部つむぎ@合成音声ギャル <a href=\"https://x.com/KasukabeTsumugi/status/1601450341824102400\" target=\"_blank\" rel=\"noopener noreferrer\">@KasukabeTsumugi</a></p>\n</blockquote>\n<figure><img src=\"/img/2026.4.25/1_2/ref.webp\" alt=\"Reference\" tabindex=\"0\" loading=\"lazy\"><figcaption>Reference</figcaption></figure>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">生成提示词</p>\n<p>帮我生成一张平面构成海报，主题为日本埼玉县春日部市，介绍当地风俗特色、旅游景点，部分构成要素用镂空排版，用 反色蒙版 遮住人物一部分，呈现出现代设计感，以给出参考图的人物为标准参考，配色主色：#6c3c24（深棕色）#ffcd31（亮黄）、辅色：#5ddeff（亮蓝）（层次）点缀：亮色（多彩），要求有英日文字点缀，整体充满几何感，横向排版 Make the aspect ratio 16:9</p>\n</div>\n<figure><img src=\"/img/2026.4.25/1_2/1_2.webp\" alt=\"Result\" tabindex=\"0\" loading=\"lazy\"><figcaption>Result</figcaption></figure>\n<p><a href=\"https://arena.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Arena</a>的结果（<code>gpt-image-2 (medium)</code>）：</p>\n<figure><img src=\"/img/2026.4.25/1_2/1_2_1.webp\" alt=\"Result\" tabindex=\"0\" loading=\"lazy\"><figcaption>Result</figcaption></figure>\n<p>如果 ChatGPT 的额度用完了，不妨试试<a href=\"https://arena.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Arena</a>，运气好可能会抽到GPT-Image-2（</p>\n",
+      "image": "https://silentnrtx.top/img/Cover/2026.4.25/cover.webp",
+      "date_published": "2026-04-25T00:00:00.000Z",
+      "date_modified": "2026-04-25T10:43:51.000Z",
+      "authors": [],
+      "tags": [
+        "人工智能"
+      ]
+    },
+    {
       "title": "RTL-SDR + Dump1090 + Tar1090 搭建简单 ADS-B 接收系统",
       "url": "https://silentnrtx.top/post/2026/04/ADSBReceiving.html",
       "id": "https://silentnrtx.top/post/2026/04/ADSBReceiving.html",
@@ -402,22 +416,6 @@
       ]
     },
     {
-      "title": "小奶奶新闻",
-      "url": "https://silentnrtx.top/old/2023/11/news.html",
-      "id": "https://silentnrtx.top/old/2023/11/news.html",
-      "summary": "小奶奶新闻 你说得对，但这里是小奶奶新闻，记录学校中一些十分女性的事情。 重要 下列内容由于发布时间较久，不能代表真实情况或声明作者立场。 视频源由境外cdn提供，可能无法正常播放。 2023.11.1 赤道联赛第N届暨ABN联赛相关奖项颁奖仪式于今日举行 今日，桐乡市现代实验学校举行了桐乡市现代实验学校第N届赤道联赛和第三届ABN联赛相关颁奖仪式。比...",
-      "content_html": "<!--\n<style>\n.aplayer .aplayer-info .aplayer-music .aplayer-title {\n    font-size: 14px;\n    color: #3c3c43 !important;\n    }\nspan.aplayer-list-title {\n    color: #3c3c43 !important;\n}\n</style>-->\n<h1>小奶奶新闻</h1>\n<p>你说得对，但这里是小奶奶新闻，记录学校中一些十分女性的事情。</p>\n<div class=\"hint-container important\">\n<p class=\"hint-container-title\">重要</p>\n<ol>\n<li>下列内容由于发布时间较久，不能代表真实情况或声明作者立场。</li>\n<li>视频源由境外cdn提供，可能无法正常播放。</li>\n</ol>\n</div>\n<h2>2023.11.1 赤道联赛第N届暨ABN联赛相关奖项颁奖仪式于今日举行</h2>\n<p>今日，桐乡市现代实验学校举行了桐乡市现代实验学校第N届赤道联赛和第三届ABN联赛相关颁奖仪式。比赛采用车轮战的形式，分成了以下三组：</p>\n<p>|项目/队伍|超级谢玄度|超级陶通明|蓝紫镭射|<br>\n|:</p>\n",
-      "image": "https://silentnrtx.top/img/2024.1.7/BAtitleGenerator.png",
-      "date_published": "2023-11-01T00:00:00.000Z",
-      "date_modified": "2026-03-28T10:34:03.000Z",
-      "authors": [],
-      "tags": [
-        "存档",
-        "小奶奶二创作品",
-        "视频"
-      ]
-    },
-    {
       "title": "这是一个小奶奶界面",
       "url": "https://silentnrtx.top/old/2023/10/Grandmother.html",
       "id": "https://silentnrtx.top/old/2023/10/Grandmother.html",
@@ -475,6 +473,22 @@
       ]
     },
     {
+      "title": "小奶奶新闻",
+      "url": "https://silentnrtx.top/old/2023/11/news.html",
+      "id": "https://silentnrtx.top/old/2023/11/news.html",
+      "summary": "小奶奶新闻 你说得对，但这里是小奶奶新闻，记录学校中一些十分女性的事情。 重要 下列内容由于发布时间较久，不能代表真实情况或声明作者立场。 视频源由境外cdn提供，可能无法正常播放。 2023.11.1 赤道联赛第N届暨ABN联赛相关奖项颁奖仪式于今日举行 今日，桐乡市现代实验学校举行了桐乡市现代实验学校第N届赤道联赛和第三届ABN联赛相关颁奖仪式。比...",
+      "content_html": "<!--\n<style>\n.aplayer .aplayer-info .aplayer-music .aplayer-title {\n    font-size: 14px;\n    color: #3c3c43 !important;\n    }\nspan.aplayer-list-title {\n    color: #3c3c43 !important;\n}\n</style>-->\n<h1>小奶奶新闻</h1>\n<p>你说得对，但这里是小奶奶新闻，记录学校中一些十分女性的事情。</p>\n<div class=\"hint-container important\">\n<p class=\"hint-container-title\">重要</p>\n<ol>\n<li>下列内容由于发布时间较久，不能代表真实情况或声明作者立场。</li>\n<li>视频源由境外cdn提供，可能无法正常播放。</li>\n</ol>\n</div>\n<h2>2023.11.1 赤道联赛第N届暨ABN联赛相关奖项颁奖仪式于今日举行</h2>\n<p>今日，桐乡市现代实验学校举行了桐乡市现代实验学校第N届赤道联赛和第三届ABN联赛相关颁奖仪式。比赛采用车轮战的形式，分成了以下三组：</p>\n<p>|项目/队伍|超级谢玄度|超级陶通明|蓝紫镭射|<br>\n|:</p>\n",
+      "image": "https://silentnrtx.top/img/2024.1.7/BAtitleGenerator.png",
+      "date_published": "2023-11-01T00:00:00.000Z",
+      "date_modified": "2026-03-28T10:34:03.000Z",
+      "authors": [],
+      "tags": [
+        "存档",
+        "小奶奶二创作品",
+        "视频"
+      ]
+    },
+    {
       "title": "愚公党、智叟党",
       "url": "https://silentnrtx.top/old/2023/12/Mountain.html",
       "id": "https://silentnrtx.top/old/2023/12/Mountain.html",
@@ -501,35 +515,6 @@
       "tags": [
         "存档",
         "小奶奶二创作品"
-      ]
-    },
-    {
-      "title": "猎奇文章合集",
-      "url": "https://silentnrtx.top/old/2025/02/RyoukiArticle.html",
-      "id": "https://silentnrtx.top/old/2025/02/RyoukiArticle.html",
-      "summary": "猎奇文章合集 声明 以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。 文章使用Deepseek-R1模型生成。 Last Update: 2025.03.19 First Editing: 2025.02.03 目录 特别板块：2024年度最猎奇图片 万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡 相关信息 从本篇文章...",
-      "content_html": "<!--\n<style>\n.aplayer .aplayer-info .aplayer-music .aplayer-title {\n    font-size: 14px;\n    color: #3c3c43 !important;\n    }\nspan.aplayer-list-title {\n    color: #3c3c43 !important;\n}\n</style>-->\n<h1>猎奇文章合集</h1>\n<div class=\"hint-container important\">\n<p class=\"hint-container-title\">声明</p>\n<p>以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。<br>\n文章使用Deepseek-R1模型生成。<br>\nLast Update: 2025.03.19<br>\nFirst Editing: 2025.02.03</p>\n</div>\n<h2>目录</h2>\n\n<h2>特别板块：2024年度最猎奇图片</h2>\n",
-      "image": "https://silentnrtx.top/img/RyoukiArticle/p1.jpg",
-      "date_published": "2025-02-03T00:00:00.000Z",
-      "date_modified": "2025-12-24T11:48:57.000Z",
-      "authors": [],
-      "tags": [
-        "存档",
-        "文学文化"
-      ]
-    },
-    {
-      "title": "So-vits-svc v4.x AI人声替换教程",
-      "url": "https://silentnrtx.top/old/2025/02/SovitsTutorial.html",
-      "id": "https://silentnrtx.top/old/2025/02/SovitsTutorial.html",
-      "summary": "So-vits-svc v4.x AI人声替换教程 目前懒得写。",
-      "content_html": "\n<p>目前懒得写。</p>\n",
-      "date_published": "2025-02-08T00:00:00.000Z",
-      "date_modified": "2025-11-11T13:20:01.000Z",
-      "authors": [],
-      "tags": [
-        "存档",
-        "其他"
       ]
     },
     {
@@ -569,6 +554,35 @@
       "image": "https://silentnrtx.top/img/Cover/2024.12.2/cover.webp",
       "date_published": "2024-12-02T00:00:00.000Z",
       "date_modified": "2026-03-15T13:34:22.000Z",
+      "authors": [],
+      "tags": [
+        "存档",
+        "其他"
+      ]
+    },
+    {
+      "title": "猎奇文章合集",
+      "url": "https://silentnrtx.top/old/2025/02/RyoukiArticle.html",
+      "id": "https://silentnrtx.top/old/2025/02/RyoukiArticle.html",
+      "summary": "猎奇文章合集 声明 以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。 文章使用Deepseek-R1模型生成。 Last Update: 2025.03.19 First Editing: 2025.02.03 目录 特别板块：2024年度最猎奇图片 万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡 相关信息 从本篇文章...",
+      "content_html": "<!--\n<style>\n.aplayer .aplayer-info .aplayer-music .aplayer-title {\n    font-size: 14px;\n    color: #3c3c43 !important;\n    }\nspan.aplayer-list-title {\n    color: #3c3c43 !important;\n}\n</style>-->\n<h1>猎奇文章合集</h1>\n<div class=\"hint-container important\">\n<p class=\"hint-container-title\">声明</p>\n<p>以下内容纯属虚构，仅限于娱乐。对于恶意转发文章造成不良后果的，本人不承担任何责任。<br>\n文章使用Deepseek-R1模型生成。<br>\nLast Update: 2025.03.19<br>\nFirst Editing: 2025.02.03</p>\n</div>\n<h2>目录</h2>\n\n<h2>特别板块：2024年度最猎奇图片</h2>\n",
+      "image": "https://silentnrtx.top/img/RyoukiArticle/p1.jpg",
+      "date_published": "2025-02-03T00:00:00.000Z",
+      "date_modified": "2025-12-24T11:48:57.000Z",
+      "authors": [],
+      "tags": [
+        "存档",
+        "文学文化"
+      ]
+    },
+    {
+      "title": "So-vits-svc v4.x AI人声替换教程",
+      "url": "https://silentnrtx.top/old/2025/02/SovitsTutorial.html",
+      "id": "https://silentnrtx.top/old/2025/02/SovitsTutorial.html",
+      "summary": "So-vits-svc v4.x AI人声替换教程 目前懒得写。",
+      "content_html": "\n<p>目前懒得写。</p>\n",
+      "date_published": "2025-02-08T00:00:00.000Z",
+      "date_modified": "2025-11-11T13:20:01.000Z",
       "authors": [],
       "tags": [
         "存档",
