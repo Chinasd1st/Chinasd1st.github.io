@@ -6,17 +6,6 @@ icon: circle-info
 # 介绍页
 
 <style>
-/* ==================== 外部链接图标禁用 ==================== */
-.external-link-icon [vp-content] a[href*="://"]:not(.no-external-link-icon)::after,
-.external-link-icon [vp-content] a[target=_blank]:not(.no-external-link-icon)::after {
-  content: "" !important;
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
 /* ==================== Stats 卡片通用样式 ==================== */
 .stats-card-container {
   display: flex;
