@@ -2547,20 +2547,20 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 
 跡暖空（みちのく）是《BanG Dream!》企划组合MyGO!!!!!的第二张专辑，发售于2024年12月18日。分为Blu-ray付生产限定A、B两盘以及通常盘三种规格。
 
-| 曲序 | 曲目                     | 作词                       | 作曲                       | 编曲                     | 时长   |
-|------|--------------------------|---------------------------|---------------------------|-------------------------|--------|
-| 1    | 歩拾道                   | 藤原優樹(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)     | 4:20   |
-| 2    | 明弦音                   | 藤原優樹(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)     | 4:03   |
-| 3    | 孤壊牢                   | 藤原優樹(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)     | 3:34   |
-| 4    | 霧周途                   | 藤原優樹(SUPA LOVE)       | 藤田淳平(Elements Garden) | 藤田淳平(Elements Garden)| 3:42   |
-| 5    | 端程山                   | 藤原優樹(SUPA LOVE)       | トミタカズキ(SUPA LOVE)   | トミタカズキ(SUPA LOVE) | 4:20   |
-| 6    | 処救生                   | 藤原優樹(SUPA LOVE)       | 松坂康司(SUPA LOVE)       | 松坂康司(SUPA LOVE)     | 3:37   |
-| 7    | 輪符雨                   | 藤原優樹(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)     | 3:27   |
-| 8    | 夜隠染                   | 藤原優樹(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)     | 3:20   |
-| 9    | 過惰幻                   | 藤原優樹(SUPA LOVE)       | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)     | 3:57   |
-| 10   | 回層浮                   | 藤原優樹(SUPA LOVE)       | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)     | 4:21   |
-| 11   | 砂寸奏                   | 藤原優樹(SUPA LOVE)       | 槇島隆人(SUPA LOVE)       | 槇島隆人(SUPA LOVE)     | 3:43   |
-| 12   | 焚音打                   | 藤原優樹(SUPA LOVE)       | 長谷川大介(SUPA LOVE)     | 長谷川大介(SUPA LOVE)   | 4:06   |
+| 曲序 | 曲目   | 作词                | 作曲                      | 编曲                      | 时长 |
+| ---- | ------ | ------------------- | ------------------------- | ------------------------- | ---- |
+| 1    | 歩拾道 | 藤原優樹(SUPA LOVE) | 庄司夏葵(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)       | 4:20 |
+| 2    | 明弦音 | 藤原優樹(SUPA LOVE) | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 4:03 |
+| 3    | 孤壊牢 | 藤原優樹(SUPA LOVE) | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 3:34 |
+| 4    | 霧周途 | 藤原優樹(SUPA LOVE) | 藤田淳平(Elements Garden) | 藤田淳平(Elements Garden) | 3:42 |
+| 5    | 端程山 | 藤原優樹(SUPA LOVE) | トミタカズキ(SUPA LOVE)   | トミタカズキ(SUPA LOVE)   | 4:20 |
+| 6    | 処救生 | 藤原優樹(SUPA LOVE) | 松坂康司(SUPA LOVE)       | 松坂康司(SUPA LOVE)       | 3:37 |
+| 7    | 輪符雨 | 藤原優樹(SUPA LOVE) | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 3:27 |
+| 8    | 夜隠染 | 藤原優樹(SUPA LOVE) | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 3:20 |
+| 9    | 過惰幻 | 藤原優樹(SUPA LOVE) | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)       | 3:57 |
+| 10   | 回層浮 | 藤原優樹(SUPA LOVE) | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)       | 4:21 |
+| 11   | 砂寸奏 | 藤原優樹(SUPA LOVE) | 槇島隆人(SUPA LOVE)       | 槇島隆人(SUPA LOVE)       | 3:43 |
+| 12   | 焚音打 | 藤原優樹(SUPA LOVE) | 長谷川大介(SUPA LOVE)     | 長谷川大介(SUPA LOVE)     | 4:06 |
 
 ---
 
@@ -2687,17 +2687,17 @@ url: /post/2025/03/RevolutionIdle.md
 
 在讨论机制前，以下是有可能会用到的游戏内术语表：
 
-| 英文缩写 | 中文翻译       | 英文缩写 | 中文翻译     |
-|----------|----------------|----------|--------------|
-| SC     | 旋转分数    | Mult    | 乘数         |
-| Rev     | 旋转           | Asc     | 升级         |
-| TF      | 离线点数（时间流量）       | OF      | 离线流量     |
-| P.Mult  | 转生乘数       | Prom    | 晋升         |
-| INF     | 无穷           | IP      | 无限点       |
-| GP      | 生成器能量     | ETR     | 永恒         |
-| EP      | 永恒点         | AP      | 动物点       |
-| RP      | 研究点         | LP      | 实验室点     |
-| DP      | 膨胀点         |          |              |
+| 英文缩写 | 中文翻译             | 英文缩写 | 中文翻译 |
+| -------- | -------------------- | -------- | -------- |
+| SC       | 旋转分数             | Mult     | 乘数     |
+| Rev      | 旋转                 | Asc      | 升级     |
+| TF       | 离线点数（时间流量） | OF       | 离线流量 |
+| P.Mult   | 转生乘数             | Prom     | 晋升     |
+| INF      | 无穷                 | IP       | 无限点   |
+| GP       | 生成器能量           | ETR      | 永恒     |
+| EP       | 永恒点               | AP       | 动物点   |
+| RP       | 研究点               | LP       | 实验室点 |
+| DP       | 膨胀点               |          |          |
 
 ### 一般机制
 
@@ -7428,6 +7428,24 @@ url: /post/2025/11/DoujinMusicRecords.md
 * **Catalog**: DVSP-0324~6
 * **Artists / Label**: Diverse System
 * **Genre**: -
+
+虽然 booklet 什么的还没有释出，但是从封面的 Fortepiano 和专辑主题 “Legacy” 可以看出与古典主义时期相关
+
+新鲜血液的注入带来了更多更为克制的纯器乐演奏作品
+
+***
+
+四十五首疑似有点太长了，先听了 Disc 01
+本人部分看法（？：
+
+* Disc 01
+  * **Tr.06**: 钢琴 Psy 说是
+  * **Tr.07**: 剑圣在 ADP 里写三拍子似乎已成固定传统；你别说三拍子 UK 核其实还是非常有趣的
+  * **Tr.08**: 对 7OAST 的印象还停留在 Stream Palette
+  * **Tr.10**: 奶油糖能来还是非常惊喜的
+  * **Tr.13**: 回忆如午后的光；最学院派的一集
+  * **Tr.14**: 该说不说 ARF 这个编排其实非常公式，从 The Unattended 用到现在，但是模板归模板，其实还是非常抓耳的
+  * **Tr.15**: 这个不协和的开头莫名联想到某些中国民族乐曲，，，!!汪立三 - 民间玩具!!
 
 ### Teto Garage
 
