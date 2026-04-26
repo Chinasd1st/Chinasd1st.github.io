@@ -14,7 +14,6 @@ category:
 - <Badge type="danger" text="Err" vertical="middle" />神秘错误（如下）
 ![pageview展示错误](/img/2025.12.28/IndexPageview.png)
 
-
 ## 2025.11.26 v1.0.0
 
 - <Badge type="important" text="CoreUpdate" vertical="middle" /> 改用Vuepress Theme Hope主题（本改动实则早在2025年2月就已作出）
