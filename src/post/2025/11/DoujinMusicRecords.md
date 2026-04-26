@@ -16,6 +16,9 @@ cover: /img/Cover/2025.11.12/cover.webp
 :::info Info Badge 为专辑添加时间
 :::
 
+:::important Important Badge 为相关活动
+:::
+
 ## Intro
 
 入同人音乐这个神秘小团体也有好几年了，但是认真听也才是不久前的事，甚至M3我在二二年的时候对其还一无所知，十分幽默，，
@@ -35,11 +38,14 @@ cover: /img/Cover/2025.11.12/cover.webp
 
 > 57th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
 
+听不完了听不完了！
+今年M3真是百花齐放啊
+
 ![在某个 Discord Server 偷的图](/img/2025.11.22/M3_57.webp)
 
 ![[Qutabire的推](https://x.com/Qutabire/status/2048188462936043964?s=20)](/img/2025.11.22/M3_57_1.webp)
 
-### UNITED KONCEPT 2<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="SR26" type="important" vertical="middle" />
+### UNITED KONCEPT 2<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="スーパーリリース26" type="important" vertical="middle" />
 
 - **Catalog**: TCPLUS-0062
 - **Artists / Label**: HARDCORE TANO*C
@@ -54,6 +60,17 @@ cover: /img/Cover/2025.11.12/cover.webp
 - **Catalog**: DVSP-0324~6
 - **Artists / Label**: Diverse System
 - **Genre**: -
+
+### Teto Garage<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="重音テト誕生日 2026" type="important" vertical="middle" />
+
+实际发行时间为2026年4月1日
+MKGarage（
+
+- **Catalog**: FNY-002
+- **Artists / Label**: FNSEY
+- **Genre**: UK garage
+  
+<Meting mid="3361537510" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
 ## Comic Market 107 (2025.12.30 - 2025.12.31)
 
@@ -242,6 +259,12 @@ nerdneko 4th Album
 ## M3-2025春 (2025.04.27)
 
 > 55th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+### floral scent lab<Badge text="2026.4.26" type="info" vertical="middle" />
+
+- **Catalog**: RTEP-008
+- **Artists / Label**: Ray_Oh / RabbiTortoised
+- **Genre**: Botanica?...
 
 ### Glow in the Dark<Badge text="2026.3.16" type="info" vertical="middle" />
 
