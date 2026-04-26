@@ -332,17 +332,17 @@ BanG Dream! 少女乐团派对！原先由Craft Egg开发并运营，但由于Cr
 
 <Meting mid="13251480603" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
-| 曲序 | 曲目                     | 作词                       | 作曲                       | 编曲                     | 时长   |
-|------|--------------------------|---------------------------|---------------------------|-------------------------|--------|
-| 1    | 歩拾道                   | 藤原優樹(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)     | 4:20   |
-| 2    | 明弦音                   | 藤原優樹(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)     | 4:03   |
-| 3    | 孤壊牢                   | 藤原優樹(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)     | 3:34   |
-| 4    | 霧周途                   | 藤原優樹(SUPA LOVE)       | 藤田淳平(Elements Garden) | 藤田淳平(Elements Garden)| 3:42   |
-| 5    | 端程山                   | 藤原優樹(SUPA LOVE)       | トミタカズキ(SUPA LOVE)   | トミタカズキ(SUPA LOVE) | 4:20   |
-| 6    | 処救生                   | 藤原優樹(SUPA LOVE)       | 松坂康司(SUPA LOVE)       | 松坂康司(SUPA LOVE)     | 3:37   |
-| 7    | 輪符雨                   | 藤原優樹(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)     | 3:27   |
-| 8    | 夜隠染                   | 藤原優樹(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)     | 3:20   |
-| 9    | 過惰幻                   | 藤原優樹(SUPA LOVE)       | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)     | 3:57   |
-| 10   | 回層浮                   | 藤原優樹(SUPA LOVE)       | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)     | 4:21   |
-| 11   | 砂寸奏                   | 藤原優樹(SUPA LOVE)       | 槇島隆人(SUPA LOVE)       | 槇島隆人(SUPA LOVE)     | 3:43   |
-| 12   | 焚音打                   | 藤原優樹(SUPA LOVE)       | 長谷川大介(SUPA LOVE)     | 長谷川大介(SUPA LOVE)   | 4:06   |
+| 曲序 | 曲目   | 作词                | 作曲                      | 编曲                      | 时长 |
+| ---- | ------ | ------------------- | ------------------------- | ------------------------- | ---- |
+| 1    | 歩拾道 | 藤原優樹(SUPA LOVE) | 庄司夏葵(SUPA LOVE)       | 庄司夏葵(SUPA LOVE)       | 4:20 |
+| 2    | 明弦音 | 藤原優樹(SUPA LOVE) | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 4:03 |
+| 3    | 孤壊牢 | 藤原優樹(SUPA LOVE) | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 3:34 |
+| 4    | 霧周途 | 藤原優樹(SUPA LOVE) | 藤田淳平(Elements Garden) | 藤田淳平(Elements Garden) | 3:42 |
+| 5    | 端程山 | 藤原優樹(SUPA LOVE) | トミタカズキ(SUPA LOVE)   | トミタカズキ(SUPA LOVE)   | 4:20 |
+| 6    | 処救生 | 藤原優樹(SUPA LOVE) | 松坂康司(SUPA LOVE)       | 松坂康司(SUPA LOVE)       | 3:37 |
+| 7    | 輪符雨 | 藤原優樹(SUPA LOVE) | 木下龍平(SUPA LOVE)       | 木下龍平(SUPA LOVE)       | 3:27 |
+| 8    | 夜隠染 | 藤原優樹(SUPA LOVE) | 鈴木裕明(SUPA LOVE)       | 鈴木裕明(SUPA LOVE)       | 3:20 |
+| 9    | 過惰幻 | 藤原優樹(SUPA LOVE) | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)       | 3:57 |
+| 10   | 回層浮 | 藤原優樹(SUPA LOVE) | hisakuni(SUPA LOVE)       | hisakuni(SUPA LOVE)       | 4:21 |
+| 11   | 砂寸奏 | 藤原優樹(SUPA LOVE) | 槇島隆人(SUPA LOVE)       | 槇島隆人(SUPA LOVE)       | 3:43 |
+| 12   | 焚音打 | 藤原優樹(SUPA LOVE) | 長谷川大介(SUPA LOVE)     | 長谷川大介(SUPA LOVE)     | 4:06 |
