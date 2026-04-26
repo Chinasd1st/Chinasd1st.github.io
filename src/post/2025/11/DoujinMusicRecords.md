@@ -31,6 +31,30 @@ cover: /img/Cover/2025.11.12/cover.webp
 
 [[toc]]
 
+## M3-2026春 (2026.4.26)
+
+> 57th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
+
+![在某个 Discord Server 偷的图](/img/2025.11.22/M3_57.webp)
+
+![[Qutabire的推](https://x.com/Qutabire/status/2048188462936043964?s=20)](/img/2025.11.22/M3_57_1.webp)
+
+### UNITED KONCEPT 2<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="SR26" type="important" vertical="middle" />
+
+- **Catalog**: TCPLUS-0062
+- **Artists / Label**: HARDCORE TANO*C
+- **Genre**: UK Hardcore
+
+スーパーリリース26!
+
+<Meting mid="3371224221" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### AD:PIANO X<Badge text="2026.04.26" type="info" vertical="middle" />
+
+- **Catalog**: DVSP-0324~6
+- **Artists / Label**: Diverse System
+- **Genre**: -
+
 ## Comic Market 107 (2025.12.30 - 2025.12.31)
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
