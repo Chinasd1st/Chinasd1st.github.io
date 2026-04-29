@@ -45,15 +45,51 @@ cover: /img/Cover/2025.11.12/cover.webp
 
 ![[Qutabire的推](https://x.com/Qutabire/status/2048188462936043964?s=20)](/img/2025.11.22/M3_57_1.webp)
 
+### TECHCORE ESSENCE 2686<Badge text="2026.04.29" type="info" vertical="middle" />
+
+- **Catalog**: MRX-178
+- **Artists / Label**: MEGAREX
+- **Genre**: Techcore
+
+<Meting mid="3374648109" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### Epistle to the Earthlings<Badge text="2026.04.29" type="info" vertical="middle" />
+
+- **Catalog**: BRNS-0003
+- **Artists / Label**: Bernis / Digital Logics
+- **Genre**: Uplifting Trance / Psy Trance
+
+<Meting mid="3373083016" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### Atmosphere<Badge text="2026.04.29" type="info" vertical="middle" />
+
+- **Catalog**: N/A
+- **Artists / Label**: Lunabitt.
+- **Genre**: Vocaloid / Electro Pop
+
+<Meting mid="3363936640" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### AERO<Badge text="2026.04.26" type="info" vertical="middle" />
+
+- **Catalog**: FMM-010
+- **Artists / Label**: MK / Fenmie Music
+- **Genre**: House / Synthwave / Future Bass / Drum 'n' Bass etc.
+
+喜欢Tr.10美丽旋律
+
 ### UNITED KONCEPT 2<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="スーパーリリース26" type="important" vertical="middle" />
 
 - **Catalog**: TCPLUS-0062
 - **Artists / Label**: HARDCORE TANO*C
 - **Genre**: UK Hardcore
 
-スーパーリリース26!
-
 <Meting mid="3371224221" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+
+### DIVE<Badge text="2026.04.29" type="info" vertical="middle" />
+
+- **Catalog**: NLCD-0002
+- **Artists / Label**: NEKOLOGICAL
+- **Genre**: -
 
 ### AD:PIANO X<Badge text="2026.04.26" type="info" vertical="middle" />
 
@@ -274,17 +310,27 @@ nerdneko 4th Album
 
 <Meting mid="2734629945" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
 
+## 第22回博麗神社例大祭 (2025.05.05)
+
+### オールナイト・オブ・ナイツ プロジェクト<Badge text="2026.04.26" type="info" vertical="middle" />
+
+> The Hakurei Shrine Reitaisai is an annual convention held in Japan to officially release demo and full versions of Touhou games. Fan works are also released at the event.
+
+- **Catalog**: CCCD-0075
+- **Artists / Label**: COOL&CREATE
+- **Genre**: -
+
 ## M3-2025春 (2025.04.27)
 
 > 55th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
 
-### floral scent lab<Badge text="2026.4.26" type="info" vertical="middle" />
+### floral scent lab<Badge text="2026.04.26" type="info" vertical="middle" />
 
 - **Catalog**: RTEP-008
 - **Artists / Label**: Ray_Oh / RabbiTortoised
 - **Genre**: Botanica?...
 
-### Glow in the Dark<Badge text="2026.3.16" type="info" vertical="middle" />
+### Glow in the Dark<Badge text="2026.03.16" type="info" vertical="middle" />
 
 - **Catalog**: STRT-009
 - **Artists / Label**: 瓶底眼鏡女子同盟 / Stratosphere
@@ -541,3 +587,4 @@ icesawder你是我叠
 - AD:PIANO IX -Alt-<Badge text="2026.03.17" type="info" vertical="middle" />
 - AD:TRANCE 9<Badge text="2026.03.17" type="info" vertical="middle" />
 - Storm and Impulse / xi<Badge text="2026.03.17" type="info" vertical="middle" />
+- Deep Inside / ARForest<Badge text="2026.04.29" type="info" vertical="middle" />
