@@ -7415,13 +7415,43 @@ url: /post/2025/11/DoujinMusicRecords.md
 
 ![Qutabire的推](/img/2025.11.22/M3_57_1.webp)
 
+### TECHCORE ESSENCE 2686
+
+* **Catalog**: MRX-178
+* **Artists / Label**: MEGAREX
+* **Genre**: Techcore
+
+### Epistle to the Earthlings
+
+* **Catalog**: BRNS-0003
+* **Artists / Label**: Bernis / Digital Logics
+* **Genre**: Uplifting Trance / Psy Trance
+
+### Atmosphere
+
+* **Catalog**: N/A
+* **Artists / Label**: Lunabitt.
+* **Genre**: Vocaloid / Electro Pop
+
+### AERO
+
+* **Catalog**: FMM-010
+* **Artists / Label**: MK / Fenmie Music
+* **Genre**: House / Synthwave / Future Bass / Drum 'n' Bass etc.
+
+喜欢Tr.10美丽旋律
+
 ### UNITED KONCEPT 2
 
 * **Catalog**: TCPLUS-0062
 * **Artists / Label**: HARDCORE TANO\*C
 * **Genre**: UK Hardcore
 
-スーパーリリース26!
+### DIVE
+
+* **Catalog**: NLCD-0002
+* **Artists / Label**: NEKOLOGICAL
+* **Genre**: -
 
 ### AD:PIANO X
 
@@ -7601,6 +7631,16 @@ nerdneko 4th Album
 * **Barcode**: 4562265381677
 * **Artists / Label**: HARDCORE TANO\*C
 * **Genre**: Electronics
+
+## 第22回博麗神社例大祭 (2025.05.05)
+
+### オールナイト・オブ・ナイツ プロジェクト
+
+> The Hakurei Shrine Reitaisai is an annual convention held in Japan to officially release demo and full versions of Touhou games. Fan works are also released at the event.
+
+* **Catalog**: CCCD-0075
+* **Artists / Label**: COOL\&CREATE
+* **Genre**: -
 
 ## M3-2025春 (2025.04.27)
 
@@ -7869,6 +7909,7 @@ icesawder你是我叠
 * AD:PIANO IX -Alt-
 * AD:TRANCE 9
 * Storm and Impulse / xi
+* Deep Inside / ARForest
 
 ---
 
