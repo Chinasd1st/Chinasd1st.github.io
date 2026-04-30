@@ -12,7 +12,7 @@ def extract_date_from_yaml(file_path):
             content = file.read()
         
         # 改进的正则表达式，更灵活地匹配YAML front matter
-        yaml_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL | re.MULTILINE)
+        yaml_match = re.search(r'^---\s*\n(.*?)\n---\s*(?:\n|$)', content, re.DOTALL | re.MULTILINE)
         
         if not yaml_match:
             print(f"文件 {file_path.name} 中没有找到YAML front matter")
@@ -35,6 +35,7 @@ def extract_date_from_yaml(file_path):
             r'(\d{4})/(\d{1,2})/(\d{1,2})',  # YYYY/MM/DD
             r'(\d{4})\.(\d{1,2})\.(\d{1,2})',  # YYYY.MM.DD
             r'(\d{4})-(\d{1,2})-(\d{1,2})\s+\d{1,2}:\d{1,2}:\d{1,2}',  # 带时间的日期
+            r'(\d{4})-(\d{1,2})-(\d{1,2})T\d{1,2}:\d{1,2}:\d{1,2}(?:Z|[+-]\d{2}:\d{2})?',  # ISO 8601日期
         ]
         
         for pattern in date_patterns:
@@ -60,7 +61,7 @@ def organize_files_by_yaml_date():
     
     print(f"开始处理目录: {current_directory}")
     
-    # 获取所有.md文件（排除README.md等特殊文件）
+    # 获取当前目录下的.md文件（排除README.md等特殊文件）
     md_files = list(current_directory.glob("*.md"))
     md_files = [f for f in md_files if not f.name.startswith("README")]
     

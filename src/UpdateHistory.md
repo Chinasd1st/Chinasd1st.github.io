@@ -55,7 +55,7 @@ $vp-font-heading: '"TorusPro", "Noto Sans SC", sans-serif';
 }
 ```
 
-- <Badge type="info" text="Iprv" vertical="middle" /> 处理Aplayer在深色模式下的样式问题
+- <Badge type="info" text="Iprv" vertical="middle" /> 处理APlayer在深色模式下的样式问题
 
 ``` scss title=".vuepress/styles/index.scss" :line-numbers=3
 .aplayer {
@@ -65,7 +65,7 @@ $vp-font-heading: '"TorusPro", "Noto Sans SC", sans-serif';
 }
 ```
 
-- <Badge type="info" text="Iprv" vertical="middle" /> 优化文件directory，按照yyyy/mm/dd的结构进行分类
+- <Badge type="info" text="Iprv" vertical="middle" /> 优化文件目录（directory），按照yyyy/mm/dd的结构进行分类
 - <Badge type="info" text="Iprv" vertical="middle" /> 引入`fontawesome-with-brands` icon库，增强页面内容丰度
 - <Badge type="info" text="???" vertical="middle" /> 2025年2月以来已经写了16篇文章，令人感叹（
 
