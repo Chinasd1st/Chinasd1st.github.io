@@ -43,7 +43,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "美食家",
-    intro: "/intro.html",
+    intro: "https://silentnrtx.top/Silentnrtx/",
     avatar: "/assets/avatar/SP6C_01.webp",
     medias: {
       BiliBili: "https://space.bilibili.com/520682236",

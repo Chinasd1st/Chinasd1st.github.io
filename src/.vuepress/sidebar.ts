@@ -19,7 +19,11 @@ export default sidebar({
       prefix: "post/",
       children: "structure",
     },
-    "intro",
+    {
+      text: "介绍页",
+      icon: "link",
+      link: "https://silentnrtx.top/Silentnrtx/",
+    },
     "UpdateHistory"
   ],
 });
