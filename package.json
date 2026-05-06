@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.59.0",
-    "@typescript-eslint/parser": "^8.59.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.2",
+    "@typescript-eslint/parser": "^8.59.2",
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vuepress/bundler-vite": "2.0.0-rc.28",
     "@vuepress/plugin-clarity-analytics": "2.0.0-rc.128",
@@ -29,16 +29,16 @@
     "chart.js": "^4.5.1",
     "echarts": "^6.0.0",
     "eslint": "^10.2.1",
-    "eslint-plugin-vue": "^10.9.0",
+    "eslint-plugin-vue": "^10.9.1",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.45",
     "mermaid": "^11.14.0",
     "patch-package": "^8.0.1",
     "sass-embedded": "^1.99.0",
-    "twikoo": "^1.7.7",
+    "twikoo": "^1.7.9",
     "typescript": "^5.9.3",
     "vidstack": "^1.12.13",
-    "vue": "^3.5.33",
+    "vue": "^3.5.34",
     "vue-eslint-parser": "^10.4.0",
     "vuepress": "2.0.0-rc.28",
     "vuepress-plugin-components": "2.0.0-rc.106",
@@ -49,6 +49,6 @@
     "dotenv": "^17.4.2"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.60.2"
+    "@rollup/rollup-linux-x64-gnu": "^4.60.3"
   }
 }
