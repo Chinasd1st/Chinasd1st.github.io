@@ -28,7 +28,7 @@
     "@vuepress/plugin-watermark": "2.0.0-rc.128",
     "chart.js": "^4.5.1",
     "echarts": "^6.0.0",
-    "eslint": "^10.2.1",
+    "eslint": "^10.3.0",
     "eslint-plugin-vue": "^10.9.1",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.45",
