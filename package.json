@@ -12,12 +12,19 @@
     "lint": "eslint . --ext .js,.ts,.vue",
     "lint:fix": "eslint . --ext .js,.ts,.vue --fix"
   },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11.0.0",
+      "onFail": "download"
+    }
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^8.59.2",
     "@typescript-eslint/parser": "^8.59.2",
     "@vue/eslint-config-typescript": "^14.7.0",
-    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "@vuepress/bundler-vite": "2.0.0-rc.29",
     "@vuepress/plugin-clarity-analytics": "2.0.0-rc.128",
     "@vuepress/plugin-docsearch": "2.0.0-rc.128",
     "@vuepress/plugin-feed": "2.0.0-rc.128",
@@ -28,11 +35,11 @@
     "@vuepress/plugin-watermark": "2.0.0-rc.128",
     "chart.js": "^4.5.1",
     "echarts": "^6.0.0",
-    "eslint": "^10.2.1",
+    "eslint": "^10.3.0",
     "eslint-plugin-vue": "^10.9.1",
     "flowchart.ts": "^3.0.1",
     "katex": "^0.16.45",
-    "mermaid": "^11.14.0",
+    "mermaid": "^11.15.0",
     "patch-package": "^8.0.1",
     "sass-embedded": "^1.99.0",
     "twikoo": "^1.7.9",
@@ -40,7 +47,7 @@
     "vidstack": "^1.12.13",
     "vue": "^3.5.34",
     "vue-eslint-parser": "^10.4.0",
-    "vuepress": "2.0.0-rc.28",
+    "vuepress": "2.0.0-rc.29",
     "vuepress-plugin-components": "2.0.0-rc.106",
     "vuepress-plugin-meting2": "1.4.2",
     "vuepress-theme-hope": "2.0.0-rc.106"
