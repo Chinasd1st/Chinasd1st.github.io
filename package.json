@@ -1,61 +1,63 @@
 {
-  "name": "blog",
-  "description": "A project of vuepress-theme-hope",
-  "version": "1.0.1",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "docs:build": "vuepress-vite build src",
-    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src --port 1145",
-    "docs:update-package": "pnpm dlx vp-update",
-    "lint": "eslint . --ext .js,.ts,.vue",
-    "lint:fix": "eslint . --ext .js,.ts,.vue --fix"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": ">=11.0.0",
-      "onFail": "download"
-    }
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.59.2",
-    "@typescript-eslint/parser": "^8.59.2",
-    "@vue/eslint-config-typescript": "^14.7.0",
-    "@vuepress/bundler-vite": "2.0.0-rc.29",
-    "@vuepress/plugin-clarity-analytics": "2.0.0-rc.128",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.128",
-    "@vuepress/plugin-feed": "2.0.0-rc.128",
-    "@vuepress/plugin-llms": "2.0.0-rc.128",
-    "@vuepress/plugin-prismjs": "2.0.0-rc.128",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.128",
-    "@vuepress/plugin-umami-analytics": "2.0.0-rc.128",
-    "@vuepress/plugin-watermark": "2.0.0-rc.128",
-    "chart.js": "^4.5.1",
-    "echarts": "^6.0.0",
-    "eslint": "^10.3.0",
-    "eslint-plugin-vue": "^10.9.1",
-    "flowchart.ts": "^3.0.1",
-    "katex": "^0.16.45",
-    "mermaid": "^11.15.0",
-    "patch-package": "^8.0.1",
-    "sass-embedded": "^1.99.0",
-    "twikoo": "^1.7.9",
-    "typescript": "^5.9.3",
-    "vidstack": "^1.12.13",
-    "vue": "^3.5.34",
-    "vue-eslint-parser": "^10.4.0",
-    "vuepress": "2.0.0-rc.29",
-    "vuepress-plugin-components": "2.0.0-rc.106",
-    "vuepress-plugin-meting2": "1.4.2",
-    "vuepress-theme-hope": "2.0.0-rc.106"
-  },
-  "dependencies": {
-    "dotenv": "^17.4.2"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.60.3"
-  }
+	"name": "blog",
+	"description": "A project of vuepress-theme-hope",
+	"version": "1.0.1",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"docs:build": "vuepress-vite build src",
+		"docs:clean-dev": "vuepress-vite dev src --clean-cache",
+		"docs:dev": "vuepress-vite dev src --port 1145",
+		"docs:update-package": "pnpm dlx vp-update",
+		"lint": "biome check .",
+		"lint:fix": "biome check --apply .",
+		"format": "biome format --write ."
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": ">=11.0.0",
+			"onFail": "download"
+		}
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.15",
+		"@eslint/js": "^10.0.1",
+		"@typescript-eslint/eslint-plugin": "^8.59.3",
+		"@typescript-eslint/parser": "^8.59.3",
+		"@vue/eslint-config-typescript": "^14.7.0",
+		"@vuepress/bundler-vite": "2.0.0-rc.30",
+		"@vuepress/plugin-clarity-analytics": "2.0.0-rc.128",
+		"@vuepress/plugin-docsearch": "2.0.0-rc.128",
+		"@vuepress/plugin-feed": "2.0.0-rc.128",
+		"@vuepress/plugin-llms": "2.0.0-rc.128",
+		"@vuepress/plugin-prismjs": "2.0.0-rc.128",
+		"@vuepress/plugin-revealjs": "2.0.0-rc.128",
+		"@vuepress/plugin-umami-analytics": "2.0.0-rc.128",
+		"@vuepress/plugin-watermark": "2.0.0-rc.128",
+		"chart.js": "^4.5.1",
+		"echarts": "^6.0.0",
+		"flowchart.ts": "^3.0.1",
+		"katex": "^0.16.45",
+		"mermaid": "^11.15.0",
+		"patch-package": "^8.0.1",
+		"sass-embedded": "^1.99.0",
+		"twikoo": "^1.7.9",
+		"typescript": "^5.9.3",
+		"vidstack": "^1.12.13",
+		"vue": "^3.5.34",
+		"vue-eslint-parser": "^10.4.0",
+		"vuepress": "2.0.0-rc.30",
+		"vuepress-plugin-components": "2.0.0-rc.106",
+		"vuepress-plugin-meting2": "1.4.2",
+		"vuepress-theme-hope": "2.0.0-rc.106"
+	},
+	"dependencies": {
+		"@vuepress/client": "2.0.0-rc.30",
+		"dotenv": "^17.4.2",
+		"vue-router": "^5.0.7"
+	},
+	"optionalDependencies": {
+		"@rollup/rollup-linux-x64-gnu": "^4.60.3"
+	}
 }

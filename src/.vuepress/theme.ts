@@ -1,62 +1,72 @@
+import dotenv from "dotenv";
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import dotenv from "dotenv";
 
-dotenv.config({ path: '.env.local' });
+dotenv.config({ path: ".env.local" });
 
 export default hopeTheme({
-  hostname: "https://silentnrtx.top",
+	hostname: "https://silentnrtx.top",
 
-  license: "CC BY-NC-SA 4.0",
+	license: "CC BY-NC-SA 4.0",
 
-  author: {
-    name: "Silentnrtx",
-    url: "https://silentnrtx.top",
-  },
+	author: {
+		name: "Silentnrtx",
+		url: "https://silentnrtx.top",
+	},
 
-  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+	// logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "Chinasd1st/Chinasd1st.github.io",
+	repo: "Chinasd1st/Chinasd1st.github.io",
 
-  docsDir: "src",
+	docsDir: "src",
 
-  lastUpdated: true,
+	lastUpdated: true,
 
-  // 导航栏
-  navbar,
+	// 导航栏
+	navbar,
 
-  // 侧边栏
-  sidebar,
+	// 侧边栏
+	sidebar,
 
-  // 页脚
-  footer: "小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 今日PV <span id='busuanzi_today_pv'><i class='fa fa-spinner fa-spin'></i></span> 次 • 全站PV <span id='busuanzi_site_pv'><i class='fa fa-spinner fa-spin'></i></span> 次",
-  displayFooter: true,
-  changelog: true,
+	// 页脚
+	footer:
+		"小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 今日PV <span id='busuanzi_today_pv'><i class='fa fa-spinner fa-spin'></i></span> 次 • 全站PV <span id='busuanzi_site_pv'><i class='fa fa-spinner fa-spin'></i></span> 次",
+	displayFooter: true,
+	changelog: true,
 
-  navbarLayout: {
-    start: ["Brand"],
-    center: ["Links"],
-    end: ["Search", "Repo", "Outlook"],
-  },
+	navbarLayout: {
+		start: ["Brand"],
+		center: ["Links"],
+		end: ["Search", "Repo", "Outlook"],
+	},
 
-  // 博客相关
-  blog: {
-    description: "美食家",
-    intro: "https://silentnrtx.top/Silentnrtx/",
-    avatar: "/assets/avatar/SP6C_01.webp",
-    medias: {
-      BiliBili: "https://space.bilibili.com/520682236",
-      Twitter: "https://x.com/Silentnrtx",
-      GitHub: "https://github.com/Chinasd1st",
-      Rss: "https://silentnrtx.top/rss.xml"
-    },
-    timeline: "71M3L1N3",
-    articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime", "Word"]
-  },
+	// 博客相关
+	blog: {
+		description: "美食家",
+		intro: "https://silentnrtx.top/Silentnrtx/",
+		avatar: "/assets/avatar/SP6C_01.webp",
+		medias: {
+			BiliBili: "https://space.bilibili.com/520682236",
+			Twitter: "https://x.com/Silentnrtx",
+			GitHub: "https://github.com/Chinasd1st",
+			Rss: "https://silentnrtx.top/rss.xml",
+		},
+		timeline: "71M3L1N3",
+		articleInfo: [
+			"Author",
+			"Original",
+			"Date",
+			"PageView",
+			"Category",
+			"Tag",
+			"ReadingTime",
+			"Word",
+		],
+	},
 
-  // 加密配置
-  /*encrypt: {
+	// 加密配置
+	/*encrypt: {
     config: {
       "/old/2025/02/RyoukiArticle": {
         hint: "密码在群公告中",
@@ -65,146 +75,154 @@ export default hopeTheme({
     },
   },*/
 
-  // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+	// 多语言配置
+	metaLocales: {
+		editLink: "在 GitHub 上编辑此页",
+	},
 
-  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
+	// 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+	// hotReload: true,
 
-  // 此处开启了很多功能用于演示，你应仅保留用到的功能。
-  markdown: {
-    footnote: true,
-    mermaid: true,
-    revealjs: true,
-    math: {
-      type: "katex", // 或 'mathjax'
-    },
-    align: true,
-    attrs: true,
-    codeTabs: true,
-    component: true,
-    demo: true,
-    figure: true,
-    gfm: true,
-    imgLazyload: true,
-    imgSize: true,
-    include: true,
-    mark: true,
-    flowchart: true,
-    plantuml: true,
-    spoiler: true,
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
-    sub: true,
-    sup: true,
-    tabs: true,
-    tasklist: true,
-    vPre: true,
-    highlighter: {
-      // 代码高亮配置
-      type: "shiki",
-      lineNumbers: true,
-      notationFocus: true,
-      notationDiff: true,
-      notationWordHighlight: true,
-      // twoslash: true,
-      collapsedLines: false,
-      themes: {
-        light: "catppuccin-latte", dark: "catppuccin-mocha"
-      }
-    },
-    chartjs: true,
-    echarts: true,
-  },
+	// 此处开启了很多功能用于演示，你应仅保留用到的功能。
+	markdown: {
+		footnote: true,
+		mermaid: true,
+		revealjs: true,
+		math: {
+			type: "katex", // 或 'mathjax'
+		},
+		align: true,
+		attrs: true,
+		codeTabs: true,
+		component: true,
+		demo: true,
+		figure: true,
+		gfm: true,
+		imgLazyload: true,
+		imgSize: true,
+		include: true,
+		mark: true,
+		flowchart: true,
+		plantuml: true,
+		spoiler: true,
+		stylize: [
+			{
+				matcher: "Recommended",
+				replacer: ({ tag }) => {
+					if (tag === "em")
+						return {
+							tag: "Badge",
+							attrs: { type: "tip" },
+							content: "Recommended",
+						};
+				},
+			},
+		],
+		sub: true,
+		sup: true,
+		tabs: true,
+		tasklist: true,
+		vPre: true,
+		highlighter: {
+			// 代码高亮配置
+			type: "shiki",
+			lineNumbers: true,
+			notationFocus: true,
+			notationDiff: true,
+			notationWordHighlight: true,
+			// twoslash: true,
+			collapsedLines: false,
+			themes: {
+				light: "catppuccin-latte",
+				dark: "catppuccin-mocha",
+			},
+		},
+		chartjs: true,
+		echarts: true,
+	},
 
-  // 在这里配置主题提供的插件
-  plugins: {
-    watermark: {
-      enabled: false, // 必须开启插件，否则 frontmatter 无效
-    },
+	// 在这里配置主题提供的插件
+	plugins: {
+		watermark: {
+			enabled: false, // 必须开启插件，否则 frontmatter 无效
+		},
 
-    docsearch: {
-      appId: process.env.ALGOLIA_APP_ID || "IOAA89YPZT",  // fallback 防止本地没 env 时崩
-      apiKey: process.env.ALGOLIA_API_KEY || "",
-      indexName: process.env.ALGOLIA_INDEX_NAME || "chinasd1stio",
-      // 可选：自定义搜索参数
+		docsearch: {
+			appId: process.env.ALGOLIA_APP_ID || "IOAA89YPZT", // fallback 防止本地没 env 时崩
+			apiKey: process.env.ALGOLIA_API_KEY || "",
+			indexName: process.env.ALGOLIA_INDEX_NAME || "chinasd1stio",
+			// 可选：自定义搜索参数
 
-      // 可选：覆盖默认样式
-      locales: {
-        '/': {
-          placeholder: '搜索文档',
-          translations: {
-            button: {
-              buttonText: '搜索',
-            },
-          },
-        },
-      },
-    },
+			// 可选：覆盖默认样式
+			locales: {
+				"/": {
+					placeholder: "搜索文档",
+					translations: {
+						button: {
+							buttonText: "搜索",
+						},
+					},
+				},
+			},
+		},
 
-    blog: {},
+		blog: {},
 
-    feed: {
-      rss: true,
-      atom: true,
-      json: true,
-    },
+		feed: {
+			rss: true,
+			atom: true,
+			json: true,
+		},
 
-    sitemap: {
-      extraUrls: [
-        "lensoptics-lab/",
-        "material-music-3/",
-        "BA_logo/",
-        "pages/",
-        "llms.txt",
-        "llms-full.txt"
-      ]
-    },
+		sitemap: {
+			extraUrls: [
+				"lensoptics-lab/",
+				"material-music-3/",
+				"BA_logo/",
+				"pages/",
+				"llms.txt",
+				"llms-full.txt",
+			],
+		},
 
-    // notice: [
-    //   {
-    //     path: "/",
-    //     title: "网站更新",
-    //     content:
-    //       "网站近日使用SCSS对APlayer增加了深色模式支持，但在包含有播放器的界面切换深浅色主题时会遇到卡顿，目前暂无有效办法解决这一问题。",
-    //     actions: [{ text: "确认" }],
-    //     // fullscreen: true,
-    //     showOnce: true,
-    //   },
-    // ],
+		// notice: [
+		//   {
+		//     path: "/",
+		//     title: "网站更新",
+		//     content:
+		//       "网站近日使用SCSS对APlayer增加了深色模式支持，但在包含有播放器的界面切换深浅色主题时会遇到卡顿，目前暂无有效办法解决这一问题。",
+		//     actions: [{ text: "确认" }],
+		//     // fullscreen: true,
+		//     showOnce: true,
+		//   },
+		// ],
 
-    components: {
-      components: ["Badge", "VPCard", "VidStack", "BiliBili", "PDF", "SiteInfo"],
-    },
+		components: {
+			components: [
+				"Badge",
+				"VPCard",
+				"VidStack",
+				"BiliBili",
+				"PDF",
+				"SiteInfo",
+			],
+		},
 
-    seo: {
-      twitterID: "@Silentnrtx",
-      autoDescription: true,
-      fallBackImage: "/assets/avatar/SP6C_01.webp"
-    },
+		seo: {
+			twitterID: "@Silentnrtx",
+			autoDescription: true,
+			fallBackImage: "/assets/avatar/SP6C_01.webp",
+		},
 
-    comment: {
-      provider: "Twikoo",
-      envId:
-        "https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo", // 腾讯云环境ID或自建地址
-    },
+		comment: {
+			provider: "Twikoo",
+			envId:
+				"https://spontaneous-lebkuchen-f17631.netlify.app/.netlify/functions/twikoo", // 腾讯云环境ID或自建地址
+		},
 
-    icon: {
-      assets: "fontawesome-with-brands",
-      type: "fontawesome",
-    },
-  },
+		icon: {
+			assets: "fontawesome-with-brands",
+			type: "fontawesome",
+		},
+	},
 });

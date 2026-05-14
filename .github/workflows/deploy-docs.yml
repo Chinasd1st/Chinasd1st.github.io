@@ -4,46 +4,76 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # 支持手动触发
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy-gh-pages:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout 代码
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: 安装 pnpm
-        uses: pnpm/action-setup@v4          # 先安装 pnpm，让 PATH 里有 pnpm 可执行文件
+        uses: pnpm/action-setup@v4
         with:
-          version: 10                       # 或去掉这一行，用 package.json 中的 "packageManager": "pnpm@10.x.x"
+          version: 10
 
-      - name: 设置 Node.js 环境
-        uses: actions/setup-node@v6
+      - name: 设置 Node.js + 启用缓存
+        uses: actions/setup-node@v4
         with:
-          node-version: 22                  # 或 24
-          cache: 'pnpm'                     # 现在 pnpm 已存在，可以安全使用缓存
+          node-version: 22
+          cache: "pnpm"
 
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
-      - name: 构建文档
+      # ==================== 代码质量 ====================
+      - name: Biome 检查与自动修复
+        run: pnpm biome check --write .
+
+      # ==================== 构建缓存 ====================
+      - name: 恢复 VuePress 构建缓存
+        uses: actions/cache@v4
+        with:
+          path: |
+            src/.vuepress/.cache
+            src/.vuepress/.temp
+          key: ${{ runner.os }}-vuepress-${{ hashFiles('**/*.ts', '**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-vuepress-
+
+      # ==================== 构建文档 ====================
+      - name: 构建 VuePress 文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
           PASSWORD: ${{ secrets.PASSWORD }}
           ALGOLIA_APP_ID: ${{ vars.ALGOLIA_APP_ID }}
           ALGOLIA_API_KEY: ${{ vars.ALGOLIA_API_KEY }}
           ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
-        run: |-
-          pnpm docs:build
+        run: pnpm docs:build
+
+      - name: 准备部署文件
+        run: |
           touch src/.vuepress/dist/.nojekyll
 
-      - name: 部署到 GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      # ==================== 部署 ====================
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: src/.vuepress/dist
+          path: src/.vuepress/dist
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
