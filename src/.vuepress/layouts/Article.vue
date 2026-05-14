@@ -8,6 +8,6 @@
 </template>
 
 <script setup>
-import ParentLayout from "vuepress-theme-hope/layouts/Article"; 
-import PageViewInfo from "../components/BusuanziStats.vue";   
+import ParentLayout from "vuepress-theme-hope/layouts/Article";
+import PageViewInfo from "../components/BusuanziStats.vue";
 </script>
