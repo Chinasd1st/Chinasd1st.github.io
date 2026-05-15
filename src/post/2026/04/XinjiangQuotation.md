@@ -25,9 +25,20 @@ cover: /img/Cover/2026.4.28/cover.webp
 
 新疆入，系桐乡市高级中学 2025 级学子，在信息技术、足球两大领域天赋卓绝、才华出众。以下整理其经典语录，以供品读。
 
-新疆入“鼓足干劲，力争上游”的品质在现在躺平的大风向下显得尤为难能可贵。桐高学子应承新疆之志，启宏伟新篇，力求将“新疆精神”发扬光大。
+新疆入“鼓足干劲，力争上游”的品质在现在躺平的大风向下显得尤为难能可贵。桐高学子应做到“承新疆之志，启宏伟新篇”，力求将“新疆精神”发扬光大。
 
 [[toc]]
+
+## 2026.05.15 装糖
+
+- 装糖成功兄弟们。
+- 主要是因为我装糖，当我装糖结束了就[...]
+
+:::note
+
+桐乡市举行高中数理化素养调研，桐乡市高级中学选拔数学、化学、物理、生物每科各前五百名参加本次调研；然而新疆入一门都不用考，得知这一消息后他说了这句话。
+
+:::
 
 ## 2026.05.14 学过一部分
 
@@ -36,6 +47,35 @@ cover: /img/Cover/2026.4.28/cover.webp
 :::note
 
 新疆入在数学课上毫无征兆地说了这句话，随后便倒头睡下了。
+
+:::
+
+## 2026.05.12 中俄友好
+
+之前我在洲泉（地名）的时候在~~刷抖音~~刷B站，给我推了一个有关俄罗斯“寡头政治”的视频，我觉得不太利于中俄友好，后来我去找那个视频发现找不到了，应该是被下架了。
+
+:::note
+
+致敬传奇车臣荣誉公民。
+
+- **沙俄通过《瑷珲条约》（1858年）割占中国黑龙江以北约60万平方公里领土**：沙俄趁第二次鸦片战争之机，迫使清朝签订不平等条约，割让外兴安岭以南、黑龙江以北广大地区。这是沙俄领土扩张的典型事例。  
+    [来源：Wikipedia - Treaty of Aigun](https://en.wikipedia.org/wiki/Treaty_of_Aigun)
+- **沙俄通过《北京条约》（1860年）进一步割占乌苏里江以东约40万平方公里领土（包括海参崴）**：总计沙俄通过两次条约割占中国“外东北”约100万平方公里土地。  
+    [来源：Wikipedia - Outer Manchuria](https://en.wikipedia.org/wiki/Outer_Manchuria)
+- **沙俄占领伊犁地区（1871-1881年）**：趁中国西北动荡，俄国出兵占领伊犁，意图永久吞并，后经谈判于1881年《圣彼得堡条约》部分归还，但中国付出巨额赔款。  
+    [来源：Wikipedia - Treaty of Saint Petersburg (1881)](https://en.wikipedia.org/wiki/Treaty_of_Saint_Petersburg_(1881))
+- **1929年中东路事件（Sino-Soviet conflict of 1929）**：中国东北当局试图收回中东铁路主权，苏联出动大军进攻中国东北，击败中国军队，迫使中方签订协议维持苏方实际控制。这是苏俄对华直接军事入侵。  
+    [来源：Wikipedia - Sino-Soviet conflict (1929)](https://en.wikipedia.org/wiki/Sino-Soviet_conflict_(1929))
+- **苏联支持并实际促成外蒙古独立（1921年起，1945年确认）**：1921年苏联红军介入蒙古，帮助建立亲苏政权；1945年斯大林以对日作战为条件，迫使国民政府承认外蒙古独立，中国永久丧失外蒙古主权。  
+    [来源：Wikipedia - Mongolian Revolution of 1911](https://en.wikipedia.org/wiki/Mongolian_Revolution_of_1911)。
+- **苏联支持伊犁事变与第二东突厥斯坦共和国（1944-1949）**：苏联直接提供军事援助、人员和武器，支持新疆伊犁等地叛乱，建立亲苏的“东突厥斯坦共和国”，旨在分裂和控制新疆地区。  
+    [来源：Wikipedia - Ili Rebellion](https://en.wikipedia.org/wiki/Ili_Rebellion)
+- **1969年中苏边境冲突（珍宝岛事件等）**：中苏关系恶化后，在乌苏里江珍宝岛等地爆发大规模武装冲突，双方伤亡惨重，苏联一度考虑核打击选项，两国濒临全面战争。  
+    [来源：Wikipedia - Sino-Soviet border conflict](https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict)
+- **苏联1945年出兵中国东北后的系统性掠夺**：苏联红军占领东北后，大规模拆运工业设备、工厂机器及资源运回苏联，对当地造成严重经济破坏，同时伴随对平民的抢劫和暴力行为。  
+    [来源：Wikipedia - Soviet plunder](https://en.wikipedia.org/wiki/Soviet_plunder)
+- **苏联红军在东北的暴行记录（1945年）**：占领期间发生针对日本侨民和中国当地居民的广泛抢劫、强奸等事件，严重损害中国主权与民众利益。  
+    [来源：Wikipedia - Rape during the occupation of Manchuria](https://en.wikipedia.org/wiki/Rape_during_the_occupation_of_Manchuria)
 
 :::
 
