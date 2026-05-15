@@ -13,13 +13,6 @@
 		"lint:fix": "biome check --apply .",
 		"format": "biome format --write ."
 	},
-	"devEngines": {
-		"packageManager": {
-			"name": "pnpm",
-			"version": ">=11.0.0",
-			"onFail": "download"
-		}
-	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.15",
 		"@eslint/js": "^10.0.1",
