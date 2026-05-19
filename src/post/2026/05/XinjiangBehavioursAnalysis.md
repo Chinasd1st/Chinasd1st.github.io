@@ -29,7 +29,9 @@ cover: /img/Cover/2026.5.17/cover.webp
 
 第一，聊天总爱把话题往自己身上引；
 第二，爱抱怨；
-第三，你总觉得自己只是性子直、说实话。^[[招人烦的三个特征，只是没人敢当面告诉你.固执的DANIEL.哔哩哔哩.(2026-05-17)](https://www.bilibili.com/video/BV1JpRXBSEqp/)]
+第三，你总觉得自己只是性子直、说实话。[^1]
+
+[^1]: [招人烦的三个特征，只是没人敢当面告诉你.固执的DANIEL.哔哩哔哩.(2026-05-17)](https://www.bilibili.com/video/BV1JpRXBSEqp/)
 
 ## 绪论
 
@@ -155,13 +157,13 @@ cover: /img/Cover/2026.5.17/cover.webp
 
    **我在家里都是用“IDEL”（应为IDLE）编程的，说实话对这种编译器（应为编辑器）不了解，我是最传统的。**
 
-   张口就把 IDLE 念成 “IDEL”，混淆 “编辑器” 和 “编译器” 的基本概念，还大言不惭地说 “我是最传统的”，把自己的无知与不会操作，包装成 “坚守传统” 的情怀，自欺欺人到了极致：连编程最基础的工具名称、分类都搞不清楚，何来 “传统编程者” 之说？感觉不如 Vibe Coding 使用者。
+   他将 IDLE 念成 “IDEL”，又把“编辑器”与“编译器”混为一谈。不过这些细节似乎并未影响他的自信。“我是最传统的”——他说这句话时语气颇为郑重，仿佛自己并非不会使用 PyCharm，而是在坚守某种古典编程精神。相比之下，Vibe Coding 反倒显得没有那么后现代了。
 
    后来新疆入在我的协助下成功打开了一个PyCharm项目文件，我帮助输入了`import jieba`等语句，由于没有安装依赖，调试运行后shell会提示安装相关包，便点击安装，因为不确认是否安装成功，我便输入`pip install jieba`进行检查，而这台电脑上pip疑似不在环境变量中，导致显示没有相关指令，我便离开让新疆入自己操作。新疆入照葫芦画瓢输入了`pip ins...`便卡住了，原因是不会拼写 install 这一单词，不禁让人怀疑其在家日常编写的代码都是什么水平。
 
 ### 3.2 分析
 
-新疆入简单的二元对立（“华硕” = “高端”），反映了他虚荣又自大的脆弱内心实则是靠所谓品牌信仰和虚伪价值堆砌而成的。在他眼中，游戏本不是工具，而是地位；Python编程能力不是技能，而是赤裸裸的标签。
+在他那里，品牌似乎总带有某种道德意味。ROG、Python的象征含义早就已经超然于物外了。
 
 ## 4. 杂项
 
@@ -175,7 +177,7 @@ cover: /img/Cover/2026.5.17/cover.webp
 
 - **新疆入**：ta 给边狱巴士写过歌。
 
-众所周知 Mili 是一个音乐团体或乐队。尽管单纯的咬文嚼字显得钻牛角尖，但是结合新疆入先前的行为模式，这一言辞引人发笑。同时他还有将两者强行绑定之嫌。
+众所周知 Mili 是一个音乐团体或乐队。后来我才意识到，在他的认知体系里 Mili 似乎是一个人。尽管单纯的咬文嚼字显得钻牛角尖，但是结合新疆入先前的行为模式，这一言辞引人发笑。同时他还有将两者强行绑定之嫌。
 
 此外，他还说过：
 
@@ -210,6 +212,10 @@ cover: /img/Cover/2026.5.17/cover.webp
 
 更幽默的是，英语课上，新疆入不知是意犹未尽还是海马体功能异常，将上面的话语一字未动地向我复述了一遍。尽管我两次都没有回复他，但是他似乎陷入自我中心主义的深渊难以自拔，亦或是正扮演《楚门的世界》中的主人公，将他思维最荒诞的一面恰如其分地绑在了耻辱柱上供世人鉴赏。恰如他强行向别人推荐ROG、科普鸣潮剧情一样，本质是自我中心主义的体现。
 
+社会学家 Charles Derber 于其作品*The Pursuit of Attention: Power and Ego in Everyday Life*中提出**对话自恋**（Conversational Narcissism）一概念：通过“shift response”（转移回应）把话题焦点拉回自己，而非给予支持回应。这种行为常与脆弱自恋（Vulnerable/Covert Narcissism）重叠：表面寻求钦佩，内在高度敏感、易受伤，常采用受害者叙事来获取关注。[^13]
+
+[^13]: Derber, Charles (1979). [*The Pursuit of Attention: Power and Ego in Everyday Life*](https://archive.org/details/pursuitofattenti00derb/mode/2up). New York: Oxford University Press.
+
 ### 4.4 上课回答问题
 
 #### 2026.05.16 电场强度单位
@@ -237,7 +243,7 @@ cover: /img/Cover/2026.5.17/cover.webp
 - 《红楼梦》
 - 《1984》
 
-这些书目不胜枚举，详细展开则会花费许多笔墨，在此不一一赘述。至于他是否真的读过这些书，K给出评价：**“他估计连扉页都没翻开过”**。
+这些书目不胜枚举，详细展开则会花费许多笔墨，在此不一一赘述。他某次还向本人展示自己的袋子上面有*Mo Yan*字样。至于他是否真的读过这些书，K给出评价：**“他估计连扉页都没翻开过”**。
 
 ### 4.7 新疆饮料
 
@@ -285,7 +291,17 @@ cover: /img/Cover/2026.5.17/cover.webp
 
 味大无需多言。
 
-瓶皇在23年直播中提到：“我感觉就是2019和2020这两年就是梗小鬼横飞的一个年代，其实现在反而没有了，为什么呢？因为现在梗的源头从b站贴吧变成了抖快。”^[[【瓶子君152】我们需要文艺复兴一些好梗，而非粪里淘金.四姐小羊宫妃那.哔哩哔哩.](https://www.bilibili.com/video/BV1JP4y167Wf/)]现在看来这一论断值得商榷。
+瓶皇在23年直播中提到：“我感觉就是2019和2020这两年就是梗小鬼横飞的一个年代，其实现在反而没有了，为什么呢？因为现在梗的源头从b站贴吧变成了抖快。”[^2]现在看来这一论断值得商榷。
+
+[^2]: [【瓶子君152】我们需要文艺复兴一些好梗，而非粪里淘金.四姐小羊宫妃那.哔哩哔哩.(2026-05-17)](https://www.bilibili.com/video/BV1JP4y167Wf/)
+
+### 4.12 初音未来
+
+新疆入最喜欢的术力口角色是初音未来，学校小卖部有卖初音未来联动饼干，他购买过数次。
+
+2026年3月，新疆入沉迷于与他人讨论音乐品味。新疆入在这一时期提到自己听过ピノキオピー - 愛属性一曲。
+
+2026年5月19日，他试图用同学带至学校的有声计算器弹奏千本桜一曲。
 
 ## 5. 新疆口头禅
 
@@ -294,11 +310,49 @@ cover: /img/Cover/2026.5.17/cover.webp
 
 （待补充）
 
-## 6. 无关内容：自恋型人格障碍的表现
+## 6. 拓展阅读
+
+### 6.1 自恋型人格相关研究[^3]
+
+:::warning
+
+原文应为“自恋型人格障碍的表现”；“障碍”是严肃心理学用语，在此处使用显得不恰当，故略去。
+
+:::
 
 1. **给人以傲慢自大的印象**：自恋型人格障碍个体无理性地认为自己拥有特殊天赋和特权，藐视社会规范和他人权利，表现出自负、自夸和傲慢；
 2. **以利用、掠夺为目的地与他人交往**：自恋型人格障碍个体利用他人以达成个人目的，没有同情心，不考虑他人权利和感受，导致人际关系疏远；
 3. **以自我中心、散漫随意为特征的思维方式**：在不利情形下，自恋型人格障碍个体忽视逻辑，随意想象，夸大自身能力，将失败幻想为成功，并通过文饰作用维持自尊；
 4. **以满不在乎、自我感觉良好为特点的情绪体验**：自恋型人格障碍个体通常自我感觉良好，即使遭遇打击也能迅速通过文饰作用来恢复自信；
 5. **夸大的自我评价**：自恋型人格障碍个体觉得自己是令人欣佩的、最优秀的，深信自己是卓越和值得特殊待遇的，对他人的怀疑表示蔑视和否定，认为自己可以超越所在社会或文化的准则、习惯、习俗和伦理道德；
-6. **以文饰为主的防御机制**：面对挫折或不符合社会规范的行为，他们无意识地用有利于自己的理由歪曲事实，来减轻焦虑，从而保护了非理性的自我形象和自信心。^[何克,刘丽君.自恋型人格障碍的表现,形成和防治[J].贵州师范大学学报：自然科学版, 2000, 18(2):5.DOI:CNKI:SUN:NATR.0.2000-02-016.]
+6. **以文饰为主的防御机制**：面对挫折或不符合社会规范的行为，他们无意识地用有利于自己的理由歪曲事实，来减轻焦虑，从而保护了非理性的自我形象和自信心。
+
+[^3]: 何克,刘丽君.自恋型人格障碍的表现,形成和防治[J].贵州师范大学学报：自然科学版, 2000, 18(2):5.DOI:CNKI:SUN:NATR.0.2000-02-016.
+
+### 6.2 邓宁-克鲁格效应
+
+邓宁-克鲁格效应（英语：Dunning-Kruger effect），简称邓克效应或达克效应（DK effect），亦有人称井蛙现象，是一种认知偏差，能力欠缺的人有一种虚幻的自我优越感，错误地认为自己比真实情况更加优秀。美国康乃尔大学的社会心理学家大卫·邓宁和贾斯汀·克鲁格将其归咎于元认知上的缺陷，能力欠缺的人无法认识到自身的无能，不能准确评估自身的能力。他们的研究还表明，反之，非常能干的人会低估自己的能力，错误地假定他们自己能够很容易完成的任务，别人也能够很容易地完成。[^4]但能力欠佳的人对自己能力的评估并不比能力较佳的人高。[^5][^6]
+
+[^4]: Kruger, Justin; David Dunning. [Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments.](https://archive.org/details/sim_journal-of-personality-and-social-psychology_1999-12_77_6/page/1121)Journal of Personality and Social Psychology. 1999, 77 (6): 1121–34. [PMID 10626367.](https://www.ncbi.nlm.nih.gov/pubmed/10626367)[doi:10.1037/0022-3514.77.6.1121.](https://doi.org/10.1037%2F0022-3514.77.6.1121) CiteSeerX: [10.1.1.64.2655](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.64.2655)
+
+[^5]: Yarkoni, Tal. [What the Dunning–Kruger effect Is and Isn't.](http://www.talyarkoni.org/blog/2010/07/07/What-the-Dunning-Kruger-effect-Is-and-Isnt/) 7 July 2010 [28 July 2017].
+
+[^6]: [邓宁-克鲁格效应.维基百科.](https://zh.wikipedia.org/wiki/%E9%84%A7%E5%AF%A7-%E5%85%8B%E9%AD%AF%E6%A0%BC%E6%95%88%E6%87%89)
+
+### 6.3 确认偏误
+
+确认偏误（英语：confirmation bias，也称 confirmatory bias、myside bias[^7] 或 congeniality bias）[^8]，是指人们倾向于以能够证实或支持自己既有信念、价值观[^9] 或决定[^10] 的方式去搜索、解释、偏好以及回忆信息。人们会主动选择支持自身观点的信息，而忽视相反的信息；或者在面对模糊证据时，将其解释为支持自己原有立场的依据。
+
+这种效应在涉及期望结果、情绪化议题以及根深蒂固信念时最为明显。确认偏误往往来源于自动化的心理习惯。研究一再发现，人们倾向于以单方面的方式检验观点，主要寻找能够支持既有假设的证据。关于“选择性接触”（selective exposure）的研究也表明，人们在维护自身态度方面存在差异，其中一些人会更强烈地抵制与自身观点相冲突的信息。[^11][^12]
+
+[^7]: Baron, Jonathan (2000), Thinking and deciding (3rd ed.), New York: Cambridge University Press, ISBN 978-0-521-65030-4, OCLC [316403966](https://search.worldcat.org/oclc/316403966), p. 195.
+
+[^8]: Hart, William; Albarracin, D.; Eagly, A. H.; Brechan, I.; Lindberg, M. J.; Merrill, L. (2009), "Feeling validated versus being correct: A meta-analysis of selective exposure to information", *Psychological Bulletin*, **135** (4): 555–588, Bibcode:[2009PsycB.135..555H](https://ui.adsabs.harvard.edu/abs/2009PsycB.135..555H), doi:[10.1037/a0015701](https://doi.org/10.1037%2Fa0015701), PMC [4797953](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4797953), PMID [19586162](https://pubmed.ncbi.nlm.nih.gov/19586162)
+
+[^9]: Nickerson, Raymond S. (1998), "Confirmation bias: A ubiquitous phenomenon in many guises", *Review of General Psychology*, **2** (2): 175–220, doi:[10.1037/1089-2680.2.2.175](https://doi.org/10.1037%2F1089-2680.2.2.175), S2CID [8508954](https://api.semanticscholar.org/CorpusID:8508954), pp. 175–220
+
+[^10]: Greene, Robert (2018). "1: Master your Emotional Self". [*The Laws of Human Nature*](https://ia802902.us.archive.org/14/items/thelawsofhumannature/The-Laws-of-Human-Nature.pdf)(PDF). New York: Penguin Books. p. 29. ISBN 9780143111375. Retrieved 16 May 2026.
+
+[^11]: Kaanders, Paula; Sepulveda, Pradyumna; Folke, Tomas; Ortoleva, Pietro; De Martino, Benedetto (11 April 2022). ["Humans actively sample evidence to support prior beliefs"](https://pmc.ncbi.nlm.nih.gov/articles/PMC9038198/). *National Library of Medicine*. Retrieved 12 May 2026.
+
+[^12]: [Confirmation bias. Wikipedia.](https://en.wikipedia.org/wiki/Confirmation_bias)
