@@ -82,9 +82,9 @@ export default defineUserConfig({
 			},
 		}),
 		/* umamiAnalyticsPlugin({
-      id: "0775eaf8-19ed-4d8b-ae56-c62a750e0691",
-      cache: true,
-    }),*/
+	  id: "0775eaf8-19ed-4d8b-ae56-c62a750e0691",
+	  cache: true,
+	}),*/
 		clarityAnalyticsPlugin({
 			id: "w0s3h16l6o",
 		}),
