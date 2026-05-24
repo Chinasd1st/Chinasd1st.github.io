@@ -37,8 +37,6 @@ First Editing: 2025.02.03
 
 ## 特别板块：2024年度最猎奇图片
 
-@slidestart
-
 ### p1 2024年度最猎奇图片
   
 已深度思考（用时63秒）  
@@ -46,55 +44,37 @@ First Editing: 2025.02.03
 左二：李晨煜（女）  
 上-1：吴俊寰（男女混血）  
 
---
-
 ![p1](/img/RyoukiArticle/p1.jpg)
-
----
 
 ### p2 2424年度最猎奇图片
 
-楼上的下来搞核算  
-![p2](/img/RyoukiArticle/p2.jpg)
+楼上的下来搞核算
 
----
+![p2](/img/RyoukiArticle/p2.jpg)
 
 ### p3 2.066×10⁽⁵⁰⁺⁶⁻ˢᵇ⁶⁶⁶⁾年度最猎奇图片  
 
-GSC 佐々木李子80mol  
-
---
+GSC 佐々木李子80mol
 
 ![p3](/img/RyoukiArticle/p3.png)
 
----
-
 ### p4 2077年°年度最猎奇图片
 
-椎名立希我来🌿你🌶️  
-
---
+椎名立希我来🌿你🌶️
 
 ![p4](/img/RyoukiArticle/p4.jpg)
-
----
 
 ### p5 2024年dual最猎奇图片
 
 今天是舞萌大神李晨煜彩框确认的日子
 
---
-
 ![p5](/img/RyoukiArticle/p5.jpg)
-
----
 
 ### p6 2426点多最猎奇图片
 
-Faker不语  
-![p6](/img/RyoukiArticle/p6.jpg)
+Faker不语
 
-@slideend
+![p6](/img/RyoukiArticle/p6.jpg)
 
 ## 万象汇盒马鲜生发生高空坠物事故 一儿童不幸身亡  
 
