@@ -222,7 +222,7 @@ export default hopeTheme({
 
 		icon: {
 			assets: "fontawesome-with-brands",
-			// type: "fontawesome",
+			type: "fontawesome",
 		},
 	},
 });
