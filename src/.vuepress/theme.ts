@@ -87,9 +87,9 @@ export default hopeTheme({
 	markdown: {
 		footnote: true,
 		mermaid: true,
-		revealjs: true,
+		revealjs: false,
 		math: {
-			type: "katex", // 或 'mathjax'
+			type: "katex",
 		},
 		align: true,
 		attrs: true,
@@ -102,8 +102,8 @@ export default hopeTheme({
 		imgSize: true,
 		include: true,
 		mark: true,
-		flowchart: true,
-		plantuml: true,
+		flowchart: false,
+		plantuml: false,
 		spoiler: true,
 		stylize: [
 			{
@@ -138,7 +138,7 @@ export default hopeTheme({
 			},
 		},
 		chartjs: true,
-		echarts: true,
+		echarts: false,
 	},
 
 	// 在这里配置主题提供的插件
@@ -222,7 +222,7 @@ export default hopeTheme({
 
 		icon: {
 			assets: "fontawesome-with-brands",
-			type: "fontawesome",
+			// type: "fontawesome",
 		},
 	},
 });
