@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,49 +12,49 @@ permissions:
   id-token: write
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 10
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm biome check --write .
+
   deploy:
+    needs: lint
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: 安装 pnpm
-        uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           version: 10
 
-      - name: 设置 Node.js + 启用缓存
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "pnpm"
 
-      - name: 安装依赖
-        run: pnpm install --frozen-lockfile
+      - run: pnpm install --frozen-lockfile
 
-      # ==================== 代码质量 ====================
-      - name: Biome 检查与自动修复
-        run: pnpm biome check --write .
-
-      # ==================== 构建缓存 ====================
-      - name: 恢复 VuePress 构建缓存
-        uses: actions/cache@v4
+      - name: 缓存 Vite 构建缓存
+        uses: actions/cache@v5
         with:
-          path: |
-            src/.vuepress/.cache
-            src/.vuepress/.temp
-          key: ${{ runner.os }}-vuepress-${{ hashFiles('**/*.ts', '**/package.json') }}
-          restore-keys: |
-            ${{ runner.os }}-vuepress-
+          path: src/.vuepress/.cache
+          key: ${{ runner.os }}-vite-${{ hashFiles('pnpm-lock.yaml', 'package.json', 'src/.vuepress/**/*.ts', 'src/.vuepress/**/*.js') }}
 
-      # ==================== 构建文档 ====================
       - name: 构建 VuePress 文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
@@ -64,16 +64,11 @@ jobs:
           ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
         run: pnpm docs:build
 
-      - name: 准备部署文件
-        run: |
-          touch src/.vuepress/dist/.nojekyll
+      - run: touch src/.vuepress/dist/.nojekyll
 
-      # ==================== 部署 ====================
-      - name: 上传构建产物
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: src/.vuepress/dist
 
-      - name: 部署到 GitHub Pages
+      - uses: actions/deploy-pages@v4
         id: deployment
-        uses: actions/deploy-pages@v4
