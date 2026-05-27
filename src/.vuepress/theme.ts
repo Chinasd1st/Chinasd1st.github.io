@@ -147,24 +147,7 @@ export default hopeTheme({
 			enabled: false, // 必须开启插件，否则 frontmatter 无效
 		},
 
-		docsearch: {
-			appId: "94PYZ3SHDF",
-			apiKey: "418dbb32c200e535eec41b1f4aba426e",
-			indexName: "silentnrtx_top_pages",
-			// 可选：自定义搜索参数
-
-			// 可选：覆盖默认样式
-			locales: {
-				"/": {
-					placeholder: "搜索文档",
-					translations: {
-						button: {
-							buttonText: "搜索",
-						},
-					},
-				},
-			},
-		},
+		slimsearch: {},
 
 		blog: {},
 
