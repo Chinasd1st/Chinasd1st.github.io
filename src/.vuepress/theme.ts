@@ -149,7 +149,7 @@ export default hopeTheme({
 
 		docsearch: {
 			appId: "94PYZ3SHDF",
-			apiKey: process.env.ALGOLIA_API_KEY || "",
+			apiKey: "418dbb32c200e535eec41b1f4aba426e",
 			indexName: "silentnrtx_top_pages",
 			// 可选：自定义搜索参数
 
