@@ -148,9 +148,9 @@ export default hopeTheme({
 		},
 
 		docsearch: {
-			appId: process.env.ALGOLIA_APP_ID || "94PYZ3SHDF",
+			appId: "94PYZ3SHDF",
 			apiKey: process.env.ALGOLIA_API_KEY || "",
-			indexName: process.env.ALGOLIA_INDEX_NAME || "silentnrtx_top_pages",
+			indexName: "silentnrtx_top_pages",
 			// 可选：自定义搜索参数
 
 			// 可选：覆盖默认样式
