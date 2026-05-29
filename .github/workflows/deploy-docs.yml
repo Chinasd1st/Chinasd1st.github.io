@@ -52,6 +52,8 @@ jobs:
       - run: touch src/.vuepress/dist/.nojekyll
 
       - name: 提交 IndexNow 通知
+        env:
+          INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
         run: |
           pip install requests -q
           python IndexNow.py
