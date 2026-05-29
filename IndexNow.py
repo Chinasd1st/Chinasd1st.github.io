@@ -6,7 +6,7 @@ import time
 # ==================== 配置 ====================
 API_KEY = os.environ["INDEXNOW_API_KEY"]
 HOST = "silentnrtx.top"
-KEY_LOCATION = f"https://silentnrtx.top/33302a267ad143adbe7936a5aa1edad3.txt"
+KEY_LOCATION = f"https://silentnrtx.top/{API_KEY}.txt"
 INDEXNOW_URL = "https://api.indexnow.org/indexnow"
 SITEMAP_PATH = "./src/.vuepress/dist/sitemap.xml"   # 构建后的 sitemap 路径
 # ===========================================
