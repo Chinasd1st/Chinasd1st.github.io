@@ -23,7 +23,7 @@
 		"@vuepress/plugin-clarity-analytics": "2.0.0-rc.128",
 		"@vuepress/plugin-docsearch": "2.0.0-rc.128",
 		"@vuepress/plugin-feed": "2.0.0-rc.128",
-		"@vuepress/plugin-llms": "2.0.0-rc.128",
+		"@vuepress/plugin-llms": "2.0.0-rc.130",
 		"@vuepress/plugin-prismjs": "2.0.0-rc.128",
 		"@vuepress/plugin-slimsearch": "2.0.0-rc.130",
 		"@vuepress/plugin-umami-analytics": "2.0.0-rc.128",
