@@ -1,9 +1,10 @@
+import os
 import requests
 import xml.etree.ElementTree as ET
 import time
 
 # ==================== 配置 ====================
-API_KEY = "33302a267ad143adbe7936a5aa1edad3"
+API_KEY = os.environ["INDEXNOW_API_KEY"]
 HOST = "silentnrtx.top"
 KEY_LOCATION = f"https://silentnrtx.top/33302a267ad143adbe7936a5aa1edad3.txt"
 INDEXNOW_URL = "https://api.indexnow.org/indexnow"
