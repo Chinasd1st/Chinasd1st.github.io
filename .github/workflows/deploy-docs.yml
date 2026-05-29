@@ -51,6 +51,11 @@ jobs:
 
       - run: touch src/.vuepress/dist/.nojekyll
 
+      - name: 提交 IndexNow 通知
+        run: |
+          pip install requests -q
+          python IndexNow.py
+
       - uses: actions/upload-pages-artifact@v4
         with:
           path: src/.vuepress/dist
