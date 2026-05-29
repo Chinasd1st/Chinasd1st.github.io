@@ -9,3 +9,4 @@ src/.vuepress/dist/
 .venv
 *.psd
 *.py
+!IndexNow.py
