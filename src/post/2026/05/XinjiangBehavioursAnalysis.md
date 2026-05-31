@@ -212,6 +212,8 @@ cover: /img/Cover/2026.5.17/cover.webp
 
 更幽默的是，英语课上，新疆入不知是意犹未尽还是海马体功能异常，将上面的话语一字未动地向我复述了一遍。尽管我两次都没有回复他，但是他似乎陷入自我中心主义的深渊难以自拔，亦或是正扮演《楚门的世界》中的主人公，将他思维最荒诞的一面恰如其分地绑在了耻辱柱上供世人鉴赏。恰如他强行向别人推荐ROG、科普鸣潮剧情一样，本质是自我中心主义的体现。
 
+是的，你是单知道看到"band"就会联想到少女乐队的——但也请你晓得，鲁镇的人起初还会认真听祥林嫂讲阿毛被狼吃掉的，只是当她翻来覆去地讲到第三遍时，听众已经从同情变成了忍耐，从忍耐变成了只想让她闭嘴。
+
 社会学家 Charles Derber 于其作品*The Pursuit of Attention: Power and Ego in Everyday Life*中提出**对话自恋**（Conversational Narcissism）一概念：通过“shift response”（转移回应）把话题焦点拉回自己，而非给予支持回应。这种行为常与脆弱自恋（Vulnerable/Covert Narcissism）重叠：表面寻求钦佩，内在高度敏感、易受伤，常采用受害者叙事来获取关注。[^13]
 
 [^13]: Derber, Charles (1979). [*The Pursuit of Attention: Power and Ego in Everyday Life*](https://archive.org/details/pursuitofattenti00derb/mode/2up). New York: Oxford University Press.
