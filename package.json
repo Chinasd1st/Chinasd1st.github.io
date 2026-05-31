@@ -1,54 +1,53 @@
 {
-	"name": "blog",
-	"description": "A project of vuepress-theme-hope",
-	"version": "1.0.1",
-	"license": "MIT",
-	"type": "module",
-	"scripts": {
-		"docs:build": "vuepress-vite build src",
-		"docs:clean-dev": "vuepress-vite dev src --clean-cache",
-		"docs:dev": "vuepress-vite dev src --port 1145",
-		"docs:update-package": "pnpm dlx vp-update",
-		"lint": "biome check .",
-		"lint:fix": "biome check --apply .",
-		"format": "biome format --write ."
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^2.4.16",
-		"@eslint/js": "^10.0.1",
-		"@typescript-eslint/eslint-plugin": "^8.60.0",
-		"@typescript-eslint/parser": "^8.60.0",
-		"@vue/eslint-config-typescript": "^14.7.0",
-		"@vuepress/bundler-vite": "2.0.0-rc.30",
-		"@vuepress/plugin-clarity-analytics": "2.0.0-rc.130",
-		"@vuepress/plugin-docsearch": "2.0.0-rc.130",
-		"@vuepress/plugin-feed": "2.0.0-rc.130",
-		"@vuepress/plugin-llms": "2.0.0-rc.130",
-		"@vuepress/plugin-prismjs": "2.0.0-rc.130",
-		"@vuepress/plugin-slimsearch": "2.0.0-rc.130",
-		"@vuepress/plugin-umami-analytics": "2.0.0-rc.130",
-		"@vuepress/plugin-watermark": "2.0.0-rc.130",
-		"chart.js": "^4.5.1",
-		"katex": "^0.17.0",
-		"mermaid": "^11.15.0",
-		"patch-package": "^8.0.1",
-		"sass-embedded": "^1.100.0",
-		"twikoo": "^1.7.11",
-		"typescript": "^6.0.3",
-		"vidstack": "^1.15.2",
-		"vue": "^3.5.35",
-		"vue-eslint-parser": "^10.4.0",
-		"vuepress": "2.0.0-rc.30",
-		"vuepress-plugin-components": "2.0.0-rc.107",
-		"vuepress-plugin-meting2": "1.4.2",
-		"vuepress-theme-hope": "2.0.0-rc.107"
-	},
-	"dependencies": {
-		"blog": "link:",
-		"dotenv": "^17.4.2",
-		"vue-router": "^5.1.0"
-	},
-	"optionalDependencies": {
-		"@rollup/rollup-linux-x64-gnu": "^4.60.4"
-	}
+  "name": "blog",
+  "description": "A project of vuepress-theme-hope",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src --port 1145",
+    "docs:update-package": "pnpm dlx vp-update",
+    "lint": "biome check .",
+    "lint:fix": "biome check --apply .",
+    "format": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "@typescript-eslint/parser": "^8.60.0",
+    "@vue/eslint-config-typescript": "^14.7.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/plugin-clarity-analytics": "2.0.0-rc.130",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.130",
+    "@vuepress/plugin-feed": "2.0.0-rc.130",
+    "@vuepress/plugin-llms": "2.0.0-rc.130",
+    "@vuepress/plugin-prismjs": "2.0.0-rc.130",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.130",
+    "@vuepress/plugin-umami-analytics": "2.0.0-rc.130",
+    "@vuepress/plugin-watermark": "2.0.0-rc.130",
+    "chart.js": "^4.5.1",
+    "katex": "^0.17.0",
+    "mermaid": "^11.15.0",
+    "patch-package": "^8.0.1",
+    "sass-embedded": "^1.100.0",
+    "twikoo": "^1.7.11",
+    "typescript": "^6.0.3",
+    "vidstack": "^1.15.2",
+    "vue": "^3.5.35",
+    "vue-eslint-parser": "^10.4.0",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-plugin-components": "2.0.0-rc.107",
+    "vuepress-plugin-meting2": "1.4.2",
+    "vuepress-theme-hope": "2.0.0-rc.107"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "vue-router": "^5.1.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.60.4"
+  }
 }
