@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      blog:
+        specifier: 'link:'
+        version: 'link:'
       dotenv:
         specifier: ^17.4.2
         version: 17.4.2
