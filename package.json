@@ -44,6 +44,7 @@
 		"vuepress-theme-hope": "2.0.0-rc.107"
 	},
 	"dependencies": {
+		"blog": "link:",
 		"dotenv": "^17.4.2",
 		"vue-router": "^5.1.0"
 	},
