@@ -2,8 +2,8 @@
 $vp-font: '"TorusPro", "Noto Sans SC", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif';
 $vp-font-heading: '"TorusPro", "Noto Sans SC", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif';
 $font-weight-heading: 600 !default;
-$vp-font-mono: '"Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mono", monospace';
-$code-font-family: '"Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mono", monospace';
+$vp-font-mono: '"Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mono", monospace, "Noto Sans SC"';
+$code-font-family: '"Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mono", monospace, "Noto Sans SC"';
 
 
 .theme-container.lang-ja div#markdown-content {
