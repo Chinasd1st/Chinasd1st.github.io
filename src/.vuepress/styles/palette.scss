@@ -11,10 +11,16 @@ $code-font-family: '"Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mo
   // --vp-font-heading: "TorusPro", "Noto Sans JP", "Noto Sans SC", sans-serif;
 }
 
-div.code-block-title-bar span{
+div.code-block-title-bar span {
   font-family: "Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
 }
 
-.vp-code-tab-nav{
+.vp-code-tab-nav {
   font-family: "Cascadia Code", "Noto Sans SC";
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  font-family: "Cascadia Code", consolas, monaco, "Andale Mono", "Ubuntu Mono", monospace, "Noto Sans SC" !important;
+  line-height: var(--code-line-height) !important;
 }
