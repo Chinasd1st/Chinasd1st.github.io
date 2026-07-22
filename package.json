@@ -16,8 +16,8 @@
   "devDependencies": {
     "@biomejs/biome": "^2.5.2",
     "@eslint/js": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.62.1",
-    "@typescript-eslint/parser": "^8.62.1",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "@typescript-eslint/parser": "^8.65.0",
     "@vue/eslint-config-typescript": "^14.9.0",
     "@vuepress/bundler-vite": "2.0.0-rc.30",
     "@vuepress/plugin-clarity-analytics": "2.0.0-rc.131",
@@ -29,7 +29,7 @@
     "@vuepress/plugin-umami-analytics": "2.0.0-rc.131",
     "@vuepress/plugin-watermark": "2.0.0-rc.131",
     "chart.js": "^4.5.1",
-    "katex": "^0.17.0",
+    "katex": "^0.18.1",
     "mermaid": "^11.16.0",
     "patch-package": "^8.0.1",
     "sass-embedded": "^1.100.0",
@@ -45,6 +45,6 @@
   },
   "dependencies": {
     "dotenv": "^17.4.2",
-    "vue-router": "^5.1.0"
+    "vue-router": "^5.2.0"
   }
 }
