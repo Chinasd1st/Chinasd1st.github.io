@@ -27,7 +27,7 @@
     "@vuepress/plugin-prismjs": "2.0.0-rc.131",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.131",
     "@vuepress/plugin-umami-analytics": "2.0.0-rc.131",
-    "@vuepress/plugin-watermark": "2.0.0-rc.131",
+    "@vuepress/plugin-watermark": "2.0.0-rc.132",
     "chart.js": "^4.5.1",
     "katex": "^0.18.4",
     "mermaid": "^11.16.1",
