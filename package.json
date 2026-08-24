@@ -14,7 +14,7 @@
     "format": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.2",
+    "@biomejs/biome": "^2.5.10",
     "@eslint/js": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^8.67.0",
     "@typescript-eslint/parser": "^8.67.0",
@@ -33,10 +33,10 @@
     "mermaid": "^11.16.1",
     "patch-package": "^8.0.1",
     "sass-embedded": "^1.102.0",
-    "twikoo": "^1.7.13",
+    "twikoo": "^1.7.19",
     "typescript": "^6.0.3",
     "vidstack": "^1.15.6",
-    "vue": "^3.5.39",
+    "vue": "^3.5.41",
     "vue-eslint-parser": "^10.4.1",
     "vuepress": "2.0.0-rc.30",
     "vuepress-plugin-components": "2.0.0-rc.107",
