@@ -16,6 +16,7 @@ dotenv.config({ path: ".env.local" });
 
 export default defineUserConfig({
 	head: [
+		["link", { rel: "icon", href: "/favicon.ico" }],
 		// busuanzi 访问统计
 		[
 			"script",
