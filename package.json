@@ -14,10 +14,10 @@
     "format": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.2",
+    "@biomejs/biome": "^2.5.15",
     "@eslint/js": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.67.0",
-    "@typescript-eslint/parser": "^8.67.0",
+    "@typescript-eslint/eslint-plugin": "^8.71.1",
+    "@typescript-eslint/parser": "^8.71.1",
     "@vue/eslint-config-typescript": "^14.9.0",
     "@vuepress/bundler-vite": "2.0.0-rc.30",
     "@vuepress/plugin-clarity-analytics": "2.0.0-rc.131",
@@ -32,8 +32,8 @@
     "katex": "^0.18.4",
     "mermaid": "^11.16.1",
     "patch-package": "^8.0.1",
-    "sass-embedded": "^1.102.0",
-    "twikoo": "^1.7.13",
+    "sass-embedded": "^1.105.1",
+    "twikoo": "^2.0.12",
     "typescript": "^6.0.3",
     "vidstack": "^1.15.6",
     "vue": "^3.5.39",
@@ -45,6 +45,6 @@
   },
   "dependencies": {
     "dotenv": "^17.4.2",
-    "vue-router": "^5.2.0"
+    "vue-router": "^5.3.1"
   }
 }

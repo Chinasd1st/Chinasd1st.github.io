@@ -155,6 +155,16 @@ export default hopeTheme({
 			rss: true,
 			atom: true,
 			json: true,
+			// 覆盖插件默认排序（默认按 git 首次提交时间，历史重写/恢复后会与文章日期错位）
+			sorter: (pageA, pageB) => {
+				const getTime = (page: { frontmatter: Record<string, unknown> }): number => {
+					const date = page.frontmatter.date
+					if (!date) return 0
+					const time = new Date(date as string | number | Date).getTime()
+					return Number.isNaN(time) ? 0 : time
+				}
+				return getTime(pageB) - getTime(pageA)
+			},
 		},
 
 		sitemap: {
