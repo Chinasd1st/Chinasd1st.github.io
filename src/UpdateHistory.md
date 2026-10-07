@@ -8,6 +8,40 @@ category:
 
 # 更新历史
 
+## 2026.10.07 v1.1.0
+
+本次更新集中改善**长文阅读与数据查阅**体验，新增六个交互组件。所有改动均**不需要修改已有文章的 Markdown**，存量 49 篇文章直接受益。
+
+- <Badge type="important" text="CoreUpdate" vertical="middle" />新增**脚注悬浮预览**：鼠标悬停于正文的 `[1]` 标注即可在浮窗内阅读脚注全文，并按被悬浮的标注定位箭头，效果对齐 MediaWiki 的 Reference Tooltips 与维基百科。浮窗内容直接从页面底部脚注节点克隆，因此**公式、链接、代码等与正文完全一致**；窗口为恒定尺寸（默认上限 560×340），超出部分可内部滚动。支持键盘聚焦、`Esc` 关闭与触屏点击
+
+- <Badge type="important" text="CoreUpdate" vertical="middle" />新增**表格自动增强**：正文中行数较多的表格会自动获得筛选框与可排序表头，点击表头在「升序 → 降序 → 原始顺序」之间循环，筛选框对全表做即时检索并实时显示命中行数。数值列按数值排序、日期列按时间排序、中文列按拼音排序。小表格保持原样不打扰
+
+  > 本站表格总量已达 3,827 行，其中《LCY的B站收藏夹统计》单表 2,512 行。实测该表筛选响应约 300ms（已针对超长表格做重排优化），这是本次更新中受益最明显的一处。
+
+- <Badge type="tip" text="New" vertical="middle" />新增**站内链接悬浮预览**：悬停于指向本站其他文章的链接时，显示该文章的标题、摘要、封面与标签，数据在**构建期生成**（`src/.vuepress/public/previews.json`），因此浏览时不产生额外网络请求。仅在链接所在列的左右确实留白时才把浮窗放在侧边，否则自动改为在上/下方弹出，避免遮挡正文
+- <Badge type="tip" text="New" vertical="middle" />新增三个 **wiki 风格容器语法**，容器内部的链接、加粗、行内代码、列表均正常按 Markdown 渲染：
+
+  ``` markdown title="wiki 容器用法"
+  ::: hatnote 本条目介绍的是……
+  关于类似条目，见[某某条目](/post/xxxx.html)。
+  :::
+
+  ::: seealso 相关条目
+  - [桐高恶俗排行](/post/2026/05/EsuRanking.html)
+  :::
+
+  ::: navbox 恶俗专题
+  ### 主条目
+  - [恶俗排行](/post/2026/05/EsuRanking.html)
+  :::
+  ```
+
+- <Badge type="info" text="Iprv" vertical="middle" />为**悬停中的引用/链接**添加高亮，并新增 `prefers-reduced-motion` 支持：系统开启「减少动态效果」时自动关闭全部过渡与动画
+
+- <Badge type="info" text="Iprv" vertical="middle" />新增样式文件`.vuepress/styles/wiki.scss`；容器语法由`.vuepress/markdown-wiki.ts`实现（基于 markdown-it 核心 ruler，**未引入新依赖**）
+
+- <Badge type="info" text="Info" vertical="middle" />版本号更新至 `v1.1.0`（`package.json`、导航栏、本页三处同步）
+
 ## 2025.12.28 v1.0.1
 
 - <Badge type="important" text="CoreUpdate" vertical="middle" />引入[不蒜子](https://www.busuanzi.cc/)页面统计API，展示于`page-info`

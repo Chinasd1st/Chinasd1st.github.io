@@ -12,3 +12,8 @@ src/.vuepress/dist/
 !IndexNow.py
 
 src/post/2026/06/VibeCodingVotePlatform.md
+src/post/2026/10/temp.md
+src/post/2026/10/WikiComponentTest.md
+
+# 构建期由 config.ts 的 onPrepared 生成（站内链接悬浮预览索引）
+src/.vuepress/public/previews.json

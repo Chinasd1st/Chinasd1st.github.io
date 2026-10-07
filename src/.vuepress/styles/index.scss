@@ -1,3 +1,7 @@
+// 通过 sass-palette 注入：/.vuepress/styles/index.scss 会被主题 @forward 进样式入口
+// wiki 风格容器（::: hatnote / ::: seealso / ::: navbox）
+@use "./wiki.scss";
+
 // 处理Aplayer在深色模式下的样式问题
 // 基础样式调整
 .aplayer {

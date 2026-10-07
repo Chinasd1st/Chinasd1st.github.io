@@ -1,6 +1,7 @@
 import { clarityAnalyticsPlugin } from "@vuepress/plugin-clarity-analytics";
 import { llmsPlugin } from "@vuepress/plugin-llms";
 import dotenv from "dotenv";
+import { writeFile } from "node:fs/promises";
 import { defineUserConfig } from "vuepress";
 import metingPlugin from "vuepress-plugin-meting2";
 // import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
@@ -8,11 +9,52 @@ import metingPlugin from "vuepress-plugin-meting2";
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
 import theme from "./theme.ts"; // 修改这行
+import { wikiMarkdownPlugin } from "./markdown-wiki.ts";
 
 // import navbar from "./navbar.js";
 // import sidebar from "./sidebar.js";
 
 dotenv.config({ path: ".env.local" });
+
+/**
+ * 生成站内链接悬浮预览用的索引（public/previews.json）。
+ *
+ * 为什么在构建期生成：
+ * 运行期去 fetch 目标页 HTML 在 vite dev 下拿不到内容（直接请求 .html 只会返回 SPA 外壳，
+ * 真正的 meta 是客户端注入的），只有构建产物才有完整 <head>。构建期直接从 VuePress 的
+ * page 对象取 title/description/cover/tags，dev 与生产同一份数据，且悬停时零网络请求。
+ */
+const generatePreviewIndex = async (app: {
+	pages: Array<{ path: string; title?: string; frontmatter: Record<string, unknown> }>;
+	dir: { public: (...args: string[]) => string };
+}): Promise<void> => {
+	const index: Record<string, { title: string; description: string; cover: string; tags: string[] }> = {};
+
+	for (const page of app.pages) {
+		const fm = page.frontmatter || {};
+		const toText = (value: unknown): string => {
+			if (typeof value === "string") return value;
+			if (Array.isArray(value)) return value.filter((v) => typeof v === "string").join(" / ");
+			if (value && typeof value === "object" && "name" in value) {
+				return String((value as { name?: unknown }).name ?? "");
+			}
+			return "";
+		};
+
+		const title = toText(fm.title) || page.title || "";
+		if (!title) continue;
+
+		index[page.path] = {
+			title,
+			description: toText(fm.description),
+			cover: toText(fm.cover),
+			tags: Array.isArray(fm.tag) ? fm.tag.filter((t) => typeof t === "string").slice(0, 3) : [],
+		};
+	}
+
+	// app.dir.* 在 vuepress 2 里是「路径解析函数」而不是字符串
+	await writeFile(app.dir.public("previews.json"), JSON.stringify(index), "utf8");
+};
 
 export default defineUserConfig({
 	head: [
@@ -136,6 +178,14 @@ export default defineUserConfig({
 	lang: "zh-CN",
 	title: "小奶奶博客",
 	description: "分享各种小奶奶内容 这使人感到有趣味",
+
+	// wiki 风格容器：::: hatnote / ::: seealso / ::: navbox
+	extendsMarkdown: (md) => {
+		md.use(wikiMarkdownPlugin);
+	},
+
+	// 页面就绪后写出站内链接悬浮预览的索引
+	onPrepared: (app) => generatePreviewIndex(app as never),
 
 	theme, // 使用导入的theme配置
 

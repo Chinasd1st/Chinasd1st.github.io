@@ -1,0 +1,150 @@
+// wiki 风格容器样式
+// 由 src/.vuepress/markdown-wiki.ts 生成的普通 div，这里统一维护外观。
+// 颜色全部走主题的 --vp-c-* 变量，深浅色模式自动跟随。
+
+/* ------------------------------------------------------------------ *
+ * ::: hatnote —— 消歧义 / 提示斜体行（MediaWiki {{about}} {{for}}）
+ * ------------------------------------------------------------------ */
+.wiki-hatnote {
+  margin: 0.8rem 0;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  color: var(--vp-c-text-mute, #6b6b70);
+  font-size: 0.92em;
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--vp-c-border, #e2e2e3);
+
+  p {
+    margin: 0;
+  }
+
+  // 「本条目介绍的是……」前缀用正体，与后面的斜体说明区分开
+  &__label {
+    margin-right: 0.35em;
+    color: var(--vp-c-text, #3c3c43);
+    font-style: normal;
+    font-weight: 600;
+
+    &::after {
+      content: "：";
+    }
+  }
+
+  a {
+    color: var(--vp-c-accent, #3e73c4);
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * ::: seealso —— 「参见」区块（MediaWiki {{see also}}）
+ * ------------------------------------------------------------------ */
+.wiki-seealso {
+  margin: 1.1rem 0;
+  padding: 10px 14px;
+  font-size: 0.94em;
+  background: var(--vp-c-bg-soft, #f6f6f7);
+  border: 1px solid var(--vp-c-border, #e2e2e3);
+  border-radius: 8px;
+
+  &__title {
+    margin-bottom: 4px;
+    color: var(--vp-c-text, #3c3c43);
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+
+  &__body {
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+
+    ul,
+    ol {
+      margin: 0;
+      padding-left: 1.35em;
+    }
+
+    li {
+      margin: 2px 0;
+      line-height: 1.7;
+    }
+
+    // 参见区里的链接保持紧凑，不参与正文的加粗规则
+    a {
+      font-weight: 500 !important;
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * ::: navbox —— 专题导航底栏（MediaWiki {{navbox}}）
+ * ------------------------------------------------------------------ */
+.wiki-navbox {
+  margin: 1.4rem 0 0.6rem;
+  font-size: 0.88em;
+  background: var(--vp-c-bg-soft, #f6f6f7);
+  border: 1px solid var(--vp-c-border, #e2e2e3);
+  border-radius: 8px;
+  overflow: hidden;
+
+  // 标题栏做成"分组表头"的感觉
+  &__title {
+    padding: 6px 12px;
+    color: var(--vp-c-text, #3c3c43);
+    font-weight: 700;
+    text-align: center;
+    background: var(--vp-c-bg-alt, #ececed);
+    border-bottom: 1px solid var(--vp-c-border, #e2e2e3);
+  }
+
+  &__body {
+    padding: 8px 12px;
+
+    // 用 h3 划分分组：MediaWiki navbox 的 group 行
+    h3 {
+      margin: 8px 0 4px;
+      padding: 0;
+      color: var(--vp-c-text-mute, #6b6b70);
+      font-size: 1em;
+      font-weight: 700;
+      border: none;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      // 清掉主题给标题加的锚点图标与偏移
+      .header-anchor {
+        display: none;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.35em;
+      // 条目横排：条目多时更省纵向空间
+      columns: 2;
+      column-gap: 1.5em;
+    }
+
+    li {
+      margin: 2px 0;
+      line-height: 1.7;
+      break-inside: avoid;
+    }
+
+    a {
+      font-weight: 500 !important;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .wiki-navbox__body ul {
+    columns: 1;
+  }
+}
