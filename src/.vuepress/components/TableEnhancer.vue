@@ -1,27 +1,24 @@
 <template>
-	<!--
-		这些 slot 只是「占位」：作为 rootComponent，本组件的 DOM 位于页面布局之外
-		（在页脚之后），直接渲染工具栏会跑到页面底部。因此 enrich() 会把每个 slot
-		移动到对应表格的旁边，:ref 回调负责重新插入。
-	-->
-	<div
-		v-for="table in enhanced"
-		:key="table.id"
-		:ref="(el) => setSlot(table.id, el)"
-		class="vp-table-enhance-slot"
-	>
-		<div class="vp-table-enhance__bar">
-			<input
-				v-if="table.filterable"
-				class="vp-table-enhance__filter"
-				type="search"
-				:placeholder="table.placeholder"
-				:aria-label="table.placeholder"
-				@input="onFilter(table, $event)"
-			/>
-			<span v-else class="vp-table-enhance__hint">点击表头可排序</span>
+	<div v-if="mounted" class="vp-table-enhance">
+		<div
+			v-for="table in enhanced"
+			:key="table.id"
+			:ref="(el) => setSlot(table.id, el)"
+			class="vp-table-enhance-slot"
+		>
+			<div class="vp-table-enhance__bar">
+				<input
+					v-if="table.filterable"
+					class="vp-table-enhance__filter"
+					type="search"
+					:placeholder="table.placeholder"
+					:aria-label="table.placeholder"
+					@input="onFilter(table, $event)"
+				/>
+				<span v-else class="vp-table-enhance__hint">点击表头可排序</span>
 
-			<span class="vp-table-enhance__count">{{ table.countLabel }}</span>
+				<span class="vp-table-enhance__count">{{ table.countLabel }}</span>
+			</div>
 		</div>
 	</div>
 </template>
@@ -116,6 +113,8 @@ interface EnhanceState {
 
 const pageData = usePageData();
 const enhanced = ref<EnhanceState[]>([]);
+/** client-only 开关：SSR 与水合首帧不渲染工具栏，避免水合失配 */
+const mounted = ref(false);
 
 let observer: MutationObserver | null = null;
 let flushTimer: ReturnType<typeof setTimeout> | null = null;
@@ -411,6 +410,9 @@ watch(
 );
 
 onMounted(() => {
+	// 水合完成后才渲染工具栏
+	mounted.value = true;
+
 	void nextTick(enrich);
 
 	// 水合/切页/懒加载都可能后插表格，用观察器兜底（防抖，避免长表格渲染期抖动）

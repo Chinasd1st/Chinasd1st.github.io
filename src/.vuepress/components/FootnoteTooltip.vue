@@ -1,5 +1,5 @@
 <template>
-	<Teleport to="body">
+	<Teleport v-if="mounted" to="body">
 		<div
 			v-show="visible"
 			ref="popoverRef"
@@ -28,6 +28,16 @@ import { useRoute } from "vue-router";
 
 /**
  * 脚注悬浮预览（Wikipedia 风格 Reference Tooltips）
+ *
+ * ⚠️ 水合陷阱（线上曾因此整页白屏，改这里之前务必先读）：
+ * 本组件是 rootComponent，与 <RouterView> 平级参与 SSR。Teleport 在 SSR 下**只产出
+ * `<!--teleport start/end-->` 注释**，而客户端会在 #app 里插入真实节点——两侧结构不同，
+ * 水合时 Vue 找不到目标节点，抛
+ *   TypeError: Cannot read properties of null (reading 'insertBefore')
+ * 并让整个应用空掉（用户看到全白）。
+ * 因此模板用 `v-if="mounted"` 让首帧（含水合那一帧）两侧都渲染空内容，挂载后再渲染。
+ * 同理：**模板里不要写 HTML 注释**，SSR 会把它渲染成真实注释节点并参与比对，
+ * 而客户端编译会移除注释，同样造成失配。
  *
  * 设计要点：
  * 1. 接入时机：脚注正文由 vuepress-theme-hope 渲染在页面底部的 <section class="footnotes">
@@ -84,6 +94,8 @@ const ARROW_INSET = 16;
 const route = useRoute();
 
 const visible = ref(false);
+/** client-only 开关：SSR 与水合首帧不渲染 Teleport，避免水合失配 */
+const mounted = ref(false);
 /** 入场动画终态：先渲染「透明 + 偏移」的一帧，再置 true 触发过渡 */
 const entered = ref(false);
 const contentHtml = ref("");
@@ -393,6 +405,9 @@ const onKeydown = (event: KeyboardEvent): void => {
 };
 
 onMounted(() => {
+	// 水合完成后才渲染 Teleport 内容
+	mounted.value = true;
+
 	markAnchors();
 
 	// 内容水合/切页后可能才出现脚注，持续观察并按需补标记

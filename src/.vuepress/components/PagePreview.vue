@@ -1,5 +1,5 @@
 <template>
-	<Teleport to="body">
+	<Teleport v-if="mounted" to="body">
 		<div
 			v-show="visible"
 			ref="popoverRef"
@@ -99,6 +99,8 @@ const siteBase = (): string => {
 };
 
 const visible = ref(false);
+/** client-only 开关：SSR 与水合首帧不渲染 Teleport，避免水合失配 */
+const mounted = ref(false);
 const entered = ref(false);
 const state = ref<"loading" | "ready" | "empty">("loading");
 const side = ref<"right" | "left" | "top" | "bottom">("right");
@@ -466,6 +468,9 @@ const onCoverError = (): void => {
 };
 
 onMounted(() => {
+	// 水合完成后才渲染 Teleport 内容
+	mounted.value = true;
+
 	document.addEventListener("mouseover", onDelegatedOver, true);
 	document.addEventListener("mouseout", onDelegatedOut, true);
 	document.addEventListener("keydown", onKeydown);
