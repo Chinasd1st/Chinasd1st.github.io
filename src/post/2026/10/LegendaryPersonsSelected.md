@@ -292,7 +292,35 @@ AI Agent仅用于排版辅助与数据分析辅助。本人承诺本文正文内
 
 #### 发帖时段与星期热力图
 
-*图：发帖时段与星期热力图*（图表为 LaTeX 绘制，未包含在本次转换中）
+<div class="heatmap-scroll">
+
+<table class="heatmap">
+  <caption>发帖时段与星期热力图（小时 × 星期，单元格为条数；范围 7–23 时，共 174 条）</caption>
+  <thead>
+    <tr><th scope="col">小时＼星期</th><th scope="col">周一</th><th scope="col">周二</th><th scope="col">周三</th><th scope="col">周四</th><th scope="col">周五</th><th scope="col">周六</th><th scope="col">周日</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">07:00</th><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-0">0</td></tr>
+    <tr><th scope="row">08:00</th><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">1</td></tr>
+    <tr><th scope="row">09:00</th><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-1">2</td></tr>
+    <tr><th scope="row">10:00</th><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-0">0</td></tr>
+    <tr><th scope="row">11:00</th><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">3</td><td class="hm-2">6</td></tr>
+    <tr><th scope="row">12:00</th><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">3</td><td class="hm-1">2</td><td class="hm-1">1</td><td class="hm-2">5</td></tr>
+    <tr><th scope="row">13:00</th><td class="hm-0">0</td><td class="hm-1">3</td><td class="hm-1">2</td><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-1">3</td><td class="hm-1">1</td></tr>
+    <tr><th scope="row">14:00</th><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-2">4</td></tr>
+    <tr><th scope="row">15:00</th><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">3</td><td class="hm-1">1</td><td class="hm-3">8</td><td class="hm-2">4</td></tr>
+    <tr><th scope="row">16:00</th><td class="hm-1">3</td><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">2</td><td class="hm-2">6</td><td class="hm-2">4</td></tr>
+    <tr><th scope="row">17:00</th><td class="hm-1">1</td><td class="hm-2">4</td><td class="hm-1">2</td><td class="hm-1">1</td><td class="hm-1">2</td><td class="hm-1">3</td><td class="hm-1">3</td></tr>
+    <tr><th scope="row">18:00</th><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-1">2</td><td class="hm-1">2</td><td class="hm-1">3</td><td class="hm-4">12</td><td class="hm-1">3</td></tr>
+    <tr><th scope="row">19:00</th><td class="hm-0">0</td><td class="hm-1">2</td><td class="hm-2">6</td><td class="hm-1">2</td><td class="hm-0">0</td><td class="hm-2">4</td><td class="hm-1">1</td></tr>
+    <tr><th scope="row">20:00</th><td class="hm-1">3</td><td class="hm-1">2</td><td class="hm-1">1</td><td class="hm-1">2</td><td class="hm-1">2</td><td class="hm-1">2</td><td class="hm-1">1</td></tr>
+    <tr><th scope="row">21:00</th><td class="hm-1">1</td><td class="hm-2">4</td><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">3</td><td class="hm-0">0</td></tr>
+    <tr><th scope="row">22:00</th><td class="hm-0">0</td><td class="hm-1">1</td><td class="hm-1">1</td><td class="hm-0">0</td><td class="hm-1">2</td><td class="hm-2">4</td><td class="hm-0">0</td></tr>
+    <tr><th scope="row">23:00</th><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-0">0</td><td class="hm-1">3</td><td class="hm-0">0</td><td class="hm-0">0</td></tr>
+  </tbody>
+</table>
+
+</div>
 
 热力图显示峰值为周六18:00（12条）。周六15:00–22:00为全周最活跃时段，工作日晚间（17:00–21:00）也有稳定发帖，但密度远低于周末。
 
