@@ -73,14 +73,6 @@ jobs:
         with:
           path: src/.vuepress/dist
 
-      # IndexNow 需要 sitemap，而 dist 不入库（.gitignore 里有 src/.vuepress/dist/）。
-      # 这里只上传这一个小文件，让 indexnow job 能取到它 —— 而不是下载整个 Pages 产物。
-      - uses: actions/upload-artifact@v7
-        with:
-          name: sitemap
-          path: src/.vuepress/dist/sitemap.xml
-          retention-days: 1
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -100,35 +92,3 @@ jobs:
       # 因此不再需要 FORCE_JAVASCRIPT_ACTIONS_TO_NODE24 这个兼容开关。
       - uses: actions/deploy-pages@v5
         id: deployment
-
-  # IndexNow 只是「通知搜索引擎」，不能让它挡住发布：
-  # 放在部署之后的独立 job，pip 或 API 抽风时只会让本 job 变红，站点照常更新。
-  indexnow:
-    needs: deploy
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - uses: actions/checkout@v6
-
-      # sitemap 由 build job 上传，这里取回后位于 ./sitemap.xml
-      # （单文件上传时产物的根就是该文件的父目录）。
-      - uses: actions/download-artifact@v8
-        with:
-          name: sitemap
-          path: .
-
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-          cache: "pip"
-
-      - name: 安装依赖
-        run: pip install --quiet -r requirements.txt
-
-      - name: 提交 IndexNow 通知
-        env:
-          INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
-          # 指向下载下来的 sitemap，而不是构建目录（本 job 没有构建产物）。
-          SITEMAP_PATH: ./sitemap.xml
-        run: python IndexNow.py
