@@ -48,27 +48,19 @@ updates:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
 
-      # gray-matter@4.0.3(VuePress 解析 frontmatter 用)只支持 js-yaml 3.x,
-      # 该版本由 pnpm-workspace.yaml 的 overrides 手工固定在 3.15.1(CVE 修复,
-      # 与 js-yaml@^4 的 override 并存)。Dependabot 无法解析这种同名双 override,
-      # 每次尝试都会让整个更新任务失败:
-      #   | js-yaml | dependency_file_not_resolvable |
-      #   "pnpm resolved js-yaml to 4.3.2, above the requested 3.15.2."
-      # 这也是历史上 2026-09-13、2026-10-10 等多次运行失败的原因。
-      # js-yaml 的升级请继续用 overrides 手工处理。
-      - dependency-name: "js-yaml"
-
-      # katex 在 lockfile 里同时存在两条线,服务于两个不同的消费方:
-      #   katex@0.18.4  直接 devDependency(^0.18.4),@mdit/plugin-katex-slim 渲染正文公式
-      #   katex@0.16.47 mermaid@11.16.1 的传递依赖,而 mermaid 自己声明的是 ^0.16.25
-      # 于是 Dependabot 提出的 "bump katex from 0.16.47 to 0.18.4" 要跨过
-      # mermaid 的声明范围去改它的传递副本 —— 这个更新在语义上就不成立。
+      # 这里刻意不 ignore js-yaml / katex。
       #
-      # 另外 0.x 在任何一级都不提供兼容性承诺,patch 也不例外:
-      #   0.16.46 -> 0.16.47  patch,但 0.16 线四年发了 47 次
-      #   0.16.47 -> 0.17.0   minor,却改了 __defineFunction(破坏性)
-      #   0.17.0 -> 0.18.0    同属 0.x,不可假定兼容
-      # 结论:katex 改为完全人工跟进,等 mermaid 自身支持 0.18 时随它一起升级。
-      # 如果 katex 出现安全公告,Dependabot 告警(Security 面板)不受本文件影响,
-      # 仍会提示;届时用 pnpm-workspace.yaml 的 overrides 手工处理。
-      - dependency-name: "katex"
+      # 曾经的考虑是"这两个包的更新必然失败或语义不成立,不如忽略以减少噪音":
+      #   js-yaml  gray-matter@4 只支持 3.x,与 js-yaml@^4 的 override 并存,
+      #             同名双 override 让 Dependabot 报 dependency_file_not_resolvable
+      #   katex    lockfile 里 0.16.47(mermaid 传递,声明 ^0.16.25)与 0.18.4
+      #             (直接依赖)并存,更新要越过 mermaid 的声明范围
+      #
+      # 但这两个包当时都带着**未修复的安全告警**:
+      #   js-yaml        high   < 3.15.2 / < 4.3.2(两条线各一个)
+      #   katex          low    < 0.18.2(命中的是 mermaid 的传递副本)
+      # 失败的运行恰恰是 command=security 的安全更新任务,也就是说:
+      # 忽略它们等于亲手掐掉安全修复的唯一自动路径。宁可让运行继续失败(可见),
+      # 也不要让它静默消失。真正的修复手段是 pnpm-workspace.yaml 的 overrides
+      # 或合并对应的 PR,而不是 ignore。
+
