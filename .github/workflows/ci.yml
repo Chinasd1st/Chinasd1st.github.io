@@ -1,0 +1,67 @@
+name: CI
+
+# PR 上唯一验证「构建是否还能通过」的检查。
+#
+# 之前 PR 只有 CodeQL(neutral)和 Socket Security 两项,不做任何构建校验;
+# deploy-docs 又只跑在 push: main 上 —— 于是合并依赖更新前无法证明它不破坏站点,
+# 只能等合并后由 main 上的部署运行暴露。这是 Dependabot PR 长期被搁置的根本原因之一:
+# 没有可信的验证结果,合并就变成了"盲合"。
+#
+# 这里刻意与 deploy-docs 使用相同的工具链与命令,保证「PR 绿了」等于
+# 「main 上的部署会成功」,而不是另一套近似环境。
+on:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  # 与 deploy-docs 保持一致,避免"CI 通过但部署环境不同"的假绿灯。
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # fetch-depth: 0:主题的 lastUpdated / changelog 依赖完整 git 历史,
+      # 浅克隆会让构建结果与线上不一致。
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11
+          run_install: false
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      # --frozen-lockfile 是这一步的核心价值:它同时验证 lockfile 与 package.json
+      # 是否一致。依赖更新 PR 最常见的失败形态就是两者不一致,而这一点只有
+      # frozen 安装才会暴露(普通 install 会静默改写 lockfile)。
+      - run: pnpm install --frozen-lockfile
+
+      - name: 缓存 Vite 构建缓存
+        uses: actions/cache@v5
+        with:
+          path: src/.vuepress/.cache
+          key: ${{ runner.os }}-vite-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-vite-
+
+      # docs:build = vuepress-vite build + validate:preview,
+      # 后者会校验预览索引这类内容层面的产物,不只是"能编译"。
+      - name: 构建 VuePress 文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm docs:build

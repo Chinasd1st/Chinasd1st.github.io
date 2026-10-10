@@ -1,9 +1,34 @@
 version: 2
+
+# 依赖更新的节奏与边界。
+#
+# 背景(基于 58 个 PR 的实际数据):之前是 daily + 两个 group,但 PR 从不合并,
+# 于是分组 PR 被下一批更新不断取代重建 —— 58 个 PR 里有 32 个(55%)是同两个
+# group PR 的重复产物,41 个被关闭且从未合并,而且每个重建版本都更大、更容易冲突
+# (#58 仅开 0.6 天就已 +346/-359)。这属于"每天生成、永不消费"的最差组合。
+#
+# 改动要点:
+#   1. daily -> weekly:噪音直接降一个数量级,且分组 PR 有机会在被取代前被处理。
+#   2. open-pull-requests-limit: 2:最多同时存在两个 PR(正好对应两个 group)。
+#   3. ignore js-yaml:该依赖由 pnpm-workspace.yaml 的 overrides 手工固定在 3.15.1,
+#      Dependabot 对"同名双 override"解析必然失败。
+#   4. 保护 0.x 依赖的 minor 跳变:katex 0.16 -> 0.18 会被 semver 判为 minor,
+#      但对 0.x 库通常是破坏性变更。
+#
+# 注意:**安全更新不受此 schedule 影响**。GitHub 的安全更新有独立调度,
+# 仍会在披露后立即开 PR,所以改成 weekly 不会延迟 CVE 修复。
 updates:
   - package-ecosystem: "pnpm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "sunday"
+      time: "20:00"
+      timezone: "Asia/Shanghai"
+
+    # 同时最多两个 PR:与下面两个 group 一一对应,避免堆积出新的"僵尸 PR"。
+    open-pull-requests-limit: 2
+
     groups:
       patch-updates:
         patterns:
@@ -15,8 +40,35 @@ updates:
           - "*"
         update-types:
           - "minor"
+
     pull-request-branch-name:
       separator: "-"
+
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
+
+      # gray-matter@4.0.3(VuePress 解析 frontmatter 用)只支持 js-yaml 3.x,
+      # 该版本由 pnpm-workspace.yaml 的 overrides 手工固定在 3.15.1(CVE 修复,
+      # 与 js-yaml@^4 的 override 并存)。Dependabot 无法解析这种同名双 override,
+      # 每次尝试都会让整个更新任务失败:
+      #   | js-yaml | dependency_file_not_resolvable |
+      #   "pnpm resolved js-yaml to 4.3.2, above the requested 3.15.2."
+      # 这也是历史上 2026-09-13、2026-10-10 等多次运行失败的原因。
+      # js-yaml 的升级请继续用 overrides 手工处理。
+      - dependency-name: "js-yaml"
+
+      # katex 在 lockfile 里同时存在两条线,服务于两个不同的消费方:
+      #   katex@0.18.4  直接 devDependency(^0.18.4),@mdit/plugin-katex-slim 渲染正文公式
+      #   katex@0.16.47 mermaid@11.16.1 的传递依赖,而 mermaid 自己声明的是 ^0.16.25
+      # 于是 Dependabot 提出的 "bump katex from 0.16.47 to 0.18.4" 要跨过
+      # mermaid 的声明范围去改它的传递副本 —— 这个更新在语义上就不成立。
+      #
+      # 另外 0.x 在任何一级都不提供兼容性承诺,patch 也不例外:
+      #   0.16.46 -> 0.16.47  patch,但 0.16 线四年发了 47 次
+      #   0.16.47 -> 0.17.0   minor,却改了 __defineFunction(破坏性)
+      #   0.17.0 -> 0.18.0    同属 0.x,不可假定兼容
+      # 结论:katex 改为完全人工跟进,等 mermaid 自身支持 0.18 时随它一起升级。
+      # 如果 katex 出现安全公告,Dependabot 告警(Security 面板)不受本文件影响,
+      # 仍会提示;届时用 pnpm-workspace.yaml 的 overrides 手工处理。
+      - dependency-name: "katex"
