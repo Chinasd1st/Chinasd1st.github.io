@@ -36,6 +36,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      # workflow 文件自身的静态校验：表达式、inputs、job/step 依赖，以及 shell
+      # 片段里的常见错误。这类问题只有运行到那一步才会暴露，放在最前面能在几秒内
+      # 失败，不必先等两分钟的依赖安装与构建。
+      # 版本钉住到 1.7.12（下载脚本本身取自 main，二进制按参数版本取）。
+      - name: 校验 workflow（actionlint）
+        run: |
+          bash <(curl -sSf https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash) 1.7.12
+          ./actionlint -color
+
       - uses: pnpm/action-setup@v6
         with:
           version: 11

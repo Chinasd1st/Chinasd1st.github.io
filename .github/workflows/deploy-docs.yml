@@ -6,29 +6,41 @@ on:
       - main
   workflow_dispatch:
 
+# 连推两次时「排队」而不是互相取消。
+# cancel-in-progress 只能取消尚未进入部署的运行，打断不了已经开始的 Pages 发布，
+# 于是后一次会撞上 GitHub 的 "in progress deployment" 400 错误（实测过一次：
+# 连续合并多个 PR 时 deploy-pages 直接失败，而构建本身是成功的）。
+# 改成排队后每次推送都有确定结果，代价是突发推送需要按顺序等待，单作者场景可忽略。
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+# 默认给最小权限：只有真正需要 Pages 写入与 OIDC 的 deploy job 才提升。
+# 这样构建步骤手里没有 pages: write / id-token: write —— 而它要执行
+# pnpm install，进而运行 esbuild、@parcel/watcher 的第三方 postinstall 脚本。
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # 构建与部署拆成两个 job：
+  #  1. 部署失败时 "Re-run failed jobs" 只重跑部署，不必重新构建（约 2 分钟）；
+  #  2. 失败时能一眼区分是「构建挂了」还是「部署挂了」。
+  build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
+      # fetch-depth: 0 是必需的：主题的 lastUpdated / changelog 依赖完整 git 历史。
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
+      # run_install: false —— 默认行为会自行跑一次依赖安装，与下面的显式安装重复；
+      # 关掉后这一步只负责放置 pnpm 本身（实测可省约 9s）。
       - uses: pnpm/action-setup@v6
         with:
           version: 11
+          run_install: false
 
       - uses: actions/setup-node@v6
         with:
@@ -37,30 +49,86 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
+      # Vite 的依赖预打包缓存：key 加入 lockfile 与 package.json，
+      # restore-keys 提供前缀回退，避免每次依赖变动都从零重建。
       - name: 缓存 Vite 构建缓存
         uses: actions/cache@v5
         with:
           path: src/.vuepress/.cache
-          key: ${{ runner.os }}-vite-${{ hashFiles('pnpm-lock.yaml', 'package.json', 'src/.vuepress/**/*.ts', 'src/.vuepress/**/*.js') }}
+          key: ${{ runner.os }}-vite-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-vite-
 
       - name: 构建 VuePress 文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-          PASSWORD: ${{ secrets.PASSWORD }}
         run: pnpm docs:build
 
+      # dist 下存在 ./img/2026.10.7 这类「点开头」的目录，Jekyll 会忽略它们，
+      # 因此必须保留 .nojekyll。
       - run: touch src/.vuepress/dist/.nojekyll
+
+      # v5 起为 composite action（v4 依赖 node20）。
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: src/.vuepress/dist
+
+      # IndexNow 需要 sitemap，而 dist 不入库（.gitignore 里有 src/.vuepress/dist/）。
+      # 这里只上传这一个小文件，让 indexnow job 能取到它 —— 而不是下载整个 Pages 产物。
+      - uses: actions/upload-artifact@v7
+        with:
+          name: sitemap
+          path: src/.vuepress/dist/sitemap.xml
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # 只有这个 job 需要写入 Pages 与铸造 OIDC token。
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      # deploy-pages@v5 起原生使用 node24（v4 是 node20），
+      # 因此不再需要 FORCE_JAVASCRIPT_ACTIONS_TO_NODE24 这个兼容开关。
+      - uses: actions/deploy-pages@v5
+        id: deployment
+
+  # IndexNow 只是「通知搜索引擎」，不能让它挡住发布：
+  # 放在部署之后的独立 job，pip 或 API 抽风时只会让本 job 变红，站点照常更新。
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v6
+
+      # sitemap 由 build job 上传，这里取回后位于 ./sitemap.xml
+      # （单文件上传时产物的根就是该文件的父目录）。
+      - uses: actions/download-artifact@v8
+        with:
+          name: sitemap
+          path: .
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: 安装依赖
+        run: pip install --quiet -r requirements.txt
 
       - name: 提交 IndexNow 通知
         env:
           INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
-        run: |
-          pip install requests -q
-          python IndexNow.py
-
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: src/.vuepress/dist
-
-      - uses: actions/deploy-pages@v4
-        id: deployment
+          # 指向下载下来的 sitemap，而不是构建目录（本 job 没有构建产物）。
+          SITEMAP_PATH: ./sitemap.xml
+        run: python IndexNow.py

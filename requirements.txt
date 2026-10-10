@@ -1,0 +1,3 @@
+# IndexNow.py 的运行时依赖
+# 其余导入（os / time / xml.etree.ElementTree）均属标准库
+requests>=2.32.0
