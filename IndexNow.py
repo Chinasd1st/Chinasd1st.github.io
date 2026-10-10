@@ -53,12 +53,19 @@ def submit_to_indexnow(url_list, batch_size=5000):
             print(f"批次 {batch_no}: 请求异常 {e}")
             continue
 
-        # IndexNow 用 200/202 表示已接受；403 通常是 keyLocation 不可访问，
+        # IndexNow 用 200/202 表示已受理；403 通常是 keyLocation 不可访问，
         # 或该文件内容与文件名不一致；422 表示 URL 不属于该 host。
         # 必须显式检查状态码：否则提交被拒时脚本仍以 0 退出，job 全绿而搜索
         # 引擎什么都没收到 —— 这种「绿着但没生效」比直接变红难发现得多。
-        if resp.status_code in (200, 202):
-            print(f"批次 {batch_no}: 提交 {len(batch)} 个 URL → 状态 {resp.status_code}")
+        #
+        # 注意 202 并不等于「站点已验证」。IndexNow 受理后还会异步抓取
+        # keyLocation 做验证；本仓库实测过同一把 key 先返回 202、几分钟后再次
+        # 提交就变成 403 UserForbiddedToAccessSite。因此看到 202 只能说"已受理"，
+        # 不能据此认为提交已生效（公开案例中也有连续两周 202 但全部未生效的情况）。
+        if resp.status_code == 200:
+            print(f"批次 {batch_no}: 提交 {len(batch)} 个 URL → 状态 200（已接受）")
+        elif resp.status_code == 202:
+            print(f"批次 {batch_no}: 提交 {len(batch)} 个 URL → 状态 202（已受理，验证异步进行）")
         else:
             hint = f"，请确认 {KEY_LOCATION} 可访问且内容与 API_KEY 一致" if resp.status_code == 403 else ""
             failures.append(f"批次 {batch_no}: HTTP {resp.status_code}{hint} {resp.text[:200]}")
@@ -73,7 +80,9 @@ def submit_to_indexnow(url_list, batch_size=5000):
             print(f"  - {item}")
         sys.exit(1)
 
-    print("IndexNow 提交完成：全部批次均被接受。")
+    print("IndexNow 提交完成：所有批次均被受理。"
+          "（202 仅代表已受理，最终是否生效取决于 IndexNow 对 keyLocation 的异步验证，"
+          "可用下一次提交是否仍返回 403 来判断。）")
 
 # 使用
 urls = get_urls_from_sitemap(SITEMAP_PATH)
