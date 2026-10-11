@@ -109,6 +109,23 @@ export default defineUserConfig({
 				src: "//cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js",
 			},
 		],
+		// Google AdSense（自动广告 + 站点所有权验证）
+		// ads.txt 见 src/.vuepress/public/ads.txt，AdSense 后台会检查它是否存在
+		[
+			"script",
+			{
+				async: true,
+				src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9628474942792036",
+				crossorigin: "anonymous",
+			},
+		],
+		[
+			"meta",
+			{
+				name: "google-adsense-account",
+				content: "ca-pub-9628474942792036",
+			},
+		],
 		["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
 		[
 			"link",
