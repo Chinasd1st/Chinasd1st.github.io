@@ -8,6 +8,18 @@ category:
 
 # 更新历史
 
+## 2026.10.07 v1.1.1
+
+- <Badge type="important" text="CoreUpdate" vertical="middle" />访问统计由**不蒜子**迁移至 [Vercount](https://www.vercount.one/)。Vercount 使用 POST 接口而非过时的 Referrer 方式，移动端 / Firefox / Safari 的统计更准确；并会自动同步不蒜子的历史数据，无需手动迁移
+
+- <Badge type="info" text="Info" vertical="middle" />统计口径调整为三项：**本页PV**、**全站PV**、**全站访客**。页脚与[介绍页](/intro.html)均已同步；因 Vercount 不提供「今日」维度，介绍页原「今日访问量 / 今日访客」两张卡片已改为本页浏览
+
+- <Badge type="info" text="Info" vertical="middle" />新增 Vercount 域名归属验证文件 `/.well-known/vercount-verify-v55t0ooeug9w9uwi75vjegsq.txt`
+
+- <Badge type="info" text="Iprv" vertical="middle" />Vercount 官方脚本只在首屏加载时计数一次，**不监听 SPA 路由变化**。本站为单页应用，站内跳转的文章原本不会产生计数，因此新增 `VercountStats` 组件在路由变化后补发计数请求（替代原先的 `BusuanziStats`）
+
+- <Badge type="danger" text="Fix" vertical="middle" />修复 v1.1.0 引入的整页白屏：`Teleport` 在 SSR 下只产出注释、客户端却插入真实节点，两侧结构不一致导致水合崩溃（`insertBefore of null`）。涉及组件均加了 client-only 开关
+
 ## 2026.10.07 v1.1.0
 
 本次更新集中改善**长文阅读与数据查阅**体验，新增六个交互组件。所有改动均**不需要修改已有文章的 Markdown**，存量 49 篇文章直接受益。

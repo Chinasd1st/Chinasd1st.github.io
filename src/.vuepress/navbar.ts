@@ -39,7 +39,7 @@ export default navbar([
 		],
 	},
 	{
-		text: "v1.1.0",
+		text: "v1.1.1",
 		icon: "code-commit",
 		children: [
 			{

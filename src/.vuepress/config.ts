@@ -101,12 +101,14 @@ export default defineUserConfig({
 				href: "/android-chrome-512x512.png",
 			},
 		],
-		// busuanzi 访问统计
+		// Vercount 访问统计（不蒜子的替代方案，会自动同步原有的不蒜子数据）
+		// 该脚本负责首屏计数并填充所有 vercount_value_* 节点；
+		// SPA 路由切换后的计数由 VercountStats 组件补上（脚本本身不监听路由）。
 		[
 			"script",
 			{
 				defer: true,
-				src: "//cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js",
+				src: "https://events.vercount.one/js",
 			},
 		],
 		// Google AdSense（自动广告 + 站点所有权验证）

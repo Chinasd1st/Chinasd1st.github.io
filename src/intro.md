@@ -64,17 +64,18 @@ html[data-theme="dark"] .stats-card:hover {
 }
 
 /* ==================== 访问统计卡片 ==================== */
-.busuanzi-card {
+/* 计数由 Vercount 提供（原不蒜子已替换；Vercount 会自动同步不蒜子的历史数据） */
+.vercount-card {
   padding: 1rem;
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
 }
 
-html[data-theme="light"] .busuanzi-card {
+html[data-theme="light"] .vercount-card {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-html[data-theme="dark"] .busuanzi-card {
+html[data-theme="dark"] .vercount-card {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 </style>
@@ -128,30 +129,18 @@ html[data-theme="dark"] .busuanzi-card {
 
 <div style="text-align: center; margin: 3rem 0; padding: 1.5rem 1rem; background: var(--vp-c-bg-soft); border-radius: 12px; font-size: 0.95rem;">
   <h2 style="margin: 0 0 1.2rem;">📈 访问统计</h2>
-  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; max-width: 500px; margin: 0 auto;">
-    <div class="busuanzi-card">
-      <strong>今日访问量</strong><br>
-      <span id="busuanzi_today_pv" style="font-size: 1.4rem; font-weight: bold;">
-        <i class="fa fa-spinner fa-spin"></i>
-      </span> 次
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem 1rem; max-width: 640px; margin: 0 auto;">
+    <div class="vercount-card">
+      <strong>本页浏览</strong><br>
+      <span id="vercount_value_page_pv" style="font-size: 1.4rem; font-weight: bold;">Loading</span> 次
     </div>
-    <div class="busuanzi-card">
-      <strong>今日访客</strong><br>
-      <span id="busuanzi_today_uv" style="font-size: 1.4rem; font-weight: bold;">
-        <i class="fa fa-spinner fa-spin"></i>
-      </span> 人
-    </div>
-    <div class="busuanzi-card">
+    <div class="vercount-card">
       <strong>总访问量</strong><br>
-      <span id="busuanzi_site_pv" style="font-size: 1.4rem; font-weight: bold;">
-        <i class="fa fa-spinner fa-spin"></i>
-      </span> 次
-    </div>  
-    <div class="busuanzi-card">
+      <span id="vercount_value_site_pv" style="font-size: 1.4rem; font-weight: bold;">Loading</span> 次
+    </div>
+    <div class="vercount-card">
       <strong>总访客数</strong><br>
-      <span id="busuanzi_site_uv" style="font-size: 1.4rem; font-weight: bold;">
-        <i class="fa fa-spinner fa-spin"></i>
-      </span> 人
+      <span id="vercount_value_site_uv" style="font-size: 1.4rem; font-weight: bold;">Loading</span> 人
     </div>
   </div>
 </div>

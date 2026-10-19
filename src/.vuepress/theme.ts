@@ -30,8 +30,10 @@ export default hopeTheme({
 	sidebar,
 
 	// 页脚
+	// 计数由 Vercount 提供：脚本会填充所有 vercount_value_* 节点。
+	// 本页 PV / 全站 PV / 全站访客 三个指标；SPA 路由切换后的刷新见 VercountStats.vue。
 	footer:
-		"小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 今日PV <span id='busuanzi_today_pv'><i class='fa fa-spinner fa-spin'></i></span> 次 • 全站PV <span id='busuanzi_site_pv'><i class='fa fa-spinner fa-spin'></i></span> 次",
+		"小奶奶网站 <a href='https://stats.uptimerobot.com/NCUFdoSfM4' target='_blank'>Status</a><br /> 本页PV <span id='vercount_value_page_pv'>Loading</span> 次 • 全站PV <span id='vercount_value_site_pv'>Loading</span> 次 • 全站访客 <span id='vercount_value_site_uv'>Loading</span> 人",
 	displayFooter: true,
 	changelog: true,
 
