@@ -69,9 +69,15 @@ jobs:
       - run: touch src/.vuepress/dist/.nojekyll
 
       # v5 起为 composite action（v4 依赖 node20）。
+      # include-hidden-files 必须为 true：该 action 打包时默认用
+      # `tar --exclude=.[^/]*` 剔除所有「点开头」的条目，
+      # 会把 .well-known/vercount-verify-*.txt（Vercount 域名归属验证）
+      # 一并丢掉，导致线上 404、无法完成验证。
+      # 它仍会强制排除 .git 与 .github，不影响仓库安全。
       - uses: actions/upload-pages-artifact@v5
         with:
           path: src/.vuepress/dist
+          include-hidden-files: true
 
   deploy:
     needs: build
