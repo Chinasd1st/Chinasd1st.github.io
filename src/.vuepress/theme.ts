@@ -207,6 +207,14 @@ export default hopeTheme({
 			twitterID: "@Silentnrtx",
 			autoDescription: true,
 			fallBackImage: "/assets/avatar/SP7_01.webp",
+			// 首选地址（canonical）。
+			// theme-hope 调用 seoPlugin 时只传 hostname，**不会**传 canonical，
+			// 而 @vuepress/plugin-seo 支持该选项；不配的话全站每一页都没有
+			// <link rel="canonical">（实测 222/222 缺失），会与 .html 后缀、
+			// 目录 index、标签/分类列表页形成重复内容。
+			// 用函数形式自行拼绝对地址：new URL 会顺带把中文路径百分号编码，
+			// 与浏览器实际请求的编码形式一致。
+			canonical: ({ path }) => new URL(path, "https://silentnrtx.top").href,
 		},
 
 		comment: {
