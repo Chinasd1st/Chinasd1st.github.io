@@ -47,7 +47,7 @@ export default hopeTheme({
 	blog: {
 		description: "美食家",
 		intro: "https://silentnrtx.top/Silentnrtx/",
-		avatar: "/assets/avatar/SP6C_01.webp",
+		avatar: "/assets/avatar/SP7_01.webp",
 		medias: {
 			BiliBili: "https://space.bilibili.com/520682236",
 			Twitter: "https://x.com/Silentnrtx",
@@ -206,7 +206,7 @@ export default hopeTheme({
 		seo: {
 			twitterID: "@Silentnrtx",
 			autoDescription: true,
-			fallBackImage: "/assets/avatar/SP6C_01.webp",
+			fallBackImage: "/assets/avatar/SP7_01.webp",
 		},
 
 		comment: {
