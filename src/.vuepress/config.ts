@@ -3,7 +3,6 @@ import { llmsPlugin } from "@vuepress/plugin-llms";
 import dotenv from "dotenv";
 import { writeFile } from "node:fs/promises";
 import { defineUserConfig } from "vuepress";
-import metingPlugin from "vuepress-plugin-meting2";
 // import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
 // import { commentPlugin } from '@vuepress/plugin-comment'
 // import { prismjsPlugin } from '@vuepress/plugin-prismjs'
@@ -147,6 +146,11 @@ export default defineUserConfig({
 				rel: "stylesheet",
 			},
 		],
+		// Meting 播放器：提前建立 injahow API 连接，封面 CDN 提前解析。
+		// 首个播放器的元数据请求、封面 302 解析与图片加载都能少一次 DNS/TLS 往返。
+		["link", { rel: "preconnect", href: "https://api.injahow.cn", crossorigin: "" }],
+		["link", { rel: "dns-prefetch", href: "https://p1.music.126.net" }],
+		["link", { rel: "dns-prefetch", href: "https://p3.music.126.net" }],
 		[
 			"script",
 			{
@@ -172,18 +176,6 @@ export default defineUserConfig({
 	plugins: [
 		llmsPlugin({
 			// 选项
-		}),
-		metingPlugin({
-			metingOptions: {
-				global: false, // 开启关闭全局播放器
-				server: "netease",
-				api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
-				type: "album",
-				mid: "253946279",
-			},
-			aplayerOptions: {
-				theme: "#1e7fe6ff",
-			},
 		}),
 		/* umamiAnalyticsPlugin({
 	  id: "0775eaf8-19ed-4d8b-ae56-c62a750e0691",

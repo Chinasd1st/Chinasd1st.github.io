@@ -1,5 +1,6 @@
 import { defineClientConfig } from "vuepress/client";
 import FootnoteTooltip from "./components/FootnoteTooltip.vue";
+import MetingPlayer from "./components/MetingPlayer.vue";
 import PagePreview from "./components/PagePreview.vue";
 import TableEnhancer from "./components/TableEnhancer.vue";
 import VercountStats from "./components/VercountStats.vue";
@@ -16,6 +17,9 @@ export default defineClientConfig({
 		// 注册组件
 		app.component("VercountStats", VercountStats);
 		app.component("FootnoteTooltip", FootnoteTooltip);
+		// <Meting> 是文章里已有的写法；注册同名组件即可整体替换原 APlayer 实现。
+		app.component("Meting", MetingPlayer);
+		app.component("MetingPlayer", MetingPlayer);
 		app.component("PagePreview", PagePreview);
 	},
 

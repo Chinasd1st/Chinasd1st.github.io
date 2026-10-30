@@ -39,7 +39,7 @@ ylg一时兴起写的文章望请海涵，，
 
 随着2021年专辑 **Dariacore** 及其两张续作的发布，Dariacore 这一风格逐渐进入大众视野。
 
-<Meting mid="1948269321" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="1948269321" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 专辑 **Dariacore** 在 Rateyourmusic 上获得了3.56分的评分（截至2025年9月14日）。乐评人 Bowman 在 Sputnikmusic 上写道：“this is the sound of someone who adores music […] and has enormous talent pairing that with a sense of humor, a short attention span, and, above all, brilliant musicality。”（这声音来自一个深爱音乐的人……惊人的才华，结合幽默感、跳跃的注意力，以及最为重要的——卓越的音乐性。）
 
@@ -68,9 +68,9 @@ ylg一时兴起写的文章望请海涵，，
 
 在国内听众中较具影响力的两张 Lost Frog Productions 出品专辑是 CAR CRASH AND SIREN<Badge text="LF231MP3" type="info" vertical="middle" /> 和 FASTFUSION<Badge text="LF215MP3" type="info" vertical="middle" />。以下试听两首专辑中的第一曲：
 
-<Meting mid="2082115887" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2082115887" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
-<Meting mid="2150486811" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2150486811" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 这些作品中大量采样了欧美与日本流行音乐（如 sakanaction 鱼韵），以及 ACG 文化中的经典曲目（例如海色、Don’t say lazy 等）。作者也借此表达对特定社群（如碧蓝档案、赛马娘）的热爱，甚至使用相关角色作为创作马甲。**“CAR CRASH AND SIREN”** 一词被认为是指代 Dariacore 中常常出现的车祸与警笛采样。[^6]
 
@@ -82,17 +82,17 @@ ylg一时兴起写的文章望请海涵，，
 
 由曲师 **DJ Raisei** 创作的 **せかいから____がきえるとき** 可谓是国内最为知名的Hyperflip/Dariacore曲目，这首曲目之所以能如此热门，不单纯是由于 DJ Raisei 自身热度较高，更因为这一曲中他对于Hardcore与Melodic Dubstep的巧妙运用。结合歌词可知，曲目标题中的`____`应为“おんがく（音楽）”。
 
-<Meting mid="2082115896" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2082115896" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 值得一提的是，为本曲目作词的 **雨部冷キザミ (Amebre Kizami)** 也是一名 Hyperflip 制作人。他为 FASTFUSION 制作的 Last Track 也被收录于他的个人专 Hype Fripped。相较于 FASTFUSION 中收录的 **With the rain that never stops** ，这一版明显弱化了失真。
 
-<Meting mid="2653091349" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2653091349" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 #### CAR CRASH AND SIREN
 
 第四曲 **Find the Scenery you've dreamed of.** 的作者署名为 Special Week（身份尚未公开）。Special Week（特别周）是跨媒体企划赛马娘 Pretty Derby中的角色，原型为日本纯血竞赛马匹スペシャルウィーク。该曲巧妙融合了 Drum and Bass、Breakbeat、Jersey Club、Happy Hardcore 等多种电子音乐风格，旋律丰富，听感新颖。
 
-<Meting mid="2150486813" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2150486813" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ---
 
@@ -102,19 +102,19 @@ ylg一时兴起写的文章望请海涵，，
 
 <BiliBili bvid="BV1hRsKeoEwd" />
 
-<Meting mid="2150484363" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2150484363" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 #### magnet conversion
 
 2024年7月26日，LFP 在 Bandcamp 上发行 VS Themes #04 200BPM Hyperflip 专辑 magnet conversion<Badge text="LF245MP3" type="info" vertical="middle" />。全专由nottanishi vs samebeam两人制作。
 
-<Meting mid="2614414298" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2614414298" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 #### BUZZ CUTZ
 
 2025年4月，TWC Sound Team "Strike Back Squad" 为 TWC 2025 创作了 BUZZ CUTZ 一曲，全曲长达十分钟，对参赛选手的耐力有极高的要求。同时曲目大量采样了以前既有的 Hyperflip 作品，被戏称为 “Hyperflip听众的走马灯”。
 
-<Meting mid="2699916026" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2699916026" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### icesawder 与 Curren
 
@@ -126,7 +126,7 @@ ylg一时兴起写的文章望请海涵，，
 
 **worldwidesuperstar**是 Curren 发布的第二首 Hyperflip 单曲，在 Hyperflip 圈子中影响深远，是许多听众初次了解 Dariacore/Hyperflip 的契机。它同时也是SoundCloud上播放量最高的Hyperflip单曲，收录于 LookatCurren 1st Album **Crown of Cuteness**。截至目前（2025.12.1）本曲已有911k播放。2026年3月6日，worldwidesuperstar在Soundcloud上的播放量突破了100万，成为Soundcloud上第一首突破100万播放量的Hyperflip/Dariacore单曲。
 
-<Meting mid="2057486478" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2057486478" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 <div style="text-align: center;">
   <iframe width="98%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1185203857&color=%23216c9d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -134,17 +134,17 @@ ylg一时兴起写的文章望请海涵，，
 
 2025年5月29日，Curren 发布最终专辑Cutest in Ur ♡：
 
-<Meting mid="2714684580" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2714684580" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 该曲采样来源广泛，包括 Olivia Rodrigo、PSYQUI、星街すいせい等多位艺术家的作品。最后一曲 Currencore Song Tutorial 甚至使用了116首歌曲作为采样素材：
 
-<Meting mid="2714684581" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2714684581" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 采样列表涵盖从 Charli XCX、100 gecs 等国际 Hyperpop 音乐人，到 Eve、初音ミク、星野源等日本流行与虚拟歌手作品，充分体现出 Dariacore 拼贴与再创作的文化特征。
 
 2025年6月25日，icesawder 发行单曲 †Down 4U† ，全曲在 C# Major 的基础上抬升40音分，营造出类似 Nightcore 等互联网音乐特有的听觉体验。（[Bandcamp](https://icesawder.bandcamp.com/track/down-4u)）
 
-<Meting mid="2723416418" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2723416418" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### 其他厂牌/社团
 
@@ -152,15 +152,15 @@ ylg一时兴起写的文章望请海涵，，
 
 2024年11月1日，Mi7s3 和 RENO 在日本术力口电子音乐厂牌 NextLight 投稿Angel Theory[<Badge text="NXSR-0004" type="info" vertical="middle" />](https://nextlight.io/singlereleases/nxsr-0004)（[YouTube](https://www.youtube.com/watch?v=ynGInggF0LY)、[Niconico](https://www.nicovideo.jp/watch/sm44273477)）一曲，Vocal 采用 Synthesizer V 虚拟歌姬重音 Teto 和 POPY。尽管在人声处理上存在过度压缩的问题（如直接对人声轨道应用 OTT），但这种将 Vocaloid 文化与 Dariacore 融合的尝试仍显得十分新颖 ~~（实际上也不是很新颖）~~。此前类似风格多以术曲的 Hyperflip Bootleg 形式出现（例如 Curren 的 **hand in hand** flip）。[^7]
 
-<Meting mid="2638192885" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2638192885" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 2025年，这一风气进一步蔓延至日本同人电子音乐圈。2025年1月17日，Capchii 在 HARDCORE TANO*C 发布Light Leak (feat. ChumuNote)，其第一段 Drop 的前半部分明显融入了 Dariacore 元素：[^8]
 
-<Meting mid="2665678520" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2665678520" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 4月26日，NextLight 在 M3-55 展会 & THE VOC@LOiD 超 M@STER 59 发行 Hyperoid（= Hyperpop + VOCALOID）主题专辑 NX WIRED[<Badge text="NXLT-0036" type="info" vertical="middle" />](https://nextlight.io/releases/nxlt-0036) ，其中部分曲目亦体现出相近风格：[^5]
 
-<Meting mid="2707038471" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2707038471" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 可注意到，Nextlight 相较 Lost Frog Productions 更少使用人声切片与高密度采样，失真处理也更为克制，整体响度控制在更易接受的范围内。
 
@@ -172,7 +172,7 @@ ylg一时兴起写的文章望请海涵，，
 
 <BiliBili bvid="BV1PheJzYEh5" />
 
-<Meting mid="2707039286" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2707039286" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### 奏 (Kanade)
 
@@ -223,18 +223,18 @@ pinky swear (also pinkie swear) 是英语习语，即拉钩。美语中常用 pi
 > If two people, especially children, pinky swear, they promise each other something by connecting their little fingers. (Cambridge Dictionary)
 :::
 
-<Meting mid="2150484342" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2150484342" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 1分42秒开始：
 
-<Meting mid="2676687967" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2676687967" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### My Lights
 
 （实际上与 Daria 无关，只是因为 m4titann 经常写 Daria）
 2024年8月30日，曲师 m4titann, Sunow&Nachick 在 SoundCloud 上发布单曲 My Lights 。曲师提到这一曲目本是 All Nighter, Vol 9 的投稿曲，后遗憾落选 ~~（J-core比起投anv更适合找同人厂投M3）~~ 。同时，曲师还提到：*We wanted to make a Kasane Teto track inspired by DJ Genki and DJ Noriken. I had a ton of fun working on this track and I really think we made something special here, so I hope you enjoy!*，可见 DJ Noriken 和 DJ Genki 对新生代曲师影响深远。[^10]
 
-<Meting mid="2621732129" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2621732129" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 <br />
 <div style="text-align: center;">
   <iframe width="98%" height="150" scrolling="no" frameborder="no" allow="autoplay" style="text-align: center; border-radius: 2px;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1894955820&color=%23216c9d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
@@ -251,11 +251,11 @@ Hyperflip粉丝们在 Wplace 上用像素画的形式将 FASTFUSION 专辑曲绘
 
 下面展示了本人选择的一些在各个方面表现都较为出色的 Hyperflip 音乐，供读者聆听。
 
-<Meting mid="14288201307" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="14288201307" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 下面则展示了网易云用户一米四玉玉武装直升机高整理的歌单 **【ダリハイ】Japanese Dariacore/Hyperflip**。
 
-<Meting mid="10093420008" type="playlist" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="10093420008" type="playlist" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## 更多
 

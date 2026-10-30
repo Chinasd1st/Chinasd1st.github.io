@@ -51,7 +51,7 @@ cover: /img/Cover/2025.11.12/cover.webp
 - **Artists / Label**: MEGAREX
 - **Genre**: Techcore
 
-<Meting mid="3374648109" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3374648109" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Epistle to the Earthlings<Badge text="2026.04.29" type="info" vertical="middle" />
 
@@ -59,7 +59,7 @@ cover: /img/Cover/2025.11.12/cover.webp
 - **Artists / Label**: Bernis / Digital Logics
 - **Genre**: Uplifting Trance / Psy Trance
 
-<Meting mid="3373083016" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3373083016" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Atmosphere<Badge text="2026.04.29" type="info" vertical="middle" />
 
@@ -67,7 +67,7 @@ cover: /img/Cover/2025.11.12/cover.webp
 - **Artists / Label**: Lunabitt.
 - **Genre**: Vocaloid / Electro Pop
 
-<Meting mid="3363936640" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3363936640" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### AERO<Badge text="2026.04.26" type="info" vertical="middle" />
 
@@ -83,7 +83,7 @@ cover: /img/Cover/2025.11.12/cover.webp
 - **Artists / Label**: HARDCORE TANO*C
 - **Genre**: UK Hardcore
 
-<Meting mid="3371224221" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3371224221" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### DIVE<Badge text="2026.04.29" type="info" vertical="middle" />
 
@@ -124,7 +124,7 @@ MKGarage（
 - **Artists / Label**: FNSEY
 - **Genre**: UK garage
   
-<Meting mid="3361537510" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3361537510" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 107 (2025.12.30 - 2025.12.31)
 
@@ -136,7 +136,7 @@ MKGarage（
 - **Artists / Label**: Diverse System
 - **Genre**: 还用我说？（
 
-<Meting mid="3343738021" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3343738021" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 KO3这首直接起飞，与其他曲目截然不同的色彩
 
 ### AD:TECHNO 9<Badge text="2026.03.16" type="info" vertical="middle" />
@@ -145,7 +145,7 @@ KO3这首直接起飞，与其他曲目截然不同的色彩
 - **Artists / Label**: Diverse System / 秋葉原重工
 - **Genre**: 还用我说？（
 
-<Meting mid="3343737929" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3343737929" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Cities: Neonlights 3<Badge text="2026.03.16" type="info" vertical="middle" />
 
@@ -153,7 +153,7 @@ KO3这首直接起飞，与其他曲目截然不同的色彩
 - **Artists / Label**: wavforme
 - **Genre**: Drum and Bass
 
-<Meting mid="3345034153" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3345034153" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Qualia<Badge text="2026.01.17" type="info" vertical="middle" />
 
@@ -166,14 +166,14 @@ Ryo Arue 1st solo album
 Ryo Arue 第一张个人solo专喵，蕾姆了喵，，
 第一次听Ryo Arue还是在Stream Palette 3，依旧美丽旋律向DNB，，蕾姆了，，
 
-<Meting mid="3343735193" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3343735193" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Genexx Nova<Badge text="2026.01.17" type="info" vertical="middle" />
 
 - **Catalog**: MRX-180
 - **Artists / Label**: MEGAREX / lapix
 
-<Meting mid="3332059890" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3332059890" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## M3-2025秋 (2025.10.26)
 
@@ -185,7 +185,7 @@ Ryo Arue 第一张个人solo专喵，蕾姆了喵，，
 - **Artists / Label**: wavforme
 - **Genre**: Uplifting Trance / Tech Trance etc.
 
-<Meting mid="3319288480" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3319288480" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Stargazing Youth<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -201,7 +201,7 @@ nerdneko 4th Album
 
 [Bandcamp](https://eneiongaku.bandcamp.com/album/stargazing-youth)
 
-<Meting mid="2754139225" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2754139225" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Floraflyra<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -209,7 +209,7 @@ nerdneko 4th Album
 - **Artists / Label**: Nayuta
 - **Genre**: Vocal
 
-<Meting mid="3314715812" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3314715812" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Never Forget Vacation 9<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -217,7 +217,7 @@ nerdneko 4th Album
 - **Artists / Label**: Login Records
 - **Genre**: UK Hardcore / Euphoric Hardstyle
 
-<Meting mid="3312196836" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3312196836" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Stream Palette 6 -RANKED-<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -229,7 +229,7 @@ nerdneko 4th Album
 
 シルキ可爱
 
-<Meting mid="3315027679" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3315027679" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### CHROMA VEIL<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -237,7 +237,7 @@ nerdneko 4th Album
 - **Artists / Label**: NEKOLOGICAL
 - **Genre**: Artcore
 
-<Meting mid="3316005770" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3316005770" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### 誰が為のエンドロール<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -245,7 +245,7 @@ nerdneko 4th Album
 - **Artists / Label**: 黒魔
 - **Genre**: Chiptune / Hi-tech (etc.)
 
-<Meting mid="3315575402" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="3315575402" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Return to Bloom<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -253,7 +253,7 @@ nerdneko 4th Album
 - **Artists / Label**: Imy
 - **Genre**: Vocal
 
-<Meting mid="2756420200" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2756420200" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### 雨雫とプレアデス<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -261,7 +261,7 @@ nerdneko 4th Album
 - **Artists / Label**: Imy × Endorfin.
 - **Genre**: Vocal
 
-<Meting mid="2756424657" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2756424657" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Genexx Aura<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -269,7 +269,7 @@ nerdneko 4th Album
 - **Artists / Label**: Lapix / MEGAREX
 - **Genre**: Electronic (Hi-tech)
 
-<Meting mid="2755961181" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2755961181" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Montagne Montage<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -280,14 +280,14 @@ nerdneko 4th Album
 这张也买了实体（
 纸包装有点磕碜，虽然很多豆筋音乐CD都是纸包装，但是毕竟亚克力还是更有质感一点（
 
-<Meting mid="2756947930" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2756947930" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### FÜGENE 05<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: MRX-173
 - **Artists / Label**: MEGAREX
 - **Genre**: Futurecore
-<Meting mid="2757928492" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2757928492" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 106 (2025.08.16 - 2025.08.17)
 
@@ -299,7 +299,7 @@ nerdneko 4th Album
 - **Artists / Label**: wavforme
 - **Genre**: Trance etc.
 
-<Meting mid="2749051685" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2749051685" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### IRREGULAR NATION 11<Badge text="2025.11.14" type="info" vertical="middle" />
 
@@ -308,7 +308,7 @@ nerdneko 4th Album
 - **Artists / Label**: HARDCORE TANO\*C
 - **Genre**: Electronics
 
-<Meting mid="2734629945" type="song" api="https://meting-api.saop.cc/api??server=:server&type=:type&id=:id"/>
+<Meting mid="2734629945" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## 第22回博麗神社例大祭 (2025.05.05)
 
