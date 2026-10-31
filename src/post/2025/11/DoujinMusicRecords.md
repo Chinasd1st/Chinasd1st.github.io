@@ -77,6 +77,8 @@ cover: /img/Cover/2025.11.12/cover.webp
 
 喜欢Tr.10美丽旋律
 
+<Meting mid="3366340400" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### UNITED KONCEPT 2<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="スーパーリリース26" type="important" vertical="middle" />
 
 - **Catalog**: TCPLUS-0062
@@ -90,6 +92,8 @@ cover: /img/Cover/2025.11.12/cover.webp
 - **Catalog**: NLCD-0002
 - **Artists / Label**: NEKOLOGICAL
 - **Genre**: -
+
+<Meting mid="3381374105" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### AD:PIANO X<Badge text="2026.04.26" type="info" vertical="middle" />
 
@@ -114,6 +118,8 @@ cover: /img/Cover/2025.11.12/cover.webp
   - **Tr.13**: 回忆如午后的光；最学院派的一集
   - **Tr.14**: 该说不说 ARF 这个编排其实非常公式，从 The Unattended 用到现在，但是模板归模板，其实还是非常抓耳的
   - **Tr.15**: 这个不协和的开头莫名联想到某些中国民族乐曲，，，!!汪立三 - 民间玩具!!
+
+<Meting mid="3381920752" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Teto Garage<Badge text="2026.04.26" type="info" vertical="middle" /><Badge text="重音テト誕生日 2026" type="important" vertical="middle" />
 
@@ -320,6 +326,8 @@ nerdneko 4th Album
 - **Artists / Label**: COOL&CREATE
 - **Genre**: -
 
+<Meting mid="2697932374" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ## M3-2025春 (2025.04.27)
 
 > 55th installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
@@ -330,6 +338,8 @@ nerdneko 4th Album
 - **Artists / Label**: Ray_Oh / RabbiTortoised
 - **Genre**: Botanica?...
 
+<Meting mid="2716855239" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### Glow in the Dark<Badge text="2026.03.16" type="info" vertical="middle" />
 
 - **Catalog**: STRT-009
@@ -338,11 +348,15 @@ nerdneko 4th Album
 
 其实这张老早就有听了，只不过忘加了今天补一下
 
+<Meting mid="2699903933" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### Twilight<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: QCCD-0002
 - **Artists / Label**: Qutabire & しーけー
 - **Genre**: Celt
+
+<Meting mid="2709346535" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### NX WIRED<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -350,11 +364,15 @@ nerdneko 4th Album
 - **Artists / Label**: NextLight
 - **Genre**: Hyperoid (Dariacore)
 
+<Meting mid="2707038470" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### Dream Blue<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: ENDR-0014
 - **Artists / Label**: Endorfin.
 - **Genre**: Vocal
+
+<Meting mid="2702711456" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### NITE 2 STAR<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -364,6 +382,8 @@ nerdneko 4th Album
 
 icesawder你是我叠
 
+<Meting mid="2699915282" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### our intelligence 4<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: SCLP-005
@@ -372,17 +392,23 @@ icesawder你是我叠
 
 依旧Sound Design
 
+<Meting mid="2689303289" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### Clippings of youth vol.4<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: NMCD-0026
 - **Artists / Label**: nekomimi style
 - **Genre**: Remix / Electronic
 
+<Meting mid="2724085367" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### Khronostasis & Katharsis<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: HLV-001
 - **Artists / Label**: Halv, kuro / Hype & Love
 - **Genre**: Electronic
+
+<Meting mid="2699629415" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### FIREWORKS.<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -395,30 +421,42 @@ icesawder你是我叠
 去霓虹的时候在蜜瓜买了实体
 现在DS社的碟子都有下载卡非常好
 
+<Meting mid="2702759575" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### works.15<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: DVSP-0310~1
 - **Artists / Label**: Diverse System
+
+<Meting mid="2700242248" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Cool Me Down EP<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: wkwk-017
 - **Artists / Label**: Mwk / Wakuwaku Miwaku
 
+<Meting mid="2695992688" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### SPD GAR 004<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: MRX-165
 - **Artists / Label**: MEGAREX
+
+<Meting mid="2698728522" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### Stargaze+<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: JNR-014
 - **Artists / Label**: Juggernaut. / JuggerNoteRecords
 
+<Meting mid="2703896446" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### TECHCORE ESSENCE 2685<Badge text="2025.11.12" type="info" vertical="middle" />
 
 - **Catalog**: MRX-166
 - **Artists / Label**: MEGAREX
+
+<Meting mid="2707024006" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ### VANGUARD<Badge text="2025.11.12" type="info" vertical="middle" />
 
@@ -428,10 +466,14 @@ icesawder你是我叠
 其实也没有网上说的那么难堪（
 不过结合专辑概念来说就有点德不配位了，
 
+<Meting mid="2704556523" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### Wakuwaku Remixes Vol.3<Badge text="2025.11.19" type="info" vertical="middle" />
 
 - **Catalog**: KRHS-60850
 - **Artists / Label**: Mwk / KARENT
+
+<Meting mid="2695992740" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 105 (2024.12.29 - 2024.12.30)
 
@@ -442,15 +484,21 @@ icesawder你是我叠
 - **Catalog**: DVSP-0308
 - **Artists / Label**: Diverse System / Akihabara Heavy Industry Inc.
 
+<Meting mid="2676699608" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### copium.<Badge text="2026.01.17" type="info" vertical="middle" />
 
 - **Catalog**: N/A
 - **Artists / Label**: crayvxn
 
+<Meting mid="2679674933" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 ### HYPER DUO 2<Badge text="2026.01.17" type="info" vertical="middle" />
 
 - **Catalog**: TCPLUS-0058
 - **Artists / Label**: HARDCORE TANO*C
+
+<Meting mid="2659584641" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## M3-2024秋 (2024.10.27)
 
@@ -459,40 +507,100 @@ icesawder你是我叠
 哈哈懒得写了摆了
 
 - AD:Garage<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2642361500" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AETHERION / satella<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2641550832" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Antique -The United-<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2653069922" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - APEXA DISC-01 : REFLEX<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2646536317" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ARTIFACTS:ATMØSPHERE<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2639751938" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - BASS ATHANASIA 2nd Season<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2644541816" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - BeyondCORE ESSENCE<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2648146032" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Brightness<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2638359689" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Colors 2 -AD:HOUSE VOCAL REMIXES-<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2642351403" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - E-LIP 01<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2653281677" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ELYSIAN / BlackY feat. Risa Yuzuki<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2648541140" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ENIGMA / 棗いつき<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2641109752" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ハピコア流星群II<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2643454601" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - HARDCORE SYNDROME 18<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2638936592" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ICONIC / ななひら<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2648524389" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Laur The BEST / Laur<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2643456056" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Mega Meteoroid / Sakuzyo<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2646203294" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - nexuz onoken vocal collection<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2639992127" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - our intelligence vol.3<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2639723278" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - PUPA -Metamorphoses-<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2653390166" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - 劇場版QUATTUORUX -オリジナルサウンドトラック- / 打打だいず Vs. Tanchiky Vs. からめる<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2645810451" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Solas na Gréine<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2645759045" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Stargaze / Juggernaut.<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2660234092" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Techcore Horizon 02<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2645812545" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Two♡Hearts / Tatsunoshin & 藍良あれれ<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2660478197" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Unity of Raw Vol.9 -QRISIS MODE-<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2650758028" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - V/A<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2650437278" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - WAVES OF EUPHORIA 4<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2644474832" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 104 (2024.08.11 - 2024.08.12)
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
 
 - AD:HOUSE 12<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2623431063" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Insane Insights / Sakuzyo<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2623124361" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - new wave 2024 Spring/Summer<Badge text="2026.01.17" type="info" vertical="middle" />
 
 ## M3-2024春 (2024.04.28)
@@ -500,91 +608,217 @@ icesawder你是我叠
 > 53rd installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
 
 - Aggregation of the Cosmos<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2152187333" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - BASS ATTACK<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2163189247" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - BLUE:NOTES. / MisoilePunch♪<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2154458286" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - COLOURS.04 "Yelling" / Endorfin.<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2156174174" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - entr'acte EP / ARForest<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2628239013" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Ether Drive / crayvxn<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2154460240" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Fiesta!<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2144327878" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - GOODCOLLECTION ANTOHER 1.25<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2148502223" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - HiTECH ALLiON<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2157915023" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - HiTNEX ViRTUAL SHiFTERZ / Kobaryo feat. Matatabi Sound System, DJ NECOJITA, Shinonome I/F, blaxervant<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2149843713" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Innocent Proof / Risa Yuzuki<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2153824820" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - INTERDIXION / Juggernaut.<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2152097625" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - IRREGULAR NATION 10<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2148390911" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - 九龍 / Massive New Krew & Yuta Imai<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2150926317" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - NITE 2 FLOW / icesawder x moyu<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2153147450" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - our intelligence vol.2<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2157869446" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - RAVE TOOL / Yuta Imai<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2155376863" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Stream Palette 5 -CHATTING-<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2151944206" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Stream Palette 5 -RANKED-<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2151902761" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - TECHCORE EVANGELIX 04<Badge text="2026.01.17" type="info" vertical="middle" />
 - THALEIA / satella<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2149468458" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - The Cosmologist / Laur<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2152179749" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ULTRA SYNERGY MATRIX アルティメットコレクション / Tanchiky<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2151639790" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Vivid Refrain / DJ Genki<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2149572919" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - works.14<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2152045689" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 103 (2023.12.30 - 2023.12.31)
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
 
 - AD:PIANO VIVACE 2<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2114638640" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AD:TRANCE 10<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2121914103" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - GOD SLAIN / Juggernaut.<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2115405799" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - JAPAN 2<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2114639078" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - LilacFeel / t+pazolite<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2110786211" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - MAGGOD / DJ Myosuke feat.つぐ<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2105710710" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - MEGATON KICK 5<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2109670771" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - new wave 2023 Autumn/Winter<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2119694872" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - パラフォビア / lapix<Badge text="2026.01.17" type="info" vertical="middle" />
+
+  <Meting mid="2110138165" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## M3-2023秋 (2023.10.29)
 
 > 52nd installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
 
 - AD:Progressive House 4 / Diverse System<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2098477238" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AD:TECHNO 7 / Diverse System, 秋葉原重工<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2098478078" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Angel Gelato / irucaice<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2112274072" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ARTIFACTS:ASCENSIØN / Connexio<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2097964574" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Ascension / Maozon<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2090806543" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - B.B.K.K.B.K.K. 10TH ANNIVERSARY<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2093566297" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - BACK2BACK / KO3<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2096183683" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - COLOURS.03 "Redraw" / Endorfin.<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2098204790" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - HYPNOSONIC / 棗いつき<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2096117358" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Neko-Write Vol. 1 / Neko Hacker<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2094944222" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - our intelligence / sculptured<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2097185317" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - TECHCORE ESSENCE<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2101419120" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - XODUS / DJ Myosuke & Gram<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2092628860" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 102 (2023.8.12 - 2023.8.13)
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
 
 - HARDCORE SYNDROME 17<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2070389908" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AD:HOUSE 11<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2080144394" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AD:Drum'n Bass 5<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2083470758" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## M3-2023春 (2023.4.30)
 
 > 51st installment of the biannual Music Media-Mix Market (M3) held at the Tokyo Ryutsu Center.
 
 - ANAMNESIS / 棗いつき<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2046726617" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Cities: Neonlights 2<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2047073027" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Find My Future / EmoCosine<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2043970771" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Immortal / Juggernaut.<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2044600099" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - IRREGULAR NATION 9<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2040920204" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - ミラクルポップ☆アドベンチャー!!!!! / DJ Genki<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2044755734" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - 新生生活DREAM EP / icesawder<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2043970718" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - 非日常スケッチブック<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2045691703" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - works.13<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2059773342" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
 ## Comic Market 101 (2022.12.30 - 2022.12.31)
 
 > The biannual Comic Market held at Tokyo Big Sight, where a huge amount of doujin material is released. Some companies also participate in this event with convention-exclusive goods.
 
 - AD:HOUSE Winter 3<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2012460400" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AD:PIANO IX -Alt-<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2011880149" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - AD:TRANCE 9<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2013388172" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Storm and Impulse / xi<Badge text="2026.03.17" type="info" vertical="middle" />
+
+  <Meting mid="2012147122" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 - Deep Inside / ARForest<Badge text="2026.04.29" type="info" vertical="middle" />
+
+  <Meting mid="2008806230" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
